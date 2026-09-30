@@ -27,6 +27,8 @@ A [página exploratória anterior](https://muowl.dev/spotify-dataset-explorer/hi
 
 ## Organização
 
+As regras de contribuição, mensagens e separação de commits estão em [CONTRIBUTING.md](CONTRIBUTING.md). Agentes devem também seguir [AGENTS.md](AGENTS.md).
+
 | Local | Conteúdo |
 |---|---|
 | `docs/` | Escopo, protocolo, decisões, fontes acadêmicas e próximos passos |
