@@ -1,0 +1,55 @@
+% Este arquivo contém as configurações de formatação do documento e não deve ser alterado
+
+\ProvidesPackage{settings}
+\usepackage[alf,bibjustif]{abntex2cite}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage{times}
+\usepackage[a4paper, margin=1.5cm, top=0.675cm]{geometry}
+\usepackage{titlesec}
+\usepackage{anyfontsize}
+\usepackage[none]{hyphenat}
+
+\setlength{\columnsep}{1.25cm}
+
+\pagenumbering{gobble}
+
+\setlength{\parindent}{0.8cm}
+\setlength{\parskip}{6pt}
+
+\def\nove{\fontsize{9}{9}\selectfont}
+\def\dez{\fontsize{10}{12}\selectfont}
+\def\doze{\fontsize{12}{13.5}\selectfont}
+
+\titleformat*{\section}{\doze\bf}
+\titlespacing*{\section}{0pt}{0pt}{0pt}
+
+
+
+
+\let\oldtitle\title
+\renewcommand{\title}[1]{\oldtitle{\doze\textbf{#1} \vspace{-0.15cm}}}
+
+\newcommand{\authorlist}{}
+\let\oldauthor\author
+
+\renewcommand{\author}[1]{
+    \g@addto@macro\authorlist{#1 \\}
+}
+
+\oldauthor{
+    \nove
+ \begin{tabular}{c}
+  \authorlist
+  Departamento de Ciência da Computação - Universidade Federal de Juiz de Fora
+\end{tabular}
+ \vspace{-10cm}
+}
+
+
+\renewcommand\refname{Referências bibliográficas}
+
+
+\date{}
+\dez
+\renewcommand{\baselinestretch}{1.1}
