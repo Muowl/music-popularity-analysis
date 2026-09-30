@@ -1,5 +1,7 @@
 # Orientações de trabalho
 
+- Siga `CONTRIBUTING.md` para organizar commits: Conventional Commits, títulos em inglês no imperativo, mudanças agrupadas por objetivo e validação proporcional. Preserve o histórico publicado; não reescreva commits compartilhados sem acordo explícito.
+
 - Projeto acadêmico exploratório: preserve a cadeia pergunta → dados → método → resultados → conclusão.
 - Consulte README.md, docs/escopo.md, docs/protocolo.md e docs/decisoes.md antes de modificar o desenho.
 - Não converta proposta em decisão nem resultado de outro projeto em resultado deste.
