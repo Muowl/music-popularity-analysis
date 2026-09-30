@@ -51,4 +51,4 @@ docs(paper): describe sample limitations
 - Para mudanças maiores, usar uma branch temática e uma pull request com objetivo, alterações e validação. Mudanças pequenas e autorizadas podem ser publicadas diretamente.
 - Preservar o histórico compartilhado: corrigir por novo commit ou revert. Não fazer amend, rebase ou force push de commits publicados sem acordo explícito.
 
-A convenção vale para os próximos commits; mensagens anteriores permanecem como registro histórico.
+A convenção aplica-se ao histórico reorganizado e aos próximos commits. A reescrita autorizada de 2026-09-30 está documentada em `docs/decisoes.md`; o histórico anterior permanece na branch de backup.

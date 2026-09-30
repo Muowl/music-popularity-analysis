@@ -2,19 +2,21 @@
 
 Pesquisa exploratória para o workshop do DCC/UFJF, vinculada à linha de pesquisa do TCC de Sistemas de Informação de Felipe Lazzarini Cunha.
 
-**Estado: estrutura inicial. Pergunta, amostra e método ainda aguardam definição e alinhamento com o orientador. Não há resultados deste estudo neste repositório.**
+**Estado: piloto comparativo aprovado como direção de trabalho pelo autor. Viabilidade, amostra e método ainda precisam ser validados e alinhados com o orientador. Não há resultados deste estudo neste repositório.**
 
 ## Pergunta de trabalho — provisória
 
-Como se distribuem os descritores musicais em uma seleção de canções de grande audiência no YouTube?
+Como diferem os descritores musicais entre canções com diferentes níveis de audiência no YouTube, dentro de um recorte comum de lançamento e gênero?
 
-O objetivo inicial proposto é descrever características e heterogeneidade dos casos selecionados. Investigar associação entre características e níveis de popularidade é uma alternativa que exige outro desenho, com grupo de comparação. Não buscamos demonstrar uma fórmula do sucesso nem causalidade.
+A prioridade é validar um grupo de comparação com origem e critérios comuns. O piloto verificará acesso, correspondência entre gravações e cobertura dos descritores por nível de audiência antes da análise principal. Se isso for inviável, a descrição de canções de grande audiência permanece como alternativa, mediante decisão registrada. Não buscamos demonstrar uma fórmula do sucesso nem causalidade.
+
+A relação com recomendação baseada em conteúdo é motivação: o estudo examina descritores que podem representar músicas, mas não implementa nem avalia um recomendador. Visualizações não demonstram alcance geográfico global.
 
 A [página exploratória anterior](https://muowl.dev/spotify-dataset-explorer/hits-mundiais.html) é um ponto de partida, não a amostra definitiva. Seus recortes de alcance global, metal e repertório clássico têm critérios distintos. Nenhum deles foi automaticamente importado ou aprovado para o workshop.
 
 ## Por onde começar
 
-1. Resolver as decisões de [escopo](docs/escopo.md) e registrar os critérios no [protocolo](docs/protocolo.md).
+1. Executar o [plano do piloto](docs/piloto.md), resolver as decisões de [escopo](docs/escopo.md) e registrar os critérios no [protocolo](docs/protocolo.md).
 2. Registrar fontes e condições de uso em [data/README.md](data/README.md).
 3. Preencher [data/selection/candidates.csv](data/selection/candidates.csv), incluindo exclusões e correspondências incertas.
 4. Executar a validação estrutural:

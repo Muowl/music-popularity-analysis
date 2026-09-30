@@ -1,6 +1,6 @@
 # Protocolo de seleção e análise — rascunho
 
-Status: não congelado. Campos abaixo são decisões a preencher antes da coleta principal.
+Status: não congelado. Direção atual: piloto comparativo. Campos abaixo devem ser definidos antes da coleta principal; o piloto de viabilidade segue docs/piloto.md.
 
 ## Definições
 - Unidade candidata: um vídeo associado a uma gravação específica.
@@ -8,6 +8,13 @@ Status: não congelado. Campos abaixo são decisões a preencher antes da coleta
 - Fonte dos descritores: a definir e documentar; registrar versão/snapshot do CSV.
 - População-alvo, ranking/fonte, regra de inclusão, tamanho e data de corte: pendentes.
 - Atributos candidatos: danceability, energy, acousticness, valence e instrumentalness. Lista final pendente; não selecionar apenas os que produzem maior contraste.
+
+## Comparação planejada
+- Selecionar candidatos de um universo comum, com regras compatíveis de gênero, época e formato. Não escolher o segundo grupo por familiaridade ou pelos descritores observados.
+- Definir níveis de audiência, data de corte e tamanho antes de comparar os descritores; os limites ainda estão pendentes.
+- Registrar lançamento da gravação e publicação do vídeo separadamente. A idade do vídeo não representa toda a exposição da música.
+- Registrar no cadastro a fonte de elegibilidade e o grupo antes do cruzamento. A versão atual do cadastro é estrutural; campos específicos do piloto serão definidos antes de preenchê-lo.
+- Auditar cobertura, exclusões e concentração por artista em cada grupo. Não substituir ausentes silenciosamente para completar cotas.
 
 ## Seleção
 1. Registrar a lista de candidatos antes de verificar seus descritores.
@@ -25,7 +32,9 @@ Status: não congelado. Campos abaixo são decisões a preencher antes da coleta
 - Mostrar pontos por faixa e medidas como mediana e intervalo interquartil, sem esconder dispersão.
 - Não interpretar descritores como experiência subjetiva do ouvinte.
 - Não extrapolar a seleção intencional para todos os hits ou gêneros.
-- Se houver comparação com outra seleção, definir regras compatíveis antes dos cálculos.
+- Comparar distribuições por nível de audiência, preservando pontos individuais e dispersão; definir medidas e análises de sensibilidade antes da análise principal.
+- Tratar repetição de artistas e versões como possível dependência entre observações. Não assumir independência automaticamente.
+- Não interpretar diferenças entre grupos como efeito causal nem generalizar além do universo de seleção.
 - Registrar análises exploratórias/post-hoc; não escolher hipótese pelo resultado.
 - Não declarar significância, efeito causal ou qualidade preditiva sem método e evidência apropriados.
 
