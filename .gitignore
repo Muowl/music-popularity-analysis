@@ -20,18 +20,26 @@
 *.vrb
 *.xdv
 *.dvi
-
-# PDF compilado do documento principal
 /main.pdf
-
-# Arquivos temporários e backups dos editores
 *.bak
 *.tmp
 *.swp
 *.swo
 *~
-
-# Arquivos do sistema operacional
 .DS_Store
 Thumbs.db
 Desktop.ini
+
+# Ambiente Python e credenciais
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.env
+.env.*
+!.env.example
+
+# Originais e derivados locais: revisar termos antes de qualquer publicação
+/data/raw/
+/data/processed/
