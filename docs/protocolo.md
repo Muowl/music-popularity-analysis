@@ -1,6 +1,6 @@
 # Protocolo de seleção e análise — rascunho
 
-Status: não congelado. Direção atual: piloto comparativo. Campos abaixo devem ser definidos antes da coleta principal; o piloto de viabilidade segue docs/piloto.md.
+Status: não congelado. Direção atual: estudo exploratório e descritivo, com piloto para avaliar a viabilidade da comparação. Campos abaixo devem ser definidos antes da coleta principal; o piloto de viabilidade segue docs/piloto.md.
 
 ## Definições
 - Unidade candidata: um vídeo associado a uma gravação específica.
@@ -35,8 +35,16 @@ Status: não congelado. Direção atual: piloto comparativo. Campos abaixo devem
 - Comparar distribuições por nível de audiência, preservando pontos individuais e dispersão; definir medidas e análises de sensibilidade antes da análise principal.
 - Tratar repetição de artistas e versões como possível dependência entre observações. Não assumir independência automaticamente.
 - Não interpretar diferenças entre grupos como efeito causal nem generalizar além do universo de seleção.
-- Registrar análises exploratórias/post-hoc; não escolher hipótese pelo resultado.
+- Registrar análises exploratórias/post-hoc e hipóteses geradas a partir dos resultados, distinguindo-as de expectativas registradas antes da análise. Não apresentá-las como hipóteses previamente definidas ou confirmadas pela mesma exploração.
 - Não declarar significância, efeito causal ou qualidade preditiva sem método e evidência apropriados.
+
+## Dos achados às hipóteses
+- Registrar primeiro o achado, com número de casos, medida, figura/tabela e versão dos dados/código que o sustentam.
+- Separar a observação na amostra de sua interpretação; discutir cobertura, exposição, época e concentração por artista como possíveis explicações alternativas.
+- Formular proposições testáveis somente quando os achados as sustentarem, com população, variáveis e condições delimitadas. Seguir [o registro de hipóteses](hipoteses.md).
+- Propor teste futuro em dados independentes da exploração, com critérios e análise definidos antes de observá-los. Reanalisar os mesmos dados não constitui confirmação independente.
+- Relatar também sobreposição e ausência de contraste aparente. Elas não demonstram equivalência nem ausência de associação, sobretudo em amostra pequena.
+- Não exigir quantidade mínima de hipóteses nem inventar teorias. Se os dados não sustentarem uma hipótese específica, registrar a limitação e a pergunta em aberto.
 
 ## Reprodutibilidade
 Registrar fonte, data, hash SHA-256, esquema, filtros, versão do código e comandos. A aquisição precisa ser separada da análise: reexecutar cálculos não deve atualizar contadores da plataforma.

@@ -1,20 +1,30 @@
 # Escopo e alternativas
 
 ## Direção aprovada para investigação
-Priorizar um piloto comparativo de descritores musicais e audiência no YouTube. A aprovação do autor autoriza investigar a viabilidade; não equivale a aprovação pelo orientador nem a um desenho final validado.
+Realizar um estudo exploratório e descritivo de descritores musicais e audiência no YouTube, com comparação entre níveis de audiência condicionada ao piloto de viabilidade. Segundo o relato do autor sobre a resposta em áudio, o orientador aceitou a linha geral e solicitou motivação, problema, objetivo e hipóteses para testes futuros explícitos. Ele recebeu uma mensagem resumida, não o repositório; isso não representa aprovação dos detalhes operacionais.
 
-Pergunta provisória: como diferem os descritores musicais entre canções com diferentes níveis de audiência no YouTube, dentro de um recorte comum de lançamento e gênero?
+Pergunta provisória: Dentro de um recorte definido de gênero e período de lançamento, como se distribuem os descritores musicais entre canções com diferentes níveis de audiência no YouTube?
 
-Produto pretendido: comparação exploratória das distribuições, acompanhada de auditoria de cobertura e limitações. A relação com recomendação baseada em conteúdo é motivação; não será implementado ou avaliado um recomendador.
+Objetivo geral: descrever e comparar as distribuições, identificar padrões e heterogeneidade e formular hipóteses para estudos posteriores.
+
+Motivação: examinar se vale aprofundar possíveis relações entre descritores e audiência, sem pressupor um perfil musical dos maiores sucessos. A literatura ainda deve fundamentar essa justificativa; não afirmar ineditismo ou lacuna comprovada.
+
+Objetivos específicos:
+1. Documentar seleção, correspondência entre gravações e cobertura por grupo.
+2. Caracterizar distribuições, dispersão, sobreposição e casos atípicos, sem excluir casos apenas por serem discrepantes.
+3. Descrever semelhanças e diferenças no recorte e discutir explicações alternativas.
+4. Formular hipóteses a partir dos achados e indicar novos dados e procedimentos necessários ao teste.
+
+Produto pretendido: comparação descritiva, auditoria de cobertura e registro de achados, hipóteses e propostas de teste conforme docs/hipoteses.md. A relação com recomendação baseada em conteúdo é motivação; não será implementado ou avaliado um recomendador.
 
 ## Condição de avanço
 Seguir docs/piloto.md. Os grupos devem vir de um universo comum com critérios definidos antes de examinar os descritores. Comparabilidade, disponibilidade e rastreabilidade determinam a viabilidade; encontrar diferenças grandes não é condição de sucesso.
 
 ## Alternativa se a comparação for inviável
-Descrever o perfil de uma seleção documentada de canções de grande audiência. Nesse caso, reformular título e pergunta e registrar a decisão. Não afirmar que as características observadas distinguem sucessos de outras músicas.
+Descrever o perfil de uma seleção documentada de canções de grande audiência. Nesse caso, reformular título e pergunta e registrar a decisão. Não afirmar que as características observadas distinguem sucessos de outras músicas. As hipóteses também deverão respeitar esse recorte descritivo.
 
 ## Decisões pendentes
-- Alinhamento com o orientador e requisitos do workshop.
+- Alinhamento da formulação final e dos detalhes operacionais com o orientador; confirmar requisitos do workshop.
 - Universo elegível, fonte, gênero e janela de lançamento/publicação.
 - Níveis de audiência, data de referência, tamanho do piloto e amostra principal.
 - Tratamento de artistas repetidos, versões e formato dos vídeos.

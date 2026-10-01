@@ -3,7 +3,7 @@
 Status: planejado, não executado. Não há candidatos coletados nem taxas de cobertura calculadas.
 
 ## Objetivo
-Verificar se é possível comparar descritores musicais entre níveis de audiência com regras comuns e correspondências documentadas entre vídeo e gravação.
+Verificar se é possível comparar descritores musicais entre níveis de audiência com regras comuns e correspondências documentadas entre vídeo e gravação. Essa é a etapa de viabilidade do estudo exploratório e descritivo; formular hipóteses substantivas sobre audiência é uma saída da análise posterior, não uma condição para aprovar o piloto.
 
 ## Sequência
 1. Escolher e documentar uma fonte que permita identificar candidatos em diferentes níveis de audiência. Definir universo, gênero, época, formato de vídeo e data de referência. Um ranking restrito ao topo pode não fornecer o grupo de comparação necessário.
@@ -20,4 +20,4 @@ Verificar se é possível comparar descritores musicais entre níveis de audiên
 - Retornar ao descritivo: quando a comparação não for sustentada pelos dados, registrar o motivo e reformular pergunta e título.
 
 ## Entregável do piloto
-Relatório curto com fontes, regras, fluxo de inclusão/exclusão, cobertura por grupo, limitações e recomendação. Ele informará a proposta de uma página para o orientador. Um piloto pequeno não garante precisão suficiente para a análise principal.
+Relatório curto com fontes, regras, fluxo de inclusão/exclusão, cobertura por grupo, limitações e recomendação. Ele informará o detalhamento do método e a proposta de uma página para o orientador, cuja aceitação da linha geral já foi relatada pelo autor. Um piloto pequeno não garante precisão suficiente para a análise principal.

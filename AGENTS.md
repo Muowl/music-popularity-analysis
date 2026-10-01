@@ -15,3 +15,4 @@
 - Scripts devem usar caminhos relativos/argumentos e registrar entradas, versões e exclusões. Valide o cadastro com python scripts/validate_selection.py.
 - Não instalar bibliotecas ou criar modelos complexos sem necessidade concreta. Neste estágio, o validador usa só a biblioteca padrão.
 - Atualize docs/decisoes.md ao mudar critérios ou escopo; rotule análises pós-hoc. Resultados negativos e diferenças pequenas são resultados válidos.
+- O direcionamento é exploratório e descritivo: explicite motivação, problema e objetivo; vincule hipóteses futuras a achados rastreáveis conforme docs/hipoteses.md. Hipóteses pós-hoc não são confirmadas pelos mesmos dados que as geraram. Não invente hipóteses para preencher o artigo.

@@ -2,11 +2,17 @@
 
 Pesquisa exploratória para o workshop do DCC/UFJF, vinculada à linha de pesquisa do TCC de Sistemas de Informação de Felipe Lazzarini Cunha.
 
-**Estado: piloto comparativo aprovado como direção de trabalho pelo autor. Viabilidade, amostra e método ainda precisam ser validados e alinhados com o orientador. Não há resultados deste estudo neste repositório.**
+**Estado: linha exploratória e descritiva aceita pelo orientador, conforme relato do autor. Piloto comparativo planejado, ainda não executado. Fonte, recorte, amostra e método operacional permanecem pendentes. Não há resultados deste estudo neste repositório.**
 
-## Pergunta de trabalho — provisória
+## Motivação, problema e objetivo
 
-Como diferem os descritores musicais entre canções com diferentes níveis de audiência no YouTube, dentro de um recorte comum de lançamento e gênero?
+A motivação é examinar se diferentes níveis de audiência vêm acompanhados de perfis semelhantes ou distintos nos descritores disponíveis, sem presumir um perfil comum aos sucessos. Isso permitirá identificar relações que mereçam investigação posterior. Trata-se da justificativa deste projeto, não de uma lacuna da literatura já demonstrada.
+
+**Problema de pesquisa — formulação provisória:** Dentro de um recorte definido de gênero e período de lançamento, como se distribuem os descritores musicais entre canções com diferentes níveis de audiência no YouTube?
+
+**Objetivo geral:** descrever e comparar essas distribuições, identificar padrões e heterogeneidade e formular hipóteses para estudos posteriores, respeitando os limites da amostra.
+
+**Contribuição esperada:** caracterização documentada da amostra e hipóteses rastreáveis aos achados, acompanhadas de propostas de teste em novos dados. Distribuições semelhantes também serão relatadas; o estudo não depende de encontrar grandes diferenças.
 
 A prioridade é validar um grupo de comparação com origem e critérios comuns. O piloto verificará acesso, correspondência entre gravações e cobertura dos descritores por nível de audiência antes da análise principal. Se isso for inviável, a descrição de canções de grande audiência permanece como alternativa, mediante decisão registrada. Não buscamos demonstrar uma fórmula do sucesso nem causalidade.
 
@@ -25,7 +31,7 @@ A [página exploratória anterior](https://muowl.dev/spotify-dataset-explorer/hi
    ```
    Requer Python 3.10+ e apenas a biblioteca padrão. Cadastro vazio ou sem casos incluídos termina com código 2: não significa amostra pronta.
 5. Congelar a seleção por commit antes da análise principal. Seguir [notebooks/README.md](notebooks/README.md).
-6. Gerar figuras e escrever no modelo LaTeX existente, conforme [paper/README.md](paper/README.md).
+6. Gerar figuras, registrar achados e hipóteses conforme [docs/hipoteses.md](docs/hipoteses.md) e escrever no modelo LaTeX existente, conforme [paper/README.md](paper/README.md).
 
 ## Organização
 
