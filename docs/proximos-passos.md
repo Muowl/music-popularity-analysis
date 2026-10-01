@@ -15,4 +15,6 @@
 | 5 | Interpretar achados e preencher [o registro de hipóteses](hipoteses.md) | Hipóteses justificadas, explicações alternativas e propostas de teste em dados independentes |
 | 6 | Redigir e revisar o artigo no modelo existente | Motivação, problema, objetivo, método, resultados e discussão coerentes; referências verificadas e PDF conferido |
 
-A próxima tarefa operacional é identificar uma fonte comum e verificar a viabilidade de acesso e cobertura, conforme o plano do piloto. Gênero, período, níveis de audiência e tamanho ainda não estão definidos. Não há resultados ou hipóteses derivadas de dados neste repositório.
+A auditoria inicial foi executada; consultar [relatório e recomendação](relatorio-piloto-fontes.md). A próxima tarefa operacional é verificar enriquecimento de gênero, lançamento e publicação para uma seleção de auditoria da base pareada, além da identidade das gravações. Antes de selecionar, registrar tamanho, limites de audiência e regra comum. Não exigir interseção com a base anterior apenas para obter descritores, pois a cobertura é desigual e eles já existem na fonte pareada.
+
+Gênero, período e amostra principal ainda não estão definidos. Há achados de qualidade/cobertura; não há resultados musicais ou hipóteses substantivas.

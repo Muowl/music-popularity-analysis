@@ -30,3 +30,11 @@ Fonte: relato do autor nesta conversa sobre a resposta em áudio do orientador. 
 - A contribuição planejada passa a incluir achados documentados, hipóteses deles derivadas e propostas de testes independentes. Não há hipótese empírica formulada nesta atualização.
 
 O detalhamento está no README, no protocolo e em docs/hipoteses.md. A amostra continua vazia; o piloto ainda não foi executado.
+
+## Início da execução — 2026-09-30 (horário de Brasília)
+
+Auditoria inicial de duas fontes executada; extração registrada em UTC no manifesto. A base anterior possui 114.000 linhas e 89.741 IDs; a fonte Spotify and Youtube possui 20.718 linhas e 18.862 URIs. O cruzamento encontra 3.938 IDs distintos, com cobertura por linha desigual entre faixas de audiência. Não foram comparados perfis musicais.
+
+Decisão operacional: concluir a etapa de acesso e auditoria, manter o desenho principal pendente e investigar enriquecimento da fonte pareada. Datas de lançamento/publicação, gênero, pareamento de gravações e duplicações precisam ser resolvidos antes da amostra. Não adotar a interseção com a base anterior como filtro automático; não preencher datas ausentes com a data de download. A eventual adoção da fonte histórica como base definitiva continua pendente.
+
+Evidências e limitações: [relatório do piloto](relatorio-piloto-fontes.md), manifesto de fontes e saída agregada da auditoria. A ausência de hipóteses musicais nesta etapa é intencional: os resultados obtidos dizem respeito à viabilidade dos dados.

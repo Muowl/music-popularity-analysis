@@ -1,6 +1,6 @@
 # Piloto de viabilidade comparativa
 
-Status: planejado, não executado. Não há candidatos coletados nem taxas de cobertura calculadas.
+Status: iniciado. Auditoria das fontes, integridade dos arquivos e cruzamento exato por ID executados; ver [relatório](relatorio-piloto-fontes.md). As taxas calculadas são de cobertura entre fontes, não de uma amostra elegível para o estudo. Seleção de candidatos e validação documental das gravações ainda pendentes.
 
 ## Objetivo
 Verificar se é possível comparar descritores musicais entre níveis de audiência com regras comuns e correspondências documentadas entre vídeo e gravação. Essa é a etapa de viabilidade do estudo exploratório e descritivo; formular hipóteses substantivas sobre audiência é uma saída da análise posterior, não uma condição para aprovar o piloto.

@@ -2,7 +2,7 @@
 
 Pesquisa exploratória para o workshop do DCC/UFJF, vinculada à linha de pesquisa do TCC de Sistemas de Informação de Felipe Lazzarini Cunha.
 
-**Estado: linha exploratória e descritiva aceita pelo orientador, conforme relato do autor. Piloto comparativo planejado, ainda não executado. Fonte, recorte, amostra e método operacional permanecem pendentes. Não há resultados deste estudo neste repositório.**
+**Estado: linha exploratória e descritiva aceita pelo orientador, conforme relato do autor. Piloto iniciado: auditoria de duas fontes e cruzamento por ID executados. Há resultados de viabilidade; ainda não há amostra aprovada nem resultados musicais. Gênero, datas e validação das gravações permanecem pendentes.**
 
 ## Motivação, problema e objetivo
 
@@ -19,6 +19,10 @@ A prioridade é validar um grupo de comparação com origem e critérios comuns.
 A relação com recomendação baseada em conteúdo é motivação: o estudo examina descritores que podem representar músicas, mas não implementa nem avalia um recomendador. Visualizações não demonstram alcance geográfico global.
 
 A [página exploratória anterior](https://muowl.dev/spotify-dataset-explorer/hits-mundiais.html) é um ponto de partida, não a amostra definitiva. Seus recortes de alcance global, metal e repertório clássico têm critérios distintos. Nenhum deles foi automaticamente importado ou aprovado para o workshop.
+
+## Primeiro resultado do piloto
+
+A [auditoria das fontes](docs/relatorio-piloto-fontes.md) encontrou cobertura desigual no cruzamento e ausência de datas de lançamento/publicação. A recomendação é investigar a base já pareada Spotify–YouTube e a viabilidade de enriquecimento documental antes de fixar o recorte. As contagens de audiência disponíveis são históricas, declaradas como coletadas em fevereiro de 2023.
 
 ## Por onde começar
 

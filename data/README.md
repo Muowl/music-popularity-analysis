@@ -22,3 +22,9 @@ Para cada fonte, registrar em documento versionado: URL, responsável, data de o
 - notes: limites, duplicações de obra/artista e outras observações.
 
 Campos desconhecidos ficam vazios, nunca preenchidos com zero por conveniência. O validador verifica estrutura e consistência, não a veracidade das fontes nem licença.
+
+## Fontes candidatas auditadas
+
+[Manifesto de fontes](source-manifest.json): URLs, versões, datas declaradas, tamanhos, SHA-256 e rótulos de licença consultados para os dois snapshots. Download verificável: `python scripts/download_pilot_sources.py`. Os CSVs ficam em `data/raw/` e não são versionados.
+
+A fonte pareada tem audiência histórica e não contém data/hora de observação por linha. Antes de importar qualquer candidato, o esquema deverá distinguir data declarada, precisão temporal e data de obtenção. Não fabricar um instante UTC para satisfazer o validador. O cadastro principal permanece vazio; o [relatório](../docs/relatorio-piloto-fontes.md) contém apenas auditoria das fontes.

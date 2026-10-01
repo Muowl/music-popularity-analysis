@@ -1,6 +1,6 @@
 # Cadernos de análise
 
-Criar os cadernos quando a fonte e o protocolo estiverem definidos. Nenhuma análise ou resultado foi fabricado para preencher a estrutura.
+O caderno [01_source_feasibility.ipynb](01_source_feasibility.ipynb) acompanha a auditoria inicial das fontes. As células foram executadas sequencialmente em Python; execução/renderização em Jupyter não foi verificada neste ambiente. Criar os cadernos de análise musical quando fonte e protocolo estiverem definidos.
 
 Sequência sugerida:
 1. 01_data_quality.ipynb: esquema, origem, chaves, duplicatas, ausências e cobertura por grupo.
