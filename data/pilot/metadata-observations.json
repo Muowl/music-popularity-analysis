@@ -1,0 +1,494 @@
+[
+  {
+    "pilot_id": "P01",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=OgOwQvNzD-k",
+    "metadata_retrieved_at_utc": "2026-10-01T03:59:08.847896+00:00",
+    "http_status": 200,
+    "resolved_url": "https://www.youtube.com/watch?v=OgOwQvNzD-k",
+    "page_sha256": "556ee12c3415c99c12a262d6621f373ba19da04e911e85e5a1bb7e02cc7f20c3",
+    "bytes": 1259761,
+    "playability_status": "OK",
+    "video_id": "OgOwQvNzD-k",
+    "title": "The Kooks - Seaside",
+    "author": "TheKooksVEVO",
+    "length_seconds": "99",
+    "publish_date_raw": "2021-07-19T10:00:13-07:00",
+    "upload_date_raw": "2021-07-19T10:00:13-07:00",
+    "category": "Music",
+    "extraction_status": "player_metadata"
+  },
+  {
+    "pilot_id": "P01",
+    "platform": "spotify",
+    "url": "https://open.spotify.com/track/0QCuMBeqdWkwFUTO1WlAjH",
+    "metadata_retrieved_at_utc": "2026-10-01T03:59:08.848603+00:00",
+    "http_status": 200,
+    "resolved_url": "https://open.spotify.com/track/0QCuMBeqdWkwFUTO1WlAjH",
+    "page_sha256": "d4378ac819e5dab88a9147b0d4799b42b4f745a7dac8d94a82ce6ca3d8cac781",
+    "bytes": 278640,
+    "jsonld": [
+      {
+        "@type": [
+          "CreativeWork",
+          "MusicRecording"
+        ],
+        "url": "https://open.spotify.com/track/0QCuMBeqdWkwFUTO1WlAjH",
+        "name": "Seaside",
+        "datePublished": "2006-01-01"
+      }
+    ],
+    "extraction_status": "jsonld"
+  },
+  {
+    "pilot_id": "P02",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=MCt9gfNSyg4",
+    "metadata_retrieved_at_utc": "2026-10-01T03:59:08.849039+00:00",
+    "http_status": 200,
+    "resolved_url": "https://www.youtube.com/watch?v=MCt9gfNSyg4",
+    "page_sha256": "c5a0d01cde881842f94ea8f597be9377a92ae35414eadf1c467c186a969a7ace",
+    "bytes": 1221770,
+    "playability_status": "OK",
+    "video_id": "MCt9gfNSyg4",
+    "title": "Rosa Linn - KING ft. Kiiara (Official Video)",
+    "author": "RosaLinnVEVO",
+    "length_seconds": "212",
+    "publish_date_raw": "2021-09-09T21:00:06-07:00",
+    "upload_date_raw": "2021-09-09T21:00:06-07:00",
+    "category": "Music",
+    "extraction_status": "player_metadata"
+  },
+  {
+    "pilot_id": "P02",
+    "platform": "spotify",
+    "url": "https://open.spotify.com/track/4RgXmdsT0zfYXdrZPW3pV8",
+    "metadata_retrieved_at_utc": "2026-10-01T03:59:16.589328+00:00",
+    "http_status": 200,
+    "resolved_url": "https://open.spotify.com/track/4RgXmdsT0zfYXdrZPW3pV8",
+    "page_sha256": "2b6347d4fe28a904ae8ae8475b009ee551f2904a3c669cd1926f299ab7d857fd",
+    "bytes": 307120,
+    "jsonld": [
+      {
+        "@type": [
+          "CreativeWork",
+          "MusicRecording"
+        ],
+        "url": "https://open.spotify.com/track/4RgXmdsT0zfYXdrZPW3pV8",
+        "name": "KING",
+        "datePublished": "2021-09-10"
+      }
+    ],
+    "extraction_status": "jsonld"
+  },
+  {
+    "pilot_id": "P03",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=ufbDvPaVrzs",
+    "metadata_retrieved_at_utc": "2026-10-01T03:59:21.887751+00:00",
+    "http_status": 200,
+    "resolved_url": "https://www.youtube.com/watch?v=ufbDvPaVrzs",
+    "page_sha256": "746b48f976fb3f72ef4c2b87e286e7a0c3559ca77179a06156582954cc0d553f",
+    "bytes": 1396775,
+    "playability_status": "OK",
+    "video_id": "ufbDvPaVrzs",
+    "title": "Dermot Kennedy - Innocence and Sadness (Live From Mission Sound Studios, Brooklyn)",
+    "author": "DermotKennedyVEVO",
+    "length_seconds": "251",
+    "publish_date_raw": "2022-10-06T21:00:27-07:00",
+    "upload_date_raw": "2022-10-06T21:00:27-07:00",
+    "category": "Music",
+    "extraction_status": "player_metadata"
+  },
+  {
+    "pilot_id": "P03",
+    "platform": "spotify",
+    "url": "https://open.spotify.com/track/1nJatkqxWH7TQwBrP39yNd",
+    "metadata_retrieved_at_utc": "2026-10-01T03:59:21.982682+00:00",
+    "http_status": 200,
+    "resolved_url": "https://open.spotify.com/track/1nJatkqxWH7TQwBrP39yNd",
+    "page_sha256": "b58284da3e833df6752130c80c61aaac9d12d26c73aed397d02cfaefb8f16406",
+    "bytes": 275884,
+    "jsonld": [
+      {
+        "@type": [
+          "CreativeWork",
+          "MusicRecording"
+        ],
+        "url": "https://open.spotify.com/track/1nJatkqxWH7TQwBrP39yNd",
+        "name": "Innocence and Sadness",
+        "datePublished": "2022-11-18"
+      }
+    ],
+    "extraction_status": "jsonld"
+  },
+  {
+    "pilot_id": "P04",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=WyBKzBtaKWM",
+    "metadata_retrieved_at_utc": "2026-10-01T03:59:22.736993+00:00",
+    "http_status": 200,
+    "resolved_url": "https://www.youtube.com/watch?v=WyBKzBtaKWM",
+    "page_sha256": "a9a13c5e0f96a6c58e651209ca86c0553faa279f09545a7b8d6913af238814b0",
+    "bytes": 1272625,
+    "playability_status": "OK",
+    "video_id": "WyBKzBtaKWM",
+    "title": "Crowded House - Something So Strong",
+    "author": "CrowdedHouseVEVO",
+    "length_seconds": "193",
+    "publish_date_raw": "2009-02-27T14:31:59-08:00",
+    "upload_date_raw": "2009-02-27T14:31:59-08:00",
+    "category": "Music",
+    "extraction_status": "player_metadata"
+  },
+  {
+    "pilot_id": "P04",
+    "platform": "spotify",
+    "url": "https://open.spotify.com/track/0eDwzWuy2gf1RJzqWl0dkF",
+    "metadata_retrieved_at_utc": "2026-10-01T03:59:22.851458+00:00",
+    "http_status": 200,
+    "resolved_url": "https://open.spotify.com/track/0eDwzWuy2gf1RJzqWl0dkF",
+    "page_sha256": "65beed840ea6240668bbff111f287f857b2cde4221c326d5028f93953ebf73ad",
+    "bytes": 301913,
+    "jsonld": [
+      {
+        "@type": [
+          "CreativeWork",
+          "MusicRecording"
+        ],
+        "url": "https://open.spotify.com/track/0eDwzWuy2gf1RJzqWl0dkF",
+        "name": "Something So Strong",
+        "datePublished": "1986-01-01"
+      }
+    ],
+    "extraction_status": "jsonld"
+  },
+  {
+    "pilot_id": "P05",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=F0tamp9XdqU",
+    "metadata_retrieved_at_utc": "2026-10-01T03:59:28.136513+00:00",
+    "http_status": 200,
+    "resolved_url": "https://www.youtube.com/watch?v=F0tamp9XdqU",
+    "page_sha256": "74248e67d1f5e9fbd13c26f933202aacf1921073c0c98d63ea836191d5fdcb6b",
+    "bytes": 1269660,
+    "playability_status": "OK",
+    "video_id": "F0tamp9XdqU",
+    "title": "Outkast - Da Art of Storytellin' (Part 1) (Official Video)",
+    "author": "OutkastVEVO",
+    "length_seconds": "233",
+    "publish_date_raw": "2014-03-15T00:13:46-07:00",
+    "upload_date_raw": "2014-03-15T00:13:46-07:00",
+    "category": "Music",
+    "extraction_status": "player_metadata"
+  },
+  {
+    "pilot_id": "P05",
+    "platform": "spotify",
+    "url": "https://open.spotify.com/track/1KQymTxNJfWk6vCD5ywKW2",
+    "metadata_retrieved_at_utc": "2026-10-01T03:59:28.239526+00:00",
+    "http_status": 200,
+    "resolved_url": "https://open.spotify.com/track/1KQymTxNJfWk6vCD5ywKW2",
+    "page_sha256": "f441cb42b40f6cdfd9ea2418ea3b691d5282a9511c7c6a2327f682138815b0b9",
+    "bytes": 312416,
+    "jsonld": [
+      {
+        "@type": [
+          "CreativeWork",
+          "MusicRecording"
+        ],
+        "url": "https://open.spotify.com/track/1KQymTxNJfWk6vCD5ywKW2",
+        "name": "Da Art of Storytellin' (Pt. 1)",
+        "datePublished": "1998-09-29"
+      }
+    ],
+    "extraction_status": "jsonld"
+  },
+  {
+    "pilot_id": "P06",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=VLOz-6V3rPk",
+    "metadata_retrieved_at_utc": "2026-10-01T03:59:28.748469+00:00",
+    "http_status": 200,
+    "resolved_url": "https://www.youtube.com/watch?v=VLOz-6V3rPk",
+    "page_sha256": "fae2bfd89e97aff4f4f79908c55fa630be3d3f81d7648c7b022ea7a3e31a7a5e",
+    "bytes": 1315957,
+    "playability_status": "OK",
+    "video_id": "VLOz-6V3rPk",
+    "title": "B*tch by E-40 feat. 50 Cent & Too Short (Remix) - CDQ / Dirty | 50 Cent Music",
+    "author": "50 Cent",
+    "length_seconds": "244",
+    "publish_date_raw": "2010-06-24T14:56:48-07:00",
+    "upload_date_raw": "2010-06-24T14:56:48-07:00",
+    "category": "Music",
+    "extraction_status": "player_metadata"
+  },
+  {
+    "pilot_id": "P06",
+    "platform": "spotify",
+    "url": "https://open.spotify.com/track/2twJtqTdddqsTJnEHUFZdm",
+    "metadata_retrieved_at_utc": "2026-10-01T03:59:33.253620+00:00",
+    "http_status": 200,
+    "resolved_url": "https://open.spotify.com/track/2twJtqTdddqsTJnEHUFZdm",
+    "page_sha256": "bc563fb1787765f7b6e806a1d115d06f4cf679b29750afdd9db9f1bc08cf74d0",
+    "bytes": 313964,
+    "jsonld": [
+      {
+        "@type": [
+          "CreativeWork",
+          "MusicRecording"
+        ],
+        "url": "https://open.spotify.com/track/2twJtqTdddqsTJnEHUFZdm",
+        "name": "B*tch",
+        "datePublished": "2010-01-01"
+      }
+    ],
+    "extraction_status": "jsonld"
+  },
+  {
+    "pilot_id": "P07",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=H2jCbXiEQI4",
+    "metadata_retrieved_at_utc": "2026-10-01T03:59:35.105511+00:00",
+    "http_status": 200,
+    "resolved_url": "https://www.youtube.com/watch?v=H2jCbXiEQI4",
+    "page_sha256": "22d9e9d43c7a838950ac620a7d0c15dd0198efc104bae6979506a11899bf40aa",
+    "bytes": 1310746,
+    "playability_status": "OK",
+    "video_id": "H2jCbXiEQI4",
+    "title": "Papa Roach - Between Angels And Insects",
+    "author": "PapaRoachVEVO",
+    "length_seconds": "237",
+    "publish_date_raw": "2009-10-05T15:45:30-07:00",
+    "upload_date_raw": "2009-10-05T15:45:30-07:00",
+    "category": "Music",
+    "extraction_status": "player_metadata"
+  },
+  {
+    "pilot_id": "P07",
+    "platform": "spotify",
+    "url": "https://open.spotify.com/track/24z528iI9kZu5LbkLainjI",
+    "metadata_retrieved_at_utc": "2026-10-01T03:59:35.310815+00:00",
+    "http_status": 200,
+    "resolved_url": "https://open.spotify.com/track/24z528iI9kZu5LbkLainjI",
+    "page_sha256": "87a346f2f220d7d9a220efdd77827250bd0742a135586807e2ea5b73609fc1c8",
+    "bytes": 304204,
+    "jsonld": [
+      {
+        "@type": [
+          "CreativeWork",
+          "MusicRecording"
+        ],
+        "url": "https://open.spotify.com/track/24z528iI9kZu5LbkLainjI",
+        "name": "Between Angels And Insects",
+        "datePublished": "2000-04-25"
+      }
+    ],
+    "extraction_status": "jsonld"
+  },
+  {
+    "pilot_id": "P08",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=dbckIuT_YDc",
+    "metadata_retrieved_at_utc": "2026-10-01T03:59:39.317860+00:00",
+    "http_status": 200,
+    "resolved_url": "https://www.youtube.com/watch?v=dbckIuT_YDc",
+    "page_sha256": "4121301fbcf8640d311d725ee843d63c3552c3652b55e5b3816ba20acd90e9bf",
+    "bytes": 1254331,
+    "playability_status": "OK",
+    "video_id": "dbckIuT_YDc",
+    "title": "Soundgarden - The Day I Tried To Live (Official Music Video)",
+    "author": "SoundgardenVEVO",
+    "length_seconds": "320",
+    "publish_date_raw": "2010-07-13T10:56:35-07:00",
+    "upload_date_raw": "2010-07-13T10:56:35-07:00",
+    "category": "Music",
+    "extraction_status": "player_metadata"
+  },
+  {
+    "pilot_id": "P08",
+    "platform": "spotify",
+    "url": "https://open.spotify.com/track/78YJJJH55MSyk7547100sW",
+    "metadata_retrieved_at_utc": "2026-10-01T03:59:39.494408+00:00",
+    "http_status": 200,
+    "resolved_url": "https://open.spotify.com/track/78YJJJH55MSyk7547100sW",
+    "page_sha256": "0bb485dc0d53c8a579006589d0b668238662a33f19c5f5187b25e18e52233150",
+    "bytes": 320453,
+    "jsonld": [
+      {
+        "@type": [
+          "CreativeWork",
+          "MusicRecording"
+        ],
+        "url": "https://open.spotify.com/track/78YJJJH55MSyk7547100sW",
+        "name": "The Day I Tried To Live",
+        "datePublished": "1994-03-09"
+      }
+    ],
+    "extraction_status": "jsonld"
+  },
+  {
+    "pilot_id": "P09",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=OmKAn8rNbKg",
+    "metadata_retrieved_at_utc": "2026-10-01T03:59:41.452825+00:00",
+    "http_status": 200,
+    "resolved_url": "https://www.youtube.com/watch?v=OmKAn8rNbKg",
+    "page_sha256": "aebfaba04a7b46e4d9532bdaf07dda8b2b2f2bb646d7e30dc6c7c99b5c5f8f2f",
+    "bytes": 1366064,
+    "playability_status": "OK",
+    "video_id": "OmKAn8rNbKg",
+    "title": "Novo Amor - Anchor (official video)",
+    "author": "Novo Amor",
+    "length_seconds": "256",
+    "publish_date_raw": "2015-10-02T07:21:16-07:00",
+    "upload_date_raw": "2015-10-02T07:21:16-07:00",
+    "category": "Music",
+    "extraction_status": "player_metadata"
+  },
+  {
+    "pilot_id": "P09",
+    "platform": "spotify",
+    "url": "https://open.spotify.com/track/7qH9Z4dJEN0l9bidizW7fq",
+    "metadata_retrieved_at_utc": "2026-10-01T03:59:41.825158+00:00",
+    "http_status": 200,
+    "resolved_url": "https://open.spotify.com/track/7qH9Z4dJEN0l9bidizW7fq",
+    "page_sha256": "9ae792b5877ab3a10f390d613ce8c869acf9215a374189ffdd92e761382e6a57",
+    "bytes": 294652,
+    "jsonld": [
+      {
+        "@type": [
+          "CreativeWork",
+          "MusicRecording"
+        ],
+        "url": "https://open.spotify.com/track/7qH9Z4dJEN0l9bidizW7fq",
+        "name": "Anchor",
+        "datePublished": "2017-05-26"
+      }
+    ],
+    "extraction_status": "jsonld"
+  },
+  {
+    "pilot_id": "P10",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=eK0IIyBlYew",
+    "metadata_retrieved_at_utc": "2026-10-01T03:59:45.326006+00:00",
+    "http_status": 200,
+    "resolved_url": "https://www.youtube.com/watch?v=eK0IIyBlYew",
+    "page_sha256": "3d66181f71c14d54748cad65845d090ce4c20c455df3e1172591576ec4767ac4",
+    "bytes": 1313902,
+    "playability_status": "OK",
+    "video_id": "eK0IIyBlYew",
+    "title": "Tera Zikr - Darshan Raval | Official Video - Latest New Hit Song",
+    "author": "Sony Music India",
+    "length_seconds": "224",
+    "publish_date_raw": "2017-11-08T22:00:01-08:00",
+    "upload_date_raw": "2017-11-08T22:00:01-08:00",
+    "category": "Music",
+    "extraction_status": "player_metadata"
+  },
+  {
+    "pilot_id": "P10",
+    "platform": "spotify",
+    "url": "https://open.spotify.com/track/0OfaueVeRebAfWsAHajj3z",
+    "metadata_retrieved_at_utc": "2026-10-01T03:59:45.394563+00:00",
+    "http_status": 200,
+    "resolved_url": "https://open.spotify.com/track/0OfaueVeRebAfWsAHajj3z",
+    "page_sha256": "d0cd1e281432df3457d6174e1142b0670c0ccae4f77cc8b79d5eb99c5c971ee8",
+    "bytes": 289883,
+    "jsonld": [
+      {
+        "@type": [
+          "CreativeWork",
+          "MusicRecording"
+        ],
+        "url": "https://open.spotify.com/track/0OfaueVeRebAfWsAHajj3z",
+        "name": "Tera Zikr",
+        "datePublished": "2017-11-09"
+      }
+    ],
+    "extraction_status": "jsonld"
+  },
+  {
+    "pilot_id": "P11",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=etAIpkdhU9Q",
+    "metadata_retrieved_at_utc": "2026-10-01T03:59:47.975784+00:00",
+    "http_status": 200,
+    "resolved_url": "https://www.youtube.com/watch?v=etAIpkdhU9Q",
+    "page_sha256": "a03043e920754d15cff2f1c2ebd93fe036b569ea17f99016c63ff1596d4aef2f",
+    "bytes": 1367267,
+    "playability_status": "OK",
+    "video_id": "etAIpkdhU9Q",
+    "title": "AC/DC - Hells Bells (Official 4K Video)",
+    "author": "acdcVEVO",
+    "length_seconds": "310",
+    "publish_date_raw": "2013-03-08T03:15:44-08:00",
+    "upload_date_raw": "2013-03-08T03:15:44-08:00",
+    "category": "Music",
+    "extraction_status": "player_metadata"
+  },
+  {
+    "pilot_id": "P11",
+    "platform": "spotify",
+    "url": "https://open.spotify.com/track/69QHm3pustz01CJRwdo20z",
+    "metadata_retrieved_at_utc": "2026-10-01T03:59:48.133112+00:00",
+    "http_status": 200,
+    "resolved_url": "https://open.spotify.com/track/69QHm3pustz01CJRwdo20z",
+    "page_sha256": "8d6838c949cae35896453744eb3505767b3092684a06738cbca2406a2bc253fa",
+    "bytes": 298640,
+    "jsonld": [
+      {
+        "@type": [
+          "CreativeWork",
+          "MusicRecording"
+        ],
+        "url": "https://open.spotify.com/track/69QHm3pustz01CJRwdo20z",
+        "name": "Hells Bells",
+        "datePublished": "1980-07-25"
+      }
+    ],
+    "extraction_status": "jsonld"
+  },
+  {
+    "pilot_id": "P12",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=ktvTqknDobU",
+    "metadata_retrieved_at_utc": "2026-10-01T03:59:51.200030+00:00",
+    "http_status": 200,
+    "resolved_url": "https://www.youtube.com/watch?v=ktvTqknDobU",
+    "page_sha256": "837adb754f8c3459509d1b29de9bf25ad7d7cac9e15d57f13430b0c195126304",
+    "bytes": 1299038,
+    "playability_status": "OK",
+    "video_id": "ktvTqknDobU",
+    "title": "Imagine Dragons - Radioactive",
+    "author": "ImagineDragonsVEVO",
+    "length_seconds": "261",
+    "publish_date_raw": "2012-12-10T08:40:07-08:00",
+    "upload_date_raw": "2012-12-10T08:40:07-08:00",
+    "category": "Music",
+    "extraction_status": "player_metadata"
+  },
+  {
+    "pilot_id": "P12",
+    "platform": "spotify",
+    "url": "https://open.spotify.com/track/4G8gkOterJn0Ywt6uhqbhp",
+    "metadata_retrieved_at_utc": "2026-10-01T03:59:51.203945+00:00",
+    "http_status": 200,
+    "resolved_url": "https://open.spotify.com/track/4G8gkOterJn0Ywt6uhqbhp",
+    "page_sha256": "35b8d77ce902236b24a82199fda0af1af76fa86b9f4440c2c8fa3d6b67a74eca",
+    "bytes": 274858,
+    "jsonld": [
+      {
+        "@type": [
+          "CreativeWork",
+          "MusicRecording"
+        ],
+        "url": "https://open.spotify.com/track/4G8gkOterJn0Ywt6uhqbhp",
+        "name": "Radioactive",
+        "datePublished": "2012-09-04"
+      }
+    ],
+    "extraction_status": "jsonld"
+  }
+]

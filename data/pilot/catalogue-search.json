@@ -1,0 +1,1142 @@
+[
+  {
+    "pilot_id": "P01",
+    "query_url": "https://itunes.apple.com/search?term=The+Kooks+Seaside&entity=song&limit=10&country=us",
+    "retrieved_at_utc": null,
+    "cache_saved_at_utc": "2026-10-01T03:59:41.492321+00:00",
+    "cache_sha256": "f44fe1407a58752eded2b79a1c38894f960eccffb0ac196c15c2197c00cc3f51",
+    "note": "Search result is a candidate, not a validated cross-platform match. Legacy cache has save time only.",
+    "candidates": [
+      {
+        "trackId": 714597950,
+        "artistName": "The Kooks",
+        "trackName": "Seaside",
+        "collectionName": "Inside In / Inside Out (Bonus Track Version)",
+        "releaseDate": "2006-01-23T08:00:00Z",
+        "primaryGenreName": "Alternative",
+        "trackTimeMillis": 99227,
+        "trackViewUrl": "https://music.apple.com/us/album/seaside/714597926?i=714597950&uo=4"
+      },
+      {
+        "trackId": 724373693,
+        "artistName": "The Kooks",
+        "trackName": "Seaside",
+        "collectionName": "Inside In Inside Out (Acoustic Live At Abbey Road)",
+        "releaseDate": "2006-01-23T12:00:00Z",
+        "primaryGenreName": "Alternative",
+        "trackTimeMillis": 108000,
+        "trackViewUrl": "https://music.apple.com/us/album/seaside/724373634?i=724373693&uo=4"
+      },
+      {
+        "trackId": 1440899638,
+        "artistName": "The Kooks",
+        "trackName": "Seaside",
+        "collectionName": "The Best of... So Far (Bonus Track Version)",
+        "releaseDate": "2006-01-23T12:00:00Z",
+        "primaryGenreName": "Alternative",
+        "trackTimeMillis": 99613,
+        "trackViewUrl": "https://music.apple.com/us/album/seaside/1440899610?i=1440899638&uo=4"
+      },
+      {
+        "trackId": 1567942935,
+        "artistName": "The Kooks",
+        "trackName": "Seaside (Tony Hoffer Alternate Mix)",
+        "collectionName": "Inside In, Inside Out (15th Anniversary Deluxe)",
+        "releaseDate": "2021-07-16T07:00:00Z",
+        "primaryGenreName": "Alternative",
+        "trackTimeMillis": 112547,
+        "trackViewUrl": "https://music.apple.com/us/album/seaside-tony-hoffer-alternate-mix/1567941597?i=1567942935&uo=4"
+      },
+      {
+        "trackId": 1567942056,
+        "artistName": "The Kooks",
+        "trackName": "Seaside (Remastered 2021)",
+        "collectionName": "Inside In, Inside Out (15th Anniversary Deluxe)",
+        "releaseDate": "2006-01-23T12:00:00Z",
+        "primaryGenreName": "Alternative",
+        "trackTimeMillis": 98960,
+        "trackViewUrl": "https://music.apple.com/us/album/seaside-remastered-2021/1567941597?i=1567942056&uo=4"
+      },
+      {
+        "trackId": 1442991491,
+        "artistName": "The Kooks",
+        "trackName": "Seaside",
+        "collectionName": "The Best of... So Far (Deluxe)",
+        "releaseDate": "2006-01-23T12:00:00Z",
+        "primaryGenreName": "Alternative",
+        "trackTimeMillis": 99613,
+        "trackViewUrl": "https://music.apple.com/us/album/seaside/1442991297?i=1442991491&uo=4"
+      },
+      {
+        "trackId": 1522862640,
+        "artistName": "Blanks",
+        "trackName": "Seaside",
+        "collectionName": "Cheap Sodas and Ice Cream Kisses",
+        "releaseDate": "2020-05-01T12:00:00Z",
+        "primaryGenreName": "Indie Pop",
+        "trackTimeMillis": 228553,
+        "trackViewUrl": "https://music.apple.com/us/album/seaside/1522862637?i=1522862640&uo=4"
+      },
+      {
+        "trackId": 1042938609,
+        "artistName": "Twinkle Twinkle Little Rock Star",
+        "trackName": "Seaside",
+        "collectionName": "Lullaby Versions of The Kooks",
+        "releaseDate": "2015-11-13T12:00:00Z",
+        "primaryGenreName": "Children's Music",
+        "trackTimeMillis": 160500,
+        "trackViewUrl": "https://music.apple.com/us/album/seaside/1042937845?i=1042938609&uo=4"
+      },
+      {
+        "trackId": 1506375604,
+        "artistName": "Blanks",
+        "trackName": "Seaside",
+        "collectionName": "Silly People - Single",
+        "releaseDate": "2020-05-01T12:00:00Z",
+        "primaryGenreName": "Indie Pop",
+        "trackTimeMillis": 228553,
+        "trackViewUrl": "https://music.apple.com/us/album/seaside/1506375602?i=1506375604&uo=4"
+      },
+      {
+        "trackId": 1042927728,
+        "artistName": "Music Box Mania",
+        "trackName": "Seaside",
+        "collectionName": "MBM Performs The Kooks",
+        "releaseDate": "2015-11-20T12:00:00Z",
+        "primaryGenreName": "Children's Music",
+        "trackTimeMillis": 168947,
+        "trackViewUrl": "https://music.apple.com/us/album/seaside/1042927402?i=1042927728&uo=4"
+      }
+    ]
+  },
+  {
+    "pilot_id": "P02",
+    "query_url": "https://itunes.apple.com/search?term=Rosa+Linn+KING&entity=song&limit=10&country=us",
+    "retrieved_at_utc": null,
+    "cache_saved_at_utc": "2026-10-01T03:59:41.434389+00:00",
+    "cache_sha256": "cc8e5e76d1dbef1279ab6bde7858d32d181eceef9dee95c1e25d7097b80ba09f",
+    "note": "Search result is a candidate, not a validated cross-platform match. Legacy cache has save time only.",
+    "candidates": [
+      {
+        "trackId": 1580652661,
+        "artistName": "Rosa Linn & Kiiara",
+        "trackName": "KING",
+        "collectionName": "KING - Single",
+        "releaseDate": "2021-09-09T12:00:00Z",
+        "primaryGenreName": "Indie Pop",
+        "trackTimeMillis": 203089,
+        "trackViewUrl": "https://music.apple.com/us/album/king/1580652658?i=1580652661&uo=4"
+      }
+    ]
+  },
+  {
+    "pilot_id": "P03",
+    "query_url": "https://itunes.apple.com/search?term=Dermot+Kennedy+Innocence+and+Sadness&entity=song&limit=10&country=us",
+    "retrieved_at_utc": null,
+    "cache_saved_at_utc": "2026-10-01T03:59:47.967589+00:00",
+    "cache_sha256": "54f52e9bfb75d89161e29d595052b7bc4d21b05e2ac814a21e3a4805d53bfd47",
+    "note": "Search result is a candidate, not a validated cross-platform match. Legacy cache has save time only.",
+    "candidates": [
+      {
+        "trackId": 1651647196,
+        "artistName": "Dermot Kennedy",
+        "trackName": "Innocence and Sadness",
+        "collectionName": "Sonder (Apple Music Edition)",
+        "releaseDate": "2022-11-18T12:00:00Z",
+        "primaryGenreName": "Pop",
+        "trackTimeMillis": 252658,
+        "trackViewUrl": "https://music.apple.com/us/album/innocence-and-sadness/1651646586?i=1651647196&uo=4"
+      },
+      {
+        "trackId": 1690479525,
+        "artistName": "Dermot Kennedy",
+        "trackName": "Innocence and Sadness",
+        "collectionName": "Sonder (2023 Reissue)",
+        "releaseDate": "2022-11-18T08:00:00Z",
+        "primaryGenreName": "Pop",
+        "trackTimeMillis": 252658,
+        "trackViewUrl": "https://music.apple.com/us/album/innocence-and-sadness/1690479507?i=1690479525&uo=4"
+      },
+      {
+        "trackId": 1706433688,
+        "artistName": "Singer's Edge Karaoke",
+        "trackName": "Innocence and Sadness (Originally Performed By Dermot Kennedy) [Instrumental]",
+        "collectionName": "Innocence and Sadness (Originally Performed By Dermot Kennedy) [Instrumental]",
+        "releaseDate": "2023-09-08T12:00:00Z",
+        "primaryGenreName": "Karaoke",
+        "trackTimeMillis": 252501,
+        "trackViewUrl": "https://music.apple.com/us/album/innocence-and-sadness-originally-performed-by-dermot/1706433687?i=1706433688&uo=4"
+      },
+      {
+        "trackId": 1713665027,
+        "artistName": "The Covers Orchestra",
+        "trackName": "Innocence and Sadness (Orchestral Version)",
+        "collectionName": "Innocence and Sadness (Orchestral Version) - Single",
+        "releaseDate": "2022-11-18T12:00:00Z",
+        "primaryGenreName": "Instrumental",
+        "trackTimeMillis": 167213,
+        "trackViewUrl": "https://music.apple.com/us/album/innocence-and-sadness-orchestral-version/1713664756?i=1713665027&uo=4"
+      },
+      {
+        "trackId": 1868898507,
+        "artistName": "Third Date & DVBL",
+        "trackName": "Innocence and Sadness (Acoustic) [Acoustic Version]",
+        "collectionName": "Innocence and Sadness (Acoustic) - Single",
+        "releaseDate": "2026-01-07T12:00:00Z",
+        "primaryGenreName": "Pop",
+        "trackTimeMillis": 204880,
+        "trackViewUrl": "https://music.apple.com/us/album/innocence-and-sadness-acoustic-acoustic-version/1868898176?i=1868898507&uo=4"
+      }
+    ]
+  },
+  {
+    "pilot_id": "P04",
+    "query_url": "https://itunes.apple.com/search?term=Crowded+House+Something+So+Strong&entity=song&limit=10&country=us",
+    "retrieved_at_utc": null,
+    "cache_saved_at_utc": "2026-10-01T03:59:48.025464+00:00",
+    "cache_sha256": "4ac30e88de6bd129726f712c8dcd9361cd12a677e72579974fbab249eee63c15",
+    "note": "Search result is a candidate, not a validated cross-platform match. Legacy cache has save time only.",
+    "candidates": [
+      {
+        "trackId": 1440823276,
+        "artistName": "Crowded House",
+        "trackName": "Something So Strong",
+        "collectionName": "Crowded House",
+        "releaseDate": "1986-08-01T12:00:00Z",
+        "primaryGenreName": "Rock",
+        "trackTimeMillis": 174419,
+        "trackViewUrl": "https://music.apple.com/us/album/something-so-strong/1440822690?i=1440823276&uo=4"
+      },
+      {
+        "trackId": 1598878998,
+        "artistName": "Crowded House",
+        "trackName": "Something so Strong (Live at Sydney Opera House) [2006 - Remaster]",
+        "collectionName": "Farewell to the World (Live at Sydney Opera House) [2006 - Remaster]",
+        "releaseDate": "2006-11-20T12:00:00Z",
+        "primaryGenreName": "Rock",
+        "trackTimeMillis": 231440,
+        "trackViewUrl": "https://music.apple.com/us/album/something-so-strong-live-at-sydney-opera-house-2006/1598878593?i=1598878998&uo=4"
+      },
+      {
+        "trackId": 1444120519,
+        "artistName": "Crowded House",
+        "trackName": "Something So Strong (Home Demo)",
+        "collectionName": "Crowded House (Deluxe Edition)",
+        "releaseDate": "1986-08-01T07:00:00Z",
+        "primaryGenreName": "Rock",
+        "trackTimeMillis": 82254,
+        "trackViewUrl": "https://music.apple.com/us/album/something-so-strong-home-demo/1444120423?i=1444120519&uo=4"
+      },
+      {
+        "trackId": 1444120692,
+        "artistName": "Crowded House",
+        "trackName": "Something So Strong (Studio Demo)",
+        "collectionName": "Crowded House (Deluxe Edition)",
+        "releaseDate": "1986-08-01T07:00:00Z",
+        "primaryGenreName": "Rock",
+        "trackTimeMillis": 132241,
+        "trackViewUrl": "https://music.apple.com/us/album/something-so-strong-studio-demo/1444120423?i=1444120692&uo=4"
+      },
+      {
+        "trackId": 1444120447,
+        "artistName": "Crowded House",
+        "trackName": "Something So Strong",
+        "collectionName": "Crowded House (Deluxe Edition)",
+        "releaseDate": "1986-08-01T07:00:00Z",
+        "primaryGenreName": "Rock",
+        "trackTimeMillis": 174027,
+        "trackViewUrl": "https://music.apple.com/us/album/something-so-strong/1444120423?i=1444120447&uo=4"
+      },
+      {
+        "trackId": 716399642,
+        "artistName": "Crowded House",
+        "trackName": "Something So Strong",
+        "collectionName": "The Very Very Best of Crowded House",
+        "releaseDate": "1986-08-01T12:00:00Z",
+        "primaryGenreName": "Rock",
+        "trackTimeMillis": 173964,
+        "trackViewUrl": "https://music.apple.com/us/album/something-so-strong/716399594?i=716399642&uo=4"
+      },
+      {
+        "trackId": 1442717781,
+        "artistName": "Crowded House",
+        "trackName": "Something So Strong",
+        "collectionName": "Crowded House (Deluxe Edition)",
+        "releaseDate": "1986-08-01T07:00:00Z",
+        "primaryGenreName": "Rock",
+        "trackTimeMillis": 174027,
+        "trackViewUrl": "https://music.apple.com/us/album/something-so-strong/1442717618?i=1442717781&uo=4"
+      },
+      {
+        "trackId": 715992786,
+        "artistName": "Crowded House",
+        "trackName": "Something So Strong",
+        "collectionName": "The Very Very Best of Crowded House (Deluxe Version)",
+        "releaseDate": "1986-08-01T12:00:00Z",
+        "primaryGenreName": "Rock",
+        "trackTimeMillis": 173964,
+        "trackViewUrl": "https://music.apple.com/us/album/something-so-strong/715991806?i=715992786&uo=4"
+      },
+      {
+        "trackId": 1442717797,
+        "artistName": "Crowded House",
+        "trackName": "Something So Strong (Home Demo)",
+        "collectionName": "Crowded House (Deluxe Edition)",
+        "releaseDate": "1986-08-01T07:00:00Z",
+        "primaryGenreName": "Rock",
+        "trackTimeMillis": 82254,
+        "trackViewUrl": "https://music.apple.com/us/album/something-so-strong-home-demo/1442717618?i=1442717797&uo=4"
+      },
+      {
+        "trackId": 1442717887,
+        "artistName": "Crowded House",
+        "trackName": "Something So Strong (Studio Demo)",
+        "collectionName": "Crowded House (Deluxe Edition)",
+        "releaseDate": "1986-08-01T07:00:00Z",
+        "primaryGenreName": "Rock",
+        "trackTimeMillis": 132241,
+        "trackViewUrl": "https://music.apple.com/us/album/something-so-strong-studio-demo/1442717618?i=1442717887&uo=4"
+      }
+    ]
+  },
+  {
+    "pilot_id": "P05",
+    "query_url": "https://itunes.apple.com/search?term=Outkast+Da+Art+of+Storytellin%27+%28Pt.+1%29&entity=song&limit=10&country=us",
+    "retrieved_at_utc": null,
+    "cache_saved_at_utc": "2026-10-01T03:59:53.235545+00:00",
+    "cache_sha256": "31a823625ca3bdda3d61d2b649c9f7d85ad6bf2b453dda8f4dedfa092a6a3cfc",
+    "note": "Search result is a candidate, not a validated cross-platform match. Legacy cache has save time only.",
+    "candidates": [
+      {
+        "trackId": 1536670028,
+        "artistName": "Outkast",
+        "trackName": "Da Art of Storytellin' (Pt. 1)",
+        "collectionName": "Aquemini",
+        "releaseDate": "1998-09-28T12:00:00Z",
+        "primaryGenreName": "Hip-Hop/Rap",
+        "trackTimeMillis": 203640,
+        "trackViewUrl": "https://music.apple.com/us/album/da-art-of-storytellin-pt-1/1536669507?i=1536670028&uo=4"
+      },
+      {
+        "trackId": 1536670034,
+        "artistName": "Outkast",
+        "trackName": "Da Art of Storytellin' (Pt. 2)",
+        "collectionName": "Aquemini",
+        "releaseDate": "1998-09-28T12:00:00Z",
+        "primaryGenreName": "Hip-Hop/Rap",
+        "trackTimeMillis": 172267,
+        "trackViewUrl": "https://music.apple.com/us/album/da-art-of-storytellin-pt-2/1536669507?i=1536670034&uo=4"
+      },
+      {
+        "trackId": 268890845,
+        "artistName": "DJ Drama",
+        "trackName": "The Art of Storytellin' Pt. 4 (feat. Outkast & Marsha Ambrosius)",
+        "collectionName": "Gangsta Grillz: The Album",
+        "releaseDate": "2007-12-04T12:00:00Z",
+        "primaryGenreName": "Hip-Hop/Rap",
+        "trackTimeMillis": 297280,
+        "trackViewUrl": "https://music.apple.com/us/album/the-art-of-storytellin-pt-4-feat-outkast-marsha-ambrosius/268888799?i=268890845&uo=4"
+      },
+      {
+        "trackId": 1442847396,
+        "artistName": "Slick Rick",
+        "trackName": "Jail Skit (feat. Redman, Nas, Ed Lover & DJ Rev Run)",
+        "collectionName": "The Art of Storytelling",
+        "releaseDate": "1999-01-01T12:00:00Z",
+        "primaryGenreName": "Hip-Hop/Rap",
+        "trackTimeMillis": 80200,
+        "trackViewUrl": "https://music.apple.com/us/album/jail-skit-feat-redman-nas-ed-lover-dj-rev-run/1442847393?i=1442847396&uo=4"
+      },
+      {
+        "trackId": 1442847563,
+        "artistName": "Slick Rick",
+        "trackName": "2 Way Street",
+        "collectionName": "The Art of Storytelling",
+        "releaseDate": "1999-01-01T12:00:00Z",
+        "primaryGenreName": "Hip-Hop/Rap",
+        "trackTimeMillis": 212667,
+        "trackViewUrl": "https://music.apple.com/us/album/2-way-street/1442847393?i=1442847563&uo=4"
+      },
+      {
+        "trackId": 1442847399,
+        "artistName": "Slick Rick",
+        "trackName": "Kill N****z",
+        "collectionName": "The Art of Storytelling",
+        "releaseDate": "1999-01-01T12:00:00Z",
+        "primaryGenreName": "Hip-Hop/Rap",
+        "trackTimeMillis": 169667,
+        "trackViewUrl": "https://music.apple.com/us/album/kill-n-z/1442847393?i=1442847399&uo=4"
+      }
+    ]
+  },
+  {
+    "pilot_id": "P06",
+    "query_url": "https://itunes.apple.com/search?term=E-40+B%2Atch&entity=song&limit=10&country=us",
+    "retrieved_at_utc": null,
+    "cache_saved_at_utc": "2026-10-01T03:59:53.329239+00:00",
+    "cache_sha256": "f69c07235f13446ce3c0dce0d6d0ff8af19c926cf05d2e4cc05b304ab62c977b",
+    "note": "Search result is a candidate, not a validated cross-platform match. Legacy cache has save time only.",
+    "candidates": [
+      {
+        "trackId": 1444320814,
+        "artistName": "DJ Snake & AlunaGeorge",
+        "trackName": "You Know You Like It",
+        "collectionName": "You Know You Like It - Single",
+        "releaseDate": "2014-10-20T12:00:00Z",
+        "primaryGenreName": "Dance",
+        "trackTimeMillis": 247267,
+        "trackViewUrl": "https://music.apple.com/us/album/you-know-you-like-it/1444320811?i=1444320814&uo=4"
+      },
+      {
+        "trackId": 484625645,
+        "artistName": "Trunk Boiz",
+        "trackName": "Bitch (Remix Clean) [feat. E-40 & Too $hort]",
+        "collectionName": "M.I.a: The Lost Archives (The Ep)",
+        "releaseDate": "2011-11-25T12:00:00Z",
+        "primaryGenreName": "Underground Rap",
+        "trackTimeMillis": 286460,
+        "trackViewUrl": "https://music.apple.com/us/album/bitch-remix-clean-feat-e-40-too-%24hort/484625637?i=484625645&uo=4"
+      },
+      {
+        "trackId": 1512936613,
+        "artistName": "YFN Lucci",
+        "trackName": "F**k It (feat. Jackboy)",
+        "collectionName": "HIStory, Lost Pages",
+        "releaseDate": "2019-12-13T12:00:00Z",
+        "primaryGenreName": "Hip-Hop/Rap",
+        "trackTimeMillis": 198257,
+        "trackViewUrl": "https://music.apple.com/us/album/f-k-it-feat-jackboy/1512936421?i=1512936613&uo=4"
+      },
+      {
+        "trackId": 400732872,
+        "artistName": "Celly Cel",
+        "trackName": "How to Catch a Bitch (feat. E-40, Mugzi & T-Pup)",
+        "collectionName": "Heat 4 Yo Azz",
+        "releaseDate": "1995-09-27T12:00:00Z",
+        "primaryGenreName": "Hip-Hop/Rap",
+        "trackTimeMillis": 261000,
+        "trackViewUrl": "https://music.apple.com/us/album/how-to-catch-a-bitch-feat-e-40-mugzi-t-pup/400732860?i=400732872&uo=4"
+      },
+      {
+        "trackId": 308126139,
+        "artistName": "Celly Cel",
+        "trackName": "How to Catch a Bitch (feat. E-40, Mugzi & T-Pup)",
+        "collectionName": "The Best of Celly Cel",
+        "releaseDate": "1994-09-27T12:00:00Z",
+        "primaryGenreName": "Hip-Hop/Rap",
+        "trackTimeMillis": 260400,
+        "trackViewUrl": "https://music.apple.com/us/album/how-to-catch-a-bitch-feat-e-40-mugzi-t-pup/308126068?i=308126139&uo=4"
+      },
+      {
+        "trackId": 1442869475,
+        "artistName": "Nicki Minaj",
+        "trackName": "Press Conference (feat. Charlemagne & Safaree \"SB\" Samuels)",
+        "collectionName": "Pink Friday ... Roman Reloaded (Deluxe Edition)",
+        "releaseDate": "2012-04-02T12:00:00Z",
+        "primaryGenreName": "Hip-Hop/Rap",
+        "trackTimeMillis": 1263259,
+        "trackViewUrl": "https://music.apple.com/us/album/press-conference-feat-charlemagne-safaree-sb-samuels/1442868208?i=1442869475&uo=4"
+      },
+      {
+        "trackId": 1440812525,
+        "artistName": "Nicki Minaj",
+        "trackName": "Press Conference (feat. Charlemagne & Safaree \"SB\" Samuels)",
+        "collectionName": "Pink Friday ... Roman Reloaded (Deluxe Edition)",
+        "releaseDate": "2012-04-02T12:00:00Z",
+        "primaryGenreName": "Hip-Hop/Rap",
+        "trackTimeMillis": 1263853,
+        "trackViewUrl": "https://music.apple.com/us/album/press-conference-feat-charlemagne-safaree-sb-samuels/1440810774?i=1440812525&uo=4"
+      },
+      {
+        "trackId": 1443192320,
+        "artistName": "Nicki Minaj",
+        "trackName": "Press Conference (feat. Charlemagne & Safaree \"SB\" Samuels)",
+        "collectionName": "Pink Friday ... Roman Reloaded",
+        "releaseDate": "2012-04-02T12:00:00Z",
+        "primaryGenreName": "Hip-Hop/Rap",
+        "trackTimeMillis": 1263853,
+        "trackViewUrl": "https://music.apple.com/us/album/press-conference-feat-charlemagne-safaree-sb-samuels/1443190809?i=1443192320&uo=4"
+      },
+      {
+        "trackId": 1443138978,
+        "artistName": "Nicki Minaj",
+        "trackName": "Press Conference (feat. Charlemagne & Safaree “SB” Samuels)",
+        "collectionName": "Pink Friday ... Roman Reloaded",
+        "releaseDate": "2012-04-02T12:00:00Z",
+        "primaryGenreName": "Hip-Hop/Rap",
+        "trackTimeMillis": 1263413,
+        "trackViewUrl": "https://music.apple.com/us/album/press-conference-feat-charlemagne-safaree-sb-samuels/1443138498?i=1443138978&uo=4"
+      },
+      {
+        "trackId": 1110149666,
+        "artistName": "Mayne Mannish",
+        "trackName": "Bitch Go That Way (feat. E-40)",
+        "collectionName": "Bitch Go That Way (feat. E-40) - Single",
+        "releaseDate": "2016-05-11T12:00:00Z",
+        "primaryGenreName": "West Coast Rap",
+        "trackTimeMillis": 155472,
+        "trackViewUrl": "https://music.apple.com/us/album/bitch-go-that-way-feat-e-40/1110149319?i=1110149666&uo=4"
+      }
+    ]
+  },
+  {
+    "pilot_id": "P07",
+    "query_url": "https://itunes.apple.com/search?term=Papa+Roach+Between+Angels+And+Insects&entity=song&limit=10&country=us",
+    "retrieved_at_utc": null,
+    "cache_saved_at_utc": "2026-10-01T03:59:58.817171+00:00",
+    "cache_sha256": "48f4ef3f6507f53fd63ae3273929d5f35c71e1980339b13bea9f8551aa25e8ff",
+    "note": "Search result is a candidate, not a validated cross-platform match. Legacy cache has save time only.",
+    "candidates": [
+      {
+        "trackId": 1492002098,
+        "artistName": "Papa Roach",
+        "trackName": "Between Angels and Insects",
+        "collectionName": "Infest",
+        "releaseDate": "2000-04-25T12:00:00Z",
+        "primaryGenreName": "Hard Rock",
+        "trackTimeMillis": 234493,
+        "trackViewUrl": "https://music.apple.com/us/album/between-angels-and-insects/1492001879?i=1492002098&uo=4"
+      },
+      {
+        "trackId": 1546438795,
+        "artistName": "Papa Roach",
+        "trackName": "Between Angels and Insects (Live at INFEST IN-Studio, 2020)",
+        "collectionName": "20/20",
+        "releaseDate": "2020-12-25T12:00:00Z",
+        "primaryGenreName": "Hard Rock",
+        "trackTimeMillis": 258800,
+        "trackViewUrl": "https://music.apple.com/us/album/between-angels-and-insects-live-at-infest-in-studio-2020/1546438789?i=1546438795&uo=4"
+      },
+      {
+        "trackId": 655570414,
+        "artistName": "The Backing Tracks",
+        "trackName": "Between Angels and Insects (Full Instrumental Performance with Bass)",
+        "collectionName": "Play Bass with the Music of Linkin Park, Limp Bizkit, System of a Down, P.O.D., Papa Roach & Marilyn Manson",
+        "releaseDate": "2013-04-24T12:00:00Z",
+        "primaryGenreName": "Rock",
+        "trackTimeMillis": 246893,
+        "trackViewUrl": "https://music.apple.com/us/album/between-angels-and-insects-full-instrumental/655569856?i=655570414&uo=4"
+      },
+      {
+        "trackId": 991874304,
+        "artistName": "Vitamin String Quartet",
+        "trackName": "Between Angels and Insects",
+        "collectionName": "VSQ Performs Papa Roach: Perfect Murder",
+        "releaseDate": "2006-10-10T12:00:00Z",
+        "primaryGenreName": "Rock",
+        "trackTimeMillis": 225493,
+        "trackViewUrl": "https://music.apple.com/us/album/between-angels-and-insects/991874294?i=991874304&uo=4"
+      },
+      {
+        "trackId": 1087501635,
+        "artistName": "Relaxing Piano Covers",
+        "trackName": "Between Angels and Insects",
+        "collectionName": "Tribute to Papa Roach - EP",
+        "releaseDate": "2016-02-22T12:00:00Z",
+        "primaryGenreName": "Easy Listening",
+        "trackTimeMillis": 266448,
+        "trackViewUrl": "https://music.apple.com/us/album/between-angels-and-insects/1087501559?i=1087501635&uo=4"
+      },
+      {
+        "trackId": 655570433,
+        "artistName": "The Backing Tracks",
+        "trackName": "Between Angels and Insects (Backing Tracks Only (Without Bass))",
+        "collectionName": "Play Bass with the Music of Linkin Park, Limp Bizkit, System of a Down, P.O.D., Papa Roach & Marilyn Manson",
+        "releaseDate": "2013-04-24T12:00:00Z",
+        "primaryGenreName": "Rock",
+        "trackTimeMillis": 238853,
+        "trackViewUrl": "https://music.apple.com/us/album/between-angels-and-insects-backing-tracks-only/655569856?i=655570433&uo=4"
+      },
+      {
+        "trackId": 1665755649,
+        "artistName": "Day/Four",
+        "trackName": "Between Angels and Insects (Papa Roach Cover)",
+        "collectionName": "Recycled Heart",
+        "releaseDate": "2023-03-17T12:00:00Z",
+        "primaryGenreName": "Metal",
+        "trackTimeMillis": 239872,
+        "trackViewUrl": "https://music.apple.com/us/album/between-angels-and-insects-papa-roach-cover/1665755636?i=1665755649&uo=4"
+      },
+      {
+        "trackId": 948612714,
+        "artistName": "MIDIFine Systems",
+        "trackName": "Between Angels and Insects(Originally Performed By Papa Roach) [Karaoke Version]",
+        "collectionName": "Best for Musicians No. 936 (Karaoke Version)",
+        "releaseDate": "2014-12-04T12:00:00Z",
+        "primaryGenreName": "Karaoke",
+        "trackTimeMillis": 233314,
+        "trackViewUrl": "https://music.apple.com/us/album/between-angels-and-insects-originally-performed-by/948612677?i=948612714&uo=4"
+      },
+      {
+        "trackId": 1593757540,
+        "artistName": "Party Tyme Karaoke",
+        "trackName": "Between Angels And Insects (Made Popular By Papa Roach) [Karaoke Version]",
+        "collectionName": "Party Tyme 119 (Karaoke Versions)",
+        "releaseDate": "2011-04-29T12:00:00Z",
+        "primaryGenreName": "Karaoke",
+        "trackTimeMillis": 235330,
+        "trackViewUrl": "https://music.apple.com/us/album/between-angels-and-insects-made-popular-by-papa-roach/1593756675?i=1593757540&uo=4"
+      },
+      {
+        "trackId": 1514334844,
+        "artistName": "Pop Music Workshop",
+        "trackName": "Between Angels and Insects (Karaoke Version Originally Performed by Papa Roach)",
+        "collectionName": "Pro Backing Tracks P, Vol.1",
+        "releaseDate": "2020-01-04T12:00:00Z",
+        "primaryGenreName": "Karaoke",
+        "trackTimeMillis": 224676,
+        "trackViewUrl": "https://music.apple.com/us/album/between-angels-and-insects-karaoke-version-originally/1514334448?i=1514334844&uo=4"
+      }
+    ]
+  },
+  {
+    "pilot_id": "P08",
+    "query_url": "https://itunes.apple.com/search?term=Soundgarden+The+Day+I+Tried+To+Live&entity=song&limit=10&country=us",
+    "retrieved_at_utc": null,
+    "cache_saved_at_utc": "2026-10-01T03:59:58.745672+00:00",
+    "cache_sha256": "0b699419de820e8343dbfd389174df389affdecaf20335b1a10ae75bffc848cf",
+    "note": "Search result is a candidate, not a validated cross-platform match. Legacy cache has save time only.",
+    "candidates": [
+      {
+        "trackId": 1440811892,
+        "artistName": "Soundgarden",
+        "trackName": "The Day I Tried to Live",
+        "collectionName": "Superunknown (20th Anniversary)",
+        "releaseDate": "1994-03-08T12:00:00Z",
+        "primaryGenreName": "Hard Rock",
+        "trackTimeMillis": 320107,
+        "trackViewUrl": "https://music.apple.com/us/album/the-day-i-tried-to-live/1440811129?i=1440811892&uo=4"
+      },
+      {
+        "trackId": 1440855736,
+        "artistName": "Soundgarden",
+        "trackName": "The Day I Tried to Live (Alternate Mix)",
+        "collectionName": "Superunknown (Deluxe Edition)",
+        "releaseDate": "2014-06-03T12:00:00Z",
+        "primaryGenreName": "Hard Rock",
+        "trackTimeMillis": 326627,
+        "trackViewUrl": "https://music.apple.com/us/album/the-day-i-tried-to-live-alternate-mix/1440855214?i=1440855736&uo=4"
+      },
+      {
+        "trackId": 1440830328,
+        "artistName": "Soundgarden",
+        "trackName": "The Day I Tried to Live (Rehearsal Version)",
+        "collectionName": "Superunknown (Super Deluxe Edition)",
+        "releaseDate": "2014-06-03T12:00:00Z",
+        "primaryGenreName": "Hard Rock",
+        "trackTimeMillis": 363213,
+        "trackViewUrl": "https://music.apple.com/us/album/the-day-i-tried-to-live-rehearsal-version/1440826360?i=1440830328&uo=4"
+      },
+      {
+        "trackId": 1598988623,
+        "artistName": "Sevendust",
+        "trackName": "The Day I Tried To Live",
+        "collectionName": "Blood & Stone (Deluxe)",
+        "releaseDate": "2020-06-26T12:00:00Z",
+        "primaryGenreName": "Rock",
+        "trackTimeMillis": 295967,
+        "trackViewUrl": "https://music.apple.com/us/album/the-day-i-tried-to-live/1598988610?i=1598988623&uo=4"
+      },
+      {
+        "trackId": 1440855441,
+        "artistName": "Soundgarden",
+        "trackName": "The Day I Tried to Live",
+        "collectionName": "Superunknown (Deluxe Edition)",
+        "releaseDate": "1994-03-08T12:00:00Z",
+        "primaryGenreName": "Hard Rock",
+        "trackTimeMillis": 320107,
+        "trackViewUrl": "https://music.apple.com/us/album/the-day-i-tried-to-live/1440855214?i=1440855441&uo=4"
+      },
+      {
+        "trackId": 1440827355,
+        "artistName": "Soundgarden",
+        "trackName": "The Day I Tried to Live",
+        "collectionName": "Superunknown (Super Deluxe Edition)",
+        "releaseDate": "1994-03-08T12:00:00Z",
+        "primaryGenreName": "Hard Rock",
+        "trackTimeMillis": 320107,
+        "trackViewUrl": "https://music.apple.com/us/album/the-day-i-tried-to-live/1440826360?i=1440827355&uo=4"
+      },
+      {
+        "trackId": 1440855567,
+        "artistName": "Soundgarden",
+        "trackName": "The Day I Tried to Live (Rehearsal Version)",
+        "collectionName": "Superunknown (Deluxe Edition)",
+        "releaseDate": "2014-06-03T12:00:00Z",
+        "primaryGenreName": "Hard Rock",
+        "trackTimeMillis": 363213,
+        "trackViewUrl": "https://music.apple.com/us/album/the-day-i-tried-to-live-rehearsal-version/1440855214?i=1440855567&uo=4"
+      },
+      {
+        "trackId": 1440827763,
+        "artistName": "Soundgarden",
+        "trackName": "The Day I Tried to Live (Alternate Mix)",
+        "collectionName": "Superunknown (Super Deluxe Edition)",
+        "releaseDate": "2014-06-03T12:00:00Z",
+        "primaryGenreName": "Hard Rock",
+        "trackTimeMillis": 326613,
+        "trackViewUrl": "https://music.apple.com/us/album/the-day-i-tried-to-live-alternate-mix/1440826360?i=1440827763&uo=4"
+      },
+      {
+        "trackId": 1443211413,
+        "artistName": "Soundgarden",
+        "trackName": "The Day I Tried to Live",
+        "collectionName": "A-Sides",
+        "releaseDate": "1994-01-01T12:00:00Z",
+        "primaryGenreName": "Hard Rock",
+        "trackTimeMillis": 319467,
+        "trackViewUrl": "https://music.apple.com/us/album/the-day-i-tried-to-live/1443210826?i=1443211413&uo=4"
+      },
+      {
+        "trackId": 1827317038,
+        "artistName": "King Ultramega",
+        "trackName": "The Day I Tried To Live (feat. Kim Thayil & Alissa White-Gluz)",
+        "collectionName": "The Day I Tried To Live (feat. Kim Thayil & Alissa White-Gluz) - Single",
+        "releaseDate": "2025-11-07T12:00:00Z",
+        "primaryGenreName": "Alternative",
+        "trackTimeMillis": 323294,
+        "trackViewUrl": "https://music.apple.com/us/album/the-day-i-tried-to-live-feat-kim-thayil-alissa-white-gluz/1827317028?i=1827317038&uo=4"
+      }
+    ]
+  },
+  {
+    "pilot_id": "P09",
+    "query_url": "https://itunes.apple.com/search?term=Novo+Amor+Anchor&entity=song&limit=10&country=us",
+    "retrieved_at_utc": null,
+    "cache_saved_at_utc": "2026-10-01T04:00:04.164134+00:00",
+    "cache_sha256": "984f195418d1be207e8d3eecf7949bf2c656a6acff6fc34c4f1b4b5b80aca9f6",
+    "note": "Search result is a candidate, not a validated cross-platform match. Legacy cache has save time only.",
+    "candidates": [
+      {
+        "trackId": 1672227410,
+        "artistName": "Novo Amor",
+        "trackName": "Anchor",
+        "collectionName": "Bathing Beach - EP",
+        "releaseDate": "2017-04-06T12:00:00Z",
+        "primaryGenreName": "Alternative",
+        "trackTimeMillis": 257533,
+        "trackViewUrl": "https://music.apple.com/us/album/anchor/1672226910?i=1672227410&uo=4"
+      },
+      {
+        "trackId": 1672227196,
+        "artistName": "Novo Amor",
+        "trackName": "Carry You",
+        "collectionName": "Bathing Beach - EP",
+        "releaseDate": "2017-05-26T12:00:00Z",
+        "primaryGenreName": "Alternative",
+        "trackTimeMillis": 273107,
+        "trackViewUrl": "https://music.apple.com/us/album/carry-you/1672226910?i=1672227196&uo=4"
+      },
+      {
+        "trackId": 1672228355,
+        "artistName": "Novo Amor",
+        "trackName": "State Lines",
+        "collectionName": "Birthplace",
+        "releaseDate": "2018-04-18T12:00:00Z",
+        "primaryGenreName": "Alternative",
+        "trackTimeMillis": 208653,
+        "trackViewUrl": "https://music.apple.com/us/album/state-lines/1672227185?i=1672228355&uo=4"
+      },
+      {
+        "trackId": 1817596550,
+        "artistName": "Novo Amor",
+        "trackName": "Anchor (Sped Up Version)",
+        "collectionName": "Anchor - Single",
+        "releaseDate": "2015-10-23T12:00:00Z",
+        "primaryGenreName": "Alternative",
+        "trackTimeMillis": 216559,
+        "trackViewUrl": "https://music.apple.com/us/album/anchor-sped-up-version/1817596543?i=1817596550&uo=4"
+      },
+      {
+        "trackId": 1672228915,
+        "artistName": "Novo Amor",
+        "trackName": "Repeat Until Death",
+        "collectionName": "Birthplace",
+        "releaseDate": "2018-10-19T12:00:00Z",
+        "primaryGenreName": "Alternative",
+        "trackTimeMillis": 234080,
+        "trackViewUrl": "https://music.apple.com/us/album/repeat-until-death/1672227185?i=1672228915&uo=4"
+      },
+      {
+        "trackId": 1817596547,
+        "artistName": "Novo Amor",
+        "trackName": "Anchor (Instrumental)",
+        "collectionName": "Anchor - Single",
+        "releaseDate": "2015-10-23T12:00:00Z",
+        "primaryGenreName": "Alternative",
+        "trackTimeMillis": 254500,
+        "trackViewUrl": "https://music.apple.com/us/album/anchor-instrumental/1817596543?i=1817596547&uo=4"
+      },
+      {
+        "trackId": 1817596544,
+        "artistName": "Novo Amor",
+        "trackName": "Anchor",
+        "collectionName": "Anchor - Single",
+        "releaseDate": "2017-04-06T12:00:00Z",
+        "primaryGenreName": "Alternative",
+        "trackTimeMillis": 257533,
+        "trackViewUrl": "https://music.apple.com/us/album/anchor/1817596543?i=1817596544&uo=4"
+      },
+      {
+        "trackId": 1628624010,
+        "artistName": "thepianokid",
+        "trackName": "Anchor (Piano Version)",
+        "collectionName": "Piano Covers Tribute to Novo Amor",
+        "releaseDate": "2022-06-08T12:00:00Z",
+        "primaryGenreName": "Instrumental",
+        "trackTimeMillis": 267062,
+        "trackViewUrl": "https://music.apple.com/us/album/anchor-piano-version/1628624009?i=1628624010&uo=4"
+      },
+      {
+        "trackId": 1879069235,
+        "artistName": "Chris Richter",
+        "trackName": "Anchor (Novo Amor cover)",
+        "collectionName": "Indie Wedding Songs: 10 Love Songs Arranged for Classical Guitar",
+        "releaseDate": "2026-03-15T12:00:00Z",
+        "primaryGenreName": "Folk",
+        "trackTimeMillis": 222215,
+        "trackViewUrl": "https://music.apple.com/us/album/anchor-novo-amor-cover/1879069195?i=1879069235&uo=4"
+      },
+      {
+        "trackId": 263516020,
+        "artistName": "Maria Rita",
+        "trackName": "Novo Amor",
+        "collectionName": "Samba Meu",
+        "releaseDate": "2007-09-01T07:00:00Z",
+        "primaryGenreName": "MPB",
+        "trackTimeMillis": 175693,
+        "trackViewUrl": "https://music.apple.com/us/album/novo-amor/263514375?i=263516020&uo=4"
+      }
+    ]
+  },
+  {
+    "pilot_id": "P10",
+    "query_url": "https://itunes.apple.com/search?term=Darshan+Raval+Tera+Zikr&entity=song&limit=10&country=us",
+    "retrieved_at_utc": null,
+    "cache_saved_at_utc": "2026-10-01T04:00:04.093901+00:00",
+    "cache_sha256": "cc16d60b3983f32e728844c47e7005d4f6b83737242de531d3d92af0d49dd029",
+    "note": "Search result is a candidate, not a validated cross-platform match. Legacy cache has save time only.",
+    "candidates": [
+      {
+        "trackId": 1309545690,
+        "artistName": "Darshan Raval",
+        "trackName": "Tera Zikr",
+        "collectionName": "Tera Zikr - Single",
+        "releaseDate": "2017-11-10T08:00:00Z",
+        "primaryGenreName": "Pop",
+        "trackTimeMillis": 208500,
+        "trackViewUrl": "https://music.apple.com/us/album/tera-zikr/1309545682?i=1309545690&uo=4"
+      },
+      {
+        "trackId": 1313704156,
+        "artistName": "Darshan Raval",
+        "trackName": "Tera Zikr (Reprise)",
+        "collectionName": "Tera Zikr (Reprise) - Single",
+        "releaseDate": "2017-11-16T12:00:00Z",
+        "primaryGenreName": "Pop",
+        "trackTimeMillis": 208563,
+        "trackViewUrl": "https://music.apple.com/us/album/tera-zikr-reprise/1313703934?i=1313704156&uo=4"
+      },
+      {
+        "trackId": 1327799441,
+        "artistName": "Darshan Raval",
+        "trackName": "Tera Zikr (Denny Remix)",
+        "collectionName": "Tera Zikr (Denny Remix) - Single",
+        "releaseDate": "2017-12-20T12:00:00Z",
+        "primaryGenreName": "Pop",
+        "trackTimeMillis": 192019,
+        "trackViewUrl": "https://music.apple.com/us/album/tera-zikr-denny-remix/1327799122?i=1327799441&uo=4"
+      },
+      {
+        "trackId": 1327211049,
+        "artistName": "Darshan Raval",
+        "trackName": "Tera Zikr",
+        "collectionName": "Best Of 2017",
+        "releaseDate": "2017-11-10T12:00:00Z",
+        "primaryGenreName": "Punjabi Pop",
+        "trackTimeMillis": 208500,
+        "trackViewUrl": "https://music.apple.com/us/album/tera-zikr/1327211037?i=1327211049&uo=4"
+      },
+      {
+        "trackId": 1589904804,
+        "artistName": "Jay Kava & Darshan Raval",
+        "trackName": "Tera Zikr (Lofi Flip)",
+        "collectionName": "Tera Zikr (Lofi Flip) - Single",
+        "releaseDate": "2021-10-29T12:00:00Z",
+        "primaryGenreName": "Indian Pop",
+        "trackTimeMillis": 182391,
+        "trackViewUrl": "https://music.apple.com/us/album/tera-zikr-lofi-flip/1589904796?i=1589904804&uo=4"
+      },
+      {
+        "trackId": 1690127658,
+        "artistName": "Darshan Raval",
+        "trackName": "Tera Zikr",
+        "collectionName": "Hits Of Darshan Raval (Blue Family)",
+        "releaseDate": "2017-11-10T12:00:00Z",
+        "primaryGenreName": "Pop",
+        "trackTimeMillis": 208500,
+        "trackViewUrl": "https://music.apple.com/us/album/tera-zikr/1690127382?i=1690127658&uo=4"
+      },
+      {
+        "trackId": 1672211623,
+        "artistName": "Silent Ocean, Mohit Jain & Darshan Raval",
+        "trackName": "Tera Zikr (Lofi Flip)",
+        "collectionName": "Tera Zikr (Lofi Flip) - Single",
+        "releaseDate": "2023-03-31T12:00:00Z",
+        "primaryGenreName": "Bollywood",
+        "trackTimeMillis": 184007,
+        "trackViewUrl": "https://music.apple.com/us/album/tera-zikr-lofi-flip/1672211621?i=1672211623&uo=4"
+      },
+      {
+        "trackId": 1690127670,
+        "artistName": "Silent Ocean, Mohit Jain & Darshan Raval",
+        "trackName": "Tera Zikr (Lofi Flip)",
+        "collectionName": "Hits Of Darshan Raval (Blue Family)",
+        "releaseDate": "2023-03-31T12:00:00Z",
+        "primaryGenreName": "Bollywood",
+        "trackTimeMillis": 184007,
+        "trackViewUrl": "https://music.apple.com/us/album/tera-zikr-lofi-flip/1690127382?i=1690127670&uo=4"
+      },
+      {
+        "trackId": 1594415170,
+        "artistName": "Darshan Raval",
+        "trackName": "Tera Zikr (Rap Version)",
+        "collectionName": "Tera Zikr (Rap Version) - Single",
+        "releaseDate": "2021-10-15T12:00:00Z",
+        "primaryGenreName": "Indian Pop",
+        "trackTimeMillis": 194377,
+        "trackViewUrl": "https://music.apple.com/us/album/tera-zikr-rap-version/1594415169?i=1594415170&uo=4"
+      },
+      {
+        "trackId": 1754301186,
+        "artistName": "Darshan Raval",
+        "trackName": "Tera Zikr",
+        "collectionName": "Feeling 2AM Vibes",
+        "releaseDate": "2017-11-10T12:00:00Z",
+        "primaryGenreName": "Pop",
+        "trackTimeMillis": 208500,
+        "trackViewUrl": "https://music.apple.com/us/album/tera-zikr/1754300904?i=1754301186&uo=4"
+      }
+    ]
+  },
+  {
+    "pilot_id": "P11",
+    "query_url": "https://itunes.apple.com/search?term=AC%2FDC+Hells+Bells&entity=song&limit=10&country=us",
+    "retrieved_at_utc": null,
+    "cache_saved_at_utc": "2026-10-01T04:00:09.589154+00:00",
+    "cache_sha256": "8f85f6c75a656051139059c18732a30fdf8770294aa5a90cfe75161e073488df",
+    "note": "Search result is a candidate, not a validated cross-platform match. Legacy cache has save time only.",
+    "candidates": [
+      {
+        "trackId": 574050495,
+        "artistName": "AC/DC",
+        "trackName": "Hells Bells",
+        "collectionName": "Back In Black",
+        "releaseDate": "1980-07-25T07:00:00Z",
+        "primaryGenreName": "Hard Rock",
+        "trackTimeMillis": 312815,
+        "trackViewUrl": "https://music.apple.com/us/album/hells-bells/574050396?i=574050495&uo=4"
+      },
+      {
+        "trackId": 575998090,
+        "artistName": "AC/DC",
+        "trackName": "Hells Bells (Live)",
+        "collectionName": "Live (Collector's Edition)",
+        "releaseDate": "1992-10-27T08:00:00Z",
+        "primaryGenreName": "Hard Rock",
+        "trackTimeMillis": 361289,
+        "trackViewUrl": "https://music.apple.com/us/album/hells-bells-live/575997666?i=575998090&uo=4"
+      },
+      {
+        "trackId": 575992320,
+        "artistName": "AC/DC",
+        "trackName": "Hells Bells (Live)",
+        "collectionName": "Live",
+        "releaseDate": "1992-10-27T08:00:00Z",
+        "primaryGenreName": "Hard Rock",
+        "trackTimeMillis": 361106,
+        "trackViewUrl": "https://music.apple.com/us/album/hells-bells-live/575992075?i=575992320&uo=4"
+      },
+      {
+        "trackId": 575663807,
+        "artistName": "AC/DC",
+        "trackName": "Hells Bells (Live)",
+        "collectionName": "Live at River Plate",
+        "releaseDate": "2012-11-19T08:00:00Z",
+        "primaryGenreName": "Hard Rock",
+        "trackTimeMillis": 337810,
+        "trackViewUrl": "https://music.apple.com/us/album/hells-bells-live/575663793?i=575663807&uo=4"
+      },
+      {
+        "trackId": 576003073,
+        "artistName": "AC/DC",
+        "trackName": "Hells Bells",
+        "collectionName": "Bonfire",
+        "releaseDate": "1980-07-25T07:00:00Z",
+        "primaryGenreName": "Hard Rock",
+        "trackTimeMillis": 312815,
+        "trackViewUrl": "https://music.apple.com/us/album/hells-bells/576002403?i=576003073&uo=4"
+      },
+      {
+        "trackId": 576003932,
+        "artistName": "AC/DC",
+        "trackName": "Hells Bells (Live Donington Park, Aug. 17, 1991)",
+        "collectionName": "Backtracks (Deluxe Edition)",
+        "releaseDate": "2009-11-06T12:00:00Z",
+        "primaryGenreName": "Hard Rock",
+        "trackTimeMillis": 353148,
+        "trackViewUrl": "https://music.apple.com/us/album/hells-bells-live-donington-park-aug-17-1991/576003045?i=576003932&uo=4"
+      },
+      {
+        "trackId": 575989571,
+        "artistName": "AC/DC",
+        "trackName": "Hells Bells",
+        "collectionName": "Who Made Who",
+        "releaseDate": "1980-07-25T07:00:00Z",
+        "primaryGenreName": "Hard Rock",
+        "trackTimeMillis": 313429,
+        "trackViewUrl": "https://music.apple.com/us/album/hells-bells/575988907?i=575989571&uo=4"
+      },
+      {
+        "trackId": 935464535,
+        "artistName": "Down Under Devils",
+        "trackName": "Hells Bells",
+        "collectionName": "All the Hits, Vol. 2: Greatest Tribute to AC/DC",
+        "releaseDate": "2009-02-08T12:00:00Z",
+        "primaryGenreName": "Rock",
+        "trackTimeMillis": 312008,
+        "trackViewUrl": "https://music.apple.com/us/album/hells-bells/935464511?i=935464535&uo=4"
+      },
+      {
+        "trackId": 983429113,
+        "artistName": "Rockabye Baby!",
+        "trackName": "Hells Bells",
+        "collectionName": "Lullaby Renditions of AC/DC",
+        "releaseDate": "2008-03-04T12:00:00Z",
+        "primaryGenreName": "Lullabies",
+        "trackTimeMillis": 208493,
+        "trackViewUrl": "https://music.apple.com/us/album/hells-bells/983429012?i=983429113&uo=4"
+      },
+      {
+        "trackId": 1456013190,
+        "artistName": "Lullaby Baby Trio",
+        "trackName": "Hells Bells",
+        "collectionName": "Lullaby Renditions of AC/DC",
+        "releaseDate": "2019-02-26T12:00:00Z",
+        "primaryGenreName": "Children's Music",
+        "trackTimeMillis": 316160,
+        "trackViewUrl": "https://music.apple.com/us/album/hells-bells/1456012693?i=1456013190&uo=4"
+      }
+    ]
+  },
+  {
+    "pilot_id": "P12",
+    "query_url": "https://itunes.apple.com/search?term=Imagine+Dragons+Radioactive&entity=song&limit=10&country=us",
+    "retrieved_at_utc": null,
+    "cache_saved_at_utc": "2026-10-01T04:00:09.720688+00:00",
+    "cache_sha256": "b593717380a66ad1d2331b88498760435f9c110cf1633669614b0df1aa293b64",
+    "note": "Search result is a candidate, not a validated cross-platform match. Legacy cache has save time only.",
+    "candidates": [
+      {
+        "trackId": 1440873126,
+        "artistName": "Imagine Dragons",
+        "trackName": "Radioactive",
+        "collectionName": "Night Visions",
+        "releaseDate": "2012-09-04T07:00:00Z",
+        "primaryGenreName": "Alternative",
+        "trackTimeMillis": 186813,
+        "trackViewUrl": "https://music.apple.com/us/album/radioactive/1440873107?i=1440873126&uo=4"
+      },
+      {
+        "trackId": 1440819928,
+        "artistName": "Imagine Dragons",
+        "trackName": "Radioactive (iTunes Session)",
+        "collectionName": "iTunes Session - EP",
+        "releaseDate": "2013-05-28T07:00:00Z",
+        "primaryGenreName": "Alternative",
+        "trackTimeMillis": 261973,
+        "trackViewUrl": "https://music.apple.com/us/album/radioactive-itunes-session/1440819698?i=1440819928&uo=4"
+      },
+      {
+        "trackId": 1698582846,
+        "artistName": "Imagine Dragons",
+        "trackName": "Radioactive (Live in Vegas)",
+        "collectionName": "Imagine Dragons Live in Vegas",
+        "releaseDate": "2023-07-28T12:00:00Z",
+        "primaryGenreName": "Alternative",
+        "trackTimeMillis": 327896,
+        "trackViewUrl": "https://music.apple.com/us/album/radioactive-live-in-vegas/1698581714?i=1698582846&uo=4"
+      },
+      {
+        "trackId": 1445311374,
+        "artistName": "Imagine Dragons",
+        "trackName": "Radioactive (feat. Kendrick Lamar)",
+        "collectionName": "Radioactive (feat. Kendrick Lamar) - Single",
+        "releaseDate": "2014-01-27T08:00:00Z",
+        "primaryGenreName": "Alternative",
+        "trackTimeMillis": 276040,
+        "trackViewUrl": "https://music.apple.com/us/album/radioactive-feat-kendrick-lamar/1445311373?i=1445311374&uo=4"
+      },
+      {
+        "trackId": 1641822995,
+        "artistName": "Imagine Dragons",
+        "trackName": "Radioactive (Live From Red Rocks / 2014)",
+        "collectionName": "Night Visions (Expanded Edition) [Super Deluxe]",
+        "releaseDate": "2012-09-04T12:00:00Z",
+        "primaryGenreName": "Alternative",
+        "trackTimeMillis": 403693,
+        "trackViewUrl": "https://music.apple.com/us/album/radioactive-live-from-red-rocks-2014/1641821680?i=1641822995&uo=4"
+      },
+      {
+        "trackId": 1445011671,
+        "artistName": "Imagine Dragons",
+        "trackName": "Radioactive",
+        "collectionName": "Continued Silence - EP",
+        "releaseDate": "2012-01-01T12:00:00Z",
+        "primaryGenreName": "Alternative",
+        "trackTimeMillis": 187987,
+        "trackViewUrl": "https://music.apple.com/us/album/radioactive/1445011665?i=1445011671&uo=4"
+      },
+      {
+        "trackId": 1641822071,
+        "artistName": "Imagine Dragons",
+        "trackName": "Radioactive",
+        "collectionName": "Night Visions (Expanded Edition) [Super Deluxe]",
+        "releaseDate": "2012-01-01T12:00:00Z",
+        "primaryGenreName": "Pop",
+        "trackTimeMillis": 186813,
+        "trackViewUrl": "https://music.apple.com/us/album/radioactive/1641821680?i=1641822071&uo=4"
+      },
+      {
+        "trackId": 1445278915,
+        "artistName": "Imagine Dragons",
+        "trackName": "Radioactive (Grouplove & Captain Cuts Remix)",
+        "collectionName": "Radioactive (Grouplove & Captain Cuts Remix) - Single",
+        "releaseDate": "2012-09-04T12:00:00Z",
+        "primaryGenreName": "Alternative",
+        "trackTimeMillis": 241613,
+        "trackViewUrl": "https://music.apple.com/us/album/radioactive-grouplove-captain-cuts-remix/1445278913?i=1445278915&uo=4"
+      },
+      {
+        "trackId": 904500508,
+        "artistName": "Imagine Dragons",
+        "trackName": "Radioactive",
+        "collectionName": "The Host (Original Motion Picture Soundtrack)",
+        "releaseDate": "2012-02-14T08:00:00Z",
+        "primaryGenreName": "Soundtrack",
+        "trackTimeMillis": 188187,
+        "trackViewUrl": "https://music.apple.com/us/album/radioactive/904500326?i=904500508&uo=4"
+      },
+      {
+        "trackId": 1440855760,
+        "artistName": "Imagine Dragons",
+        "trackName": "Radioactive",
+        "collectionName": "Night Visions (Deluxe Version)",
+        "releaseDate": "2012-01-01T12:00:00Z",
+        "primaryGenreName": "Alternative",
+        "trackTimeMillis": 186813,
+        "trackViewUrl": "https://music.apple.com/us/album/radioactive/1440855747?i=1440855760&uo=4"
+      }
+    ]
+  }
+]
