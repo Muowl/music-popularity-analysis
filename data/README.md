@@ -28,3 +28,7 @@ Campos desconhecidos ficam vazios, nunca preenchidos com zero por conveniência.
 [Manifesto de fontes](source-manifest.json): URLs, versões, datas declaradas, tamanhos, SHA-256 e rótulos de licença consultados para os dois snapshots. Download verificável: `python scripts/download_pilot_sources.py`. Os CSVs ficam em `data/raw/` e não são versionados.
 
 A fonte pareada tem audiência histórica e não contém data/hora de observação por linha. Antes de importar qualquer candidato, o esquema deverá distinguir data declarada, precisão temporal e data de obtenção. Não fabricar um instante UTC para satisfazer o validador. O cadastro principal permanece vazio; o [relatório](../docs/relatorio-piloto-fontes.md) contém apenas auditoria das fontes.
+
+## Seleção de acesso a metadados
+
+`pilot/metadata-candidates.json` contém os 12 casos congelados para testar o enriquecimento, não inclusões na amostra principal. `metadata-observations.json` preserva fatos extraídos das páginas exatas; `catalogue-search.json` contém candidatos suplementares de catálogo, não correspondências aprovadas. `metadata-review.json` registra a revisão por caso e o resultado do critério de avanço. Descrições e HTML completos ficam apenas no cache local em `raw/`.

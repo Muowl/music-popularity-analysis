@@ -2,7 +2,7 @@
 
 Pesquisa exploratória para o workshop do DCC/UFJF, vinculada à linha de pesquisa do TCC de Sistemas de Informação de Felipe Lazzarini Cunha.
 
-**Estado: linha exploratória e descritiva aceita pelo orientador, conforme relato do autor. Piloto iniciado: auditoria de duas fontes e cruzamento por ID executados. Há resultados de viabilidade; ainda não há amostra aprovada nem resultados musicais. Gênero, datas e validação das gravações permanecem pendentes.**
+**Estado: linha exploratória e descritiva aceita pelo orientador, conforme relato do autor. Piloto em execução: auditoria de fontes e enriquecimento de 12 casos concluídos. Datas recuperadas, mas a validação de versões e a interpretação de gênero/data ainda não atingiram o critério de avanço. Não há amostra principal aprovada nem resultados musicais.**
 
 ## Motivação, problema e objetivo
 
@@ -20,9 +20,11 @@ A relação com recomendação baseada em conteúdo é motivação: o estudo exa
 
 A [página exploratória anterior](https://muowl.dev/spotify-dataset-explorer/hits-mundiais.html) é um ponto de partida, não a amostra definitiva. Seus recortes de alcance global, metal e repertório clássico têm critérios distintos. Nenhum deles foi automaticamente importado ou aprovado para o workshop.
 
-## Primeiro resultado do piloto
+## Resultados do piloto
 
 A [auditoria das fontes](docs/relatorio-piloto-fontes.md) encontrou cobertura desigual no cruzamento e ausência de datas de lançamento/publicação. A recomendação é investigar a base já pareada Spotify–YouTube e a viabilidade de enriquecimento documental antes de fixar o recorte. As contagens de audiência disponíveis são históricas, declaradas como coletadas em fevereiro de 2023.
+
+A [segunda etapa, com 12 casos congelados](docs/relatorio-piloto-metadados.md), recuperou datas dos 12 vídeos e das 12 páginas Spotify e encontrou candidatos a gênero para 11 casos. Só dois pares tiveram vínculo documental explícito ao álbum; nove permanecem incertos e um tem conflito de versão. A recomendação é curadoria manual com um recorte único, sem importar automaticamente os pareamentos.
 
 ## Por onde começar
 
