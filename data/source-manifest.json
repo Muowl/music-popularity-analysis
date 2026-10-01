@@ -1,0 +1,39 @@
+{
+  "audit_run_utc": "2026-10-01T02:55:42.442682+00:00",
+  "stage": "source feasibility; no approved study sample",
+  "sources": [
+    {
+      "name": "Spotify Tracks Dataset",
+      "publisher": "Maharshi Pandya",
+      "landing_url": "https://huggingface.co/datasets/maharshipandya/spotify-tracks-dataset",
+      "download_url": "https://huggingface.co/datasets/maharshipandya/spotify-tracks-dataset/resolve/635b034f69257814eff850a5c2b3346fe458134f/dataset.csv",
+      "local_path": "data/raw/spotify_tracks.csv",
+      "sha256": "b202fa49909b2d5cef71a04b1d21243cfeb36414535f2ca9272aa646721177bd",
+      "bytes": 20118244,
+      "revision": "635b034f69257814eff850a5c2b3346fe458134f",
+      "license_label": "bsd",
+      "license_scope_note": "Publisher metadata label; no separate license file listed. Raw dataset not redistributed.",
+      "metadata_url": "https://huggingface.co/api/datasets/maharshipandya/spotify-tracks-dataset",
+      "collection_date": null
+    },
+    {
+      "name": "Spotify and Youtube",
+      "publisher": "Salvatore Rastelli",
+      "landing_url": "https://www.kaggle.com/datasets/salvatorerastelli/spotify-and-youtube",
+      "download_url": "https://www.kaggle.com/api/v1/datasets/download/salvatorerastelli/spotify-and-youtube",
+      "archive_member": "Spotify_Youtube.csv",
+      "local_path": "data/raw/spotify_youtube.csv",
+      "sha256": "a08bda951ec1c62a2fbaeb5547141ba23dd7b16347f0e83bd043b1ba9cf168cd",
+      "bytes": 30782016,
+      "version": 2,
+      "last_updated": "2023-03-20T15:43:25.91Z",
+      "license_label": "CC0: Public Domain",
+      "license_scope_note": "Label declared by publisher; not a validation of upstream platform rights. Raw dataset not redistributed.",
+      "collection_date_declared": "2023-02-07",
+      "per_row_collection_timestamp": false,
+      "selection_description": "Top 10 songs of various Spotify artists, according to publisher subtitle; artist sampling and video matching not independently validated.",
+      "metadata_url": "https://www.kaggle.com/api/v1/datasets/view/salvatorerastelli/spotify-and-youtube",
+      "license_metadata_url": "https://www.kaggle.com/api/v1/datasets/list?search=spotify%20and%20youtube"
+    }
+  ]
+}
