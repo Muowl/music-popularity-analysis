@@ -44,3 +44,7 @@ Persistem formato desconhecido em 12 vídeos, ausência de ajuste estatístico p
 ## Verificação desta revisão
 
 Treze testes passaram; cadastro com 20 candidatos, 17 inclusões, zero erros e zero avisos. As seis células de código do caderno 03 foram executadas, incluindo validação da cadeia de hashes, estatísticas, sensibilidade e idades. O resumo principal preserva integralmente estatísticas musicais e fluxo da versão revisada. Lock, evidência original de escuta e `settings.sty` permanecem byte a byte idênticos. PDF recompilado com uma página e referências resolvidas, seguido de inspeção visual. A auditoria parcial publicada foi reproduzida; a seleção histórica completa continua não verificada.
+
+## Coleta posterior com um comando
+
+Para executar no computador local com retomada e pacote de evidências: `python scripts/automate_workshop_audit.py`. Ver [coleta automatizada](coleta-automatizada.md). O comando limita tentativas, salva cada observação e gera ZIP/relatório mesmo para coleta parcial. Ele não substitui o cache histórico nem altera o estudo publicado.

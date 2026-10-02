@@ -84,3 +84,7 @@ Recuperadas publicações dos 20 vídeos em páginas com IDs exatos, sem atualiz
 O cache histórico completo do catálogo não foi encontrado. A nova tentativa de coleta teve 20 páginas disponíveis e 156 falhas de acesso (`URLError`); não permite conferir a seleção integral. Publicar auditoria mínima de todos os 176 IDs com ausências explícitas e observações atuais separadas das 20 originais preservadas no lock. Não afirmar divergência de seleção com base em coleta incompleta. Novos congelamentos pelo script passarão a preservar as observações de elegibilidade completas; essa mudança não fabrica evidência para o lock existente.
 
 A dependência ABNTeX2 foi obtida de um espelho CTAN com o mesmo SHA-256 fixado. Acrescentar fallback de download com verificação de hash, preservando `settings.sty`.
+
+## Automação da verificação posterior — 2026-10-02
+
+Diante do prazo curto, disponibilizar execução local com um comando, cache por ID, verificação de hashes, tentativas limitadas e geração de pacote de evidências. A recuperação do ambiente original ficou bloqueada antes do acesso ao filesystem; não se conclui que o cache original foi perdido. A nova automação verifica o catálogo posteriormente, sem modificar seleção, curadoria, audiência ou hipóteses. Nesta implementação, testes e execução offline validaram o comportamento de coleta parcial; a nova coleta online completa ainda depende da execução local.
