@@ -10,6 +10,7 @@ from urllib.request import urlopen
 
 ROOT = Path(__file__).resolve().parents[1]
 ABNTEX_URL = "https://mirrors.ctan.org/macros/latex/contrib/abntex2.zip"
+ABNTEX_FALLBACK_URL = "https://ctan.math.illinois.edu/macros/latex/contrib/abntex2.zip"
 ABNTEX_SHA256 = "2e4931c7336456083e10748bfb9b5cba855f81899ec84ea92d35a9aa04fc7f85"
 
 
@@ -21,8 +22,18 @@ def compile_paper(root=ROOT):
     if probe.returncode != 0 or archive.exists():
         local.mkdir(parents=True, exist_ok=True)
         if not archive.exists():
-            with urlopen(ABNTEX_URL, timeout=30) as response:
-                archive.write_bytes(response.read())
+            for url in [ABNTEX_URL, ABNTEX_FALLBACK_URL]:
+                try:
+                    with urlopen(url, timeout=30) as response:
+                        payload = response.read()
+                except OSError:
+                    if url == ABNTEX_FALLBACK_URL:
+                        raise
+                    continue
+                if hashlib.sha256(payload).hexdigest() != ABNTEX_SHA256:
+                    raise ValueError("ABNTeX2 archive changed; review the dependency before compiling")
+                archive.write_bytes(payload)
+                break
         if hashlib.sha256(archive.read_bytes()).hexdigest() != ABNTEX_SHA256:
             raise ValueError("ABNTeX2 archive changed; review the dependency before compiling")
         with zipfile.ZipFile(archive) as package:
