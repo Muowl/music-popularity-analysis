@@ -46,3 +46,21 @@ Regra e seleção congeladas no commit a1e029ec45a7ff69f06ce716df82439fc58d554c 
 Datas foram recuperadas para os 12 vídeos e as 12 páginas Spotify. Foram localizados candidatos a gênero em catálogo para 11 casos, sem promoção automática a rótulo final. A revisão documentou dois vínculos explícitos ao álbum, nove correspondências incertas e um conflito de versão. O limiar prático registrado de nove casos completos, com pelo menos dois por faixa, não foi atingido. O cadastro principal permanece vazio.
 
 Decisão: manter os resultados como evidência de viabilidade parcial; não importar pareamentos automaticamente nem mudar a pergunta. Recomenda-se curadoria manual dentro de um recorte único, com datas e escopos separados. As datas de catálogo não foram aceitas como primeiro lançamento. A marca official_video da fonte não garante a identidade sonora. Critérios e casos: docs/piloto-metadados.md e docs/relatorio-piloto-metadados.md.
+
+## Requisitos da entrega informados pelo autor
+
+O autor informou nesta conversa prazo aproximado de 24 horas para montar o trabalho e extensão de uma página para o workshop. Não forneceu um horário absoluto de submissão. Esses requisitos orientam a dimensão da proposta e a organização do trabalho.
+
+A recomendação inicial é avaliar Hard Rock por um rótulo único de catálogo, com dois níveis de audiência e três descritores na apresentação compacta. Gênero, período, seleção e alteração da lista de descritores permanecem propostas descritas em [proposta-continuidade.md](proposta-continuidade.md); não foram promovidos a protocolo aprovado nem usados para selecionar uma amostra principal.
+
+## Implementação autorizada — 2026-10-02 UTC
+
+O autor autorizou prosseguir com a implementação e pediu aviso de gargalos. A proposta anterior é o histórico da recomendação; as regras executáveis passam a ser as de [workshop-protocolo.md](workshop-protocolo.md), versão 1. Isso não atribui ao orientador aprovação dos detalhes operacionais.
+
+Antes de examinar descritores, a auditoria do rótulo exato `hard-rock` encontrou 998 IDs distintos na fonte de gênero e 176 na interseção com a fonte pareada. Após filtros de metadados, restaram 129 linhas de 39 artistas. A janela de cinco anos alcança no máximo 15 artistas; a década de catálogo 1980–1989 tem 47 faixas de 20 artistas. Adotar essa década e uma faixa por artista reduz concentração e viabiliza 20 candidatos, em lugar da meta inicialmente proposta de 24–30. A interseção constitui agora um universo deliberadamente restrito para obter o rótulo de faixa; sua cobertura não representa todo o Hard Rock.
+
+Selecionar uma faixa por artista pelo menor hash com semente fixa, sem utilizar descritores. O lock registra os 20 IDs e URLs, dez casos em cada grupo e corte de 89.776.313,5 visualizações (mediana dos 20 candidatos). Não há reserva; exclusões não alteram o corte. Manter energy, danceability e acousticness, pontos, mediana e intervalo interquartil. Congelar as regras de mesma gravação-base, exclusão de fala sobreposta e revisão de todos os candidatos antes de análise principal. As datas utilizadas são de catálogo, não primeiras datas de lançamento validadas; visualizações são históricas, com dia declarado e sem timestamp por linha.
+
+O acesso direto ao YouTube neste ambiente retornou falha de túnel HTTP 403 para HR01, como no piloto anterior. O autor foi informado e recebeu solicitação de conferência por IDs. Os 20 pares continuam pendentes; nenhum coincide nos dois IDs com as escutas anteriores. Datas de publicação dos novos vídeos ficam ausentes até recuperação documentada. A versão 1 permite inclusão musical com essa data ausente, mas exige relatar que a exposição do vídeo não foi controlada. Essa revisão prospectiva não altera a reprovação do piloto original.
+
+Uma prévia técnica dos candidatos, se gerada, ficará separada e marcada como não validada. Não será um resultado principal nem critério de curadoria. A redação inicial de uma página poderá reportar apenas os resultados verificados do piloto; a comparação musical continuará explicitamente pendente até a escuta.

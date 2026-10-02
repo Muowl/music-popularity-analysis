@@ -2,6 +2,8 @@
 
 Status: não congelado. Direção atual: estudo exploratório e descritivo, com piloto para avaliar a viabilidade da comparação. Campos abaixo devem ser definidos antes da coleta principal; o piloto de viabilidade segue docs/piloto.md.
 
+**Atualização:** as definições operacionais da nova seleção autorizada estão congeladas em [workshop-protocolo.md](workshop-protocolo.md), versão 1. Os trechos abaixo conservam o planejamento inicial; o protocolo específico define os campos de data histórica, o recorte e a curadoria atuais, sem alterar o piloto encerrado.
+
 ## Definições
 - Unidade candidata: um vídeo associado a uma gravação específica.
 - Medida proposta: visualizações acumuladas do vídeo, com data/hora UTC da consulta.
