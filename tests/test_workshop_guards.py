@@ -2,6 +2,7 @@
 import csv
 import json
 import shutil
+import subprocess
 import sys
 import tempfile
 import unittest
@@ -10,6 +11,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "scripts"))
 from analyze_workshop import read_review
+from validate_selection import FIELDS_V2
 
 
 class WorkshopGuards(unittest.TestCase):
@@ -74,6 +76,34 @@ class WorkshopGuards(unittest.TestCase):
         self.write()
         with self.assertRaisesRegex(ValueError, "without reason"):
             read_review(self.root)
+
+    def registry_fixture(self, instant=""):
+        row = {key: "" for key in FIELDS_V2}
+        row.update(candidate_id="TEST", title="Synthetic guard fixture", artist="Test artist",
+                   selection_source_url="https://example.org/source", selection_reason="Synthetic validation fixture",
+                   video_url="https://example.org/video", views="100", observed_at_utc=instant,
+                   track_id="synthetic-track", match_status="user_reviewed", match_evidence="Synthetic listening evidence",
+                   decision="include", notes="Video publication missing; age unavailable in synthetic fixture.",
+                   views_observed_date="2023-02-07", views_date_precision="day_declared",
+                   views_date_source_url="https://example.org/source", recording_review="same_base_recording",
+                   reviewer="test fixture", audience_group="lower")
+        path = self.root / "registry.csv"
+        with path.open("w", newline="", encoding="utf-8") as f:
+            writer = csv.DictWriter(f, fieldnames=FIELDS_V2, lineterminator="\n")
+            writer.writeheader()
+            writer.writerow(row)
+        return subprocess.run([sys.executable, str(ROOT / "scripts/validate_selection.py"), str(path)],
+                              capture_output=True, text=True)
+
+    def test_historical_day_can_be_included_without_fabricated_utc(self):
+        result = self.registry_fixture()
+        self.assertEqual(result.returncode, 0, result.stdout)
+        self.assertIn("idade/exposição indisponível", result.stdout)
+
+    def test_declared_day_rejects_an_added_midnight_timestamp(self):
+        result = self.registry_fixture("2023-02-07T00:00:00+00:00")
+        self.assertEqual(result.returncode, 1, result.stdout)
+        self.assertIn("não combinar instante fabricado", result.stdout)
 
 
 if __name__ == "__main__":
