@@ -50,6 +50,7 @@ A fonte pareada tem audiência histórica e não contém data/hora de observaç�
 
 - `workshop/video-metadata.json`: metadados atuais de publicação dos 20 IDs de vídeo, valores brutos e hashes das páginas; não contém contadores atuais. Registra hashes do CSV antes/depois do enriquecimento. O JSON original de escuta permanece histórico e suas ausências de publicação referem-se àquele momento.
 - `workshop/sensitivity-summary.json`: cenários pós-hoc HR02/HR10, sem alteração das decisões principais.
-- `workshop/selection-audit.json`: auditoria mínima dos 176 candidatos, separando evidência histórica disponível, observações atuais e falhas. Não é reconstrução integral do congelamento.
+- `workshop/selection-audit.json`: auditoria dos 176 candidatos com a coleta posterior completa, que reproduz a seleção e o corte; evidência histórica e posterior ficam separadas. A tentativa parcial anterior permanece no histórico Git.
+- `workshop/catalogue-package-verification.json`: conferência independente dos 358 arquivos do manifesto, reextração dos 176 HTML e recálculo dos filtros/seleção. Inclui SHA-256 do ZIP e registra a diferença CRLF/LF do lock. O pacote bruto fica separado do repositório.
 
 HTML, descrições e CSVs completos continuam locais. São preservados apenas fatos necessários e agregados, seguindo o escopo documental já adotado pelo projeto; não se atribui nova licença às fontes.

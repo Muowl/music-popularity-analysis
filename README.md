@@ -34,9 +34,9 @@ A [conferência suplementar relatada pelo autor](docs/conferencia-gravacoes.md) 
 
 Seguir os comandos de [implementação](docs/implementacao-workshop.md). O [protocolo específico](docs/workshop-protocolo.md) governa a análise atual; documentos do piloto preservam o histórico.
 
-Consultar [resultados e sensibilidade](docs/resultados-hard-rock.md), [metadados dos vídeos](data/workshop/video-metadata.json) e [auditoria da seleção](docs/auditoria-selecao.md). O cache histórico completo do catálogo não está disponível. A tentativa de conferência atual recuperou 20/176 páginas e não permite reconstruir a seleção completa; não foi usada para mudar os IDs.
+Consultar [resultados e sensibilidade](docs/resultados-hard-rock.md), [metadados dos vídeos](data/workshop/video-metadata.json) e [auditoria da seleção](docs/auditoria-selecao.md). Uma coleta posterior em 2026-10-02 verificou 176/176 páginas e reproduziu as 47 faixas elegíveis, os mesmos 20 artistas/IDs e o corte original. O ZIP foi conferido independentemente por hashes e nova extração dos HTML. Isso reproduz a seleção com metadados posteriores; o cache original permanece indisponível.
 
-A próxima decisão é alinhar o rascunho com o orientador. A identidade de master, o formato de 12 vídeos e a auditoria histórica integral continuam limitados.
+A próxima decisão é alinhar o rascunho com o orientador. Permanecem a ausência de validação técnica de master, o formato desconhecido de 12 vídeos e a indisponibilidade do cache original, distinguida da reprodução posterior concluída.
 
 ## Organização
 

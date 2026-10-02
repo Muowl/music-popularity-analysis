@@ -50,4 +50,4 @@ Fonte: `data/workshop/sensitivity-summary.json`; reprodução: `python scripts/a
 
 Δ = mediana maior − mediana menor. Energia e dançabilidade mantêm diferenças negativas nos quatro cenários. A direção da pequena diferença de acusticidade muda em um deles, reforçando a ausência de hipótese direcional para esse descritor. A sensibilidade não resolve confundimento, representatividade, validade dos descritores ou correspondência técnica de master.
 
-As medianas de idade próximas coexistem com amplitudes distintas: o grupo menor inclui um vídeo publicado poucos meses antes do snapshot. Não concluir que a exposição foi equalizada. A auditoria histórica da seleção permanece parcial, conforme `auditoria-selecao.md`.
+As medianas de idade próximas coexistem com amplitudes distintas: o grupo menor inclui um vídeo publicado poucos meses antes do snapshot. Não concluir que a exposição foi equalizada. Uma coleta posterior completa reproduziu a seleção e o corte, sem recuperar o cache original; ver `auditoria-selecao.md`. Os resultados musicais permanecem inalterados.

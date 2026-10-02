@@ -88,3 +88,11 @@ A dependência ABNTeX2 foi obtida de um espelho CTAN com o mesmo SHA-256 fixado.
 ## Automação da verificação posterior — 2026-10-02
 
 Diante do prazo curto, disponibilizar execução local com um comando, cache por ID, verificação de hashes, tentativas limitadas e geração de pacote de evidências. A recuperação do ambiente original ficou bloqueada antes do acesso ao filesystem; não se conclui que o cache original foi perdido. A nova automação verifica o catálogo posteriormente, sem modificar seleção, curadoria, audiência ou hipóteses. Nesta implementação, testes e execução offline validaram o comportamento de coleta parcial; a nova coleta online completa ainda depende da execução local.
+
+## Reprodução posterior concluída — 2026-10-02
+
+O autor executou a automação local em cópia separada da branch, commit 0c3c80c, e forneceu `catalogue-evidence.zip`. Coleta entre 04:52:55 e 04:56:04 UTC, com 176/176 páginas. Foram conferidos independentemente os 358 arquivos do manifesto, os IDs canônicos e as datas nos HTML, os hashes dos CSVs e as regras de seleção. Reproduzidos 129 elegíveis, 47 faixas da década, 20 artistas/IDs, corte 89.776.313,5 e máximo de 15 artistas em cinco anos; nenhuma data de catálogo dos 20 mudou.
+
+O hash do lock dentro do pacote difere por CRLF no Windows. Verificada igualdade exata após normalização de quebras de linha e igualdade semântica JSON, preservando hashes originais. A evidência mínima completa substitui o retrato parcial em `selection-audit.json`; a tentativa anterior permanece no histórico. Dados brutos não foram publicados. Lock, decisões, descritores e resultados musicais não mudam.
+
+A seleção foi reproduzida com metadados posteriores; o cache original não foi recuperado e H01 não foi testada independentemente. Atualizar o artigo e os documentos para refletir essa distinção, mantendo o formato de 12 vídeos como desconhecido.

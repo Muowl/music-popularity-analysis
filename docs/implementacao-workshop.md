@@ -37,13 +37,13 @@ Os cenários pós-hoc acrescentam HR02, HR10 e ambos, mantendo corte/grupos. A d
 
 ## Gargalos restantes
 
-A reconstrução integral da seleção histórica depende do cache original de catálogo. A tentativa atual recuperou 20/176 páginas, com 156 falhas de acesso; a comparação de seleção é indeterminada. [Auditoria](auditoria-selecao.md) e JSON explicitam o que foi e não foi conferido. O caderno 02 preserva uma execução histórica dependente desse cache. Não executar `freeze` para substituir a seleção existente.
+A coleta posterior recuperou 176/176 páginas, e a verificação independente do ZIP reproduziu as 47 faixas, os mesmos 20 artistas/IDs e o corte. O cache original continua indisponível; a reprodução posterior completa está documentada na [auditoria](auditoria-selecao.md). O caderno 02 preserva a execução histórica dependente do cache original. Não executar `freeze` para substituir a seleção existente.
 
 Persistem formato desconhecido em 12 vídeos, ausência de ajuste estatístico por exposição/artista/subestilo e ausência de validação técnica de master. A idade agora é descrita; não foi controlada. Alinhar o rascunho e os detalhes operacionais com o orientador antes da submissão.
 
 ## Verificação desta revisão
 
-Treze testes passaram; cadastro com 20 candidatos, 17 inclusões, zero erros e zero avisos. As seis células de código do caderno 03 foram executadas, incluindo validação da cadeia de hashes, estatísticas, sensibilidade e idades. O resumo principal preserva integralmente estatísticas musicais e fluxo da versão revisada. Lock, evidência original de escuta e `settings.sty` permanecem byte a byte idênticos. PDF recompilado com uma página e referências resolvidas, seguido de inspeção visual. A auditoria parcial publicada foi reproduzida; a seleção histórica completa continua não verificada.
+Dezoito testes passaram; cadastro com 20 candidatos, 17 inclusões, zero erros e zero avisos. As sete células de código do caderno 03 foram executadas, incluindo validação da cadeia de hashes, estatísticas, sensibilidade e idades. O resumo principal preserva integralmente estatísticas musicais e fluxo da versão revisada. Lock, evidência original de escuta e `settings.sty` permanecem byte a byte idênticos. PDF recompilado com uma página e referências resolvidas, seguido de inspeção visual. A auditoria posterior completa foi reproduzida; os 358 arquivos do manifesto do ZIP e os 176 HTML foram conferidos independentemente. A igualdade do lock com CRLF/LF foi documentada. O cache original não foi recuperado.
 
 ## Coleta posterior com um comando
 

@@ -15,4 +15,4 @@ Ao interpretar os resultados, registrar a evidência necessária a docs/hipotese
 
 ## Revisão de 2026-10-02
 
-O caderno 03 inclui agora a cadeia de proveniência do enriquecimento de publicação, idades descritivas e sensibilidade pós-hoc. O caderno 02 preserva a execução histórica; sua célula de seleção depende do cache completo de catálogo, ausente nesta revisão. Para auditar o que está disponível, executar `scripts/audit_workshop_selection.py` e consultar `docs/auditoria-selecao.md`. Não apresentar a reexecução dos resultados como reprodução integral da seleção histórica.
+O caderno 03 inclui agora a cadeia de proveniência do enriquecimento de publicação, idades descritivas e sensibilidade pós-hoc. O caderno 02 preserva a execução histórica; sua célula de seleção depende do cache completo de catálogo, ausente nesta revisão. A coleta posterior completa está em `data/workshop/selection-audit.json`: executar `scripts/audit_workshop_selection.py` e consultar `docs/auditoria-selecao.md`. O ZIP permite conferir os 176 HTML com `scripts/verify_catalogue_package.py`. Essa reprodução posterior não recupera a coleta original.

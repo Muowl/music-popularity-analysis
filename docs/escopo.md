@@ -25,7 +25,7 @@ Descrever o perfil de uma seleção documentada de canções de grande audiênci
 
 ## Decisões pendentes
 - Alinhar o recorte operacional e o rascunho final com o orientador; confirmar requisitos de submissão.
-- Recuperar o cache original de catálogo, se ainda existir no ambiente da seleção.
+- Preservar a evidência da reprodução posterior concluída (176/176 páginas). Retomar a busca do cache original somente se o ambiente voltar a ficar acessível.
 - Completar a classificação de formato dos 12 vídeos desconhecidos por conferência apropriada.
 - Planejar eventual estudo independente de H01; esta amostra não confirma a hipótese.
 

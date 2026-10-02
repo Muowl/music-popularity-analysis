@@ -65,4 +65,4 @@ A pergunta, IDs, corte, grupos e decisões principais permanecem congelados. Ap�
 
 Recuperar `publishDate` em páginas dos IDs exatos de YouTube, preservando valor bruto, data de obtenção e hash. Usar o componente de data informado pela plataforma, sem inventar hora UTC da audiência histórica. Datas posteriores ao snapshot ou IDs divergentes não são aceitos. O enriquecimento é documental: não constitui nova escuta nem classificação do formato. As 20 datas foram recuperadas; a idade é contextual e não um ajuste por exposição.
 
-A auditoria de catálogo atual é separada da seleção histórica e permanece incompleta. Não recalcular corte/grupos com dados parciais; ver `auditoria-selecao.md`.
+A primeira tentativa posterior ficou incompleta. Em seguida, a coleta local de 176/176 páginas foi verificada independentemente e reproduziu seleção/corte, sem alterar os grupos ou recuperar o cache original. Ver `auditoria-selecao.md`. Não recalcular grupos da análise principal com novas observações.
