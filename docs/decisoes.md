@@ -74,3 +74,13 @@ Incluir 17 gravações-base por relato. Excluir conservadoramente HR02 e HR10 po
 Conservar corte de 89.776.313,5, IDs e grupos, sem reposição. Resultado do fluxo: 7/10 incluídos no grupo menor e 10/10 no maior; nenhum perdeu os três descritores por ausência/escala inválida. As datas de publicação dos 17 vídeos continuam ausentes, impedindo controle de exposição. Formato identificado no relato em cinco clipes; nos outros 12 fica desconhecido.
 
 O limiar operacional da nova comparação, cinco gravações por grupo, é atendido. Isso não aprova retroativamente o piloto original, nem representa poder estatístico ou identidade técnica de master. A página passa a tratar a comparação curada de Hard Rock; o artigo anterior sobre curadoria permanece preservado como rascunho histórico. Resultados e hipóteses pós-hoc têm registro próprio, com limites de cobertura, rótulo e edição de catálogo.
+
+## Revisão da PR autorizada — 2026-10-02
+
+Após a avaliação do commit c42edff, o autor autorizou tratar os pontos possíveis e informar gargalos. Manter todos os IDs, corte e decisões principais. Explicitar pergunta e motivação no artigo, sincronizar documentos atuais e acrescentar sensibilidade pós-hoc das duas exclusões por extensão musical. A direção de energia/dançabilidade permanece nos três cenários alternativos; não interpretar como confirmação independente.
+
+Recuperadas publicações dos 20 vídeos em páginas com IDs exatos, sem atualizar visualizações. Preservar o registro original de escuta, inclusive a ausência de datas naquele momento; a cadeia dos hashes anterior/posterior ao enriquecimento está em `data/workshop/video-metadata.json`. Classificação de formato permanece desconhecida em 12 casos. Não houve nova escuta pelo assistente.
+
+O cache histórico completo do catálogo não foi encontrado. A nova tentativa de coleta teve 20 páginas disponíveis e 156 falhas de acesso (`URLError`); não permite conferir a seleção integral. Publicar auditoria mínima de todos os 176 IDs com ausências explícitas e observações atuais separadas das 20 originais preservadas no lock. Não afirmar divergência de seleção com base em coleta incompleta. Novos congelamentos pelo script passarão a preservar as observações de elegibilidade completas; essa mudança não fabrica evidência para o lock existente.
+
+A dependência ABNTeX2 foi obtida de um espelho CTAN com o mesmo SHA-256 fixado. Acrescentar fallback de download com verificação de hash, preservando `settings.sty`.

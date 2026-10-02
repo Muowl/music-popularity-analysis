@@ -12,3 +12,7 @@ Sequência sugerida:
 Centralizar transformações reutilizadas em scripts/. Usar caminhos relativos à raiz, registrar versões de dependências, entradas e exclusões. Células devem executar do início ao fim. Não incluir snapshots brutos volumosos nem dados sensíveis nas saídas.
 
 Ao interpretar os resultados, registrar a evidência necessária a docs/hipoteses.md: número de casos, medidas, figura/tabela, entradas e commit. Separar observação, interpretação e hipótese sugerida; nenhuma hipótese gerada nesta exploração deve ser apresentada como confirmada independentemente.
+
+## Revisão de 2026-10-02
+
+O caderno 03 inclui agora a cadeia de proveniência do enriquecimento de publicação, idades descritivas e sensibilidade pós-hoc. O caderno 02 preserva a execução histórica; sua célula de seleção depende do cache completo de catálogo, ausente nesta revisão. Para auditar o que está disponível, executar `scripts/audit_workshop_selection.py` e consultar `docs/auditoria-selecao.md`. Não apresentar a reexecução dos resultados como reprodução integral da seleção histórica.

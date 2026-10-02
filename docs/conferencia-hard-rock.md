@@ -62,4 +62,4 @@ Relatos verbatim e esclarecimento de HR10: [evidências](../data/workshop/record
 
 HR03 — [alternativa indicada](https://open.spotify.com/track/3pIU81Fd7sTMdaaZ5GI9Vj): Peace Sells, Greatest Hits: Back To The Start, data de catálogo 2005-01-01. O ID não existe em nenhum dos snapshots; não há descritores congelados para ele. O ID original permanece no cadastro como excluído.
 
-Fluxo final: sete incluídos no grupo menor e dez no maior. Todas as perdas ocorreram no menor. Nenhuma data de publicação nova foi fornecida; 0/17 disponíveis, sem idade/exposição calculada. Formato explicitamente identificado no relato em cinco clipes; demais desconhecidos. Ver [resultados](resultados-hard-rock.md).
+Fluxo final: sete incluídos no grupo menor e dez no maior. Todas as perdas ocorreram no menor. No encerramento da escuta, as datas permaneciam ausentes. A revisão documental de 2026-10-02 recuperou as 20 publicações por ID exato; a comparação atual tem 17/17 datas, com idades descritas nos resultados. Isso não altera os relatos ou decisões de escuta. Formato explicitamente identificado no relato em cinco clipes; demais desconhecidos. Ver [resultados](resultados-hard-rock.md).

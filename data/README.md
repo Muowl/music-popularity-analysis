@@ -45,3 +45,11 @@ A fonte pareada tem audiência histórica e não contém data/hora de observaç�
 ## Seleção de acesso a metadados
 
 `pilot/metadata-candidates.json` contém os 12 casos congelados para testar o enriquecimento, não inclusões na amostra principal. `metadata-observations.json` preserva fatos extraídos das páginas exatas; `catalogue-search.json` contém candidatos suplementares de catálogo, não correspondências aprovadas. `metadata-review.json` registra a revisão por caso e o resultado do critério de avanço. Descrições e HTML completos ficam apenas no cache local em `raw/`.
+
+## Evidências da revisão da PR
+
+- `workshop/video-metadata.json`: metadados atuais de publicação dos 20 IDs de vídeo, valores brutos e hashes das páginas; não contém contadores atuais. Registra hashes do CSV antes/depois do enriquecimento. O JSON original de escuta permanece histórico e suas ausências de publicação referem-se àquele momento.
+- `workshop/sensitivity-summary.json`: cenários pós-hoc HR02/HR10, sem alteração das decisões principais.
+- `workshop/selection-audit.json`: auditoria mínima dos 176 candidatos, separando evidência histórica disponível, observações atuais e falhas. Não é reconstrução integral do congelamento.
+
+HTML, descrições e CSVs completos continuam locais. São preservados apenas fatos necessários e agregados, seguindo o escopo documental já adotado pelo projeto; não se atribui nova licença às fontes.

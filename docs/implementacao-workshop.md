@@ -1,51 +1,46 @@
 # Implementação e estado da entrega
 
-## Entregas concretas
+## Entrega atual
 
-- Seleção congelada de **20 candidatos**, uma faixa por artista, dez em cada nível de audiência: `data/workshop/selection-lock.json`. Congelada localmente antes da leitura dos descritores, às 00:43:06 UTC de 2026-10-02; versão publicada no [commit a6915da](https://github.com/Muowl/music-popularity-analysis/commit/a6915da7fd6ee7be1765c29c2631afebb3c92440).
-- Protocolo executável: [workshop-protocolo.md](workshop-protocolo.md). Rótulo `hard-rock` por ID exato, janela de **catálogo** 1980–1989, corte de 89.776.313,5 visualizações históricas, sem reposição.
-- [Conferência dos 20 casos](conferencia-hard-rock.md) e CSV `data/workshop/recording-review.csv`, com 17 incluídos e três excluídos. Relatos verbatim e esclarecimento de HR10 em `data/workshop/recording-review-evidence.json`.
-- Pipeline com auditoria de hashes e do lock, barreira de curadoria, três descritores, pontos, medianas/IIQ e relatório de fluxo/ausências.
-- [Caderno de resultados executado](../notebooks/03_hard_rock_results.ipynb), figuras curadas em `figures/hard-rock-validated.pdf` e exportação compacta `hard-rock-validated-paper.pdf`. Resumo agregado versionado em `data/workshop/analysis-summary.json` e [relatório](resultados-hard-rock.md).
-- `main.tex` e [PDF de uma página](../paper/workshop-hard-rock.pdf): comparação descritiva dos 17 pares, figura, hipótese pós-hoc e limitações. O PDF anterior do piloto é histórico. A prévia de candidatos permanece separada, sem integrar os resultados atuais.
+Comparação exploratória de 17 pares (7/10 por grupo), com IDs, corte e decisões principais preservados. O [PDF](../paper/workshop-hard-rock.pdf) apresenta pergunta, motivação, três descritores, hipótese pós-hoc e limites. O [caderno 03](../notebooks/03_hard_rock_results.ipynb) verifica cálculos, proveniência, idade dos vídeos e sensibilidade. O piloto original e o rascunho anterior permanecem históricos.
 
-## Gargalos atuais
+O lock foi congelado localmente em 2026-10-02 às 00:43:06 UTC e publicado no [commit a6915da](https://github.com/Muowl/music-popularity-analysis/commit/a6915da7fd6ee7be1765c29c2631afebb3c92440). A década representa catálogo Spotify, sem validação como primeiro lançamento. O corte é 89.776.313,5 visualizações históricas; não foi recalculado após perdas.
 
-O acesso ao primeiro vídeo retornou `URLError: Tunnel connection failed: 403 Forbidden` neste ambiente, registrado localmente em `data/processed/workshop-youtube-access.json`. O autor resolveu o gargalo de escuta fornecendo relatos dos 20 pares e esclarecimento de HR10. Não houve escuta pelo assistente. HR02 e HR10 foram excluídos conservadoramente por trechos musicais adicionais de encerramento; HR03 ficou fora pela correspondência não suficientemente confirmada do ID congelado. Sua alternativa não aparece nos snapshots e tem ano de catálogo 2005; foi documentada, sem troca de ID ou descritores.
-
-As datas de publicação dos 17 vídeos permanecem ausentes; não houve avaliação da idade/exposição. Formato desconhecido em 12 casos. O protocolo permite inclusão por correspondência musical com essas ausências explícitas. Datas de catálogo não foram comprovadas como primeira circulação das gravações. A seleção estuda a interseção das fontes, com rótulo catalográfico. As três perdas ocorreram no grupo menor, reduzindo-o de dez a sete; o maior conservou dez. Essas limitações permanecem na página e no relatório.
-
-O modelo exigiu ABNTeX2 ausente na instalação LaTeX. O script de compilação obtém uma dependência com hash fixado no cache ignorado pelo Git; não altera `settings.sty`. Requer rede somente no primeiro uso quando o pacote não está instalado. O PDF foi compilado com bibliografia resolvida, uma página e inspeção visual.
-
-## Reprodução da análise
+## Reprodução offline após aquisição das fontes
 
 ```bash
 python scripts/download_pilot_sources.py
 python scripts/analyze_workshop.py --export-registry
 python scripts/validate_selection.py
 python scripts/analyze_workshop.py
+python scripts/analyze_workshop_sensitivity.py
+python scripts/audit_workshop_selection.py
 python -m unittest discover -s tests -v
 python scripts/build_paper.py
 ```
 
-O download é separado da análise. Os CSVs de origem ficam em `data/raw/`, ignorados pelo Git. Somente a etapa de figura requer NumPy/Matplotlib (`requirements-workshop.txt`); demais scripts novos usam a biblioteca padrão. O resumo JSON local registra versões, hashes, fluxo, contexto e método de quantis.
+A etapa de figuras usa `requirements-workshop.txt`. A compilação exige LaTeX (`latexmk`, `kpsewhich`) e `pdfinfo`; se ABNTeX2 estiver ausente, há download CTAN com espelho alternativo e SHA-256 fixo. `settings.sty` permanece inalterado. O script gera `main.pdf`; após conferência visual, atualizar `paper/workshop-hard-rock.pdf` explicitamente.
 
-O caderno também recalcula a seleção a partir do cache de catálogo. Em uma instalação nova, executar `python scripts/prepare_workshop.py collect-catalogue` para adquirir essas páginas; como são páginas correntes, qualquer mudança nos anos em relação ao lock será um alerta, nunca uma alteração automática dos candidatos. Os anos e hashes usados no congelamento estão preservados no lock. Não executar `freeze` para sobrescrever a seleção existente: o script recusa isso.
+Saídas analíticas ficam em `data/processed/`; as cópias publicadas são `data/workshop/analysis-summary.json`, `sensitivity-summary.json` e `selection-audit.json`. Não sobrescrever a evidência publicada sem revisão. A análise e auditoria offline não precisam atualizar páginas ou contadores.
 
-## Como revisar a curadoria e a comparação
+## Enriquecimento de publicação
 
-Editar **somente** as colunas mutáveis do CSV de revisão: `video_published_at`, `video_format`, `recording_review`, `reviewer`, `review_evidence`, `decision`, `exclusion_reason`. Usar os relatos reais, com autoria e origem na conversa, sem inventar marcos de escuta. Para mesma gravação-base, usar `same_base_recording`; versão divergente, `different_version`; fala/efeito sobreposto, `audio_overlay`; dúvida, `uncertain`. Casos incertos não são incluídos. Formatos: `music_video`, `official_audio`, `other`, `unknown` (ausência explícita); `pending` enquanto aguardam revisão.
+`python scripts/collect_workshop_video_metadata.py` faz uma nova coleta em `data/processed/workshop-video-metadata.json`, sem modificar automaticamente o cadastro. Nesta revisão, todas as 20 publicações foram verificadas por ID, anteriores ao snapshot e transferidas ao CSV. As fontes estão em `data/workshop/video-metadata.json`, com hashes do CSV antes/depois; o registro original de escuta permanece intacto. Datas usam o dia informado por `publishDate`, com valor bruto preservado. Idade até 07/02/2023 usa dias/365,25 e não estima exposição efetiva.
 
-Uma inclusão exige evidência atribuída, mesma gravação-base, formato registrado e ausência de motivo de exclusão. Uma exclusão exige evidência e motivo. IDs, fontes, contadores, datas de catálogo, grupos e hashes não mudam. Depois que **todos os casos** estiverem decididos:
+As 17 inclusões têm data disponível. Nenhum formato foi inferido por título, canal ou marca oficial; 12/17 permanecem desconhecidos. Não houve nova escuta pelo assistente.
 
-```bash
-python scripts/analyze_workshop.py --export-registry
-python scripts/validate_selection.py
-python scripts/analyze_workshop.py
-```
+## Curadoria e sensibilidade
 
-A análise principal recusa casos pendentes ou menos de cinco gravações válidas por grupo. A condição foi atendida e gera `figures/hard-rock-validated.pdf`, `hard-rock-validated-paper.pdf` e `data/processed/hard-rock-validated-summary.json`. A cópia agregada `data/workshop/analysis-summary.json` é a evidência publicada da execução. Não inserir a prévia técnica no artigo nem recalcular o corte após perdas. Reconsiderações de classificação exigem evidência, registro de revisão e atualização dos resultados e da hipótese; não usar contrastes musicais para decidir pareamentos.
+HR02 e HR10 permanecem excluídos por extensões musicais; HR03, por correspondência não suficientemente confirmada do ID congelado. A alternativa de HR03 continua ausente dos snapshots e não recebe descritores do ID original.
 
-## Verificação realizada
+Os cenários pós-hoc acrescentam HR02, HR10 e ambos, mantendo corte/grupos. A direção de energia e dançabilidade permanece; acusticidade muda de sinal em um cenário. Isso não constitui confirmação independente de H01. Ver [resultados](resultados-hard-rock.md).
 
-Oito testes de barreiras passaram; seus fixtures começam no estado pendente do lock, independentes das decisões reais. Testes temporários usam casos sintéticos identificados, sem persistência no cadastro. O cadastro atual tem 20 candidatos, 17 incluídos e zero erros estruturais; 17 avisos refletem datas de publicação ausentes, não foram ocultados. A execução principal retorna sucesso. Os cinco blocos de código do caderno de resultados foram executados, auditando hashes, medianas, amplitudes, sobreposição e ausência da alternativa de HR03 em ambas as fontes. Figuras ampla/compacta e PDF de uma página foram inspecionados visualmente, com bibliografia resolvida. `settings.sty` e o lock permaneceram idênticos à versão anterior. A hipótese em `hipoteses.md` é pós-hoc e não confirmada pelos mesmos dados.
+## Gargalos restantes
+
+A reconstrução integral da seleção histórica depende do cache original de catálogo. A tentativa atual recuperou 20/176 páginas, com 156 falhas de acesso; a comparação de seleção é indeterminada. [Auditoria](auditoria-selecao.md) e JSON explicitam o que foi e não foi conferido. O caderno 02 preserva uma execução histórica dependente desse cache. Não executar `freeze` para substituir a seleção existente.
+
+Persistem formato desconhecido em 12 vídeos, ausência de ajuste estatístico por exposição/artista/subestilo e ausência de validação técnica de master. A idade agora é descrita; não foi controlada. Alinhar o rascunho e os detalhes operacionais com o orientador antes da submissão.
+
+## Verificação desta revisão
+
+Treze testes passaram; cadastro com 20 candidatos, 17 inclusões, zero erros e zero avisos. As seis células de código do caderno 03 foram executadas, incluindo validação da cadeia de hashes, estatísticas, sensibilidade e idades. O resumo principal preserva integralmente estatísticas musicais e fluxo da versão revisada. Lock, evidência original de escuta e `settings.sty` permanecem byte a byte idênticos. PDF recompilado com uma página e referências resolvidas, seguido de inspeção visual. A auditoria parcial publicada foi reproduzida; a seleção histórica completa continua não verificada.
