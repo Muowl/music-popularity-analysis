@@ -11,6 +11,8 @@ Fonte: `data/workshop/analysis-summary.json`, reproduzida por `python scripts/an
 | Menor audiência, abaixo de 89.776.313,5 visualizações | 10 | 7 | 3 (30%) | 7 |
 | Maior audiência, igual/acima do corte | 10 | 10 | 0 | 10 |
 
+Nos 17 incluídos, as visualizações históricas variam de **1.019.839 a 67.522.108** no grupo menor e de **108.469.771 a 915.158.054** no maior. Os nomes dos grupos são relativos ao recorte, não categorias absolutas de popularidade.
+
 O corte é a mediana **dos 20 selecionados antes da curadoria**, não dos 17 incluídos. Não foi recalculado. HR02 e HR10 apresentam extensões musicais de encerramento; HR03 tem versão alternativa proposta, mas ausente dos snapshots e com ano de catálogo 2005. O pareamento original de HR03 não foi confirmado suficientemente. As exclusões não identificam necessariamente outra execução. A interpretação conservadora das extensões musicais foi registrada depois da prévia, antes desta comparação.
 
 Mediana do ano de catálogo: 1984 nos dois grupos. Intervalos: 1980–1988 no menor e 1980–1989 no maior. Não representam primeiros lançamentos já validados. Datas de publicação disponíveis: **17/17**, recuperadas de metadados atuais dos IDs exatos e preservadas em `data/workshop/video-metadata.json`. Tempo desde a publicação até 07/02/2023: mediana **12,80 anos** no grupo menor (0,32–13,23) e **13,03 anos** no maior (9,60–13,92). O cálculo usa dias/365,25, com precisão diária; não mede exposição efetiva nem ajusta a comparação. Formato identificado: quatro clipes e três desconhecidos no menor; um clipe e nove desconhecidos no maior. O formato não é fator controlado nesta comparação.
@@ -51,3 +53,7 @@ Fonte: `data/workshop/sensitivity-summary.json`; reprodução: `python scripts/a
 Δ = mediana maior − mediana menor. Energia e dançabilidade mantêm diferenças negativas nos quatro cenários. A direção da pequena diferença de acusticidade muda em um deles, reforçando a ausência de hipótese direcional para esse descritor. A sensibilidade não resolve confundimento, representatividade, validade dos descritores ou correspondência técnica de master.
 
 As medianas de idade próximas coexistem com amplitudes distintas: o grupo menor inclui um vídeo publicado poucos meses antes do snapshot. Não concluir que a exposição foi equalizada. Uma coleta posterior completa reproduziu a seleção e o corte, sem recuperar o cache original; ver `auditoria-selecao.md`. Os resultados musicais permanecem inalterados.
+
+## Interpretação na versão para submissão
+
+Diferenças na composição por baladas e outros subestilos são uma explicação alternativa para o contraste, sem classificação sistemática das 17 faixas. Os exemplos discutidos na revisão não constituem uma classificação validada nem justificam exclusões retrospectivas. HR05 (Poison), HR13 (The Cars) e HR14 (Van Halen) identificam edições remasterizadas no Spotify; não se verificaram os masters dos vídeos ou o efeito dessas diferenças nos descritores. Essas limitações foram explicitadas no artigo, sem alterar dados, seleção ou H01.

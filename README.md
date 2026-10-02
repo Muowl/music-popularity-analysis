@@ -2,9 +2,10 @@
 
 Pesquisa exploratória para o workshop do DCC/UFJF, vinculada à linha de pesquisa do TCC de Sistemas de Informação de Felipe Lazzarini Cunha.
 
-**Estado: comparação descritiva executada após os 20 relatos de escuta do autor. Foram incluídos 17 pares, sete no grupo de menor audiência e dez no maior; três exclusões conservadoras ocorreram no primeiro grupo. IDs, corte e fontes permanecem congelados. A página LaTeX apresenta a comparação curada, uma figura e hipótese pós-hoc, com limites de cobertura e exposição. O piloto original e sua reprovação continuam preservados.**
+Comparação exploratória de descritores musicais em 17 pares Spotify–YouTube rotulados Hard Rock, com datas de catálogo de 1980–1989.
+Versão de uma página preparada para submissão: [artigo em PDF](paper/workshop-hard-rock.pdf), com hipótese pós-hoc e limitações explícitas.
 
-O caminho de execução está em [implementacao-workshop.md](docs/implementacao-workshop.md), com [protocolo e adjudicação](docs/workshop-protocolo.md), [conferência](docs/conferencia-hard-rock.md), [resultados](docs/resultados-hard-rock.md) e [caderno executado](notebooks/03_hard_rock_results.ipynb). O [PDF de uma página](paper/workshop-hard-rock.pdf) é o rascunho atual para revisão. A década se refere ao catálogo Spotify, não a primeiros lançamentos já validados.
+O caminho de execução está em [implementacao-workshop.md](docs/implementacao-workshop.md), com [protocolo e adjudicação](docs/workshop-protocolo.md), [conferência](docs/conferencia-hard-rock.md), [resultados](docs/resultados-hard-rock.md) e [caderno executado](notebooks/03_hard_rock_results.ipynb). O [PDF de uma página](paper/workshop-hard-rock.pdf) é a versão preparada para submissão. A década se refere ao catálogo Spotify, não a primeiros lançamentos já validados.
 
 ## Motivação, problema e objetivo
 
@@ -36,7 +37,7 @@ Seguir os comandos de [implementação](docs/implementacao-workshop.md). O [prot
 
 Consultar [resultados e sensibilidade](docs/resultados-hard-rock.md), [metadados dos vídeos](data/workshop/video-metadata.json) e [auditoria da seleção](docs/auditoria-selecao.md). Uma coleta posterior em 2026-10-02 verificou 176/176 páginas e reproduziu as 47 faixas elegíveis, os mesmos 20 artistas/IDs e o corte original. O ZIP foi conferido independentemente por hashes e nova extração dos HTML. Isso reproduz a seleção com metadados posteriores; o cache original permanece indisponível.
 
-A próxima decisão é alinhar o rascunho com o orientador. Permanecem a ausência de validação técnica de master, o formato desconhecido de 12 vídeos e a indisponibilidade do cache original, distinguida da reprodução posterior concluída.
+A revisão editorial final explicita os grupos relativos ao recorte, a composição por subestilo como explicação alternativa e a incerteza sobre masters. Permanecem a ausência de validação técnica de master, o formato desconhecido de 12 vídeos e a indisponibilidade do cache original, distinguida da reprodução posterior concluída.
 
 ## Organização
 
