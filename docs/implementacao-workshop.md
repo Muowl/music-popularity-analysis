@@ -2,7 +2,7 @@
 
 ## Entregas concretas
 
-- Seleção congelada de **20 candidatos**, uma faixa por artista, dez em cada nível de audiência: `data/workshop/selection-lock.json`. Congelamento anterior à leitura dos descritores, commit `71d19be`.
+- Seleção congelada de **20 candidatos**, uma faixa por artista, dez em cada nível de audiência: `data/workshop/selection-lock.json`. Congelada localmente antes da leitura dos descritores, às 00:43:06 UTC de 2026-10-02; versão publicada no [commit a6915da](https://github.com/Muowl/music-popularity-analysis/commit/a6915da7fd6ee7be1765c29c2631afebb3c92440).
 - Protocolo executável: [workshop-protocolo.md](workshop-protocolo.md). Rótulo `hard-rock` por ID exato, janela de **catálogo** 1980–1989, corte de 89.776.313,5 visualizações históricas, sem reposição.
 - [Lista com os dois links por caso](conferencia-hard-rock.md) e CSV `data/workshop/recording-review.csv`, ainda pendentes. Usar IDs HR01–HR20 ao registrar respostas.
 - Pipeline com auditoria de hashes e do lock, barreira de curadoria, três descritores, pontos, medianas/IIQ e relatório de fluxo/ausências.
