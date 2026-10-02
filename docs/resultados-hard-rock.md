@@ -13,7 +13,7 @@ Fonte: `data/workshop/analysis-summary.json`, reproduzida por `python scripts/an
 
 O corte é a mediana **dos 20 selecionados antes da curadoria**, não dos 17 incluídos. Não foi recalculado. HR02 e HR10 apresentam extensões musicais de encerramento; HR03 tem versão alternativa proposta, mas ausente dos snapshots e com ano de catálogo 2005. O pareamento original de HR03 não foi confirmado suficientemente. As exclusões não identificam necessariamente outra execução. A interpretação conservadora das extensões musicais foi registrada depois da prévia, antes desta comparação.
 
-Mediana do ano de catálogo: 1984 nos dois grupos. Intervalos: 1980–1988 no menor e 1980–1989 no maior. Não representam primeiros lançamentos já validados. Datas de publicação disponíveis: **0/17**; idade/exposição não calculada. Formato identificado: quatro clipes e três desconhecidos no menor; um clipe e nove desconhecidos no maior. O formato não é fator controlado nesta comparação.
+Mediana do ano de catálogo: 1984 nos dois grupos. Intervalos: 1980–1988 no menor e 1980–1989 no maior. Não representam primeiros lançamentos já validados. Datas de publicação disponíveis: **17/17**, recuperadas de metadados atuais dos IDs exatos e preservadas em `data/workshop/video-metadata.json`. Tempo desde a publicação até 07/02/2023: mediana **12,80 anos** no grupo menor (0,32–13,23) e **13,03 anos** no maior (9,60–13,92). O cálculo usa dias/365,25, com precisão diária; não mede exposição efetiva nem ajusta a comparação. Formato identificado: quatro clipes e três desconhecidos no menor; um clipe e nove desconhecidos no maior. O formato não é fator controlado nesta comparação.
 
 ## Medianas, dispersão e sobreposição
 
@@ -36,3 +36,18 @@ Nesta seleção, o grupo de maior audiência tem medianas menores de energia e d
 Os resultados são específicos da interseção das fontes e da seleção do publicador de faixas de artistas. O rótulo comum não elimina subestilos, baladas, remasters ou diferenças de exposição. Todas as perdas estão no grupo de menor audiência, podendo alterar seu perfil. Não se mede uma fórmula do sucesso nem se demonstra que aumentar/diminuir um descritor modifica visualizações.
 
 A exploração gera uma hipótese para avaliação independente, registrada em [hipoteses.md](hipoteses.md). Nenhum resultado atual confirma a hipótese que ele próprio sugeriu. A acusticidade não motivou uma hipótese direcional nesta etapa.
+
+## Sensibilidade pós-hoc das extensões musicais
+
+Fonte: `data/workshop/sensitivity-summary.json`; reprodução: `python scripts/analyze_workshop_sensitivity.py`. Acrescentam-se HR02 e HR10 apenas em cenários alternativos, mantendo HR03 excluído, o corte original e os grupos. As decisões principais e os relatos não mudam. A análise foi definida após os achados e não é confirmação independente.
+
+| Cenário | n menor / maior | Δ energia | Δ dançabilidade | Δ acusticidade |
+|---|---|---:|---:|---:|
+| Principal | 7 / 10 | −0,1765 | −0,1895 | +0,00575 |
+| Acrescentar HR02 | 8 / 10 | −0,1730 | −0,1790 | +0,00865 |
+| Acrescentar HR10 | 8 / 10 | −0,1730 | −0,2045 | −0,00560 |
+| Acrescentar ambos | 9 / 10 | −0,1695 | −0,1895 | +0,00575 |
+
+Δ = mediana maior − mediana menor. Energia e dançabilidade mantêm diferenças negativas nos quatro cenários. A direção da pequena diferença de acusticidade muda em um deles, reforçando a ausência de hipótese direcional para esse descritor. A sensibilidade não resolve confundimento, representatividade, validade dos descritores ou correspondência técnica de master.
+
+As medianas de idade próximas coexistem com amplitudes distintas: o grupo menor inclui um vídeo publicado poucos meses antes do snapshot. Não concluir que a exposição foi equalizada. A auditoria histórica da seleção permanece parcial, conforme `auditoria-selecao.md`.

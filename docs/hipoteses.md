@@ -34,7 +34,7 @@ Data de formulação: nesta sessão, após os resultados curados; dia no context
 
 **Achado:** em 17 gravações-base de artistas distintos, sete no grupo menor e dez no maior, o grupo maior tem mediana de energy 0,7545 versus 0,9310 e danceability 0,3505 versus 0,5400. Diferenças de medianas (maior − menor): −0,1765 e −0,1895. Os valores individuais se sobrepõem em ambos; não se trata de separação completa dos grupos. Evidências: [resultados](resultados-hard-rock.md), `data/workshop/analysis-summary.json`, `figures/hard-rock-validated.pdf`, `notebooks/03_hard_rock_results.ipynb`; hashes de fontes, lock e revisão no resumo.
 
-**Interpretação e alternativas:** a seleção pode reunir repertórios e subestilos distintos dentro do rótulo de catálogo, além de diferenças de artista, formato e exposição. As três perdas estão no grupo menor (30% versus 0%), podendo alterar seu perfil. Idade dos vídeos indisponível e formato desconhecido em 12/17. Datas de catálogo não são primeiros lançamentos validados. Essas alternativas não foram separadas pela análise atual.
+**Interpretação e alternativas:** a seleção pode reunir repertórios e subestilos distintos dentro do rótulo de catálogo, além de diferenças de artista, formato e exposição. As três perdas estão no grupo menor (30% versus 0%), podendo alterar seu perfil. As datas de publicação foram recuperadas na revisão: idade mediana de 12,80 e 13,03 anos, com amplitudes distintas e sem ajuste estatístico. Formato desconhecido em 12/17. Datas de catálogo não são primeiros lançamentos validados. Essas alternativas não foram separadas pela análise atual.
 
 **Hipótese sugerida:** em uma seleção independente do mesmo recorte operacional, maior audiência relativa de vídeos associados a gravações-base correspondentes acompanha medianas menores de energia e dançabilidade. É uma proposição de associação restrita; não afirma que diminuir atributos eleve visualizações.
 
@@ -49,3 +49,7 @@ Data de formulação: nesta sessão, após os resultados curados; dia no context
 ## Achado A02 — acusticidade e heterogeneidade
 
 Medianas de acousticness: 0,02020 e 0,02595; diferença +0,00575. IIQs: [0,00908; 0,04740] e [0,012675; 0,110725]; amplitudes individuais [0,00253; 0,435] e [0,00322; 0,638]. Medianas próximas coexistem com dispersão e valores altos isolados. Não concluir equivalência e não propor hipótese direcional de acusticidade a partir deste achado. Os pontos foram preservados, inclusive os atípicos.
+
+## Revisão de robustez — 2026-10-02
+
+A sensibilidade pós-hoc às exclusões HR02/HR10 manteve a direção negativa das diferenças de medianas de energia e dançabilidade nos cenários individual e conjunto. Os números estão em `resultados-hard-rock.md` e `data/workshop/sensitivity-summary.json`. Isso reduz a dependência desses achados em relação a essas duas decisões específicas; H01 continua não confirmada em dados independentes. A acusticidade muda de sinal ao acrescentar apenas HR10 e permanece sem hipótese direcional.

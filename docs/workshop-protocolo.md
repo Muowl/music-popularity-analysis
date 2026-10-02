@@ -46,14 +46,23 @@ O autor relatou os 20 casos e esclareceu HR10. Para HR02 e HR10, descreveu a bas
 
 HR03 ficou como correspondência do ID original não suficientemente confirmada. A alternativa proposta pelo autor está ausente dos dois snapshots e sua página apresenta ano de catálogo 2005, fora da janela operacional. Registrar a alternativa, sem trocar IDs, copiar descritores ou completar a amostra. Isso não prova que o remaster original seja outra execução; significa que sua correspondência permaneceu não resolvida para inclusão.
 
-As três exclusões são decisões de curadoria aplicadas aos relatos reais; não constituem revisão de desenho para obter diferenças maiores. Não foi realizada sensibilidade com os pares excluídos. A amostra final contém sete casos abaixo e dez acima do corte original, com perdas de 3/10 e 0/10. Todos os casos receberam decisão explícita; não há pendência de escuta exigida para esta comparação. Qualquer reconsideração futura precisa preservar essas evidências e registrar a revisão de classificação.
+As três exclusões são decisões de curadoria aplicadas aos relatos reais; não constituem revisão de desenho para obter diferenças maiores. Na execução inicial não houve sensibilidade. A revisão de 2026-10-02 acrescenta os cenários pós-hoc descritos abaixo, sem mudar as decisões principais. A amostra final contém sete casos abaixo e dez acima do corte original, com perdas de 3/10 e 0/10. Todos os casos receberam decisão explícita; não há pendência de escuta exigida para esta comparação. Qualquer reconsideração futura precisa preservar essas evidências e registrar a revisão de classificação.
 
 ## Reprodução
 
 ```bash
 python scripts/download_pilot_sources.py
-python scripts/prepare_workshop.py collect-catalogue
-python scripts/prepare_workshop.py freeze
+python scripts/analyze_workshop.py
+python scripts/analyze_workshop_sensitivity.py
+python scripts/audit_workshop_selection.py
 ```
 
 A aquisição de páginas usa cache com hash e registro do momento de recuperação; não faz parte da reexecução offline da análise. O congelamento falha se já houver lock. Fontes brutas permanecem ignoradas pelo Git; publicar apenas código, cadastro mínimo e resultados agregados, conforme as condições já registradas.
+
+## Revisão posterior à análise — 2026-10-02
+
+A pergunta, IDs, corte, grupos e decisões principais permanecem congelados. Após a avaliação da PR, acrescentar HR02, HR10 e ambos em três cenários de sensibilidade das extensões musicais; manter HR03 excluído e comparar as mesmas três medianas. Registrar como análise pós-hoc, não como teste independente de H01. Não escolher novas inclusões em função dos resultados.
+
+Recuperar `publishDate` em páginas dos IDs exatos de YouTube, preservando valor bruto, data de obtenção e hash. Usar o componente de data informado pela plataforma, sem inventar hora UTC da audiência histórica. Datas posteriores ao snapshot ou IDs divergentes não são aceitos. O enriquecimento é documental: não constitui nova escuta nem classificação do formato. As 20 datas foram recuperadas; a idade é contextual e não um ajuste por exposição.
+
+A auditoria de catálogo atual é separada da seleção histórica e permanece incompleta. Não recalcular corte/grupos com dados parciais; ver `auditoria-selecao.md`.
