@@ -1,6 +1,6 @@
 # Conferência dos 20 candidatos — Hard Rock
 
-Lista congelada; estes pares ainda não foram aprovados. Conferir a mesma execução musical, não apenas título e duração. Remasters podem corresponder à mesma gravação-base, sem comprovação de master idêntico.
+**Estado: 20 relatos registrados, 17 incluídos e três excluídos.** IDs e URLs originais preservados; ver adjudicação abaixo. Conferir a mesma execução musical, não apenas título e duração. Remasters podem corresponder à mesma gravação-base, sem comprovação de master idêntico.
 
 Respostas possíveis: **mesma gravação-base**, **versão diferente**, **fala/efeito exclusivo sobre a música** ou **incerto**. Anotar intros, finais, interrupções narrativas e diferenças; se possível, informar duração, publicação e formato do vídeo. Não é preciso transcrever a música.
 
@@ -31,4 +31,35 @@ Modelo: `HR01 — mesma gravação-base; intro de 15 s; música sem divergência
 
 Não há candidatos de reserva. Uma exclusão será conservada no fluxo; os grupos e o corte histórico não serão recalculados. As visualizações e descritores ficam fora desta tabela para ajudar a concentrar a revisão no pareamento.
 
-A revisão pode ser feita em blocos de quatro: HR01–HR04, HR05–HR08, HR09–HR12, HR13–HR16, HR17–HR20. A comparação principal só roda depois que todos receberem uma decisão.
+A revisão de todos os casos foi recebida e a comparação principal foi executada. A conferência foi relatada pelo autor; o assistente não ouviu os áudios. Segundos informados são aproximados, não marcos medidos.
+
+## Adjudicação e evidências
+
+Relatos verbatim e esclarecimento de HR10: [evidências](../data/workshop/recording-review-evidence.json). Os termos `include/exclude` são decisões de curadoria aplicadas aos relatos, não identidade técnica de master. Em HR02 e HR10, preserva-se a fidelidade geral relatada pelo autor; não se afirma mudança de intérprete, remix ou outra execução. O [protocolo](workshop-protocolo.md) explicita a interpretação conservadora feita após a prévia técnica.
+
+| Caso | Decisão principal | Registro resumido |
+|---|---|---|
+| HR01 | Incluir | Cerca de 2 s iniciais sem som no vídeo; base aceita. |
+| HR02 | Excluir | Base relatada como fiel, mas cerca de 40 s de música/fade-out adicional no Spotify; exclusão conservadora por edição. |
+| HR03 | Excluir | Alternativa indicada pelo autor; original não confirmado suficientemente. Novo ID ausente das duas bases, catálogo 2005; sem substituição. |
+| HR04 | Incluir | Base correspondente; segundos adicionais no início/final do vídeo, sem divergência musical relatada. |
+| HR05 | Incluir | Relato descreve aproximadamente 45 s de cozinha antes da música e 10 s de encerramento narrativo; base aceita no contexto da conferência. |
+| HR06 | Incluir | Cerca de 20 s de intro do clipe; restante correspondente. |
+| HR07 | Incluir | Cerca de 5 s de intro do clipe; restante correspondente. |
+| HR08 | Incluir | Cerca de 25 s de diálogo inicial e 20 s finais de narrativa; música correspondente. |
+| HR09 | Incluir | Correspondência exata relatada. |
+| HR10 | Excluir | Cerca de 10 s de deslocamento e 20 s de final adicional no Spotify. Autor esclareceu haver trecho musical; exclusão conservadora por edição. |
+| HR11 | Incluir | Correspondência exata relatada. |
+| HR12 | Incluir | Cerca de 40 s iniciais mostrando carro; restante correspondente. |
+| HR13 | Incluir | Correspondência exata relatada. |
+| HR14 | Incluir | Correspondência exata relatada. |
+| HR15 | Incluir | Correspondência exata relatada. |
+| HR16 | Incluir | Correspondência exata relatada. |
+| HR17 | Incluir | Correspondência exata relatada. |
+| HR18 | Incluir | Correspondência exata relatada. |
+| HR19 | Incluir | Correspondência exata relatada. |
+| HR20 | Incluir | Correspondência exata relatada. |
+
+HR03 — [alternativa indicada](https://open.spotify.com/track/3pIU81Fd7sTMdaaZ5GI9Vj): Peace Sells, Greatest Hits: Back To The Start, data de catálogo 2005-01-01. O ID não existe em nenhum dos snapshots; não há descritores congelados para ele. O ID original permanece no cadastro como excluído.
+
+Fluxo final: sete incluídos no grupo menor e dez no maior. Todas as perdas ocorreram no menor. Nenhuma data de publicação nova foi fornecida; 0/17 disponíveis, sem idade/exposição calculada. Formato explicitamente identificado no relato em cinco clipes; demais desconhecidos. Ver [resultados](resultados-hard-rock.md).

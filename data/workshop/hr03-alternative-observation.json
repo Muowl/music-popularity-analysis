@@ -1,0 +1,17 @@
+{
+  "url": "https://open.spotify.com/track/3pIU81Fd7sTMdaaZ5GI9Vj",
+  "retrieved_at_utc": "2026-10-02T02:57:21.732428+00:00",
+  "scope": "User-proposed alternative, not in the frozen source snapshots",
+  "http_status": 200,
+  "resolved_url": "https://open.spotify.com/track/3pIU81Fd7sTMdaaZ5GI9Vj",
+  "facts": {
+    "og:title": "Peace Sells",
+    "og:description": "Megadeth · Greatest Hits: Back To The Start · Song · 2005",
+    "og:url": "https://open.spotify.com/track/3pIU81Fd7sTMdaaZ5GI9Vj",
+    "music:duration": "243",
+    "music:album": "https://open.spotify.com/album/00sgBMhbJo1lEa1hHhYtw4",
+    "music:release_date": "2005-01-01",
+    "music:musician_description": "Megadeth"
+  },
+  "page_sha256": "5767b34a2ca9eb4a84e61b159d6a63db5f73383c5026faf6339186e20b1d0959"
+}
