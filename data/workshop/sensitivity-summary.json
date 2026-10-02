@@ -1,0 +1,113 @@
+{
+  "analysis_type": "post_hoc_sensitivity_not_independent_confirmation",
+  "scope": "Only HR02/HR10 tail edits; HR03 remains excluded; no change to main decisions, cutoff or groups",
+  "selection_lock_sha256": "d69e21e986e05dbe8fff536cb7b8d64a71ba3a877c5a7c9efb78a5a4e649e304",
+  "review_csv_sha256": "2160c0a1bbed8f48f9b96c519b6df00f837eba746c8f87241b6ae20dc68e8cea",
+  "source_sha256": "a08bda951ec1c62a2fbaeb5547141ba23dd7b16347f0e83bd043b1ba9cf168cd",
+  "audience_cutoff_views": 89776313.5,
+  "scenarios": {
+    "main": {
+      "added_excluded_candidates": [],
+      "group_counts": {
+        "lower": 7,
+        "higher": 10
+      },
+      "medians": {
+        "Energy": {
+          "lower": 0.931,
+          "higher": 0.7545,
+          "difference_higher_minus_lower": -0.1765000000000001
+        },
+        "Danceability": {
+          "lower": 0.54,
+          "higher": 0.35050000000000003,
+          "difference_higher_minus_lower": -0.1895
+        },
+        "Acousticness": {
+          "lower": 0.0202,
+          "higher": 0.02595,
+          "difference_higher_minus_lower": 0.005750000000000002
+        }
+      }
+    },
+    "add_HR02": {
+      "added_excluded_candidates": [
+        "HR02"
+      ],
+      "group_counts": {
+        "lower": 8,
+        "higher": 10
+      },
+      "medians": {
+        "Energy": {
+          "lower": 0.9275,
+          "higher": 0.7545,
+          "difference_higher_minus_lower": -0.17300000000000004
+        },
+        "Danceability": {
+          "lower": 0.5295000000000001,
+          "higher": 0.35050000000000003,
+          "difference_higher_minus_lower": -0.17900000000000005
+        },
+        "Acousticness": {
+          "lower": 0.0173,
+          "higher": 0.02595,
+          "difference_higher_minus_lower": 0.008650000000000001
+        }
+      }
+    },
+    "add_HR10": {
+      "added_excluded_candidates": [
+        "HR10"
+      ],
+      "group_counts": {
+        "lower": 8,
+        "higher": 10
+      },
+      "medians": {
+        "Energy": {
+          "lower": 0.9275,
+          "higher": 0.7545,
+          "difference_higher_minus_lower": -0.17300000000000004
+        },
+        "Danceability": {
+          "lower": 0.5549999999999999,
+          "higher": 0.35050000000000003,
+          "difference_higher_minus_lower": -0.2044999999999999
+        },
+        "Acousticness": {
+          "lower": 0.03155,
+          "higher": 0.02595,
+          "difference_higher_minus_lower": -0.005600000000000001
+        }
+      }
+    },
+    "add_both": {
+      "added_excluded_candidates": [
+        "HR02",
+        "HR10"
+      ],
+      "group_counts": {
+        "lower": 9,
+        "higher": 10
+      },
+      "medians": {
+        "Energy": {
+          "lower": 0.924,
+          "higher": 0.7545,
+          "difference_higher_minus_lower": -0.1695000000000001
+        },
+        "Danceability": {
+          "lower": 0.54,
+          "higher": 0.35050000000000003,
+          "difference_higher_minus_lower": -0.1895
+        },
+        "Acousticness": {
+          "lower": 0.0202,
+          "higher": 0.02595,
+          "difference_higher_minus_lower": 0.005750000000000002
+        }
+      }
+    }
+  }
+}

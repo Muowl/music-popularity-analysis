@@ -46,3 +46,53 @@ Regra e seleção congeladas no commit a1e029ec45a7ff69f06ce716df82439fc58d554c 
 Datas foram recuperadas para os 12 vídeos e as 12 páginas Spotify. Foram localizados candidatos a gênero em catálogo para 11 casos, sem promoção automática a rótulo final. A revisão documentou dois vínculos explícitos ao álbum, nove correspondências incertas e um conflito de versão. O limiar prático registrado de nove casos completos, com pelo menos dois por faixa, não foi atingido. O cadastro principal permanece vazio.
 
 Decisão: manter os resultados como evidência de viabilidade parcial; não importar pareamentos automaticamente nem mudar a pergunta. Recomenda-se curadoria manual dentro de um recorte único, com datas e escopos separados. As datas de catálogo não foram aceitas como primeiro lançamento. A marca official_video da fonte não garante a identidade sonora. Critérios e casos: docs/piloto-metadados.md e docs/relatorio-piloto-metadados.md.
+
+## Requisitos da entrega informados pelo autor
+
+O autor informou nesta conversa prazo aproximado de 24 horas para montar o trabalho e extensão de uma página para o workshop. Não forneceu um horário absoluto de submissão. Esses requisitos orientam a dimensão da proposta e a organização do trabalho.
+
+A recomendação inicial é avaliar Hard Rock por um rótulo único de catálogo, com dois níveis de audiência e três descritores na apresentação compacta. Gênero, período, seleção e alteração da lista de descritores permanecem propostas descritas em [proposta-continuidade.md](proposta-continuidade.md); não foram promovidos a protocolo aprovado nem usados para selecionar uma amostra principal.
+
+## Implementação autorizada — 2026-10-02 UTC
+
+O autor autorizou prosseguir com a implementação e pediu aviso de gargalos. A proposta anterior é o histórico da recomendação; as regras executáveis passam a ser as de [workshop-protocolo.md](workshop-protocolo.md), versão 1. Isso não atribui ao orientador aprovação dos detalhes operacionais.
+
+Antes de examinar descritores, a auditoria do rótulo exato `hard-rock` encontrou 998 IDs distintos na fonte de gênero e 176 na interseção com a fonte pareada. Após filtros de metadados, restaram 129 linhas de 39 artistas. A janela de cinco anos alcança no máximo 15 artistas; a década de catálogo 1980–1989 tem 47 faixas de 20 artistas. Adotar essa década e uma faixa por artista reduz concentração e viabiliza 20 candidatos, em lugar da meta inicialmente proposta de 24–30. A interseção constitui agora um universo deliberadamente restrito para obter o rótulo de faixa; sua cobertura não representa todo o Hard Rock.
+
+Selecionar uma faixa por artista pelo menor hash com semente fixa, sem utilizar descritores. O lock registra os 20 IDs e URLs, dez casos em cada grupo e corte de 89.776.313,5 visualizações (mediana dos 20 candidatos). Não há reserva; exclusões não alteram o corte. Manter energy, danceability e acousticness, pontos, mediana e intervalo interquartil. Congelar as regras de mesma gravação-base, exclusão de fala sobreposta e revisão de todos os candidatos antes de análise principal. As datas utilizadas são de catálogo, não primeiras datas de lançamento validadas; visualizações são históricas, com dia declarado e sem timestamp por linha.
+
+O acesso direto ao YouTube neste ambiente retornou falha de túnel HTTP 403 para HR01, como no piloto anterior. O autor foi informado e recebeu solicitação de conferência por IDs. Os 20 pares continuam pendentes; nenhum coincide nos dois IDs com as escutas anteriores. Datas de publicação dos novos vídeos ficam ausentes até recuperação documentada. A versão 1 permite inclusão musical com essa data ausente, mas exige relatar que a exposição do vídeo não foi controlada. Essa revisão prospectiva não altera a reprovação do piloto original.
+
+Uma prévia técnica dos candidatos, se gerada, ficará separada e marcada como não validada. Não será um resultado principal nem critério de curadoria. A redação inicial de uma página poderá reportar apenas os resultados verificados do piloto; a comparação musical continuará explicitamente pendente até a escuta.
+
+## Conferência dos 20 candidatos — 2026-10-01, horário de Brasília
+
+O autor forneceu relatos para HR01–HR20 e esclareceu que o trecho final adicional em HR10 contém música. As falas originais, sem horários de escuta inventados, estão em `data/workshop/recording-review-evidence.json`; o horário UTC de registro é distinto do instante desconhecido da escuta. Nenhum áudio foi ouvido pelo assistente.
+
+Incluir 17 gravações-base por relato. Excluir conservadoramente HR02 e HR10 por extensão musical de encerramento, preservando que o autor relatou fidelidade geral, sem afirmar mudança de execução. Essa interpretação da fronteira de edição foi feita após a prévia dos candidatos e antes da comparação curada, explicitada no protocolo; não havia limiar numérico de duração e nenhum foi introduzido. HR03 conserva o ID congelado como não confirmado suficientemente e recebe exclusão; a versão alternativa indicada, `3pIU81Fd7sTMdaaZ5GI9Vj`, não aparece em nenhum snapshot. Sua página pública, com ID canônico exato, indica Peace Sells, compilação Greatest Hits: Back To The Start, ano de catálogo 2005. Não atribuir os descritores do ID antigo ao novo.
+
+Conservar corte de 89.776.313,5, IDs e grupos, sem reposição. Resultado do fluxo: 7/10 incluídos no grupo menor e 10/10 no maior; nenhum perdeu os três descritores por ausência/escala inválida. As datas de publicação dos 17 vídeos continuam ausentes, impedindo controle de exposição. Formato identificado no relato em cinco clipes; nos outros 12 fica desconhecido.
+
+O limiar operacional da nova comparação, cinco gravações por grupo, é atendido. Isso não aprova retroativamente o piloto original, nem representa poder estatístico ou identidade técnica de master. A página passa a tratar a comparação curada de Hard Rock; o artigo anterior sobre curadoria permanece preservado como rascunho histórico. Resultados e hipóteses pós-hoc têm registro próprio, com limites de cobertura, rótulo e edição de catálogo.
+
+## Revisão da PR autorizada — 2026-10-02
+
+Após a avaliação do commit c42edff, o autor autorizou tratar os pontos possíveis e informar gargalos. Manter todos os IDs, corte e decisões principais. Explicitar pergunta e motivação no artigo, sincronizar documentos atuais e acrescentar sensibilidade pós-hoc das duas exclusões por extensão musical. A direção de energia/dançabilidade permanece nos três cenários alternativos; não interpretar como confirmação independente.
+
+Recuperadas publicações dos 20 vídeos em páginas com IDs exatos, sem atualizar visualizações. Preservar o registro original de escuta, inclusive a ausência de datas naquele momento; a cadeia dos hashes anterior/posterior ao enriquecimento está em `data/workshop/video-metadata.json`. Classificação de formato permanece desconhecida em 12 casos. Não houve nova escuta pelo assistente.
+
+O cache histórico completo do catálogo não foi encontrado. A nova tentativa de coleta teve 20 páginas disponíveis e 156 falhas de acesso (`URLError`); não permite conferir a seleção integral. Publicar auditoria mínima de todos os 176 IDs com ausências explícitas e observações atuais separadas das 20 originais preservadas no lock. Não afirmar divergência de seleção com base em coleta incompleta. Novos congelamentos pelo script passarão a preservar as observações de elegibilidade completas; essa mudança não fabrica evidência para o lock existente.
+
+A dependência ABNTeX2 foi obtida de um espelho CTAN com o mesmo SHA-256 fixado. Acrescentar fallback de download com verificação de hash, preservando `settings.sty`.
+
+## Automação da verificação posterior — 2026-10-02
+
+Diante do prazo curto, disponibilizar execução local com um comando, cache por ID, verificação de hashes, tentativas limitadas e geração de pacote de evidências. A recuperação do ambiente original ficou bloqueada antes do acesso ao filesystem; não se conclui que o cache original foi perdido. A nova automação verifica o catálogo posteriormente, sem modificar seleção, curadoria, audiência ou hipóteses. Nesta implementação, testes e execução offline validaram o comportamento de coleta parcial; a nova coleta online completa ainda depende da execução local.
+
+## Reprodução posterior concluída — 2026-10-02
+
+O autor executou a automação local em cópia separada da branch, commit 0c3c80c, e forneceu `catalogue-evidence.zip`. Coleta entre 04:52:55 e 04:56:04 UTC, com 176/176 páginas. Foram conferidos independentemente os 358 arquivos do manifesto, os IDs canônicos e as datas nos HTML, os hashes dos CSVs e as regras de seleção. Reproduzidos 129 elegíveis, 47 faixas da década, 20 artistas/IDs, corte 89.776.313,5 e máximo de 15 artistas em cinco anos; nenhuma data de catálogo dos 20 mudou.
+
+O hash do lock dentro do pacote difere por CRLF no Windows. Verificada igualdade exata após normalização de quebras de linha e igualdade semântica JSON, preservando hashes originais. A evidência mínima completa substitui o retrato parcial em `selection-audit.json`; a tentativa anterior permanece no histórico. Dados brutos não foram publicados. Lock, decisões, descritores e resultados musicais não mudam.
+
+A seleção foi reproduzida com metadados posteriores; o cache original não foi recuperado e H01 não foi testada independentemente. Atualizar o artigo e os documentos para refletir essa distinção, mantendo o formato de 12 vídeos como desconhecido.

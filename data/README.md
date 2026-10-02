@@ -1,6 +1,6 @@
 # Dados e proveniência
 
-O cadastro em selection/candidates.csv começa vazio. Não há amostra aprovada.
+O cadastro em `selection/candidates.csv` contém 20 candidatos congelados: **17 incluídos e três excluídos** após os relatos do autor e adjudicação. O cadastro de revisão é `workshop/recording-review.csv`, com evidências verbatim em `workshop/recording-review-evidence.json`. O lock preserva IDs, fontes, contagens, datas de catálogo e grupos. O resultado agregado versionado é `workshop/analysis-summary.json`, produzido a partir dos snapshots e das decisões, sem consulta de audiência atual.
 
 Guarde originais em raw/ e derivados em processed/: ambos estão ignorados pelo Git. Mesmo metadados devem ter condições de uso verificadas antes de publicação. Não enviar áudios, PDFs, credenciais ou bases completas automaticamente.
 
@@ -15,7 +15,7 @@ Para cada fonte, registrar em documento versionado: URL, responsável, data de o
 - views: inteiro não negativo; sem separadores.
 - observed_at_utc: consulta ISO 8601 com UTC explícito, exemplo de formato AAAA-MM-DDTHH:MM:SS+00:00.
 - track_id: ID da gravação correspondente na base de descritores.
-- match_status: documentary, uncertain ou not_found.
+- match_status: documentary, uncertain ou not_found; no esquema v2, user_reviewed distingue a confirmação musical atribuída da evidência documental.
 - match_evidence: evidências da versão; não substituir por outra gravação.
 - decision: pending, include ou exclude.
 - exclusion_reason: obrigatório se exclude.
@@ -23,12 +23,34 @@ Para cada fonte, registrar em documento versionado: URL, responsável, data de o
 
 Campos desconhecidos ficam vazios, nunca preenchidos com zero por conveniência. O validador verifica estrutura e consistência, não a veracidade das fontes nem licença.
 
+## Esquema v2: audiência histórica e revisão
+
+O validador mantém compatibilidade com o esquema inicial e aceita a extensão atual:
+
+- `views_observed_date`: dia declarado da coleta (2023-02-07 neste snapshot).
+- `views_date_precision`: `day_declared`, sem instante UTC por linha.
+- `views_date_source_url`: fonte da declaração temporal.
+- `recording_review`: pending, same_base_recording, different_version, audio_overlay ou uncertain.
+- `reviewer`: autor da conferência; não atribuir escuta ao assistente.
+- `audience_group`: lower ou higher, fixado no lock.
+
+Não preencher simultaneamente um instante UTC com o dia declarado. Uma inclusão v2 exige gravação-base correspondente, revisor, evidência e data de audiência com origem. Publicação do vídeo ausente gera aviso e exige limitação nas notas; a idade não é calculada. O protocolo específico registra essa revisão prospectiva, sem aprovar retroativamente o piloto antigo. A análise ainda exige a revisão de todos os candidatos e os limiares operacionais do [protocolo do workshop](../docs/workshop-protocolo.md).
+
 ## Fontes candidatas auditadas
 
 [Manifesto de fontes](source-manifest.json): URLs, versões, datas declaradas, tamanhos, SHA-256 e rótulos de licença consultados para os dois snapshots. Download verificável: `python scripts/download_pilot_sources.py`. Os CSVs ficam em `data/raw/` e não são versionados.
 
-A fonte pareada tem audiência histórica e não contém data/hora de observação por linha. Antes de importar qualquer candidato, o esquema deverá distinguir data declarada, precisão temporal e data de obtenção. Não fabricar um instante UTC para satisfazer o validador. O cadastro principal permanece vazio; o [relatório](../docs/relatorio-piloto-fontes.md) contém apenas auditoria das fontes.
+A fonte pareada tem audiência histórica e não contém data/hora de observação por linha. O esquema v2 distingue data declarada, precisão e obtenção. Não fabricar instante UTC para satisfazer o validador. O [relatório inicial](../docs/relatorio-piloto-fontes.md) preserva a auditoria; a seleção atual segue o protocolo específico.
 
 ## Seleção de acesso a metadados
 
 `pilot/metadata-candidates.json` contém os 12 casos congelados para testar o enriquecimento, não inclusões na amostra principal. `metadata-observations.json` preserva fatos extraídos das páginas exatas; `catalogue-search.json` contém candidatos suplementares de catálogo, não correspondências aprovadas. `metadata-review.json` registra a revisão por caso e o resultado do critério de avanço. Descrições e HTML completos ficam apenas no cache local em `raw/`.
+
+## Evidências da revisão da PR
+
+- `workshop/video-metadata.json`: metadados atuais de publicação dos 20 IDs de vídeo, valores brutos e hashes das páginas; não contém contadores atuais. Registra hashes do CSV antes/depois do enriquecimento. O JSON original de escuta permanece histórico e suas ausências de publicação referem-se àquele momento.
+- `workshop/sensitivity-summary.json`: cenários pós-hoc HR02/HR10, sem alteração das decisões principais.
+- `workshop/selection-audit.json`: auditoria dos 176 candidatos com a coleta posterior completa, que reproduz a seleção e o corte; evidência histórica e posterior ficam separadas. A tentativa parcial anterior permanece no histórico Git.
+- `workshop/catalogue-package-verification.json`: conferência independente dos 358 arquivos do manifesto, reextração dos 176 HTML e recálculo dos filtros/seleção. Inclui SHA-256 do ZIP e registra a diferença CRLF/LF do lock. O pacote bruto fica separado do repositório.
+
+HTML, descrições e CSVs completos continuam locais. São preservados apenas fatos necessários e agregados, seguindo o escopo documental já adotado pelo projeto; não se atribui nova licença às fontes.

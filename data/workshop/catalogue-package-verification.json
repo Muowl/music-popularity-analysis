@@ -1,0 +1,32 @@
+{
+  "scope": "Independent reparse of later-collected HTML and recomputation from frozen source CSVs; original cache not recovered",
+  "archive_sha256": "10f348b13c7446113f464b36141536c593c572e52b1e42c3ea59e21358d4fb61",
+  "archive_bytes": 8308934,
+  "manifest_entries_verified": 358,
+  "html_pages_verified": 176,
+  "collection_started_at_utc": "2026-10-02T04:52:55.086305+00:00",
+  "collection_finished_at_utc": "2026-10-02T04:56:04.363357+00:00",
+  "bundle_lock_sha256": "56715069f0631936f0cfaf4b5ac740475348a0d5bd1717fb874c7f71517097c6",
+  "repository_lock_sha256": "d69e21e986e05dbe8fff536cb7b8d64a71ba3a877c5a7c9efb78a5a4e649e304",
+  "lock_identical_after_lf_normalization": true,
+  "lock_json_identical": true,
+  "genre_unique_ids": 998,
+  "intersection_ids": 176,
+  "eligible_before_catalogue": 129,
+  "maximum_artists_in_five_year_windows_1965_to_2022": 15,
+  "comparison": {
+    "complete": true,
+    "decade_rows": 47,
+    "selected_artists": 20,
+    "same_selected_ids": true,
+    "same_cutoff": true,
+    "current_cutoff_views": 89776313.5,
+    "new_ids": [],
+    "missing_ids": []
+  },
+  "selected_catalogue_dates_changed": [],
+  "source_sha256": {
+    "Spotify Tracks Dataset": "b202fa49909b2d5cef71a04b1d21243cfeb36414535f2ca9272aa646721177bd",
+    "Spotify and Youtube": "a08bda951ec1c62a2fbaeb5547141ba23dd7b16347f0e83bd043b1ba9cf168cd"
+  }
+}

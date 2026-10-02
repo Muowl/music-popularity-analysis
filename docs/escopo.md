@@ -3,7 +3,7 @@
 ## Direção aprovada para investigação
 Realizar um estudo exploratório e descritivo de descritores musicais e audiência no YouTube, com comparação entre níveis de audiência condicionada ao piloto de viabilidade. Segundo o relato do autor sobre a resposta em áudio, o orientador aceitou a linha geral e solicitou motivação, problema, objetivo e hipóteses para testes futuros explícitos. Ele recebeu uma mensagem resumida, não o repositório; isso não representa aprovação dos detalhes operacionais.
 
-Pergunta provisória: Dentro de um recorte definido de gênero e período de lançamento, como se distribuem os descritores musicais entre canções com diferentes níveis de audiência no YouTube?
+Pergunta operacional: Como se distribuem energia, dançabilidade e acusticidade entre faixas rotuladas `hard-rock`, com datas de catálogo Spotify de 1980–1989, associadas a vídeos de menor e maior audiência histórica nesta seleção?
 
 Objetivo geral: descrever e comparar as distribuições, identificar padrões e heterogeneidade e formular hipóteses para estudos posteriores.
 
@@ -17,19 +17,17 @@ Objetivos específicos:
 
 Produto pretendido: comparação descritiva, auditoria de cobertura e registro de achados, hipóteses e propostas de teste conforme docs/hipoteses.md. A relação com recomendação baseada em conteúdo é motivação; não será implementado ou avaliado um recomendador.
 
-## Condição de avanço
-Seguir docs/piloto.md. Os grupos devem vir de um universo comum com critérios definidos antes de examinar os descritores. Comparabilidade, disponibilidade e rastreabilidade determinam a viabilidade; encontrar diferenças grandes não é condição de sucesso.
+## Estado operacional
+O piloto original foi encerrado e sua reprovação permanece documentada. A nova comparação segue `workshop-protocolo.md`: 20 candidatos, 17 incluídos, três descritores e dois grupos congelados. Encontrar diferenças grandes não foi condição de avanço. As limitações de comparabilidade e rastreabilidade estão em `resultados-hard-rock.md` e `auditoria-selecao.md`.
 
 ## Alternativa se a comparação for inviável
 Descrever o perfil de uma seleção documentada de canções de grande audiência. Nesse caso, reformular título e pergunta e registrar a decisão. Não afirmar que as características observadas distinguem sucessos de outras músicas. As hipóteses também deverão respeitar esse recorte descritivo.
 
 ## Decisões pendentes
-- Alinhamento da formulação final e dos detalhes operacionais com o orientador; confirmar requisitos do workshop.
-- Universo elegível, fonte, gênero e janela de lançamento/publicação.
-- Níveis de audiência, data de referência, tamanho do piloto e amostra principal.
-- Tratamento de artistas repetidos, versões e formato dos vídeos.
-- Descritores, interpretação, origem do snapshot e condições de uso.
-- Critérios de viabilidade e tratamento das perdas por grupo, antes de examinar diferenças musicais.
+- Alinhar o recorte operacional e o rascunho final com o orientador; confirmar requisitos de submissão.
+- Preservar a evidência da reprodução posterior concluída (176/176 páginas). Retomar a busca do cache original somente se o ambiente voltar a ficar acessível.
+- Completar a classificação de formato dos 12 vídeos desconhecidos por conferência apropriada.
+- Planejar eventual estudo independente de H01; esta amostra não confirma a hipótese.
 
 ## Limites
 Grupo de comparação não é controle experimental. Audiência acumulada de um vídeo não mede audiência total da música nem comprova alcance global. A mediana do catálogo inteiro não constitui comparação adequada por si só.

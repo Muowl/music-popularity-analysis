@@ -2,19 +2,21 @@
 
 Pesquisa exploratória para o workshop do DCC/UFJF, vinculada à linha de pesquisa do TCC de Sistemas de Informação de Felipe Lazzarini Cunha.
 
-**Estado: linha exploratória e descritiva aceita pelo orientador, conforme relato do autor. Piloto em execução: auditoria de fontes e enriquecimento de 12 casos concluídos. Datas recuperadas, mas a validação de versões e a interpretação de gênero/data ainda não atingiram o critério de avanço. Não há amostra principal aprovada nem resultados musicais.**
+**Estado: comparação descritiva executada após os 20 relatos de escuta do autor. Foram incluídos 17 pares, sete no grupo de menor audiência e dez no maior; três exclusões conservadoras ocorreram no primeiro grupo. IDs, corte e fontes permanecem congelados. A página LaTeX apresenta a comparação curada, uma figura e hipótese pós-hoc, com limites de cobertura e exposição. O piloto original e sua reprovação continuam preservados.**
+
+O caminho de execução está em [implementacao-workshop.md](docs/implementacao-workshop.md), com [protocolo e adjudicação](docs/workshop-protocolo.md), [conferência](docs/conferencia-hard-rock.md), [resultados](docs/resultados-hard-rock.md) e [caderno executado](notebooks/03_hard_rock_results.ipynb). O [PDF de uma página](paper/workshop-hard-rock.pdf) é o rascunho atual para revisão. O fonte `main.tex` passou a exibir a URL completa do repositório; o PDF ainda contém o rótulo abreviado. Falta recompilar com `python scripts/build_paper.py`, conferir a diagramação e substituir `paper/workshop-hard-rock.pdf` pelo `main.pdf` gerado. A compilação desta alteração ficou pendente por indisponibilidade do ambiente. A década se refere ao catálogo Spotify, não a primeiros lançamentos já validados.
 
 ## Motivação, problema e objetivo
 
 A motivação é examinar se diferentes níveis de audiência vêm acompanhados de perfis semelhantes ou distintos nos descritores disponíveis, sem presumir um perfil comum aos sucessos. Isso permitirá identificar relações que mereçam investigação posterior. Trata-se da justificativa deste projeto, não de uma lacuna da literatura já demonstrada.
 
-**Problema de pesquisa — formulação provisória:** Dentro de um recorte definido de gênero e período de lançamento, como se distribuem os descritores musicais entre canções com diferentes níveis de audiência no YouTube?
+**Problema de pesquisa:** Como se distribuem energia, dançabilidade e acusticidade entre faixas rotuladas `hard-rock`, com datas de catálogo Spotify de 1980–1989, associadas a vídeos abaixo e acima do corte de audiência histórica da seleção?
 
 **Objetivo geral:** descrever e comparar essas distribuições, identificar padrões e heterogeneidade e formular hipóteses para estudos posteriores, respeitando os limites da amostra.
 
 **Contribuição esperada:** caracterização documentada da amostra e hipóteses rastreáveis aos achados, acompanhadas de propostas de teste em novos dados. Distribuições semelhantes também serão relatadas; o estudo não depende de encontrar grandes diferenças.
 
-A prioridade é validar um grupo de comparação com origem e critérios comuns. O piloto verificará acesso, correspondência entre gravações e cobertura dos descritores por nível de audiência antes da análise principal. Se isso for inviável, a descrição de canções de grande audiência permanece como alternativa, mediante decisão registrada. Não buscamos demonstrar uma fórmula do sucesso nem causalidade.
+A comparação foi executada com critérios comuns, 17 pares curados e grupos congelados. A sensibilidade pós-hoc de HR02/HR10 preserva a direção dos contrastes de energia e dançabilidade. Datas de publicação foram recuperadas para os 20 candidatos; o tempo desde a publicação é descrito, sem ajuste estatístico da comparação. Não buscamos demonstrar uma fórmula do sucesso nem causalidade.
 
 A relação com recomendação baseada em conteúdo é motivação: o estudo examina descritores que podem representar músicas, mas não implementa nem avalia um recomendador. Visualizações não demonstram alcance geográfico global.
 
@@ -26,18 +28,15 @@ A [auditoria das fontes](docs/relatorio-piloto-fontes.md) encontrou cobertura de
 
 A [segunda etapa, com 12 casos congelados](docs/relatorio-piloto-metadados.md), recuperou datas dos 12 vídeos e das 12 páginas Spotify e encontrou candidatos a gênero para 11 casos. Só dois pares tiveram vínculo documental explícito ao álbum; nove permanecem incertos e um tem conflito de versão. A recomendação é curadoria manual com um recorte único, sem importar automaticamente os pareamentos.
 
-## Por onde começar
+A [conferência suplementar relatada pelo autor](docs/conferencia-gravacoes.md) preserva essa etapa histórica e registra a avaliação musical atual: nove confirmações, dois conflitos e uma fala exclusiva. Confirmação musical não é aprovação de todos os campos ou da amostra principal. A nova seleção não reaproveita automaticamente esses casos.
 
-1. Executar o [plano do piloto](docs/piloto.md), resolver as decisões de [escopo](docs/escopo.md) e registrar os critérios no [protocolo](docs/protocolo.md).
-2. Registrar fontes e condições de uso em [data/README.md](data/README.md).
-3. Preencher [data/selection/candidates.csv](data/selection/candidates.csv), incluindo exclusões e correspondências incertas.
-4. Executar a validação estrutural:
-   ```sh
-   python scripts/validate_selection.py
-   ```
-   Requer Python 3.10+ e apenas a biblioteca padrão. Cadastro vazio ou sem casos incluídos termina com código 2: não significa amostra pronta.
-5. Congelar a seleção por commit antes da análise principal. Seguir [notebooks/README.md](notebooks/README.md).
-6. Gerar figuras, registrar achados e hipóteses conforme [docs/hipoteses.md](docs/hipoteses.md) e escrever no modelo LaTeX existente, conforme [paper/README.md](paper/README.md).
+## Reprodução e revisão atual
+
+Seguir os comandos de [implementação](docs/implementacao-workshop.md). O [protocolo específico](docs/workshop-protocolo.md) governa a análise atual; documentos do piloto preservam o histórico.
+
+Consultar [resultados e sensibilidade](docs/resultados-hard-rock.md), [metadados dos vídeos](data/workshop/video-metadata.json) e [auditoria da seleção](docs/auditoria-selecao.md). Uma coleta posterior em 2026-10-02 verificou 176/176 páginas e reproduziu as 47 faixas elegíveis, os mesmos 20 artistas/IDs e o corte original. O ZIP foi conferido independentemente por hashes e nova extração dos HTML. Isso reproduz a seleção com metadados posteriores; o cache original permanece indisponível.
+
+A próxima decisão é alinhar o rascunho com o orientador. Permanecem a ausência de validação técnica de master, o formato desconhecido de 12 vídeos e a indisponibilidade do cache original, distinguida da reprodução posterior concluída.
 
 ## Organização
 
@@ -46,11 +45,12 @@ As regras de contribuição, mensagens e separação de commits estão em [CONTR
 | Local | Conteúdo |
 |---|---|
 | `docs/` | Escopo, protocolo, decisões, fontes acadêmicas e próximos passos |
-| `data/selection/` | Cadastro auditável dos candidatos; inicialmente só cabeçalho |
+| `data/selection/` | Cadastro dos 20 candidatos, 17 incluídos e três excluídos |
+| `data/workshop/` | Lock dos IDs e grupos, cadastro de revisão e evidências bibliográficas |
 | `data/raw/` | Dados originais locais, ignorados pelo Git |
 | `data/processed/` | Dados derivados locais, ignorados pelo Git |
-| `scripts/` | Verificações e, posteriormente, processamento reproduzível |
-| `notebooks/` | Orientações para os cadernos de análise |
+| `scripts/` | Coleta, auditoria, análise principal, sensibilidade e compilação |
+| `notebooks/` | Auditoria, prévia histórica e resultados curados executados |
 | `figures/` | Figuras finais acompanhadas de origem e método |
 | `paper/` | Orientações de redação e entrega |
 | `main.tex`, `settings.sty`, `abntex2cite.sty`, `references.bib` | Modelo original preservado na raiz |
@@ -59,6 +59,6 @@ As regras de contribuição, mensagens e separação de commits estão em [CONTR
 
 Visualizações acumuladas dizem respeito ao vídeo observado, na data da coleta; não são ouvintes únicos nem audiência total da música. Idade do vídeo, exposição, gênero, idioma, artista e formato podem afetar comparações. Descritores do Spotify referem-se a uma gravação; não preencher lacunas com outra versão. Valência não mede o humor do ouvinte.
 
-A bibliografia atual em `references.bib` foi herdada do modelo e **não constitui fundamentação deste tema**. Referências musicais só devem entrar após verificação da publicação e da afirmação sustentada.
+A bibliografia em `references.bib` conserva as entradas herdadas, não validadas para este tema. A página cita somente duas novas referências musicais com publicação, metadados e relação com a afirmação verificados, conforme `data/workshop/reference-evidence.json`; a verificação se limitou aos metadados e resumos disponíveis.
 
 O repositório foi encontrado público. Dados brutos, PDFs de terceiros e credenciais não devem ser adicionados automaticamente. Não foi atribuída licença a material de terceiros.

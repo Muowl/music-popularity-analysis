@@ -1,0 +1,133 @@
+{
+  "stage": "validated",
+  "not_a_main_result": false,
+  "selection_lock_sha256": "d69e21e986e05dbe8fff536cb7b8d64a71ba3a877c5a7c9efb78a5a4e649e304",
+  "review_csv_sha256": "2160c0a1bbed8f48f9b96c519b6df00f837eba746c8f87241b6ae20dc68e8cea",
+  "source_sha256": "a08bda951ec1c62a2fbaeb5547141ba23dd7b16347f0e83bd043b1ba9cf168cd",
+  "features": [
+    "Energy",
+    "Danceability",
+    "Acousticness"
+  ],
+  "quantile_method": "numpy linear",
+  "software": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "matplotlib": "3.10.8"
+  },
+  "flow": {
+    "candidates": 20,
+    "decisions": {
+      "include": 17,
+      "exclude": 3
+    },
+    "review_exclusions": [
+      {
+        "candidate_id": "HR02",
+        "reason": "musical_tail_extension_in_spotify"
+      },
+      {
+        "candidate_id": "HR03",
+        "reason": "frozen_recording_not_confirmed_alternative_absent_from_both_snapshots"
+      },
+      {
+        "candidate_id": "HR10",
+        "reason": "musical_tail_extension_in_spotify"
+      }
+    ],
+    "feature_exclusions": [],
+    "plotted": 17,
+    "group_counts": {
+      "lower": 7,
+      "higher": 10
+    }
+  },
+  "context": {
+    "lower": {
+      "n": 7,
+      "distinct_artists": 7,
+      "catalogue_year_min": 1980,
+      "catalogue_year_median": 1984,
+      "catalogue_year_max": 1988,
+      "video_publication_available": 7,
+      "video_age_years_median": 12.796714579055442,
+      "video_age_years_min": 0.31759069130732376,
+      "video_age_years_max": 13.232032854209445,
+      "formats": {
+        "unknown": 3,
+        "music_video": 4
+      }
+    },
+    "higher": {
+      "n": 10,
+      "distinct_artists": 10,
+      "catalogue_year_min": 1980,
+      "catalogue_year_median": 1984.0,
+      "catalogue_year_max": 1989,
+      "video_publication_available": 10,
+      "video_age_years_median": 13.033538672142368,
+      "video_age_years_min": 9.604380561259411,
+      "video_age_years_max": 13.91649555099247,
+      "formats": {
+        "unknown": 9,
+        "music_video": 1
+      }
+    }
+  },
+  "summaries": {
+    "Energy": {
+      "lower": {
+        "n": 7,
+        "q1": 0.895,
+        "median": 0.931,
+        "q3": 0.9675,
+        "min": 0.722,
+        "max": 0.982
+      },
+      "higher": {
+        "n": 10,
+        "q1": 0.70075,
+        "median": 0.7545,
+        "q3": 0.83,
+        "min": 0.452,
+        "max": 0.98
+      }
+    },
+    "Danceability": {
+      "lower": {
+        "n": 7,
+        "q1": 0.3355,
+        "median": 0.54,
+        "q3": 0.573,
+        "min": 0.303,
+        "max": 0.679
+      },
+      "higher": {
+        "n": 10,
+        "q1": 0.271,
+        "median": 0.35050000000000003,
+        "q3": 0.49525,
+        "min": 0.202,
+        "max": 0.63
+      }
+    },
+    "Acousticness": {
+      "lower": {
+        "n": 7,
+        "q1": 0.00908,
+        "median": 0.0202,
+        "q3": 0.0474,
+        "min": 0.00253,
+        "max": 0.435
+      },
+      "higher": {
+        "n": 10,
+        "q1": 0.012674999999999999,
+        "median": 0.02595,
+        "q3": 0.110725,
+        "min": 0.00322,
+        "max": 0.638
+      }
+    }
+  }
+}
