@@ -1,0 +1,162 @@
+[
+  {
+    "type": "journal-article",
+    "doi": "10.1561/1500000042",
+    "metadata_url": "https://api.crossref.org/works/10.1561/1500000042",
+    "query_url": "https://api.crossref.org/works?query.title=Music+Information+Retrieval+Recent+Developments+and+Applications&rows=2",
+    "retrieved_at_utc": "2026-10-02T00:36:56.326896+00:00",
+    "response_sha256": "bb26539c093ff5c39ef378b0c3aaa3f3fb3b642003f19bbe0f97517415201b2f",
+    "title": [
+      "Music Information Retrieval: Recent Developments and Applications"
+    ],
+    "author": [
+      {
+        "given": "Markus",
+        "family": "Schedl",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Johannes Kepler University Linz ,",
+            "place": [
+              "Austria"
+            ]
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Emilia",
+        "family": "Gómez",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Universitat Pompeu Fabra, Barcelona ,",
+            "place": [
+              "Spain"
+            ]
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Julián",
+        "family": "Urbano",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Universitat Pompeu Fabra, Barcelona ,",
+            "place": [
+              "Spain"
+            ]
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "journal": [
+      "Foundations and Trends® in Information Retrieval"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2014,
+          9,
+          12
+        ]
+      ]
+    },
+    "volume": "8",
+    "issue": "2-3",
+    "page": "127-261",
+    "verification_scope": "Crossref publication metadata and abstract; full text not reviewed",
+    "supported_claim": "MIR uses audio and contextual representations"
+  },
+  {
+    "type": "journal-article",
+    "doi": "10.1177/0003122417728662",
+    "metadata_url": "https://api.crossref.org/works/10.1177/0003122417728662",
+    "query_url": "https://api.crossref.org/works?query.title=What+Makes+Popular+Culture+Popular+Product+Features+and+Optimal+Differentiation+in+Music&rows=2",
+    "retrieved_at_utc": "2026-10-02T00:36:56.327509+00:00",
+    "response_sha256": "d3dafe4555b90ad0ac7aa83d92ee12d0b7830f62048eb3ba53a2441a91b8ad94",
+    "title": [
+      "What Makes Popular Culture Popular? Product Features and Optimal Differentiation in Music"
+    ],
+    "author": [
+      {
+        "given": "Noah",
+        "family": "Askin",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "INSEAD"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Michael",
+        "family": "Mauskapf",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Columbia Business School"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "journal": [
+      "American Sociological Review"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2017,
+          9,
+          6
+        ]
+      ]
+    },
+    "volume": "82",
+    "issue": "5",
+    "page": "910-944",
+    "verification_scope": "Crossref publication metadata and abstract; full text not reviewed",
+    "supported_claim": "Study of Billboard charts related audio features and differentiation to chart success; does not validate YouTube causality"
+  },
+  {
+    "type": "platform-documentation",
+    "url": "https://developer.spotify.com/documentation/web-api/reference/get-audio-features",
+    "retrieved_at_utc": "2026-10-02T00:36:56.327879+00:00",
+    "response_sha256": "bbfcff2711d9d1997a1a9d6452617ec63c4ac90a252b6e35f535422a06e635bd",
+    "definitions": {
+      "energy": "Perceptual intensity and activity on a scale from 0 to 1",
+      "danceability": "Suitability for dancing based on tempo, rhythm stability, beat strength and regularity, from 0 to 1",
+      "acousticness": "Confidence that a track is acoustic, from 0 to 1"
+    }
+  }
+]

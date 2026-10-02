@@ -2,7 +2,9 @@
 
 Pesquisa exploratória para o workshop do DCC/UFJF, vinculada à linha de pesquisa do TCC de Sistemas de Informação de Felipe Lazzarini Cunha.
 
-**Estado: linha exploratória e descritiva aceita pelo orientador, conforme relato do autor. Piloto em execução: auditoria de fontes e enriquecimento de 12 casos concluídos. Datas recuperadas, mas a validação de versões e a interpretação de gênero/data ainda não atingiram o critério de avanço. Não há amostra principal aprovada nem resultados musicais.**
+**Estado: implementação autorizada pelo autor. A conferência suplementar do piloto registra nove correspondências musicais, dois conflitos de versão e uma fala sobreposta; o critério original de avanço continua não atendido. Uma nova seleção de 20 candidatos rotulados hard-rock, com datas de catálogo de 1980–1989, está congelada e aguarda escuta. Código e caderno geram uma prévia explicitamente não validada; a comparação principal permanece bloqueada. O rascunho LaTeX de uma página reporta os achados do piloto.**
+
+O caminho de execução atual está em [implementacao-workshop.md](docs/implementacao-workshop.md), com [protocolo congelado](docs/workshop-protocolo.md), [lista de escuta](docs/conferencia-hard-rock.md) e [caderno executado](notebooks/02_hard_rock_workshop.ipynb). A década se refere ao catálogo Spotify, não a primeiros lançamentos já validados.
 
 ## Motivação, problema e objetivo
 
@@ -26,6 +28,8 @@ A [auditoria das fontes](docs/relatorio-piloto-fontes.md) encontrou cobertura de
 
 A [segunda etapa, com 12 casos congelados](docs/relatorio-piloto-metadados.md), recuperou datas dos 12 vídeos e das 12 páginas Spotify e encontrou candidatos a gênero para 11 casos. Só dois pares tiveram vínculo documental explícito ao álbum; nove permanecem incertos e um tem conflito de versão. A recomendação é curadoria manual com um recorte único, sem importar automaticamente os pareamentos.
 
+A [conferência suplementar relatada pelo autor](docs/conferencia-gravacoes.md) preserva essa etapa histórica e registra a avaliação musical atual: nove confirmações, dois conflitos e uma fala exclusiva. Confirmação musical não é aprovação de todos os campos ou da amostra principal. A nova seleção não reaproveita automaticamente esses casos.
+
 ## Por onde começar
 
 1. Executar o [plano do piloto](docs/piloto.md), resolver as decisões de [escopo](docs/escopo.md) e registrar os critérios no [protocolo](docs/protocolo.md).
@@ -46,7 +50,8 @@ As regras de contribuição, mensagens e separação de commits estão em [CONTR
 | Local | Conteúdo |
 |---|---|
 | `docs/` | Escopo, protocolo, decisões, fontes acadêmicas e próximos passos |
-| `data/selection/` | Cadastro auditável dos candidatos; inicialmente só cabeçalho |
+| `data/selection/` | Cadastro dos 20 candidatos, com revisão ainda pendente |
+| `data/workshop/` | Lock dos IDs e grupos, cadastro de revisão e evidências bibliográficas |
 | `data/raw/` | Dados originais locais, ignorados pelo Git |
 | `data/processed/` | Dados derivados locais, ignorados pelo Git |
 | `scripts/` | Verificações e, posteriormente, processamento reproduzível |
@@ -59,6 +64,6 @@ As regras de contribuição, mensagens e separação de commits estão em [CONTR
 
 Visualizações acumuladas dizem respeito ao vídeo observado, na data da coleta; não são ouvintes únicos nem audiência total da música. Idade do vídeo, exposição, gênero, idioma, artista e formato podem afetar comparações. Descritores do Spotify referem-se a uma gravação; não preencher lacunas com outra versão. Valência não mede o humor do ouvinte.
 
-A bibliografia atual em `references.bib` foi herdada do modelo e **não constitui fundamentação deste tema**. Referências musicais só devem entrar após verificação da publicação e da afirmação sustentada.
+A bibliografia em `references.bib` conserva as entradas herdadas, não validadas para este tema. A página cita somente duas novas referências musicais com publicação, metadados e relação com a afirmação verificados, conforme `data/workshop/reference-evidence.json`; a verificação se limitou aos metadados e resumos disponíveis.
 
 O repositório foi encontrado público. Dados brutos, PDFs de terceiros e credenciais não devem ser adicionados automaticamente. Não foi atribuída licença a material de terceiros.

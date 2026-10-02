@@ -2,9 +2,10 @@
 \usepackage{hyperref}
 \usepackage{settings}
 \usepackage{graphicx}
+\renewcommand{\tablename}{Tabela}
 \begin{document}
 
-\title{Lorem ipsum}
+\title{Descritores musicais e audiência: um piloto de curadoria entre Spotify e YouTube}
 
 \author{Felipe Cunha(felipe.cunha@estudante.ufjf.br)}
 \author{Marcelo Machado (marcelo.machado@ufjf.br)}
@@ -12,15 +13,42 @@
 \maketitle
 
 \section*{Introdução}
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+Descritores de áudio permitem representar propriedades musicais em tarefas de recuperação de informação \cite{schedl2014mir}. Relações entre características musicais e sucesso já foram investigadas em rankings, como o Billboard Hot 100 \cite{askin2017popular}. Uma comparação com audiência no YouTube exige, porém, associar os descritores à gravação efetivamente presente no vídeo. Este estudo exploratório avalia a viabilidade dessa associação para uma futura descrição de energia, dançabilidade e acusticidade em dois níveis de audiência. O objetivo desta etapa é identificar perdas e ambiguidades no pareamento, sem atribuir causalidade aos descritores.
 
-\section*{Estudo Piloto}
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+\section*{Método}
+Utilizou-se o snapshot \textit{Spotify and Youtube}, de Salvatore Rastelli, cuja coleta é declarada em 07/02/2023, sem horário individual por linha. Visualizações acumuladas referem-se ao vídeo associado, não à audiência total da canção. Antes do enriquecimento, congelaram-se 12 pares: três em cada faixa de visualizações ($<1$ milhão; 1--$<10$ milhões; 10--$<100$ milhões; $\geq100$ milhões), ordenados por hash e sem seleção pelos valores musicais.
+
+Recuperaram-se metadados de páginas e catálogos, mantendo separadas publicação do vídeo e data da edição Spotify. A conferência suplementar reuniu relatos de escuta do autor para 11 pares e o conflito documental anterior de um remix. Não houve identificação automática por áudio. Comparou-se a execução musical; intros, finais e cenas narrativas foram registrados separadamente. Mudança de intérprete ou versão bloqueia o pareamento, e fala exclusiva sobre a música permanece fora da análise principal planejada.
 
 \section*{Resultados}
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vitae libero ac risus egestas placerat. Vestibulum commodo felis quis tortor. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat.
+Obtiveram-se datas de publicação para os 12 vídeos e datas de catálogo para as 12 faixas. A revisão inicial encontrou dois vínculos documentais explícitos ao álbum, nove pares incertos e um conflito. Os relatos suplementares alteraram a avaliação musical, conforme a Tabela~\ref{tab:curadoria}, sem equivaler à aprovação de todos os campos da amostra.
+
+\begin{table}[ht]
+\centering
+\begin{tabular}{lr}
+\hline
+Situação após a conferência & Casos \\
+\hline
+Correspondência musical relatada pelo autor & 9 \\
+Conflito de versão (escuta ou documento) & 2 \\
+Fala exclusiva sobre a música & 1 \\
+\hline
+\end{tabular}
+\caption{Consolidação dos 12 pares congelados. A fala sobreposta permanece pendente de elegibilidade no piloto.}
+\label{tab:curadoria}
+\end{table}
+
+Os nove pares confirmados distribuem-se em 3/1/3/2 pelas faixas de audiência. O requisito original de pelo menos dois casos por faixa não foi atingido: a segunda faixa conserva apenas uma confirmação. Em um caso, a escuta revelou outro cantor em parte da música; em outro, o vídeo apresentava créditos de remix incompatíveis. Em contrapartida, duração maior também ocorreu por trechos exclusivos do clipe, com conteúdo musical correspondente. Datas de edição Spotify não foram validadas como primeiro lançamento.
+
+\section*{Continuidade e limites}
+Para a próxima etapa, congelou-se um recorte com o rótulo exato \textit{hard-rock} do Spotify Tracks Dataset, de Maharshi Pandya. O cruzamento por ID encontrou 176 faixas; filtros comuns de metadados deixaram 129. A década de catálogo 1980--1989 contém 47 faixas de 20 artistas. Selecionou-se uma por artista por hash: dez abaixo e dez acima da mediana histórica dos candidatos (89,78 milhões de visualizações), sem reposição. Esses 20 pares aguardam conferência; suas distribuições musicais não constituem resultados desta página.
+
+Planejam-se pontos individuais, mediana e intervalo interquartil para os três descritores, após a curadoria. O recorte limita-se à interseção das fontes e a rótulos de catálogo; remasters, formato e tempo de exposição dos vídeos requerem registro. Não há amostragem representativa, teste causal ou hipótese musical confirmada. Futuras hipóteses deverão partir dos achados revisados e ser avaliadas em dados independentes.
 
 \section*{Conclusão}
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+A conferência distingue extensões narrativas de mudanças de gravação e melhora a rastreabilidade dos pares. A marca de vídeo oficial, o título e a duração isolados não bastaram para aprovar a amostra. O piloto sustenta a necessidade de curadoria antes da comparação descritiva; a análise de Hard Rock permanece condicionada às novas escutas.
+
+\bibliographystyle{abntex2-alf}
+\bibliography{references}
 
 \end{document}
