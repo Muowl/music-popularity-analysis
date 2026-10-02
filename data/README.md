@@ -1,6 +1,6 @@
 # Dados e proveniência
 
-O cadastro em selection/candidates.csv começa vazio. Não há amostra aprovada.
+O cadastro em `selection/candidates.csv` contém 20 candidatos congelados, com escuta pendente e zero inclusões. O cadastro de revisão é `workshop/recording-review.csv`; editar suas colunas mutáveis e exportar com `scripts/analyze_workshop.py --export-registry`. O lock preserva IDs, fontes, contagens, datas de catálogo e grupos; não há amostra principal aprovada.
 
 Guarde originais em raw/ e derivados em processed/: ambos estão ignorados pelo Git. Mesmo metadados devem ter condições de uso verificadas antes de publicação. Não enviar áudios, PDFs, credenciais ou bases completas automaticamente.
 
@@ -15,7 +15,7 @@ Para cada fonte, registrar em documento versionado: URL, responsável, data de o
 - views: inteiro não negativo; sem separadores.
 - observed_at_utc: consulta ISO 8601 com UTC explícito, exemplo de formato AAAA-MM-DDTHH:MM:SS+00:00.
 - track_id: ID da gravação correspondente na base de descritores.
-- match_status: documentary, uncertain ou not_found.
+- match_status: documentary, uncertain ou not_found; no esquema v2, user_reviewed distingue a confirmação musical atribuída da evidência documental.
 - match_evidence: evidências da versão; não substituir por outra gravação.
 - decision: pending, include ou exclude.
 - exclusion_reason: obrigatório se exclude.
@@ -23,11 +23,24 @@ Para cada fonte, registrar em documento versionado: URL, responsável, data de o
 
 Campos desconhecidos ficam vazios, nunca preenchidos com zero por conveniência. O validador verifica estrutura e consistência, não a veracidade das fontes nem licença.
 
+## Esquema v2: audiência histórica e revisão
+
+O validador mantém compatibilidade com o esquema inicial e aceita a extensão atual:
+
+- `views_observed_date`: dia declarado da coleta (2023-02-07 neste snapshot).
+- `views_date_precision`: `day_declared`, sem instante UTC por linha.
+- `views_date_source_url`: fonte da declaração temporal.
+- `recording_review`: pending, same_base_recording, different_version, audio_overlay ou uncertain.
+- `reviewer`: autor da conferência; não atribuir escuta ao assistente.
+- `audience_group`: lower ou higher, fixado no lock.
+
+Não preencher simultaneamente um instante UTC com o dia declarado. Uma inclusão v2 exige gravação-base correspondente, revisor, evidência e data de audiência com origem. Publicação do vídeo ausente gera aviso e exige limitação nas notas; a idade não é calculada. O protocolo específico registra essa revisão prospectiva, sem aprovar retroativamente o piloto antigo. A análise ainda exige a revisão de todos os candidatos e os limiares operacionais do [protocolo do workshop](../docs/workshop-protocolo.md).
+
 ## Fontes candidatas auditadas
 
 [Manifesto de fontes](source-manifest.json): URLs, versões, datas declaradas, tamanhos, SHA-256 e rótulos de licença consultados para os dois snapshots. Download verificável: `python scripts/download_pilot_sources.py`. Os CSVs ficam em `data/raw/` e não são versionados.
 
-A fonte pareada tem audiência histórica e não contém data/hora de observação por linha. Antes de importar qualquer candidato, o esquema deverá distinguir data declarada, precisão temporal e data de obtenção. Não fabricar um instante UTC para satisfazer o validador. O cadastro principal permanece vazio; o [relatório](../docs/relatorio-piloto-fontes.md) contém apenas auditoria das fontes.
+A fonte pareada tem audiência histórica e não contém data/hora de observação por linha. O esquema v2 distingue data declarada, precisão e obtenção. Não fabricar instante UTC para satisfazer o validador. O [relatório inicial](../docs/relatorio-piloto-fontes.md) preserva a auditoria; a seleção atual segue o protocolo específico.
 
 ## Seleção de acesso a metadados
 

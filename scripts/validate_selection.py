@@ -7,6 +7,7 @@ import sys
 from urllib.parse import urlparse
 
 FIELDS = "candidate_id title artist selection_source_url selection_reason video_url video_published_at views observed_at_utc track_id match_status match_evidence decision exclusion_reason notes".split()
+FIELDS_V2 = FIELDS + "views_observed_date views_date_precision views_date_source_url recording_review reviewer audience_group".split()
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
@@ -15,8 +16,9 @@ def main():
     try:
         with args.path.open(encoding="utf-8-sig", newline="") as stream:
             reader = csv.DictReader(stream)
-            if reader.fieldnames != FIELDS:
-                print("ERRO: cabeçalho deve ser: " + ",".join(FIELDS))
+            extended = reader.fieldnames == FIELDS_V2
+            if reader.fieldnames not in (FIELDS, FIELDS_V2):
+                print("ERRO: cabeçalho deve corresponder ao esquema legado ou v2 de data histórica")
                 return 1
             rows = list(reader)
     except (OSError, csv.Error) as exc:
@@ -41,9 +43,12 @@ def main():
         ids.add(key)
         if row["decision"] not in {"pending", "include", "exclude"}:
             error("decision inválida")
-        if row["match_status"] not in {"", "documentary", "uncertain", "not_found"}:
+        allowed_match = {"", "documentary", "uncertain", "not_found"}
+        if extended:
+            allowed_match.add("user_reviewed")
+        if row["match_status"] not in allowed_match:
             error("match_status inválido")
-        for field in ["selection_source_url", "video_url"]:
+        for field in ["selection_source_url", "video_url"] + (["views_date_source_url"] if extended else []):
             if row[field]:
                 parsed = urlparse(row[field])
                 if parsed.scheme not in {"http", "https"} or not parsed.netloc:
@@ -65,14 +70,48 @@ def main():
                 error("observed_at_utc inválida")
         if published and observed and published > observed.date():
             error("publicação posterior à consulta")
+        declared = None
+        if extended:
+            if row["audience_group"] not in {"lower", "higher"}:
+                error("audience_group inválido")
+            if row["recording_review"] not in {"pending", "same_base_recording", "different_version", "audio_overlay", "uncertain"}:
+                error("recording_review inválido")
+            if row["views_observed_date"]:
+                try:
+                    declared = date.fromisoformat(row["views_observed_date"])
+                except ValueError:
+                    error("views_observed_date deve ser data ISO")
+            if declared:
+                if row["views_date_precision"] != "day_declared" or not row["views_date_source_url"]:
+                    error("data declarada requer precisão day_declared e fonte")
+                if row["observed_at_utc"]:
+                    error("não combinar instante fabricado com dia declarado")
+                if published and published > declared:
+                    error("publicação posterior ao snapshot declarado")
+            elif row["views_date_precision"] or row["views_date_source_url"]:
+                error("precisão/fonte de dia declarado sem data")
         if row["decision"] == "exclude" and not row["exclusion_reason"]:
             error("exclusão sem motivo")
         if row["decision"] == "include":
             included += 1
-            for field in ["video_url", "video_published_at", "views", "observed_at_utc", "track_id", "match_evidence"]:
+            required = ["video_url", "views", "track_id", "match_evidence"]
+            if not extended:
+                required += ["video_published_at", "observed_at_utc"]
+            for field in required:
                 if not row[field]:
                     error(f"{field} obrigatório para inclusão")
-            if row["match_status"] != "documentary":
+            if extended:
+                if not observed and not declared:
+                    error("inclusão requer instante UTC ou dia declarado documentado")
+                if row["recording_review"] != "same_base_recording" or not row["reviewer"]:
+                    error("inclusão v2 exige mesma gravação-base e revisor")
+                if row["match_status"] not in {"documentary", "user_reviewed"}:
+                    error("inclusão v2 exige evidência documental ou revisão atribuída")
+                if not published:
+                    warnings.append(f"Linha {line}: publicação do vídeo ausente; idade/exposição indisponível")
+                    if not row["notes"]:
+                        error("publicação ausente exige limitação em notes")
+            elif row["match_status"] != "documentary":
                 error("inclusão exige correspondência documental")
             if row["exclusion_reason"]:
                 error("caso incluído contém motivo de exclusão")

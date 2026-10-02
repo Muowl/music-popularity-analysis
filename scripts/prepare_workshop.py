@@ -175,7 +175,7 @@ def freeze(root=ROOT):
     destination.parent.mkdir(parents=True, exist_ok=True)
     destination.write_text(json.dumps(lock, ensure_ascii=False, indent=2) + "\n")
     with (destination.parent / "recording-review.csv").open("w", encoding="utf-8", newline="") as f:
-        writer = csv.DictWriter(f, fieldnames=list(cases[0]))
+        writer = csv.DictWriter(f, fieldnames=list(cases[0]), lineterminator="\n")
         writer.writeheader()
         writer.writerows(cases)
     processed = root / "data/processed"
