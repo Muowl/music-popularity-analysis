@@ -3,9 +3,10 @@
 \usepackage{settings}
 \usepackage{graphicx}
 \renewcommand{\tablename}{Tabela}
+\renewcommand{\figurename}{Figura}
 \begin{document}
 
-\title{Descritores musicais e audiência: um piloto de curadoria entre Spotify e YouTube}
+\title{Descritores musicais e audiência no YouTube: uma exploração de faixas rotuladas Hard Rock}
 
 \author{Felipe Cunha(felipe.cunha@estudante.ufjf.br)}
 \author{Marcelo Machado (marcelo.machado@ufjf.br)}
@@ -13,40 +14,32 @@
 \maketitle
 
 \section*{Introdução}
-Descritores de áudio permitem representar propriedades musicais em tarefas de recuperação de informação \cite{schedl2014mir}. Relações entre características musicais e sucesso já foram investigadas em rankings, como o Billboard Hot 100 \cite{askin2017popular}. Uma comparação com audiência no YouTube exige, porém, associar os descritores à gravação efetivamente presente no vídeo. Este estudo exploratório avalia a viabilidade dessa associação para uma futura descrição de energia, dançabilidade e acusticidade em dois níveis de audiência. O objetivo desta etapa é identificar perdas e ambiguidades no pareamento, sem atribuir causalidade aos descritores.
+Descritores de áudio representam propriedades musicais \cite{schedl2014mir}, cuja relação com sucesso já foi investigada em rankings como o Billboard Hot 100 \cite{askin2017popular}. Aqui, descrevem-se energia, dançabilidade e acusticidade de faixas rotuladas Hard Rock associadas a vídeos de menor e maior audiência no YouTube. O objetivo é comparar distribuições e gerar hipóteses para estudos independentes. Visualizações medem audiência do vídeo, sem representar todos os ouvintes da canção.
 
 \section*{Método}
-Utilizou-se o snapshot \textit{Spotify and Youtube}, de Salvatore Rastelli, cuja coleta é declarada em 07/02/2023, sem horário individual por linha. Visualizações acumuladas referem-se ao vídeo associado, não à audiência total da canção. Antes do enriquecimento, congelaram-se 12 pares: três em cada faixa de visualizações ($<1$ milhão; 1--$<10$ milhões; 10--$<100$ milhões; $\geq100$ milhões), ordenados por hash e sem seleção pelos valores musicais.
+Utilizaram-se o snapshot \textit{Spotify and Youtube}, de Rastelli, com coleta declarada em 07/02/2023, e o rótulo exato \textit{hard-rock} do Spotify Tracks Dataset, de Pandya. A interseção por ID contém 176 faixas. Após filtros de marca oficial do publicador, unicidade, contagem válida e datas de catálogo, a janela 1980--1989 contém 47 faixas de 20 artistas. As datas de catálogo não foram comprovadas como primeiros lançamentos.
 
-Recuperaram-se metadados de páginas e catálogos, mantendo separadas publicação do vídeo e data da edição Spotify. A conferência suplementar reuniu relatos de escuta do autor para 11 pares e o conflito documental anterior de um remix. Não houve identificação automática por áudio. Comparou-se a execução musical; intros, finais e cenas narrativas foram registrados separadamente. Mudança de intérprete ou versão bloqueia o pareamento, e fala exclusiva sobre a música permanece fora da análise principal planejada.
+Antes de inspecionar descritores, selecionou-se uma faixa por artista por hash fixo. Os 20 candidatos foram divididos pela mediana de suas visualizações: menor audiência abaixo de 89.776.313,5; maior, igual/acima. IDs e corte permaneceram fixos após perdas, sem reposição. Compararam-se os três descritores da edição Spotify, em escala [0,1], por pontos individuais, mediana e intervalo interquartil (IIQ).
+
+O autor relatou escuta dos 20 pares, sem identificação técnica de master. Intros e finais narrativos foram aceitos quando a gravação-base correspondia. Após uma prévia técnica, excluíram-se conservadoramente dois pares com extensão musical de encerramento e um ID original não suficientemente confirmado, cuja alternativa estava ausente dos snapshots. Restaram 17 faixas com os três descritores válidos.
 
 \section*{Resultados}
-Obtiveram-se datas de publicação para os 12 vídeos e datas de catálogo para as 12 faixas. A revisão inicial encontrou dois vínculos documentais explícitos ao álbum, nove pares incertos e um conflito. Os relatos suplementares alteraram a avaliação musical, conforme a Tabela~\ref{tab:curadoria}, sem equivaler à aprovação de todos os campos da amostra.
+Incluíram-se sete das dez faixas do grupo menor e as dez do maior; as três perdas ocorreram no primeiro. Na Figura~\ref{fig:descritores}, o grupo maior apresenta medianas menores de energia (0,7545 versus 0,9310) e dançabilidade (0,3505 versus 0,5400). As medianas de acusticidade são próximas (0,02595 versus 0,02020), sem demonstração de equivalência. Os intervalos dos valores individuais se sobrepõem nos três descritores, indicando heterogeneidade dentro dos grupos.
 
-\begin{table}[ht]
+\begin{figure}[ht]
 \centering
-\begin{tabular}{lr}
-\hline
-Situação após a conferência & Casos \\
-\hline
-Correspondência musical relatada pelo autor & 9 \\
-Conflito de versão (escuta ou documento) & 2 \\
-Fala exclusiva sobre a música & 1 \\
-\hline
-\end{tabular}
-\caption{Consolidação dos 12 pares congelados. A fala sobreposta permanece pendente de elegibilidade no piloto.}
-\label{tab:curadoria}
-\end{table}
+\includegraphics[width=\columnwidth]{figures/hard-rock-validated-paper.pdf}
+\caption{Distribuições por audiência histórica: círculos azuis, menor ($n=7$); triângulos laranja, maior ($n=10$). Traço horizontal: mediana; vertical: IIQ. Cada ponto representa uma faixa de artista distinto.}
+\label{fig:descritores}
+\end{figure}
 
-Os nove pares confirmados distribuem-se em 3/1/3/2 pelas faixas de audiência. O requisito original de pelo menos dois casos por faixa não foi atingido: a segunda faixa conserva apenas uma confirmação. Em um caso, a escuta revelou outro cantor em parte da música; em outro, o vídeo apresentava créditos de remix incompatíveis. Em contrapartida, duração maior também ocorreu por trechos exclusivos do clipe, com conteúdo musical correspondente. Datas de edição Spotify não foram validadas como primeiro lançamento.
+\section*{Discussão e limites}
+O achado sugere, como hipótese \textit{pós-hoc}, que medianas menores de energia e dançabilidade possam acompanhar maior audiência em outro conjunto comparável. Testá-la exige novas gravações, critérios prévios e consideração da idade do vídeo, formato, artista e subestilo. Os mesmos dados que sugeriram essa hipótese não a confirmam.
 
-\section*{Continuidade e limites}
-Para a próxima etapa, congelou-se um recorte com o rótulo exato \textit{hard-rock} do Spotify Tracks Dataset, de Maharshi Pandya. O cruzamento por ID encontrou 176 faixas; filtros comuns de metadados deixaram 129. A década de catálogo 1980--1989 contém 47 faixas de 20 artistas. Selecionou-se uma por artista por hash: dez abaixo e dez acima da mediana histórica dos candidatos (89,78 milhões de visualizações), sem reposição. Esses 20 pares aguardam conferência; suas distribuições musicais não constituem resultados desta página.
-
-Planejam-se pontos individuais, mediana e intervalo interquartil para os três descritores, após a curadoria. O recorte limita-se à interseção das fontes e a rótulos de catálogo; remasters, formato e tempo de exposição dos vídeos requerem registro. Não há amostragem representativa, teste causal ou hipótese musical confirmada. Futuras hipóteses deverão partir dos achados revisados e ser avaliadas em dados independentes.
+As perdas no grupo menor podem modificar seu perfil. O ano mediano de catálogo é 1984 em ambos, mas faltam as datas de publicação dos 17 vídeos, impedindo avaliar exposição; o formato é desconhecido em 12 casos. A interseção e o rótulo catalográfico restringem conclusões; remasters não comprovam master idêntico. Não houve amostragem representativa, teste de significância ou avaliação causal/preditiva.
 
 \section*{Conclusão}
-A conferência distingue extensões narrativas de mudanças de gravação e melhora a rastreabilidade dos pares. A marca de vídeo oficial, o título e a duração isolados não bastaram para aprovar a amostra. O piloto sustenta a necessidade de curadoria antes da comparação descritiva; a análise de Hard Rock permanece condicionada às novas escutas.
+A contribuição é uma descrição rastreável de 17 pares e uma hipótese para avaliação independente. As diferenças de medianas observadas coexistem com sobreposição e limitações de cobertura e exposição, sem estabelecer uma fórmula do sucesso.
 
 \bibliographystyle{abntex2-alf}
 \bibliography{references}

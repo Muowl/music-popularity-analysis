@@ -1,6 +1,6 @@
 # Próximos passos
 
-**Estado atual:** implementação autorizada e protocolo de Hard Rock congelado. A tarefa que destrava a comparação é a [conferência dos 20 novos pares](conferencia-hard-rock.md); consultar [implementação e comandos](implementacao-workshop.md). O código, a prévia não validada e o rascunho de uma página estão preparados. As etapas abaixo conservam o histórico do planejamento.
+**Estado atual:** relatos dos 20 pares registrados, 17 incluídos, resultados e artigo de uma página gerados. Consultar [resultados](resultados-hard-rock.md), [implementação](implementacao-workshop.md) e [hipótese futura](hipoteses.md). A próxima etapa é revisar a página e alinhar os detalhes com o orientador, sem apresentar a hipótese pós-hoc como confirmada. As etapas abaixo conservam o histórico do planejamento.
 
 ## Direção estabelecida
 - [x] Aprovar com o autor a prioridade do piloto comparativo.

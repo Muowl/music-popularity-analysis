@@ -2,9 +2,9 @@
 
 Pesquisa exploratória para o workshop do DCC/UFJF, vinculada à linha de pesquisa do TCC de Sistemas de Informação de Felipe Lazzarini Cunha.
 
-**Estado: implementação autorizada pelo autor. A conferência suplementar do piloto registra nove correspondências musicais, dois conflitos de versão e uma fala sobreposta; o critério original de avanço continua não atendido. Uma nova seleção de 20 candidatos rotulados hard-rock, com datas de catálogo de 1980–1989, está congelada e aguarda escuta. Código e caderno geram uma prévia explicitamente não validada; a comparação principal permanece bloqueada. O rascunho LaTeX de uma página reporta os achados do piloto.**
+**Estado: comparação descritiva executada após os 20 relatos de escuta do autor. Foram incluídos 17 pares, sete no grupo de menor audiência e dez no maior; três exclusões conservadoras ocorreram no primeiro grupo. IDs, corte e fontes permanecem congelados. A página LaTeX apresenta a comparação curada, uma figura e hipótese pós-hoc, com limites de cobertura e exposição. O piloto original e sua reprovação continuam preservados.**
 
-O caminho de execução atual está em [implementacao-workshop.md](docs/implementacao-workshop.md), com [protocolo congelado](docs/workshop-protocolo.md), [lista de escuta](docs/conferencia-hard-rock.md) e [caderno executado](notebooks/02_hard_rock_workshop.ipynb). A década se refere ao catálogo Spotify, não a primeiros lançamentos já validados.
+O caminho de execução está em [implementacao-workshop.md](docs/implementacao-workshop.md), com [protocolo e adjudicação](docs/workshop-protocolo.md), [conferência](docs/conferencia-hard-rock.md), [resultados](docs/resultados-hard-rock.md) e [caderno executado](notebooks/03_hard_rock_results.ipynb). O [PDF de uma página](paper/workshop-hard-rock.pdf) é o rascunho atual para revisão. A década se refere ao catálogo Spotify, não a primeiros lançamentos já validados.
 
 ## Motivação, problema e objetivo
 
@@ -50,12 +50,12 @@ As regras de contribuição, mensagens e separação de commits estão em [CONTR
 | Local | Conteúdo |
 |---|---|
 | `docs/` | Escopo, protocolo, decisões, fontes acadêmicas e próximos passos |
-| `data/selection/` | Cadastro dos 20 candidatos, com revisão ainda pendente |
+| `data/selection/` | Cadastro dos 20 candidatos, 17 incluídos e três excluídos |
 | `data/workshop/` | Lock dos IDs e grupos, cadastro de revisão e evidências bibliográficas |
 | `data/raw/` | Dados originais locais, ignorados pelo Git |
 | `data/processed/` | Dados derivados locais, ignorados pelo Git |
 | `scripts/` | Verificações e, posteriormente, processamento reproduzível |
-| `notebooks/` | Orientações para os cadernos de análise |
+| `notebooks/` | Auditoria, prévia histórica e resultados curados executados |
 | `figures/` | Figuras finais acompanhadas de origem e método |
 | `paper/` | Orientações de redação e entrega |
 | `main.tex`, `settings.sty`, `abntex2cite.sty`, `references.bib` | Modelo original preservado na raiz |
