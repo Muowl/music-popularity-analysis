@@ -1,0 +1,848 @@
+{
+  "base_commit": "3b17fd31f25c67215419f2cdec42bc0120840292",
+  "input_sha256": {
+    "data/pilot/metadata-review.json": "8c8b8f59ce35a09a5641e4230c96b878e3edf4f9f72c0215beb5bbf11ffb7855",
+    "data/pilot/metadata-observations.json": "7169f55ade4c41eb66bf5327f3ea93fc9489187c83cc6326fe49c5693b95349d",
+    "data/pilot/metadata-candidates.json": "93c20a3a0de1b14c7e476b0c9683bf099ffa657d5659e387bed6a863af418a52"
+  },
+  "purpose": "Documentary triage and user-reported manual comparisons; no revised pilot threshold or main-sample decision",
+  "fresh_spotify_pages": 12,
+  "fresh_youtube_pages": 0,
+  "audio_reviews": 11,
+  "supplementary_sources": [
+    {
+      "source_id": "dermot_label",
+      "url": "https://www.universalmusic.com.br/2022/10/07/se-preparando-para-o-lancamento-de-seu-novo-album-sonder-dermot-kennedy-disponibiliza-a-faixa-innocence-and-sadness/",
+      "retrieved_at_utc": "2026-10-01T10:31:36.535929+00:00",
+      "http_status": 200,
+      "resolved_url": "https://www.universalmusic.com.br/2022/10/07/se-preparando-para-o-lancamento-de-seu-novo-album-sonder-dermot-kennedy-disponibiliza-a-faixa-innocence-and-sadness/",
+      "page_sha256": "44958ef716823e716757b4a3f17efdd67db76bcfda9e6344a0fa9d8eb4e8f79b",
+      "authority_role": "primary catalogue/artist/label page"
+    },
+    {
+      "source_id": "outkast_version_lead",
+      "url": "https://en.wikipedia.org/wiki/Da_Art_of_Storytellin%27_(Pt._1)",
+      "retrieved_at_utc": "2026-10-01T10:31:36.536533+00:00",
+      "http_status": 200,
+      "resolved_url": "https://en.wikipedia.org/wiki/Da_Art_of_Storytellin%27_(Pt._1)",
+      "page_sha256": "904d4aa903861139c899ded78083cfeb18f40d484583ede3cffed97294a95707",
+      "authority_role": "secondary lead only; no exact recording match established"
+    },
+    {
+      "source_id": "kooks_edition_lead",
+      "url": "https://en.wikipedia.org/wiki/Inside_In/Inside_Out",
+      "retrieved_at_utc": "2026-10-01T10:31:36.536927+00:00",
+      "http_status": 200,
+      "resolved_url": "https://en.wikipedia.org/wiki/Inside_In/Inside_Out",
+      "page_sha256": "3320d8e20c5a38cece8475345c5b4f807a0d99e097e3494385c3a00cec98eedd",
+      "authority_role": "secondary lead only; no exact recording match established"
+    },
+    {
+      "source_id": "novo_release",
+      "url": "https://novoamor.co.uk/music/bathing-beach/",
+      "retrieved_at_utc": "2026-10-01T10:31:36.537197+00:00",
+      "http_status": 200,
+      "resolved_url": "https://www.novoamor.co.uk/music/bathing-beach/",
+      "page_sha256": "e7ce56319d8cc4faa6ad4c4cb192d50952a3c9b72c4a73853ec23565b7666f28",
+      "authority_role": "primary catalogue/artist/label page"
+    }
+  ],
+  "records": [
+    {
+      "pilot_id": "P01",
+      "artist_snapshot": "The Kooks",
+      "track_snapshot": "Seaside",
+      "spotify": {
+        "url": "https://open.spotify.com/track/0QCuMBeqdWkwFUTO1WlAjH",
+        "retrieved_at_utc": "2026-10-01T10:30:12.213438+00:00",
+        "http_status": 200,
+        "page_sha256": "27d29ea38ed3fbb7e2077e9d606ee96a3860229aa14dd00053eed9e68708618c",
+        "facts": {
+          "og:description": "The Kooks · Inside In / Inside Out · Song · 2006",
+          "music:duration": "99",
+          "music:album": "https://open.spotify.com/album/4MhInH4XT7ReDV5fCZjaSz",
+          "music:musician_description": "The Kooks"
+        },
+        "catalogue_date": "2006-01-01",
+        "scope": "page metadata of this exact Spotify ID; no ISRC or audio identity established"
+      },
+      "youtube_preserved": {
+        "url": "https://www.youtube.com/watch?v=OgOwQvNzD-k",
+        "retrieved_at_utc": "2026-10-01T03:59:08.847896+00:00",
+        "title": "The Kooks - Seaside",
+        "author": "TheKooksVEVO",
+        "length_seconds": 99,
+        "page_sha256": "556ee12c3415c99c12a262d6621f373ba19da04e911e85e5a1bb7e02cc7f20c3",
+        "source_file": "data/pilot/metadata-observations.json",
+        "scope": "preserved observation; not a fresh video or audio consultation"
+      },
+      "youtube_new_attempt": {
+        "retrieved_at_utc": "2026-10-01T10:30:12.212426+00:00",
+        "status": "access_failed",
+        "error_type": "URLError",
+        "diagnostic": "All 12 attempts recorded URLError; a separate direct diagnostic request for P05 returned HTTP proxy tunnel 403 Forbidden. No new video facts extracted."
+      },
+      "prior_recording_review_status": "uncertain",
+      "priority": "conferência recebida",
+      "manual_task": "Correspondência exata confirmada pelo autor na conferência manual de P01. Relação entre masters/edições, gênero, datas e elegibilidade continuam pendentes.",
+      "audio_review_performed": true,
+      "audio_decision": "user_confirmed_match",
+      "main_sample_inclusion": "pending",
+      "audio_review_source": "user_report_in_this_conversation",
+      "audio_review": {
+        "reviewer": "project_author (user in this conversation)",
+        "recorded_at_utc": "2026-10-01T23:07:42.260664+00:00",
+        "reviewed_at_utc": null,
+        "user_statement_verbatim": "Correspondência exata",
+        "comparison_context": "Follow-up to the exact P01 Spotify and YouTube links supplied in the preceding assistant message.",
+        "compared_urls": {
+          "spotify": "https://open.spotify.com/track/0QCuMBeqdWkwFUTO1WlAjH",
+          "youtube": "https://www.youtube.com/watch?v=OgOwQvNzD-k"
+        },
+        "reported_observation": "The user confirms an exact correspondence between the YouTube and Spotify versions.",
+        "assessment": "Recording correspondence accepted as user-confirmed manual comparison; no independent assistant audio inspection.",
+        "limits": "No separate listening landmarks, numeric durations, ISRC or master identity were supplied. The relationship to a possible 2021 remaster remains undocumented.",
+        "duration_note": "Preserve snapshot track 99.227 s and previous video 99 s, difference -0.227 s. No new measured durations were supplied."
+      },
+      "overall_pairing_status": "user_confirmed_musical_correspondence"
+    },
+    {
+      "pilot_id": "P02",
+      "artist_snapshot": "Rosa Linn",
+      "track_snapshot": "KING",
+      "spotify": {
+        "url": "https://open.spotify.com/track/4RgXmdsT0zfYXdrZPW3pV8",
+        "retrieved_at_utc": "2026-10-01T10:30:12.213860+00:00",
+        "http_status": 200,
+        "page_sha256": "8de914caab3a64f315feb9e6e181da7124d0b0d2b17b8d11b8bf87322fef2d4d",
+        "facts": {
+          "og:description": "Rosa Linn, Kiiara · KING · Song · 2021",
+          "music:duration": "203",
+          "music:album": "https://open.spotify.com/album/3Xr5BK9SjJjNz8geARGnk5",
+          "music:musician_description": "Rosa Linn, Kiiara"
+        },
+        "catalogue_date": "2021-09-10",
+        "scope": "page metadata of this exact Spotify ID; no ISRC or audio identity established"
+      },
+      "youtube_preserved": {
+        "url": "https://www.youtube.com/watch?v=MCt9gfNSyg4",
+        "retrieved_at_utc": "2026-10-01T03:59:08.849039+00:00",
+        "title": "Rosa Linn - KING ft. Kiiara (Official Video)",
+        "author": "RosaLinnVEVO",
+        "length_seconds": 212,
+        "page_sha256": "c5a0d01cde881842f94ea8f597be9377a92ae35414eadf1c467c186a969a7ace",
+        "source_file": "data/pilot/metadata-observations.json",
+        "scope": "preserved observation; not a fresh video or audio consultation"
+      },
+      "youtube_new_attempt": {
+        "retrieved_at_utc": "2026-10-01T10:30:12.213605+00:00",
+        "status": "access_failed",
+        "error_type": "URLError",
+        "diagnostic": "All 12 attempts recorded URLError; a separate direct diagnostic request for P05 returned HTTP proxy tunnel 403 Forbidden. No new video facts extracted."
+      },
+      "prior_recording_review_status": "uncertain",
+      "priority": "conferência recebida",
+      "manual_task": "Parte musical confirmada como idêntica pelo autor; tempo adicional atribuído ao encerramento do videoclipe sem música. Gênero, datas e elegibilidade continuam pendentes.",
+      "audio_review_performed": true,
+      "audio_decision": "user_confirmed_match",
+      "main_sample_inclusion": "pending",
+      "audio_review_source": "user_report_in_this_conversation",
+      "audio_review": {
+        "reviewer": "project_author (user in this conversation)",
+        "recorded_at_utc": "2026-10-01T22:28:10.156278+00:00",
+        "reviewed_at_utc": null,
+        "user_statement_verbatim": "O tempo extra se explica no final da musica com um encerramento sem musica\nDe resto é idêntico do começo até esses segundos extras de encerramento do videoclipe",
+        "comparison_context": "Follow-up to the exact P02 Spotify and YouTube links supplied in the preceding assistant message.",
+        "compared_urls": {
+          "spotify": "https://open.spotify.com/track/4RgXmdsT0zfYXdrZPW3pV8",
+          "youtube": "https://www.youtube.com/watch?v=MCt9gfNSyg4"
+        },
+        "reported_observation": "The musical portion is reported identical from the beginning to its end; additional video time consists of an ending without music.",
+        "extra_video_segment": {
+          "position": "after the musical portion, at the end of the music video",
+          "music_present": false,
+          "numeric_start_seconds": null,
+          "numeric_duration_seconds": null,
+          "scope": "Reported by the user; precise times and other non-musical sounds were not specified."
+        },
+        "assessment": "Recording correspondence accepted as user-confirmed manual comparison of the musical portion; additional non-musical ending explains the reported duration difference.",
+        "limits": "No independent assistant listening, fingerprint, ISRC, exact music-end timestamps or master identity was supplied.",
+        "duration_note": "Preserve snapshot track duration 203.089 s and prior video duration 212 s (difference 8.911 s). The user explains the extra time qualitatively; its precise measured bounds were not supplied."
+      },
+      "overall_pairing_status": "user_confirmed_musical_correspondence"
+    },
+    {
+      "pilot_id": "P03",
+      "artist_snapshot": "Dermot Kennedy",
+      "track_snapshot": "Innocence and Sadness",
+      "spotify": {
+        "url": "https://open.spotify.com/track/1nJatkqxWH7TQwBrP39yNd",
+        "retrieved_at_utc": "2026-10-01T10:30:12.233728+00:00",
+        "http_status": 200,
+        "page_sha256": "d37f2f5409059e00e0794c73e7cf853cccc3b2a84a5cd09a57736656a71cbe9a",
+        "facts": {
+          "og:description": "Dermot Kennedy · Sonder · Song · 2022",
+          "music:duration": "253",
+          "music:album": "https://open.spotify.com/album/0YlJpX1XiE8ghnRJCU0Dwv",
+          "music:musician_description": "Dermot Kennedy"
+        },
+        "catalogue_date": "2022-11-18",
+        "scope": "page metadata of this exact Spotify ID; no ISRC or audio identity established"
+      },
+      "youtube_preserved": {
+        "url": "https://www.youtube.com/watch?v=ufbDvPaVrzs",
+        "retrieved_at_utc": "2026-10-01T03:59:21.887751+00:00",
+        "title": "Dermot Kennedy - Innocence and Sadness (Live From Mission Sound Studios, Brooklyn)",
+        "author": "DermotKennedyVEVO",
+        "length_seconds": 251,
+        "page_sha256": "746b48f976fb3f72ef4c2b87e286e7a0c3559ca77179a06156582954cc0d553f",
+        "source_file": "data/pilot/metadata-observations.json",
+        "scope": "preserved observation; not a fresh video or audio consultation"
+      },
+      "youtube_new_attempt": {
+        "retrieved_at_utc": "2026-10-01T10:30:12.233627+00:00",
+        "status": "access_failed",
+        "error_type": "URLError",
+        "diagnostic": "All 12 attempts recorded URLError; a separate direct diagnostic request for P05 returned HTTP proxy tunnel 403 Forbidden. No new video facts extracted."
+      },
+      "prior_recording_review_status": "documentary_album_link",
+      "priority": "conferência recebida",
+      "manual_task": "Confirmação manual de correspondência recebida do autor pelos links exatos. Gênero, datas e elegibilidade da amostra principal continuam pendentes.",
+      "audio_review_performed": true,
+      "audio_decision": "user_confirmed_match",
+      "main_sample_inclusion": "pending",
+      "audio_review_source": "user_report_in_this_conversation",
+      "audio_review": {
+        "reviewer": "project_author (user in this conversation)",
+        "recorded_at_utc": "2026-10-01T22:03:42.305565+00:00",
+        "reviewed_at_utc": null,
+        "user_statement_verbatim": "Confirmo que P03 é o mesmo no YouTube e no Spotify, testei os links e tem mesma duração e mesma música",
+        "tested_urls": {
+          "spotify": "https://open.spotify.com/track/1nJatkqxWH7TQwBrP39yNd",
+          "youtube": "https://www.youtube.com/watch?v=ufbDvPaVrzs"
+        },
+        "reported_observation": "The user tested the exact links and confirmed the same music and duration.",
+        "assessment": "Recording correspondence accepted as user-confirmed manual comparison; no independent assistant audio inspection.",
+        "limits": "No numeric durations, listening landmarks, separate vocal/piano checks, full-listening coverage, ISRC or master identity were supplied.",
+        "duration_note": "Reported same duration is qualitative. Preserve snapshot duration 252.658 s and previous YouTube duration 251 s; the difference of -1.658 s is not revised."
+      },
+      "overall_pairing_status": "user_confirmed_musical_correspondence"
+    },
+    {
+      "pilot_id": "P04",
+      "artist_snapshot": "Crowded House",
+      "track_snapshot": "Something So Strong",
+      "spotify": {
+        "url": "https://open.spotify.com/track/0eDwzWuy2gf1RJzqWl0dkF",
+        "retrieved_at_utc": "2026-10-01T10:30:12.237824+00:00",
+        "http_status": 200,
+        "page_sha256": "6f129d2f38c6c8468e26acc057133fa585cc1fdd4b30218cab0fc1bab5e04006",
+        "facts": {
+          "og:description": "Crowded House · Crowded House · Song · 1986",
+          "music:duration": "172",
+          "music:album": "https://open.spotify.com/album/1dJpgn1rqvvr4yyNYLEYBG",
+          "music:musician_description": "Crowded House"
+        },
+        "catalogue_date": "1986-01-01",
+        "scope": "page metadata of this exact Spotify ID; no ISRC or audio identity established"
+      },
+      "youtube_preserved": {
+        "url": "https://www.youtube.com/watch?v=WyBKzBtaKWM",
+        "retrieved_at_utc": "2026-10-01T03:59:22.736993+00:00",
+        "title": "Crowded House - Something So Strong",
+        "author": "CrowdedHouseVEVO",
+        "length_seconds": 193,
+        "page_sha256": "a9a13c5e0f96a6c58e651209ca86c0553faa279f09545a7b8d6913af238814b0",
+        "source_file": "data/pilot/metadata-observations.json",
+        "scope": "preserved observation; not a fresh video or audio consultation"
+      },
+      "youtube_new_attempt": {
+        "retrieved_at_utc": "2026-10-01T10:30:12.236164+00:00",
+        "status": "access_failed",
+        "error_type": "URLError",
+        "diagnostic": "All 12 attempts recorded URLError; a separate direct diagnostic request for P05 returned HTTP proxy tunnel 403 Forbidden. No new video facts extracted."
+      },
+      "prior_recording_review_status": "uncertain",
+      "priority": "conferência recebida",
+      "manual_task": "Parte musical confirmada como idêntica pelo autor; YouTube tem introdução de cerca de 10 segundos e encerramento de cerca de 10 segundos mostrando a capa do álbum. Gênero, datas e elegibilidade continuam pendentes.",
+      "audio_review_performed": true,
+      "audio_decision": "user_confirmed_match",
+      "main_sample_inclusion": "pending",
+      "audio_review_source": "user_report_in_this_conversation",
+      "audio_review": {
+        "reviewer": "project_author (user in this conversation)",
+        "recorded_at_utc": "2026-10-01T23:12:21.418850+00:00",
+        "reviewed_at_utc": null,
+        "user_statement_verbatim": "a música a rigor é a mesma, o video no youtube tem uma intro de 10 segundos e um final com 10 segundos mostrando a capa do album, de resto a música corresponde de forma identica",
+        "comparison_context": "Follow-up to the exact P04 Spotify and YouTube links supplied in the preceding assistant message.",
+        "compared_urls": {
+          "spotify": "https://open.spotify.com/track/0eDwzWuy2gf1RJzqWl0dkF",
+          "youtube": "https://www.youtube.com/watch?v=WyBKzBtaKWM"
+        },
+        "reported_observation": "The user reports identical music, with a roughly ten-second video intro and a roughly ten-second ending showing the album cover.",
+        "extra_video_segments": [
+          {
+            "position": "intro",
+            "duration_seconds_approximate": 10,
+            "music_present": null
+          },
+          {
+            "position": "ending",
+            "duration_seconds_approximate": 10,
+            "visual_content": "album cover",
+            "music_present": null
+          }
+        ],
+        "assessment": "Musical correspondence accepted as user-confirmed manual comparison; additional intro and ending explain the extra video time qualitatively.",
+        "limits": "No independent assistant listening, exact segment boundaries, ISRC or master identity were supplied. Presence of music or other sounds in the intro/ending was not separately described.",
+        "duration_note": "Preserve snapshot track 171.573 s and previous video 193 s, difference 21.427 s. The reported intro/ending durations are approximate integer observations, not new measurements replacing the historical lengths."
+      },
+      "overall_pairing_status": "user_confirmed_musical_correspondence"
+    },
+    {
+      "pilot_id": "P05",
+      "artist_snapshot": "Outkast",
+      "track_snapshot": "Da Art of Storytellin' (Pt. 1)",
+      "spotify": {
+        "url": "https://open.spotify.com/track/1KQymTxNJfWk6vCD5ywKW2",
+        "retrieved_at_utc": "2026-10-01T10:30:15.776274+00:00",
+        "http_status": 200,
+        "page_sha256": "4c385e5841480b3f8c738077b00aafcdb83e365b7a78c5619949ef35c8bfc4ee",
+        "facts": {
+          "og:description": "Outkast · Aquemini · Song · 1998",
+          "music:duration": "223",
+          "music:album": "https://open.spotify.com/album/5ceB3rxgXqIRpsOvVzTG28",
+          "music:musician_description": "Outkast"
+        },
+        "catalogue_date": "1998-09-29",
+        "scope": "page metadata of this exact Spotify ID; no ISRC or audio identity established"
+      },
+      "youtube_preserved": {
+        "url": "https://www.youtube.com/watch?v=F0tamp9XdqU",
+        "retrieved_at_utc": "2026-10-01T03:59:28.136513+00:00",
+        "title": "Outkast - Da Art of Storytellin' (Part 1) (Official Video)",
+        "author": "OutkastVEVO",
+        "length_seconds": 233,
+        "page_sha256": "74248e67d1f5e9fbd13c26f933202aacf1921073c0c98d63ea836191d5fdcb6b",
+        "source_file": "data/pilot/metadata-observations.json",
+        "scope": "preserved observation; not a fresh video or audio consultation"
+      },
+      "youtube_new_attempt": {
+        "retrieved_at_utc": "2026-10-01T10:30:15.774336+00:00",
+        "status": "access_failed",
+        "error_type": "URLError",
+        "diagnostic": "All 12 attempts recorded URLError; a separate direct diagnostic request for P05 returned HTTP proxy tunnel 403 Forbidden. No new video facts extracted."
+      },
+      "prior_recording_review_status": "uncertain",
+      "priority": "conflito identificado por escuta relatada",
+      "manual_task": "Diferença musical relatada após aproximadamente 2:28: mudança de voz no YouTube em trecho mais suave, enquanto Spotify mantém o mesmo cantor. Pareamento bloqueado; identidade do vocalista adicional não confirmada.",
+      "audio_review_performed": true,
+      "audio_decision": "user_reported_version_conflict",
+      "main_sample_inclusion": "blocked_version_conflict",
+      "audio_review_source": "user_report_in_this_conversation",
+      "audio_review": {
+        "reviewer": "project_author (user in this conversation)",
+        "recorded_at_utc": "2026-10-01T22:19:11.167954+00:00",
+        "reviewed_at_utc": null,
+        "user_statement_verbatim": "Essa musica é identica até o minuto 2:28, o Spotify continua com o mesmo homem cantando e o YouTube com outro em um trecho mais suave\nYouTube tem 3:53 e Spotify 3:42",
+        "comparison_context": "Follow-up to the exact P05 Spotify and YouTube links supplied in the preceding assistant message.",
+        "compared_urls": {
+          "spotify": "https://open.spotify.com/track/1KQymTxNJfWk6vCD5ywKW2",
+          "youtube": "https://www.youtube.com/watch?v=F0tamp9XdqU"
+        },
+        "reported_observation": "Versions reported identical up to approximately 2:28; Spotify continues with the same male vocalist while YouTube changes to another voice in a softer passage.",
+        "approximate_divergence_seconds": 148,
+        "divergence_clock_scope": "Common reported landmark; platform-specific timestamps were not supplied separately.",
+        "reported_durations_seconds": {
+          "youtube": 233,
+          "spotify": 222,
+          "youtube_minus_spotify": 11
+        },
+        "reported_durations_text": {
+          "youtube": "3:53",
+          "spotify": "3:42"
+        },
+        "assessment": "Different musical version/segment reported by the user; reject the current recording pairing for descriptor-to-video analysis.",
+        "additional_vocalist_identity": "unconfirmed; Slick Rick remains a catalogue lead, not an identity established by this listening report.",
+        "limits": "No independent assistant listening, fingerprint, ISRC, full comparison coverage or definitive performer credit was supplied.",
+        "duration_note": "Preserve snapshot Spotify 222.653 s and prior YouTube 233 s (historical difference 10.347 s) separately from user-displayed durations 222 s and 233 s."
+      },
+      "overall_pairing_status": "version_conflict"
+    },
+    {
+      "pilot_id": "P06",
+      "artist_snapshot": "E-40",
+      "track_snapshot": "B*tch",
+      "spotify": {
+        "url": "https://open.spotify.com/track/2twJtqTdddqsTJnEHUFZdm",
+        "retrieved_at_utc": "2026-10-01T10:30:15.780066+00:00",
+        "http_status": 200,
+        "page_sha256": "239635f718de1d1bd596585440559a7b564c35671e4e7c94b4daea4bec4b2e4f",
+        "facts": {
+          "og:description": "E-40, Too $hort · Revenue Retrievin': Day Shift · Song · 2010",
+          "music:duration": "203",
+          "music:album": "https://open.spotify.com/album/4meG4fL5ZKbFNdVd6ptfIJ",
+          "music:musician_description": "E-40, Too $hort"
+        },
+        "catalogue_date": "2010-01-01",
+        "scope": "page metadata of this exact Spotify ID; no ISRC or audio identity established"
+      },
+      "youtube_preserved": {
+        "url": "https://www.youtube.com/watch?v=VLOz-6V3rPk",
+        "retrieved_at_utc": "2026-10-01T03:59:28.748469+00:00",
+        "title": "B*tch by E-40 feat. 50 Cent & Too Short (Remix) - CDQ / Dirty | 50 Cent Music",
+        "author": "50 Cent",
+        "length_seconds": 244,
+        "page_sha256": "fae2bfd89e97aff4f4f79908c55fa630be3d3f81d7648c7b022ea7a3e31a7a5e",
+        "source_file": "data/pilot/metadata-observations.json",
+        "scope": "preserved observation; not a fresh video or audio consultation"
+      },
+      "youtube_new_attempt": {
+        "retrieved_at_utc": "2026-10-01T10:30:15.778554+00:00",
+        "status": "access_failed",
+        "error_type": "URLError",
+        "diagnostic": "All 12 attempts recorded URLError; a separate direct diagnostic request for P05 returned HTTP proxy tunnel 403 Forbidden. No new video facts extracted."
+      },
+      "prior_recording_review_status": "version_conflict",
+      "priority": "primeira rodada",
+      "manual_task": "Conflito documental: vídeo rotulado Remix com 50 Cent; Spotify credita E-40 e Too $hort. Manter o par bloqueado; não substituir vídeo ou faixa silenciosamente.",
+      "audio_review_performed": false,
+      "audio_decision": "pending",
+      "main_sample_inclusion": "blocked_version_conflict",
+      "overall_pairing_status": "version_conflict"
+    },
+    {
+      "pilot_id": "P07",
+      "artist_snapshot": "Papa Roach",
+      "track_snapshot": "Between Angels And Insects",
+      "spotify": {
+        "url": "https://open.spotify.com/track/24z528iI9kZu5LbkLainjI",
+        "retrieved_at_utc": "2026-10-01T10:30:15.994777+00:00",
+        "http_status": 200,
+        "page_sha256": "4a9945261665ebd1b948a9b741967b5faccd1d11b2761ee383f70b83df5950f8",
+        "facts": {
+          "og:description": "Papa Roach · Infest · Song · 2000",
+          "music:duration": "234",
+          "music:album": "https://open.spotify.com/album/0BHa0ePkvGAVKymB4FU58m",
+          "music:musician_description": "Papa Roach"
+        },
+        "catalogue_date": "2000-04-25",
+        "scope": "page metadata of this exact Spotify ID; no ISRC or audio identity established"
+      },
+      "youtube_preserved": {
+        "url": "https://www.youtube.com/watch?v=H2jCbXiEQI4",
+        "retrieved_at_utc": "2026-10-01T03:59:35.105511+00:00",
+        "title": "Papa Roach - Between Angels And Insects",
+        "author": "PapaRoachVEVO",
+        "length_seconds": 237,
+        "page_sha256": "22d9e9d43c7a838950ac620a7d0c15dd0198efc104bae6979506a11899bf40aa",
+        "source_file": "data/pilot/metadata-observations.json",
+        "scope": "preserved observation; not a fresh video or audio consultation"
+      },
+      "youtube_new_attempt": {
+        "retrieved_at_utc": "2026-10-01T10:30:15.992572+00:00",
+        "status": "access_failed",
+        "error_type": "URLError",
+        "diagnostic": "All 12 attempts recorded URLError; a separate direct diagnostic request for P05 returned HTTP proxy tunnel 403 Forbidden. No new video facts extracted."
+      },
+      "prior_recording_review_status": "uncertain",
+      "priority": "conferência recebida",
+      "manual_task": "Correspondência exata confirmada pelo autor na conferência manual de P07. Gênero, datas e elegibilidade da amostra principal continuam pendentes.",
+      "audio_review_performed": true,
+      "audio_decision": "user_confirmed_match",
+      "main_sample_inclusion": "pending",
+      "audio_review_source": "user_report_in_this_conversation",
+      "audio_review": {
+        "reviewer": "project_author (user in this conversation)",
+        "recorded_at_utc": "2026-10-01T22:55:55.410796+00:00",
+        "reviewed_at_utc": null,
+        "user_statement_verbatim": "Confirmado a correspondência exata entre youtube e spotify",
+        "comparison_context": "Follow-up to the exact P07 Spotify and YouTube links supplied in the preceding assistant message.",
+        "compared_urls": {
+          "spotify": "https://open.spotify.com/track/24z528iI9kZu5LbkLainjI",
+          "youtube": "https://www.youtube.com/watch?v=H2jCbXiEQI4"
+        },
+        "reported_observation": "The user confirms an exact correspondence between the YouTube and Spotify versions.",
+        "assessment": "Recording correspondence accepted as user-confirmed manual comparison; no independent assistant audio inspection.",
+        "limits": "No separate listening landmarks, numeric durations, explicit clean/explicit checks, ISRC or master identity were supplied.",
+        "duration_note": "Preserve snapshot track 234.467 s and previous video 237 s, difference 2.533 s. The user did not provide new durations or an explanation for that historical difference."
+      },
+      "overall_pairing_status": "user_confirmed_musical_correspondence"
+    },
+    {
+      "pilot_id": "P08",
+      "artist_snapshot": "Soundgarden",
+      "track_snapshot": "The Day I Tried To Live",
+      "spotify": {
+        "url": "https://open.spotify.com/track/78YJJJH55MSyk7547100sW",
+        "retrieved_at_utc": "2026-10-01T10:30:16.356469+00:00",
+        "http_status": 200,
+        "page_sha256": "534407feb8d19b49382f80338bcfb1cf58745bb82551beb738d5883b44371336",
+        "facts": {
+          "og:description": "Soundgarden · Superunknown (Deluxe Edition) · Song · 1994",
+          "music:duration": "320",
+          "music:album": "https://open.spotify.com/album/29sTacnS0qA9xri6YS8xLA",
+          "music:musician_description": "Soundgarden"
+        },
+        "catalogue_date": "1994-03-09",
+        "scope": "page metadata of this exact Spotify ID; no ISRC or audio identity established"
+      },
+      "youtube_preserved": {
+        "url": "https://www.youtube.com/watch?v=dbckIuT_YDc",
+        "retrieved_at_utc": "2026-10-01T03:59:39.317860+00:00",
+        "title": "Soundgarden - The Day I Tried To Live (Official Music Video)",
+        "author": "SoundgardenVEVO",
+        "length_seconds": 320,
+        "page_sha256": "4121301fbcf8640d311d725ee843d63c3552c3652b55e5b3816ba20acd90e9bf",
+        "source_file": "data/pilot/metadata-observations.json",
+        "scope": "preserved observation; not a fresh video or audio consultation"
+      },
+      "youtube_new_attempt": {
+        "retrieved_at_utc": "2026-10-01T10:30:16.353992+00:00",
+        "status": "access_failed",
+        "error_type": "URLError",
+        "diagnostic": "All 12 attempts recorded URLError; a separate direct diagnostic request for P05 returned HTTP proxy tunnel 403 Forbidden. No new video facts extracted."
+      },
+      "prior_recording_review_status": "uncertain",
+      "priority": "conferência recebida",
+      "manual_task": "Correspondência exata confirmada pelo autor na conferência manual de P08. Relação específica entre masters/edições, gênero, datas e elegibilidade continuam pendentes.",
+      "audio_review_performed": true,
+      "audio_decision": "user_confirmed_match",
+      "main_sample_inclusion": "pending",
+      "audio_review_source": "user_report_in_this_conversation",
+      "audio_review": {
+        "reviewer": "project_author (user in this conversation)",
+        "recorded_at_utc": "2026-10-01T23:14:28.932794+00:00",
+        "reviewed_at_utc": null,
+        "user_statement_verbatim": "correspondencia exata",
+        "comparison_context": "Follow-up to the exact P08 Spotify and YouTube links supplied in the preceding assistant message.",
+        "compared_urls": {
+          "spotify": "https://open.spotify.com/track/78YJJJH55MSyk7547100sW",
+          "youtube": "https://www.youtube.com/watch?v=dbckIuT_YDc"
+        },
+        "reported_observation": "The user confirms an exact correspondence between the YouTube and Spotify versions.",
+        "assessment": "Recording correspondence accepted as user-confirmed manual comparison; no independent assistant audio inspection.",
+        "limits": "No separate listening landmarks, numeric durations, ISRC or specific relationship between masters/editions were supplied.",
+        "duration_note": "Preserve snapshot track 320.107 s and previous video 320 s, difference -0.107 s. No new measured durations were supplied."
+      },
+      "overall_pairing_status": "user_confirmed_musical_correspondence"
+    },
+    {
+      "pilot_id": "P09",
+      "artist_snapshot": "Novo Amor",
+      "track_snapshot": "Anchor",
+      "spotify": {
+        "url": "https://open.spotify.com/track/7qH9Z4dJEN0l9bidizW7fq",
+        "retrieved_at_utc": "2026-10-01T10:30:16.632587+00:00",
+        "http_status": 200,
+        "page_sha256": "c4cdd2e9bdeee8b050980f220567031ae330e400167b5c3ec4f7516244c1e476",
+        "facts": {
+          "og:description": "Novo Amor · Bathing Beach · Song · 2017",
+          "music:duration": "258",
+          "music:album": "https://open.spotify.com/album/4vGuMdwnxc6X8izbVS6MTN",
+          "music:musician_description": "Novo Amor"
+        },
+        "catalogue_date": "2017-05-26",
+        "scope": "page metadata of this exact Spotify ID; no ISRC or audio identity established"
+      },
+      "youtube_preserved": {
+        "url": "https://www.youtube.com/watch?v=OmKAn8rNbKg",
+        "retrieved_at_utc": "2026-10-01T03:59:41.452825+00:00",
+        "title": "Novo Amor - Anchor (official video)",
+        "author": "Novo Amor",
+        "length_seconds": 256,
+        "page_sha256": "aebfaba04a7b46e4d9532bdaf07dda8b2b2f2bb646d7e30dc6c7c99b5c5f8f2f",
+        "source_file": "data/pilot/metadata-observations.json",
+        "scope": "preserved observation; not a fresh video or audio consultation"
+      },
+      "youtube_new_attempt": {
+        "retrieved_at_utc": "2026-10-01T10:30:16.628822+00:00",
+        "status": "access_failed",
+        "error_type": "URLError",
+        "diagnostic": "All 12 attempts recorded URLError; a separate direct diagnostic request for P05 returned HTTP proxy tunnel 403 Forbidden. No new video facts extracted."
+      },
+      "prior_recording_review_status": "documentary_album_link",
+      "priority": "conferência recebida",
+      "manual_task": "Correspondência exata confirmada pelo autor na conferência manual de P09. Gênero, interpretação das datas e elegibilidade da amostra principal continuam pendentes.",
+      "audio_review_performed": true,
+      "audio_decision": "user_confirmed_match",
+      "main_sample_inclusion": "pending",
+      "audio_review_source": "user_report_in_this_conversation",
+      "audio_review": {
+        "reviewer": "project_author (user in this conversation)",
+        "recorded_at_utc": "2026-10-01T22:59:51.106815+00:00",
+        "reviewed_at_utc": null,
+        "user_statement_verbatim": "Correspondência exata",
+        "comparison_context": "Follow-up to the exact P09 Spotify and YouTube links supplied in the preceding assistant message.",
+        "compared_urls": {
+          "spotify": "https://open.spotify.com/track/7qH9Z4dJEN0l9bidizW7fq",
+          "youtube": "https://www.youtube.com/watch?v=OmKAn8rNbKg"
+        },
+        "reported_observation": "The user confirms an exact correspondence between the YouTube and Spotify versions.",
+        "assessment": "Recording correspondence accepted as user-confirmed manual comparison; no independent assistant audio inspection.",
+        "limits": "No separate listening landmarks, numeric durations, ISRC or master identity were supplied.",
+        "duration_note": "Preserve snapshot track 257.533 s and previous video 256 s, difference -1.533 s. No new durations or explanation of the historical difference were supplied."
+      },
+      "overall_pairing_status": "user_confirmed_musical_correspondence"
+    },
+    {
+      "pilot_id": "P10",
+      "artist_snapshot": "Darshan Raval",
+      "track_snapshot": "Tera Zikr",
+      "spotify": {
+        "url": "https://open.spotify.com/track/0OfaueVeRebAfWsAHajj3z",
+        "retrieved_at_utc": "2026-10-01T10:30:16.734454+00:00",
+        "http_status": 200,
+        "page_sha256": "cda13e41ce742a505c7866d83ee56184c55c2e3439e4506168c0e5c5913bac43",
+        "facts": {
+          "og:description": "Darshan Raval · Tera Zikr · Song · 2017",
+          "music:duration": "209",
+          "music:album": "https://open.spotify.com/album/2khzKvw27vsWmb8xgnqxKb",
+          "music:musician_description": "Darshan Raval"
+        },
+        "catalogue_date": "2017-11-09",
+        "scope": "page metadata of this exact Spotify ID; no ISRC or audio identity established"
+      },
+      "youtube_preserved": {
+        "url": "https://www.youtube.com/watch?v=eK0IIyBlYew",
+        "retrieved_at_utc": "2026-10-01T03:59:45.326006+00:00",
+        "title": "Tera Zikr - Darshan Raval | Official Video - Latest New Hit Song",
+        "author": "Sony Music India",
+        "length_seconds": 224,
+        "page_sha256": "3d66181f71c14d54748cad65845d090ce4c20c455df3e1172591576ec4767ac4",
+        "source_file": "data/pilot/metadata-observations.json",
+        "scope": "preserved observation; not a fresh video or audio consultation"
+      },
+      "youtube_new_attempt": {
+        "retrieved_at_utc": "2026-10-01T10:30:16.724417+00:00",
+        "status": "access_failed",
+        "error_type": "URLError",
+        "diagnostic": "All 12 attempts recorded URLError; a separate direct diagnostic request for P05 returned HTTP proxy tunnel 403 Forbidden. No new video facts extracted."
+      },
+      "prior_recording_review_status": "uncertain",
+      "priority": "edição do clipe identificada; elegibilidade pendente",
+      "manual_task": "Autor relata introdução de cerca de 20 segundos, fala feminina sobreposta à música ausente no Spotify e restante musical no geral igual. Registrar intervalo da fala e revisar elegibilidade sem promover a correspondência exata ou alterar o critério automaticamente.",
+      "audio_review_performed": true,
+      "audio_decision": "user_reported_video_audio_overlay",
+      "main_sample_inclusion": "pending_overlay_adjudication",
+      "audio_review_source": "user_report_in_this_conversation",
+      "audio_review": {
+        "reviewer": "project_author (user in this conversation)",
+        "recorded_at_utc": "2026-10-01T23:20:58.968839+00:00",
+        "reviewed_at_utc": null,
+        "user_statement_verbatim": "essa musica tem uma particularidade, os primeiros 20 segundos sao uma introdução do videoclipe, começa a musica, uma mulher fala uma frase (por cima da musica, que não tem no spotify) e o resto da musica no geral é a mesma",
+        "comparison_context": "Follow-up to the exact P10 Spotify and YouTube links supplied in the preceding assistant message.",
+        "compared_urls": {
+          "spotify": "https://open.spotify.com/track/0OfaueVeRebAfWsAHajj3z",
+          "youtube": "https://www.youtube.com/watch?v=eK0IIyBlYew"
+        },
+        "reported_observation": "The video starts with an approximately 20-second introduction, then the music begins. A woman speaks a phrase over the music that is absent from Spotify. The remainder is reported generally the same.",
+        "intro": {
+          "duration_seconds_approximate": 20,
+          "precedes_track_start": true,
+          "sound_content": "not separately described"
+        },
+        "audio_overlay": {
+          "type": "spoken phrase",
+          "voice_reported": "female",
+          "music_continues_underneath": true,
+          "absent_from_spotify_reported": true,
+          "start_seconds": null,
+          "end_seconds": null,
+          "words": null
+        },
+        "underlying_music_assessment": "Generally the same according to the user; exact correspondence of the entire musical portion was not asserted.",
+        "assessment": "Underlying musical correspondence with additional video-only speech; exact full-audio correspondence not confirmed. Main-sample eligibility remains pending an explicit interpretation of existing version criteria.",
+        "limits": "No independent assistant listening, phrase timing/text, measured alignment, complete cut mapping, ISRC or master identity was supplied. No remix or alternate recording identity was established.",
+        "duration_note": "Preserve snapshot track 208.500 s and previous video 224 s, difference 15.500 s. The reported approximately 20-second intro is not a measured decomposition of that duration difference; do not infer a cut or replace the original lengths."
+      },
+      "overall_pairing_status": "video_audio_overlay_pending_adjudication"
+    },
+    {
+      "pilot_id": "P11",
+      "artist_snapshot": "AC/DC",
+      "track_snapshot": "Hells Bells",
+      "spotify": {
+        "url": "https://open.spotify.com/track/69QHm3pustz01CJRwdo20z",
+        "retrieved_at_utc": "2026-10-01T10:30:16.957172+00:00",
+        "http_status": 200,
+        "page_sha256": "f4bb0b3da8ea9590099fc42b20e7842568bcd5cc5f1fb7948840165ab54b7fd3",
+        "facts": {
+          "og:description": "AC/DC · Back In Black · Song · 1980",
+          "music:duration": "313",
+          "music:album": "https://open.spotify.com/album/6mUdeDZCsExyJLMdAfDuwh",
+          "music:musician_description": "AC/DC"
+        },
+        "catalogue_date": "1980-07-25",
+        "scope": "page metadata of this exact Spotify ID; no ISRC or audio identity established"
+      },
+      "youtube_preserved": {
+        "url": "https://www.youtube.com/watch?v=etAIpkdhU9Q",
+        "retrieved_at_utc": "2026-10-01T03:59:47.975784+00:00",
+        "title": "AC/DC - Hells Bells (Official 4K Video)",
+        "author": "acdcVEVO",
+        "length_seconds": 310,
+        "page_sha256": "a03043e920754d15cff2f1c2ebd93fe036b569ea17f99016c63ff1596d4aef2f",
+        "source_file": "data/pilot/metadata-observations.json",
+        "scope": "preserved observation; not a fresh video or audio consultation"
+      },
+      "youtube_new_attempt": {
+        "retrieved_at_utc": "2026-10-01T10:30:16.955106+00:00",
+        "status": "access_failed",
+        "error_type": "URLError",
+        "diagnostic": "All 12 attempts recorded URLError; a separate direct diagnostic request for P05 returned HTTP proxy tunnel 403 Forbidden. No new video facts extracted."
+      },
+      "prior_recording_review_status": "uncertain",
+      "priority": "conferência recebida",
+      "manual_task": "Mesma música confirmada pelo autor, com percepção de que o clipe está aproximadamente dois segundos adiantado em relação ao Spotify. Gênero, datas e elegibilidade continuam pendentes.",
+      "audio_review_performed": true,
+      "audio_decision": "user_confirmed_match",
+      "main_sample_inclusion": "pending",
+      "audio_review_source": "user_report_in_this_conversation",
+      "audio_review": {
+        "reviewer": "project_author (user in this conversation)",
+        "recorded_at_utc": "2026-10-01T23:03:33.946447+00:00",
+        "reviewed_at_utc": null,
+        "user_statement_verbatim": "Correspondência praticamente perfeita, o clipe parece estar 2 segundos na frente da musica no Spotify, mas a rigor é a mesma musica",
+        "comparison_context": "Follow-up to the exact P11 Spotify and YouTube links supplied in the preceding assistant message.",
+        "compared_urls": {
+          "spotify": "https://open.spotify.com/track/69QHm3pustz01CJRwdo20z",
+          "youtube": "https://www.youtube.com/watch?v=etAIpkdhU9Q"
+        },
+        "reported_observation": "The user reports a practically perfect correspondence and the same music, with the video apparently about two seconds ahead of Spotify.",
+        "relative_alignment_report": {
+          "video_ahead_seconds_approximate": 2,
+          "scope": "Approximate perceived alignment reported by the user; no platform-specific landmarks or measured constant offset were supplied."
+        },
+        "assessment": "Musical correspondence accepted as user-confirmed manual comparison, retaining the approximate alignment observation; no independent assistant audio inspection.",
+        "limits": "No measured alignment across the recording, exact music boundaries, ISRC or master identity were supplied. The cause of the offset is unknown.",
+        "duration_note": "Preserve snapshot track 312.293 s and previous video 310 s, difference -2.293 s. The reported two-second alignment observation does not replace these durations or prove why the total lengths differ."
+      },
+      "overall_pairing_status": "user_confirmed_musical_correspondence"
+    },
+    {
+      "pilot_id": "P12",
+      "artist_snapshot": "Imagine Dragons",
+      "track_snapshot": "Radioactive",
+      "spotify": {
+        "url": "https://open.spotify.com/track/4G8gkOterJn0Ywt6uhqbhp",
+        "retrieved_at_utc": "2026-10-01T10:30:17.037669+00:00",
+        "http_status": 200,
+        "page_sha256": "c29c86079c47a0a15a575551d5f679c56e4b5549038fdb3ad91324f8fcd14040",
+        "facts": {
+          "og:description": "Imagine Dragons · Night Visions · Song · 2012",
+          "music:duration": "187",
+          "music:album": "https://open.spotify.com/album/6htgf3qv7vGcsdxLCDxKp8",
+          "music:musician_description": "Imagine Dragons"
+        },
+        "catalogue_date": "2012-09-04",
+        "scope": "page metadata of this exact Spotify ID; no ISRC or audio identity established"
+      },
+      "youtube_preserved": {
+        "url": "https://www.youtube.com/watch?v=ktvTqknDobU",
+        "retrieved_at_utc": "2026-10-01T03:59:51.200030+00:00",
+        "title": "Imagine Dragons - Radioactive",
+        "author": "ImagineDragonsVEVO",
+        "length_seconds": 261,
+        "page_sha256": "837adb754f8c3459509d1b29de9bf25ad7d7cac9e15d57f13430b0c195126304",
+        "source_file": "data/pilot/metadata-observations.json",
+        "scope": "preserved observation; not a fresh video or audio consultation"
+      },
+      "youtube_new_attempt": {
+        "retrieved_at_utc": "2026-10-01T10:30:17.035447+00:00",
+        "status": "access_failed",
+        "error_type": "URLError",
+        "diagnostic": "All 12 attempts recorded URLError; a separate direct diagnostic request for P05 returned HTTP proxy tunnel 403 Forbidden. No new video facts extracted."
+      },
+      "prior_recording_review_status": "uncertain",
+      "priority": "conferência recebida",
+      "manual_task": "Conteúdo musical confirmado como o mesmo pelo autor; extensão atribuída a sequências narrativas do clipe no começo, meio e final. Limites das cenas, sons sobrepostos, gênero, datas e elegibilidade não foram adjudicados.",
+      "audio_review_performed": true,
+      "audio_decision": "user_confirmed_match",
+      "main_sample_inclusion": "pending",
+      "audio_review_source": "user_report_in_this_conversation",
+      "audio_review": {
+        "reviewer": "project_author (user in this conversation)",
+        "recorded_at_utc": "2026-10-01T23:25:58.087729+00:00",
+        "reviewed_at_utc": null,
+        "user_statement_verbatim": "Essa música é a rigor a mesma chat. O que acontece é que no videoclipe do YouTube existem sequências bem artísticas que mostram, por exemplo, no começo, no meio e ao final um cadinho. Ou seja, durante o videoclipe, sequências de animais ali de pelúcia lutando, mas o conteúdo da música acaba sendo o mesmo. Essa extensão se dá essa questão de durante o clipe ter esses pontos em que tem essa situação até mesmo antietral.",
+        "comparison_context": "Follow-up to the exact P12 Spotify and YouTube links supplied in the preceding assistant message.",
+        "compared_urls": {
+          "spotify": "https://open.spotify.com/track/4G8gkOterJn0Ywt6uhqbhp",
+          "youtube": "https://www.youtube.com/watch?v=ktvTqknDobU"
+        },
+        "reported_observation": "The user confirms the same musical content and attributes the extended video to artistic narrative sequences at the beginning, middle and end, including fighting plush animals.",
+        "narrative_sequences": {
+          "positions_reported": [
+            "beginning",
+            "middle",
+            "end"
+          ],
+          "visual_content_reported": "fighting plush animals",
+          "numeric_boundaries_seconds": null,
+          "music_pauses_or_overlap_details": "not separately specified by the user"
+        },
+        "assessment": "Musical correspondence accepted as user-confirmed manual comparison, with narrative video extensions recorded; no independent assistant audio inspection.",
+        "limits": "No exact scene durations, explicit assessment of effects/speech over music, full cut mapping, ISRC or master identity were supplied. No claim of identical full audiovisual timelines is made.",
+        "duration_note": "Preserve snapshot track 186.813 s and previous video 261 s, difference 74.187 s. The user attributes the extension to narrative scenes qualitatively; their individual durations were not measured."
+      },
+      "overall_pairing_status": "user_confirmed_musical_correspondence"
+    }
+  ],
+  "audio_reviews_scope": "Number of manual listening comparisons reported by the user, including matches and version conflicts; the assistant has not listened.",
+  "assistant_audio_reviews": 0,
+  "current_pairing_summary": {
+    "scope": "Frozen 12-case pilot; manual listening reports from the author plus the previously documented P06 version conflict. Musical correspondence is not complete-case or main-sample approval.",
+    "musically_confirmed_by_user": {
+      "count": 9,
+      "pilot_ids": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P07",
+        "P08",
+        "P09",
+        "P11",
+        "P12"
+      ]
+    },
+    "version_conflicts": {
+      "count": 2,
+      "pilot_ids": [
+        "P05",
+        "P06"
+      ],
+      "sources": {
+        "P05": "user listening report",
+        "P06": "prior documentary title/credit review; no user listening report"
+      }
+    },
+    "video_audio_overlay_pending": {
+      "count": 1,
+      "pilot_ids": [
+        "P10"
+      ]
+    },
+    "user_listening_reports": 11,
+    "confirmed_music_by_audience_band": {
+      "01_under_1m": 3,
+      "02_1m_to_under_10m": 1,
+      "03_10m_to_under_100m": 3,
+      "04_100m_or_more": 2
+    },
+    "recording_only_advance_checks": {
+      "minimum_total_confirmations": 9,
+      "observed_total_confirmations": 9,
+      "minimum_per_band": 2,
+      "per_band_condition_met": false,
+      "limiting_band": "02_1m_to_under_10m",
+      "not_a_complete_field_assessment": true
+    },
+    "all_required_fields_adjudicated": false,
+    "complete_case_count": null,
+    "main_sample_approved_cases": 0,
+    "advance_criterion_met": false,
+    "reason": "The 1m-to-under-10m band has only P04 confirmed; P05 and P06 are version conflicts. Genre/date semantics and main-sample scope also remain unresolved. No replacements or threshold relaxation were made."
+  }
+}
