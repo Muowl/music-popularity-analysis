@@ -174,6 +174,15 @@ def freeze(root=ROOT):
             "features_prespecified": FEATURES, "audit": audit, "candidates": cases}
     destination.parent.mkdir(parents=True, exist_ok=True)
     destination.write_text(json.dumps(lock, ensure_ascii=False, indent=2) + "\n")
+    # Preserve every eligibility observation for future freezes, not just selected IDs.
+    # Never run freeze over the existing historical lock to manufacture this missing file.
+    evidence = {"scope": "Original eligibility observations at this freeze",
+                "selection_lock_sha256": hashlib.sha256(destination.read_bytes()).hexdigest(),
+                "records": [{"track_id": r["track_id"], "artist": r["Artist"],
+                             "exclusion_reasons": r["metadata_exclusion_reasons"],
+                             "catalogue_year": r["catalogue_year"],
+                             "observation": catalogue[r["track_id"]]} for r in linked]}
+    (destination.parent / "selection-eligibility.json").write_text(json.dumps(evidence, ensure_ascii=False, indent=2) + "\n")
     with (destination.parent / "recording-review.csv").open("w", encoding="utf-8", newline="") as f:
         writer = csv.DictWriter(f, fieldnames=list(cases[0]), lineterminator="\n")
         writer.writeheader()

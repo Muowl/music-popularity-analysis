@@ -1,0 +1,3444 @@
+{
+  "scope": "Current catalogue concordance audit; not a reconstruction of the historical selection",
+  "selection_lock_sha256": "d69e21e986e05dbe8fff536cb7b8d64a71ba3a877c5a7c9efb78a5a4e649e304",
+  "original_full_catalogue_cache_available": false,
+  "historical_metadata_available": 20,
+  "historical_metadata_missing": 156,
+  "raw_snapshot_audit": {
+    "genre_label": "hard-rock",
+    "genre_rows": 1000,
+    "genre_unique_ids": 998,
+    "intersection_rows": 176,
+    "intersection_unique_ids": 176,
+    "intersection_artists": 46,
+    "sources": [
+      {
+        "name": "Spotify Tracks Dataset",
+        "sha256": "b202fa49909b2d5cef71a04b1d21243cfeb36414535f2ca9272aa646721177bd",
+        "landing_url": "https://huggingface.co/datasets/maharshipandya/spotify-tracks-dataset"
+      },
+      {
+        "name": "Spotify and Youtube",
+        "sha256": "a08bda951ec1c62a2fbaeb5547141ba23dd7b16347f0e83bd043b1ba9cf168cd",
+        "landing_url": "https://www.kaggle.com/datasets/salvatorerastelli/spotify-and-youtube"
+      }
+    ]
+  },
+  "current_comparison": {
+    "complete": false,
+    "catalogue_verified": 20,
+    "request_failures": 156,
+    "eligible_decade_rows": null,
+    "selected_artists": null,
+    "selected_ids_match_lock": null,
+    "new_ids": null,
+    "missing_frozen_ids": null,
+    "cutoff_views": null,
+    "changed_selected_catalogue_dates": []
+  },
+  "records": [
+    {
+      "track_id": "2zYzyRzz6pRmhPzyfMEC8s",
+      "artist": "AC/DC",
+      "snapshot_filter_exclusions": [],
+      "historical_catalogue_date": null,
+      "historical_page_sha256": null,
+      "historical_evidence_status": "original_observation_not_available",
+      "current_observation": {
+        "url": "https://open.spotify.com/track/2zYzyRzz6pRmhPzyfMEC8s",
+        "retrieved_at_utc": "2026-10-02T03:38:38.121661+00:00",
+        "http_status": 200,
+        "page_sha256": "5e6c3f1c88b2abe8a7519d10557836d8757bbb8442ad5199ed5545d626972b22",
+        "canonical_track_id": "2zYzyRzz6pRmhPzyfMEC8s",
+        "identity_verified": true,
+        "catalogue_date": "1979-07-27",
+        "catalogue_year": 1979
+      },
+      "current_exclusions": [
+        "current_catalogue_year_outside_window"
+      ],
+      "selection_hash": "5ee48f2b4e898154359279988ea0fdacd315ad6a809201b9ad19f68e2907fa97",
+      "selected_in_frozen_roster": false
+    },
+    {
+      "track_id": "57bgtoPSgt236HzfBOd8kj",
+      "artist": "AC/DC",
+      "snapshot_filter_exclusions": [],
+      "historical_catalogue_date": null,
+      "historical_page_sha256": null,
+      "historical_evidence_status": "original_observation_not_available",
+      "current_observation": {
+        "url": "https://open.spotify.com/track/57bgtoPSgt236HzfBOd8kj",
+        "retrieved_at_utc": "2026-10-02T03:38:38.122392+00:00",
+        "http_status": 200,
+        "page_sha256": "6bfb8acae996d624f4d0dba51c6c59d3822572459db5b788c7529ebd0f8ebf31",
+        "canonical_track_id": "57bgtoPSgt236HzfBOd8kj",
+        "identity_verified": true,
+        "catalogue_date": "1990-09-24",
+        "catalogue_year": 1990
+      },
+      "current_exclusions": [
+        "current_catalogue_year_outside_window"
+      ],
+      "selection_hash": "1bf4284827f8b492081e43257a41154d6062620c4eda7c264a920e3fe2281a6b",
+      "selected_in_frozen_roster": false
+    },
+    {
+      "track_id": "08mG3Y1vljYA6bvDt4Wqkj",
+      "artist": "AC/DC",
+      "snapshot_filter_exclusions": [],
+      "historical_catalogue_date": "1980-07-25",
+      "historical_page_sha256": "83aa4b93c37acd495f6dbce4a319cf8ca97b21667a86b72cd182f2dfe35df169",
+      "historical_evidence_status": "selected_case_preserved_in_lock",
+      "current_observation": {
+        "url": "https://open.spotify.com/track/08mG3Y1vljYA6bvDt4Wqkj",
+        "retrieved_at_utc": "2026-10-02T03:38:38.123083+00:00",
+        "http_status": 200,
+        "page_sha256": "a66a6e9383042820260cb5c5af8a04f7e566f1bdb4cf270e0938d6753aa45c7e",
+        "canonical_track_id": "08mG3Y1vljYA6bvDt4Wqkj",
+        "identity_verified": true,
+        "catalogue_date": "1980-07-25",
+        "catalogue_year": 1980
+      },
+      "current_exclusions": [],
+      "selection_hash": "73a30bc5b936f333e3b5928d0258f2c8a4c372229b2a46b6983368660ff39ece",
+      "selected_in_frozen_roster": true
+    },
+    {
+      "track_id": "2SiXAy7TuUkycRVbbWDEpo",
+      "artist": "AC/DC",
+      "snapshot_filter_exclusions": [],
+      "historical_catalogue_date": null,
+      "historical_page_sha256": null,
+      "historical_evidence_status": "original_observation_not_available",
+      "current_observation": {
+        "url": "https://open.spotify.com/track/2SiXAy7TuUkycRVbbWDEpo",
+        "retrieved_at_utc": "2026-10-02T03:38:38.123778+00:00",
+        "http_status": 200,
+        "page_sha256": "fb0e1c117369ff099bf11a6871a60104861f17b07b8cabccac5fbf3ecfeaa1a5",
+        "canonical_track_id": "2SiXAy7TuUkycRVbbWDEpo",
+        "identity_verified": true,
+        "catalogue_date": "1980-07-25",
+        "catalogue_year": 1980
+      },
+      "current_exclusions": [],
+      "selection_hash": "aa9831dffb2b0cc967b0d7d14554f2454320a0fb2a49f316136fda86ddb7977f",
+      "selected_in_frozen_roster": false
+    },
+    {
+      "track_id": "7LRMbd3LEoV5wZJvXT1Lwb",
+      "artist": "AC/DC",
+      "snapshot_filter_exclusions": [],
+      "historical_catalogue_date": null,
+      "historical_page_sha256": null,
+      "historical_evidence_status": "original_observation_not_available",
+      "current_observation": {
+        "url": "https://open.spotify.com/track/7LRMbd3LEoV5wZJvXT1Lwb",
+        "retrieved_at_utc": "2026-10-02T03:38:44.381482+00:00",
+        "http_status": 200,
+        "page_sha256": "e52f1d6ce4a70e30f5836ca188c8fa8dc314ec629e6bde9059f0b4ef6a7f1d5e",
+        "canonical_track_id": "7LRMbd3LEoV5wZJvXT1Lwb",
+        "identity_verified": true,
+        "catalogue_date": "1976-05-14",
+        "catalogue_year": 1976
+      },
+      "current_exclusions": [
+        "current_catalogue_year_outside_window"
+      ],
+      "selection_hash": "dc623ffc3e3c6e8c291a1f67717fee9bd36fd4cc4c41a6fe9c49a8b5bdb306d1",
+      "selected_in_frozen_roster": false
+    },
+    {
+      "track_id": "69QHm3pustz01CJRwdo20z",
+      "artist": "AC/DC",
+      "snapshot_filter_exclusions": [],
+      "historical_catalogue_date": null,
+      "historical_page_sha256": null,
+      "historical_evidence_status": "original_observation_not_available",
+      "current_observation": {
+        "url": "https://open.spotify.com/track/69QHm3pustz01CJRwdo20z",
+        "retrieved_at_utc": "2026-10-02T03:38:44.447186+00:00",
+        "http_status": 200,
+        "page_sha256": "8359e8c4b0bc7411dbc4b63dd399ce1b22d27a90eb65b10f36681aba12f9f90e",
+        "canonical_track_id": "69QHm3pustz01CJRwdo20z",
+        "identity_verified": true,
+        "catalogue_date": "1980-07-25",
+        "catalogue_year": 1980
+      },
+      "current_exclusions": [],
+      "selection_hash": "c1f038b10c76d915995298336719e1b996a539c2054a7e0bacf2bdbd21a4a26a",
+      "selected_in_frozen_roster": false
+    },
+    {
+      "track_id": "2d4e45fmUnguxh6yqC7gNT",
+      "artist": "AC/DC",
+      "snapshot_filter_exclusions": [],
+      "historical_catalogue_date": null,
+      "historical_page_sha256": null,
+      "historical_evidence_status": "original_observation_not_available",
+      "current_observation": {
+        "url": "https://open.spotify.com/track/2d4e45fmUnguxh6yqC7gNT",
+        "retrieved_at_utc": "2026-10-02T03:38:44.479102+00:00",
+        "http_status": 200,
+        "page_sha256": "cf9fad399b2658a7f2a93cde0adb726666f1549c0fd77fc25160ccdc029aac9f",
+        "canonical_track_id": "2d4e45fmUnguxh6yqC7gNT",
+        "identity_verified": true,
+        "catalogue_date": "1976-09-20",
+        "catalogue_year": 1976
+      },
+      "current_exclusions": [
+        "current_catalogue_year_outside_window"
+      ],
+      "selection_hash": "b0c0425ef81e595dc2ac969bff7e524a1df29467eaf4130ba4e3db1fd28bbefe",
+      "selected_in_frozen_roster": false
+    },
+    {
+      "track_id": "0C80GCp0mMuBzLf3EAXqxv",
+      "artist": "AC/DC",
+      "snapshot_filter_exclusions": [],
+      "historical_catalogue_date": null,
+      "historical_page_sha256": null,
+      "historical_evidence_status": "original_observation_not_available",
+      "current_observation": {
+        "url": "https://open.spotify.com/track/0C80GCp0mMuBzLf3EAXqxv",
+        "retrieved_at_utc": "2026-10-02T03:38:44.526658+00:00",
+        "http_status": 200,
+        "page_sha256": "b9affd9d56c617338ef3b9b5fbb1c7dbe42bd54d1e1f108d4010b85626324e0a",
+        "canonical_track_id": "0C80GCp0mMuBzLf3EAXqxv",
+        "identity_verified": true,
+        "catalogue_date": "1980-07-25",
+        "catalogue_year": 1980
+      },
+      "current_exclusions": [],
+      "selection_hash": "edbada0294ad7ba805af9646c44e3462c027ade6336867f3561d43c8b6797de2",
+      "selected_in_frozen_roster": false
+    },
+    {
+      "track_id": "7nemcVsXVFZF01iqpIIo2Y",
+      "artist": "AC/DC",
+      "snapshot_filter_exclusions": [
+        "publisher_official_video_not_true"
+      ],
+      "historical_catalogue_date": null,
+      "historical_page_sha256": null,
+      "historical_evidence_status": "original_observation_not_available",
+      "current_observation": {
+        "url": "https://open.spotify.com/track/7nemcVsXVFZF01iqpIIo2Y",
+        "retrieved_at_utc": "2026-10-02T03:38:50.125359+00:00",
+        "http_status": 200,
+        "page_sha256": "74c18e8ee1177d1bc00f24730169e548cc2085f8bdb501c6c978e695037ed144",
+        "canonical_track_id": "7nemcVsXVFZF01iqpIIo2Y",
+        "identity_verified": true,
+        "catalogue_date": "1976-05-14",
+        "catalogue_year": 1976
+      },
+      "current_exclusions": [
+        "publisher_official_video_not_true",
+        "current_catalogue_year_outside_window"
+      ],
+      "selection_hash": "ed76c4961913b5b5cc1606c5abfda6d181ef46bf44d5e7854c57ad2568c3338f",
+      "selected_in_frozen_roster": false
+    },
+    {
+      "track_id": "4feXJ5IC3avXsVW9WNFSag",
+      "artist": "AC/DC",
+      "snapshot_filter_exclusions": [],
+      "historical_catalogue_date": null,
+      "historical_page_sha256": null,
+      "historical_evidence_status": "original_observation_not_available",
+      "current_observation": {
+        "url": "https://open.spotify.com/track/4feXJ5IC3avXsVW9WNFSag",
+        "retrieved_at_utc": "2026-10-02T03:38:50.139833+00:00",
+        "http_status": 200,
+        "page_sha256": "01d78c612a69504002c8fb4b465647529f7bb3a8214a10f3260996dd7b948506",
+        "canonical_track_id": "4feXJ5IC3avXsVW9WNFSag",
+        "identity_verified": true,
+        "catalogue_date": "2008-10-20",
+        "catalogue_year": 2008
+      },
+      "current_exclusions": [
+        "current_catalogue_year_outside_window"
+      ],
+      "selection_hash": "64e56869c612230e352c67cd3427acbf3396fa0787ddfe8c970c933ff4300c3b",
+      "selected_in_frozen_roster": false
+    },
+    {
+      "track_id": "74irxdVWstNlEQjsvArITq",
+      "artist": "Aerosmith",
+      "snapshot_filter_exclusions": [],
+      "historical_catalogue_date": null,
+      "historical_page_sha256": null,
+      "historical_evidence_status": "original_observation_not_available",
+      "current_observation": {
+        "url": "https://open.spotify.com/track/74irxdVWstNlEQjsvArITq",
+        "retrieved_at_utc": "2026-10-02T03:38:50.178985+00:00",
+        "http_status": 200,
+        "page_sha256": "7bcf8589dd235773651a697328003b7702dafd8e077b87ae6e8a9b44cf42cc65",
+        "canonical_track_id": "74irxdVWstNlEQjsvArITq",
+        "identity_verified": true,
+        "catalogue_date": "1993-01-01",
+        "catalogue_year": 1993
+      },
+      "current_exclusions": [
+        "current_catalogue_year_outside_window"
+      ],
+      "selection_hash": "747efc34a9a066a5a9c316f495b28dc2fa1a3321fc2c66023317cd0810fa35a1",
+      "selected_in_frozen_roster": false
+    },
+    {
+      "track_id": "0NJC0FDCODpPUntRTTQq97",
+      "artist": "Aerosmith",
+      "snapshot_filter_exclusions": [],
+      "historical_catalogue_date": null,
+      "historical_page_sha256": null,
+      "historical_evidence_status": "original_observation_not_available",
+      "current_observation": {
+        "url": "https://open.spotify.com/track/0NJC0FDCODpPUntRTTQq97",
+        "retrieved_at_utc": "2026-10-02T03:38:50.256771+00:00",
+        "http_status": 200,
+        "page_sha256": "acfd1b8514cf8e53288de47c7a7912dc836da13c990d09708d99857ca89b5510",
+        "canonical_track_id": "0NJC0FDCODpPUntRTTQq97",
+        "identity_verified": true,
+        "catalogue_date": "1993-01-01",
+        "catalogue_year": 1993
+      },
+      "current_exclusions": [
+        "current_catalogue_year_outside_window"
+      ],
+      "selection_hash": "c92b2b452d9c7b41bbd0c26cbfb6e31c2add5b613896828c51788e15a95c098d",
+      "selected_in_frozen_roster": false
+    },
+    {
+      "track_id": "6gQUbFwwdYXlKdmqRoWKJe",
+      "artist": "Aerosmith",
+      "snapshot_filter_exclusions": [],
+      "historical_catalogue_date": "1987-01-01",
+      "historical_page_sha256": "bea3b1fb1a5dfb714915ce6219961c2ea06692ba4155b662f3a147f467c1f4ce",
+      "historical_evidence_status": "selected_case_preserved_in_lock",
+      "current_observation": {
+        "url": "https://open.spotify.com/track/6gQUbFwwdYXlKdmqRoWKJe",
+        "retrieved_at_utc": "2026-10-02T03:38:56.558648+00:00",
+        "http_status": 200,
+        "page_sha256": "c49d3fa1dbc76a001e2bf864f47989da9998c16dbd3dd3d3075971af5af08d4f",
+        "canonical_track_id": "6gQUbFwwdYXlKdmqRoWKJe",
+        "identity_verified": true,
+        "catalogue_date": "1987-01-01",
+        "catalogue_year": 1987
+      },
+      "current_exclusions": [],
+      "selection_hash": "a2f3333cc4cf7ebc531fb1b502da59e9a6a36f1cb7b220fd16e1b111f6f82007",
+      "selected_in_frozen_roster": true
+    },
+    {
+      "track_id": "6beFuzSjwhOKFZp2aqYDdY",
+      "artist": "Aerosmith",
+      "snapshot_filter_exclusions": [],
+      "historical_catalogue_date": null,
+      "historical_page_sha256": null,
+      "historical_evidence_status": "original_observation_not_available",
+      "current_observation": {
+        "url": "https://open.spotify.com/track/6beFuzSjwhOKFZp2aqYDdY",
+        "retrieved_at_utc": "2026-10-02T03:38:56.564653+00:00",
+        "http_status": 200,
+        "page_sha256": "8b480a7202f96a554c8901b4200f831abfb68e784d6e26b9b6c843716dd7bf3b",
+        "canonical_track_id": "6beFuzSjwhOKFZp2aqYDdY",
+        "identity_verified": true,
+        "catalogue_date": "1993-01-01",
+        "catalogue_year": 1993
+      },
+      "current_exclusions": [
+        "current_catalogue_year_outside_window"
+      ],
+      "selection_hash": "c4ffbf2e8d145683bf0516385d2750828c5d66a47bab645fbaac018cf4e4c6ee",
+      "selected_in_frozen_roster": false
+    },
+    {
+      "track_id": "3IKJNHnVZ2bXGjAFBJiUYo",
+      "artist": "Black Sabbath",
+      "snapshot_filter_exclusions": [],
+      "historical_catalogue_date": null,
+      "historical_page_sha256": null,
+      "historical_evidence_status": "original_observation_not_available",
+      "current_observation": {
+        "url": "https://open.spotify.com/track/3IKJNHnVZ2bXGjAFBJiUYo",
+        "retrieved_at_utc": "2026-10-02T03:38:56.583696+00:00",
+        "http_status": 200,
+        "page_sha256": "768bf94013707fe77614a54ebd2e2916a9e79b5121c397812fc28c453e11164f",
+        "canonical_track_id": "3IKJNHnVZ2bXGjAFBJiUYo",
+        "identity_verified": true,
+        "catalogue_date": "2013-01-01",
+        "catalogue_year": 2013
+      },
+      "current_exclusions": [
+        "current_catalogue_year_outside_window"
+      ],
+      "selection_hash": "e361a2b0754d7ed5e4c6aa78ce3a011ca07f2510c3961a33c7344e1d5c4160df",
+      "selected_in_frozen_roster": false
+    },
+    {
+      "track_id": "3ovjw5HZZv43SxTwApooCM",
+      "artist": "Scorpions",
+      "snapshot_filter_exclusions": [
+        "missing_or_duplicate_video_in_pair_source"
+      ],
+      "historical_catalogue_date": null,
+      "historical_page_sha256": null,
+      "historical_evidence_status": "original_observation_not_available",
+      "current_observation": {
+        "url": "https://open.spotify.com/track/3ovjw5HZZv43SxTwApooCM",
+        "retrieved_at_utc": "2026-10-02T03:38:56.684562+00:00",
+        "http_status": 200,
+        "page_sha256": "a3cef1f7cce6777d2983f20e2abef1c84a76ea61a94805e685fd16ad9c8046f3",
+        "canonical_track_id": "3ovjw5HZZv43SxTwApooCM",
+        "identity_verified": true,
+        "catalogue_date": "1990-01-01",
+        "catalogue_year": 1990
+      },
+      "current_exclusions": [
+        "missing_or_duplicate_video_in_pair_source",
+        "current_catalogue_year_outside_window"
+      ],
+      "selection_hash": "51c08c6d6df38fb0be1b89af7cad3eb885766e19fd119b786b44d61e6525ad40",
+      "selected_in_frozen_roster": false
+    },
+    {
+      "track_id": "0RdUX4WE0fO30VnlUbDVL6",
+      "artist": "Scorpions",
+      "snapshot_filter_exclusions": [
+        "missing_or_duplicate_video_in_pair_source"
+      ],
+      "historical_catalogue_date": null,
+      "historical_page_sha256": null,
+      "historical_evidence_status": "original_observation_not_available",
+      "current_observation": {
+        "url": "https://open.spotify.com/track/0RdUX4WE0fO30VnlUbDVL6",
+        "retrieved_at_utc": "2026-10-02T03:39:02.457187+00:00",
+        "http_status": 200,
+        "page_sha256": "49fbaf6c2b2799cbbaf9080a44f87d124c0097113301ba83840b77c1950cfb2d",
+        "canonical_track_id": "0RdUX4WE0fO30VnlUbDVL6",
+        "identity_verified": true,
+        "catalogue_date": "2011-11-07",
+        "catalogue_year": 2011
+      },
+      "current_exclusions": [
+        "missing_or_duplicate_video_in_pair_source",
+        "current_catalogue_year_outside_window"
+      ],
+      "selection_hash": "a0cddfaa3451d1c7b6cd032765c0d2bb5a10da195b413f32529c1d9bcd1e890b",
+      "selected_in_frozen_roster": false
+    },
+    {
+      "track_id": "1bKQ48M9onID2kbSpRy8kK",
+      "artist": "Scorpions",
+      "snapshot_filter_exclusions": [],
+      "historical_catalogue_date": null,
+      "historical_page_sha256": null,
+      "historical_evidence_status": "original_observation_not_available",
+      "current_observation": {
+        "url": "https://open.spotify.com/track/1bKQ48M9onID2kbSpRy8kK",
+        "retrieved_at_utc": "2026-10-02T03:39:02.472366+00:00",
+        "http_status": 200,
+        "page_sha256": "f0ca62a984e875be9a74f50dbe406424489f4564324660e00c0bf3efde8cea7a",
+        "canonical_track_id": "1bKQ48M9onID2kbSpRy8kK",
+        "identity_verified": true,
+        "catalogue_date": "1990-01-01",
+        "catalogue_year": 1990
+      },
+      "current_exclusions": [
+        "current_catalogue_year_outside_window"
+      ],
+      "selection_hash": "8347d508920006553db035bc48c14e1b294044ba9f6c941788dff37d13dd7ca9",
+      "selected_in_frozen_roster": false
+    },
+    {
+      "track_id": "5hVepr5CHiTGtJY5bP4i5n",
+      "artist": "Scorpions",
+      "snapshot_filter_exclusions": [
+        "missing_or_duplicate_video_in_pair_source"
+      ],
+      "historical_catalogue_date": null,
+      "historical_page_sha256": null,
+      "historical_evidence_status": "original_observation_not_available",
+      "current_observation": {
+        "url": "https://open.spotify.com/track/5hVepr5CHiTGtJY5bP4i5n",
+        "retrieved_at_utc": "2026-10-02T03:39:02.479603+00:00",
+        "http_status": 200,
+        "page_sha256": "fd1a1bda5bb0b9c39db35d8f125606e1fdde149f5404df5f5715f2a8d6d39d19",
+        "canonical_track_id": "5hVepr5CHiTGtJY5bP4i5n",
+        "identity_verified": true,
+        "catalogue_date": "2011-11-07",
+        "catalogue_year": 2011
+      },
+      "current_exclusions": [
+        "missing_or_duplicate_video_in_pair_source",
+        "current_catalogue_year_outside_window"
+      ],
+      "selection_hash": "e7f70ba5bbff433e12cf0dcc79802c6e303d29b67af1313c8f9884772d33fd9c",
+      "selected_in_frozen_roster": false
+    },
+    {
+      "track_id": "5WSsTyBvMEFG3ac6JKb9gY",
+      "artist": "Scorpions",
+      "snapshot_filter_exclusions": [
+        "missing_or_duplicate_video_in_pair_source"
+      ],
+      "historical_catalogue_date": null,
+      "historical_page_sha256": null,
+      "historical_evidence_status": "original_observation_not_available",
+      "current_observation": {
+        "url": "https://open.spotify.com/track/5WSsTyBvMEFG3ac6JKb9gY",
+        "retrieved_at_utc": "2026-10-02T03:39:02.489680+00:00",
+        "http_status": 200,
+        "page_sha256": "4eeffd9cca3b55db61a5d1f92681226a6839d118403302d14d2fa4ad090e9d76",
+        "canonical_track_id": "5WSsTyBvMEFG3ac6JKb9gY",
+        "identity_verified": true,
+        "catalogue_date": "2011-11-07",
+        "catalogue_year": 2011
+      },
+      "current_exclusions": [
+        "missing_or_duplicate_video_in_pair_source",
+        "current_catalogue_year_outside_window"
+      ],
+      "selection_hash": "5a2affb2b1f37202828250298bf6f68ed2cade257d26cf1f4c0a8b962d262bd2",
+      "selected_in_frozen_roster": false
+    },
+    {
+      "track_id": "0qmzAFEijLDdvR2VbjFsPH",
+      "artist": "Charlie Brown Jr.",
+      "snapshot_filter_exclusions": [
+        "publisher_official_video_not_true"
+      ],
+      "historical_catalogue_date": null,
+      "historical_page_sha256": null,
+      "historical_evidence_status": "original_observation_not_available",
+      "current_observation": {
+        "url": "https://open.spotify.com/track/0qmzAFEijLDdvR2VbjFsPH",
+        "retrieved_at_utc": "2026-10-02T03:39:08.451155+00:00",
+        "error_type": "URLError"
+      },
+      "current_exclusions": [
+        "publisher_official_video_not_true",
+        "current_catalogue_identity_or_year_unverified"
+      ],
+      "selection_hash": "bf60960e28c8c3ff598ffdd79e0271a7b841407960acd01f14093dc70eafb1cd",
+      "selected_in_frozen_roster": false
+    },
+    {
+      "track_id": "4bHsxqR3GMrXTxEPLuK5ue",
+      "artist": "Journey",
+      "snapshot_filter_exclusions": [
+        "publisher_official_video_not_true"
+      ],
+      "historical_catalogue_date": null,
+      "historical_page_sha256": null,
+      "historical_evidence_status": "original_observation_not_available",
+      "current_observation": {
+        "url": "https://open.spotify.com/track/4bHsxqR3GMrXTxEPLuK5ue",
+        "retrieved_at_utc": "2026-10-02T03:39:08.581192+00:00",
+        "error_type": "URLError"
+      },
+      "current_exclusions": [
+        "publisher_official_video_not_true",
+        "current_catalogue_identity_or_year_unverified"
+      ],
+      "selection_hash": "5cde125000ab5ebb432584ac8465d1dc805bc99ba12afa9e61fd820fd4b1077e",
+      "selected_in_frozen_roster": false
+    },
+    {
+      "track_id": "71SvEDmsOwIWw1IozsZoMA",
+      "artist": "Journey",
+      "snapshot_filter_exclusions": [],
+      "historical_catalogue_date": null,
+      "historical_page_sha256": null,
+      "historical_evidence_status": "original_observation_not_available",
+      "current_observation": {
+        "url": "https://open.spotify.com/track/71SvEDmsOwIWw1IozsZoMA",
+        "retrieved_at_utc": "2026-10-02T03:39:08.620064+00:00",
+        "error_type": "URLError"
+      },
+      "current_exclusions": [
+        "current_catalogue_identity_or_year_unverified"
+      ],
+      "selection_hash": "88b229c1bb1f6a3396c71108914db0dde69d872750bcae8ae8d725a66ac5294d",
+      "selected_in_frozen_roster": false
+    },
+    {
+      "track_id": "4ECNtOnqzxutZkXP4TE3n3",
+      "artist": "Journey",
+      "snapshot_filter_exclusions": [],
+      "historical_catalogue_date": null,
+      "historical_page_sha256": null,
+      "historical_evidence_status": "original_observation_not_available",
+      "current_observation": {
+        "url": "https://open.spotify.com/track/4ECNtOnqzxutZkXP4TE3n3",
+        "retrieved_at_utc": "2026-10-02T03:39:08.713816+00:00",
+        "error_type": "URLError"
+      },
+      "current_exclusions": [
+        "current_catalogue_identity_or_year_unverified"
+      ],
+      "selection_hash": "bdf498f9d3afb136f2a32f090a601835ea3ef2ab6ab5e692dfbcdd75b9f8a028",
+      "selected_in_frozen_roster": false
+    },
+    {
+      "track_id": "2w4EpqGasrz9qdTwocx54t",
+      "artist": "Journey",
+      "snapshot_filter_exclusions": [],
+      "historical_catalogue_date": null,
+      "historical_page_sha256": null,
+      "historical_evidence_status": "original_observation_not_available",
+      "current_observation": {
+        "url": "https://open.spotify.com/track/2w4EpqGasrz9qdTwocx54t",
+        "retrieved_at_utc": "2026-10-02T03:39:11.154737+00:00",
+        "error_type": "URLError"
+      },
+      "current_exclusions": [
+        "current_catalogue_identity_or_year_unverified"
+      ],
+      "selection_hash": "2562f0df1cd1d86b6098feda3e9378e8d182d6051008f2e36af097bfc602606f",
+      "selected_in_frozen_roster": false
+    },
+    {
+      "track_id": "57ebBLITHpRgRKGrlbxMZS",
+      "artist": "Journey",
+      "snapshot_filter_exclusions": [],
+      "historical_catalogue_date": "1983-02-22",
+      "historical_page_sha256": "8001b6e4e9b49d8368835423f2ff7e968b9bb148b8831e179087d7690ac5349b",
+      "historical_evidence_status": "selected_case_preserved_in_lock",
+      "current_observation": {
+        "url": "https://open.spotify.com/track/57ebBLITHpRgRKGrlbxMZS",
+        "retrieved_at_utc": "2026-10-02T03:39:11.155141+00:00",
+        "error_type": "URLError"
+      },
+      "current_exclusions": [
+        "current_catalogue_identity_or_year_unverified"
+      ],
+      "selection_hash": "0bb2429cfb0974057c17775271a91f3d6dab338133332af6ab3655d98014db12",
+      "selected_in_frozen_roster": true
+    },
+    {
+      "track_id": "0muK9BAzu2TJXQgWPsEj6e",
+      "artist": "Journey",
+      "snapshot_filter_exclusions": [],
+      "historical_catalogue_date": null,
+      "historical_page_sha256": null,
+      "historical_evidence_status": "original_observation_not_available",
+      "current_observation": {
+        "url": "https://open.spotify.com/track/0muK9BAzu2TJXQgWPsEj6e",
+        "retrieved_at_utc": "2026-10-02T03:39:11.155628+00:00",
+        "error_type": "URLError"
+      },
+      "current_exclusions": [
+        "current_catalogue_identity_or_year_unverified"
+      ],
+      "selection_hash": "392a43bbbf67861cdce46a4e84151c5317352eb12d9b10d3c119726294006265",
+      "selected_in_frozen_roster": false
+    },
+    {
+      "track_id": "7e89621JPkKaeDSTQ3avtg",
+      "artist": "Lynyrd Skynyrd",
+      "snapshot_filter_exclusions": [
+        "publisher_official_video_not_true"
+      ],
+      "historical_catalogue_date": null,
+      "historical_page_sha256": null,
+      "historical_evidence_status": "original_observation_not_available",
+      "current_observation": {
+        "url": "https://open.spotify.com/track/7e89621JPkKaeDSTQ3avtg",
+        "retrieved_at_utc": "2026-10-02T03:39:11.155819+00:00",
+        "error_type": "URLError"
+      },
+      "current_exclusions": [
+        "publisher_official_video_not_true",
+        "current_catalogue_identity_or_year_unverified"
+      ],
+      "selection_hash": "ca645cf8b65b522c21f111b440c6409ec88839e9d9451fa2d2552091f075f314",
+      "selected_in_frozen_roster": false
+    },
+    {
+      "track_id": "5EWPGh7jbTNO2wakv8LjUI",
+      "artist": "Lynyrd Skynyrd",
+      "snapshot_filter_exclusions": [
+        "publisher_official_video_not_true"
+      ],
+      "historical_catalogue_date": null,
+      "historical_page_sha256": null,
+      "historical_evidence_status": "original_observation_not_available",
+      "current_observation": {
+        "url": "https://open.spotify.com/track/5EWPGh7jbTNO2wakv8LjUI",
+        "retrieved_at_utc": "2026-10-02T03:39:11.157424+00:00",
+        "error_type": "URLError"
+      },
+      "current_exclusions": [
+        "publisher_official_video_not_true",
+        "current_catalogue_identity_or_year_unverified"
+      ],
+      "selection_hash": "1de6905aefb188dd1b65b110dab5b5c0a8e677e83bba395b71ea737678d9896a",
+      "selected_in_frozen_roster": false
+    },
+    {
+      "track_id": "1ju7EsSGvRybSNEsRvc7qY",
+      "artist": "Lynyrd Skynyrd",
+      "snapshot_filter_exclusions": [],
+      "historical_catalogue_date": null,
+      "historical_page_sha256": null,
+      "historical_evidence_status": "original_observation_not_available",
+      "current_observation": {
+        "url": "https://open.spotify.com/track/1ju7EsSGvRybSNEsRvc7qY",
+        "retrieved_at_utc": "2026-10-02T03:39:11.157820+00:00",
+        "error_type": "URLError"
+      },
+      "current_exclusions": [
+        "current_catalogue_identity_or_year_unverified"
+      ],
+      "selection_hash": "7dad00842af13d853adfdd315e7353b905b0b78a8ee5faebea4354fce0caa182",
+      "selected_in_frozen_roster": false
+    },
+    {
+      "track_id": "72FTNsVwlDXMgxyEnmjwM0",
+      "artist": "Lynyrd Skynyrd",
+      "snapshot_filter_exclusions": [],
+      "historical_catalogue_date": null,
+      "historical_page_sha256": null,
+      "historical_evidence_status": "original_observation_not_available",
+      "current_observation": {
+        "url": "https://open.spotify.com/track/72FTNsVwlDXMgxyEnmjwM0",
+        "retrieved_at_utc": "2026-10-02T03:39:11.158153+00:00",
+        "error_type": "URLError"
+      },
+      "current_exclusions": [
+        "current_catalogue_identity_or_year_unverified"
+      ],
+      "selection_hash": "0938e9d99d36603bc06cfbe8f362ba036f48f0ae3cc90d7667fd6c385915f48c",
+      "selected_in_frozen_roster": false
+    },
+    {
+      "track_id": "7ACxUo21jtTHzy7ZEV56vU",
+      "artist": "Ozzy Osbourne",
+      "snapshot_filter_exclusions": [],
+      "historical_catalogue_date": null,
+      "historical_page_sha256": null,
+      "historical_evidence_status": "original_observation_not_available",
+      "current_observation": {
+        "url": "https://open.spotify.com/track/7ACxUo21jtTHzy7ZEV56vU",
+        "retrieved_at_utc": "2026-10-02T03:39:11.159009+00:00",
+        "error_type": "URLError"
+      },
+      "current_exclusions": [
+        "current_catalogue_identity_or_year_unverified"
+      ],
+      "selection_hash": "415b850fe654269e36d72298ab06fd6d09be23554939d76b0b4494f99eac5ff8",
+      "selected_in_frozen_roster": false
+    },
+    {
+      "track_id": "7w6PJe5KBPyvuRYxFkPssC",
+      "artist": "Ozzy Osbourne",
+      "snapshot_filter_exclusions": [],
+      "historical_catalogue_date": null,
+      "historical_page_sha256": null,
+      "historical_evidence_status": "original_observation_not_available",
+      "current_observation": {
+        "url": "https://open.spotify.com/track/7w6PJe5KBPyvuRYxFkPssC",
+        "retrieved_at_utc": "2026-10-02T03:39:11.159518+00:00",
+        "error_type": "URLError"
+      },
+      "current_exclusions": [
+        "current_catalogue_identity_or_year_unverified"
+      ],
+      "selection_hash": "716d49d23edeb745e1d8c8ef306bc9c2f358bd01015bbfb462dee849f79538a4",
+      "selected_in_frozen_roster": false
+    },
+    {
+      "track_id": "0S3gpZzlT9Hb7CCSV2owX7",
+      "artist": "Ozzy Osbourne",
+      "snapshot_filter_exclusions": [],
+      "historical_catalogue_date": null,
+      "historical_page_sha256": null,
+      "historical_evidence_status": "original_observation_not_available",
+      "current_observation": {
+        "url": "https://open.spotify.com/track/0S3gpZzlT9Hb7CCSV2owX7",
+        "retrieved_at_utc": "2026-10-02T03:39:11.159770+00:00",
+        "error_type": "URLError"
+      },
+      "current_exclusions": [
+        "current_catalogue_identity_or_year_unverified"
+      ],
+      "selection_hash": "4a2981231daaf250ae3903d6e79a89c86410338269b59fe0367f6554f63f76d6",
+      "selected_in_frozen_roster": false
+    },
+    {
+      "track_id": "2E7W1X4maFFcjHrVrFA7Vs",
+      "artist": "Ozzy Osbourne",
+      "snapshot_filter_exclusions": [],
+      "historical_catalogue_date": "1983-12-10",
+      "historical_page_sha256": "e8ef1279b30c86d075433bb0fa1143e556d4c948ce2a568cad9a91d3314f7531",
+      "historical_evidence_status": "selected_case_preserved_in_lock",
+      "current_observation": {
+        "url": "https://open.spotify.com/track/2E7W1X4maFFcjHrVrFA7Vs",
+        "retrieved_at_utc": "2026-10-02T03:39:11.160104+00:00",
+        "error_type": "URLError"
+      },
+      "current_exclusions": [
+        "current_catalogue_identity_or_year_unverified"
+      ],
+      "selection_hash": "1158f9a84f62981971bf91456f451d84596ea2cdca549d73ec3fe8ccbfc14441",
+      "selected_in_frozen_roster": true
+    },
+    {
+      "track_id": "2ov8L95QD25TLpZAZPYWXL",
+      "artist": "Ozzy Osbourne",
+      "snapshot_filter_exclusions": [],
+      "historical_catalogue_date": null,
+      "historical_page_sha256": null,
+      "historical_evidence_status": "original_observation_not_available",
+      "current_observation": {
+        "url": "https://open.spotify.com/track/2ov8L95QD25TLpZAZPYWXL",
+        "retrieved_at_utc": "2026-10-02T03:39:11.160816+00:00",
+        "error_type": "URLError"
+      },
+      "current_exclusions": [
+        "current_catalogue_identity_or_year_unverified"
+      ],
+      "selection_hash": "62dce4bf81a3ac047db39d78951f6e123182ad771142bbc4801d24e16c05a48b",
+      "selected_in_frozen_roster": false
+    },
+    {
+      "track_id": "31dqpLUModJWNbxrXu6TWd",
+      "artist": "Ozzy Osbourne",
+      "snapshot_filter_exclusions": [
+        "publisher_official_video_not_true"
+      ],
+      "historical_catalogue_date": null,
+      "historical_page_sha256": null,
+      "historical_evidence_status": "original_observation_not_available",
+      "current_observation": {
+        "url": "https://open.spotify.com/track/31dqpLUModJWNbxrXu6TWd",
+        "retrieved_at_utc": "2026-10-02T03:39:11.161198+00:00",
+        "error_type": "URLError"
+      },
+      "current_exclusions": [
+        "publisher_official_video_not_true",
+        "current_catalogue_identity_or_year_unverified"
+      ],
+      "selection_hash": "47d9431b05a026f5acb0234d876f5ff7180446cfa03ed3284b46ed5a92400328",
+      "selected_in_frozen_roster": false
+    },
+    {
+      "track_id": "78PKCefXwDLbl4FVO1Pjzh",
+      "artist": "Ozzy Osbourne",
+      "snapshot_filter_exclusions": [],
+      "historical_catalogue_date": null,
+      "historical_page_sha256": null,
+      "historical_evidence_status": "original_observation_not_available",
+      "current_observation": {
+        "url": "https://open.spotify.com/track/78PKCefXwDLbl4FVO1Pjzh",
+        "retrieved_at_utc": "2026-10-02T03:39:11.161559+00:00",
+        "error_type": "URLError"
+      },
+      "current_exclusions": [
+        "current_catalogue_identity_or_year_unverified"
+      ],
+      "selection_hash": "695a70813af3c7eaa8ccfe809830b28543414811c2953222de649746187edb54",
+      "selected_in_frozen_roster": false
+    },
+    {
+      "track_id": "2lcfGO79t1PqcXc2Mbxyd5",
+      "artist": "Ozzy Osbourne",
+      "snapshot_filter_exclusions": [],
+      "historical_catalogue_date": null,
+      "historical_page_sha256": null,
+      "historical_evidence_status": "original_observation_not_available",
+      "current_observation": {
+        "url": "https://open.spotify.com/track/2lcfGO79t1PqcXc2Mbxyd5",
+        "retrieved_at_utc": "2026-10-02T03:39:11.162077+00:00",
+        "error_type": "URLError"
+      },
+      "current_exclusions": [
+        "current_catalogue_identity_or_year_unverified"
+      ],
+      "selection_hash": "d49563b0a17323697198858b67b8c181f91d4579fd294cd17363c43c3584425b",
+      "selected_in_frozen_roster": false
+    },
+    {
+      "track_id": "5sFDReWLrZHLFZFjHsjUTS",
+      "artist": "Alice In Chains",
+      "snapshot_filter_exclusions": [],
+      "historical_catalogue_date": null,
+      "historical_page_sha256": null,
+      "historical_evidence_status": "original_observation_not_available",
+      "current_observation": {
+        "url": "https://open.spotify.com/track/5sFDReWLrZHLFZFjHsjUTS",
+        "retrieved_at_utc": "2026-10-02T03:39:11.162806+00:00",
+        "error_type": "URLError"
+      },
+      "current_exclusions": [
+        "current_catalogue_identity_or_year_unverified"
+      ],
+      "selection_hash": "f6f0ab8de390bca70e75cd7c9b2ff35f8f61f439d0fd53584c044a32fac5473d",
+      "selected_in_frozen_roster": false
+    },
+    {
+      "track_id": "6gZVQvQZOFpzIy3HblJ20F",
+      "artist": "Alice In Chains",
+      "snapshot_filter_exclusions": [],
+      "historical_catalogue_date": null,
+      "historical_page_sha256": null,
+      "historical_evidence_status": "original_observation_not_available",
+      "current_observation": {
+        "url": "https://open.spotify.com/track/6gZVQvQZOFpzIy3HblJ20F",
+        "retrieved_at_utc": "2026-10-02T03:39:11.163177+00:00",
+        "error_type": "URLError"
+      },
+      "current_exclusions": [
+        "current_catalogue_identity_or_year_unverified"
+      ],
+      "selection_hash": "c1822e603356e2297f9b5daef69f166565b36a2abd4d37ffd76db4e1efd17f38",
+      "selected_in_frozen_roster": false
+    },
+    {
+      "track_id": "2JuasWPUodaUxf5nwNpciQ",
+      "artist": "Alice In Chains",
+      "snapshot_filter_exclusions": [
+        "publisher_official_video_not_true"
+      ],
+      "historical_catalogue_date": null,
+      "historical_page_sha256": null,
+      "historical_evidence_status": "original_observation_not_available",
+      "current_observation": {
+        "url": "https://open.spotify.com/track/2JuasWPUodaUxf5nwNpciQ",
+        "retrieved_at_utc": "2026-10-02T03:39:11.163639+00:00",
+        "error_type": "URLError"
+      },
+      "current_exclusions": [
+        "publisher_official_video_not_true",
+        "current_catalogue_identity_or_year_unverified"
+      ],
+      "selection_hash": "a69b49b1af237be00d35e7917aec636d944c893b78a708aee07a8a3dc75d9ad2",
+      "selected_in_frozen_roster": false
+    },
+    {
+      "track_id": "0wvIGFIgbyz4JNwQhZgTv2",
+      "artist": "Alice In Chains",
+      "snapshot_filter_exclusions": [],
+      "historical_catalogue_date": null,
+      "historical_page_sha256": null,
+      "historical_evidence_status": "original_observation_not_available",
+      "current_observation": {
+        "url": "https://open.spotify.com/track/0wvIGFIgbyz4JNwQhZgTv2",
+        "retrieved_at_utc": "2026-10-02T03:39:11.164051+00:00",
+        "error_type": "URLError"
+      },
+      "current_exclusions": [
+        "current_catalogue_identity_or_year_unverified"
+      ],
+      "selection_hash": "59af8c54af2a46dff51b0f2e29bf7bcebcf264a09c62bbc799af7b66fb3e4123",
+      "selected_in_frozen_roster": false
+    },
+    {
+      "track_id": "4A065x9kJt955eGVqf813g",
+      "artist": "Alice In Chains",
+      "snapshot_filter_exclusions": [
+        "publisher_official_video_not_true"
+      ],
+      "historical_catalogue_date": null,
+      "historical_page_sha256": null,
+      "historical_evidence_status": "original_observation_not_available",
+      "current_observation": {
+        "url": "https://open.spotify.com/track/4A065x9kJt955eGVqf813g",
+        "retrieved_at_utc": "2026-10-02T03:39:11.165022+00:00",
+        "error_type": "URLError"
+      },
+      "current_exclusions": [
+        "publisher_official_video_not_true",
+        "current_catalogue_identity_or_year_unverified"
+      ],
+      "selection_hash": "b83853a50148052808edf1c635200c733b843c060d98aebc6bc7803484ea2c8a",
+      "selected_in_frozen_roster": false
+    },
+    {
+      "track_id": "7FRfYOql61DGDp9VPPe2qA",
+      "artist": "Alice In Chains",
+      "snapshot_filter_exclusions": [],
+      "historical_catalogue_date": null,
+      "historical_page_sha256": null,
+      "historical_evidence_status": "original_observation_not_available",
+      "current_observation": {
+        "url": "https://open.spotify.com/track/7FRfYOql61DGDp9VPPe2qA",
+        "retrieved_at_utc": "2026-10-02T03:39:11.165447+00:00",
+        "error_type": "URLError"
+      },
+      "current_exclusions": [
+        "current_catalogue_identity_or_year_unverified"
+      ],
+      "selection_hash": "5ed7c21bbeb5bb81274fc73803746a686e607bd72a892164dd99b58a48b1f3d6",
+      "selected_in_frozen_roster": false
+    },
+    {
+      "track_id": "2aoo2jlRnM3A0NyLQqMN2f",
+      "artist": "Jimi Hendrix",
+      "snapshot_filter_exclusions": [
+        "publisher_official_video_not_true"
+      ],
+      "historical_catalogue_date": null,
+      "historical_page_sha256": null,
+      "historical_evidence_status": "original_observation_not_available",
+      "current_observation": {
+        "url": "https://open.spotify.com/track/2aoo2jlRnM3A0NyLQqMN2f",
+        "retrieved_at_utc": "2026-10-02T03:39:11.165913+00:00",
+        "error_type": "URLError"
+      },
+      "current_exclusions": [
+        "publisher_official_video_not_true",
+        "current_catalogue_identity_or_year_unverified"
+      ],
+      "selection_hash": "882396c92afb1ac3956c1822755ea429d66a007207100bea720afdde90cf7320",
+      "selected_in_frozen_roster": false
+    },
+    {
+      "track_id": "1Eolhana7nKHYpcYpdVcT5",
+      "artist": "Jimi Hendrix",
+      "snapshot_filter_exclusions": [],
+      "historical_catalogue_date": null,
+      "historical_page_sha256": null,
+      "historical_evidence_status": "original_observation_not_available",
+      "current_observation": {
+        "url": "https://open.spotify.com/track/1Eolhana7nKHYpcYpdVcT5",
+        "retrieved_at_utc": "2026-10-02T03:39:11.166361+00:00",
+        "error_type": "URLError"
+      },
+      "current_exclusions": [
+        "current_catalogue_identity_or_year_unverified"
+      ],
+      "selection_hash": "fa61f9d9b7a149e3ad7c6d98fab87e8d4c2cfeaee6ea1425d76e8d9f730ead43",
+      "selected_in_frozen_roster": false
+    },
+    {
+      "track_id": "0wJoRiX5K5BxlqZTolB2LD",
+      "artist": "Jimi Hendrix",
+      "snapshot_filter_exclusions": [],
+      "historical_catalogue_date": null,
+      "historical_page_sha256": null,
+      "historical_evidence_status": "original_observation_not_available",
+      "current_observation": {
+        "url": "https://open.spotify.com/track/0wJoRiX5K5BxlqZTolB2LD",
+        "retrieved_at_utc": "2026-10-02T03:39:11.166718+00:00",
+        "error_type": "URLError"
+      },
+      "current_exclusions": [
+        "current_catalogue_identity_or_year_unverified"
+      ],
+      "selection_hash": "0bef716c484b5d94b04b6aa4ba3350a093eb0d0025c79221711280d0b213b2be",
+      "selected_in_frozen_roster": false
+    },
+    {
+      "track_id": "0NWPxcsf5vdjdiFUI8NgkP",
+      "artist": "Jimi Hendrix",
+      "snapshot_filter_exclusions": [],
+      "historical_catalogue_date": null,
+      "historical_page_sha256": null,
+      "historical_evidence_status": "original_observation_not_available",
+      "current_observation": {
+        "url": "https://open.spotify.com/track/0NWPxcsf5vdjdiFUI8NgkP",
+        "retrieved_at_utc": "2026-10-02T03:39:11.167242+00:00",
+        "error_type": "URLError"
+      },
+      "current_exclusions": [
+        "current_catalogue_identity_or_year_unverified"
+      ],
+      "selection_hash": "c9843ccf45e3915f1f1009b1514a6e0a15ff1b22f3cdd542552cc212ffff83a4",
+      "selected_in_frozen_roster": false
+    },
+    {
+      "track_id": "2AxCeJ6PSsBYiTckM0HLY7",
+      "artist": "Jimi Hendrix",
+      "snapshot_filter_exclusions": [
+        "publisher_official_video_not_true",
+        "missing_or_duplicate_video_in_pair_source",
+        "missing_or_invalid_positive_views"
+      ],
+      "historical_catalogue_date": null,
+      "historical_page_sha256": null,
+      "historical_evidence_status": "original_observation_not_available",
+      "current_observation": {
+        "url": "https://open.spotify.com/track/2AxCeJ6PSsBYiTckM0HLY7",
+        "retrieved_at_utc": "2026-10-02T03:39:11.167794+00:00",
+        "error_type": "URLError"
+      },
+      "current_exclusions": [
+        "publisher_official_video_not_true",
+        "missing_or_duplicate_video_in_pair_source",
+        "missing_or_invalid_positive_views",
+        "current_catalogue_identity_or_year_unverified"
+      ],
+      "selection_hash": "db358f349540367ec1fe216b90e2c699c9fad3f4378cb2bc7abb4d154b2cdf09",
+      "selected_in_frozen_roster": false
+    },
+    {
+      "track_id": "51TG9W3y9qyO8BY5RXKgnZ",
+      "artist": "Megadeth",
+      "snapshot_filter_exclusions": [
+        "publisher_official_video_not_true"
+      ],
+      "historical_catalogue_date": null,
+      "historical_page_sha256": null,
+      "historical_evidence_status": "original_observation_not_available",
+      "current_observation": {
+        "url": "https://open.spotify.com/track/51TG9W3y9qyO8BY5RXKgnZ",
+        "retrieved_at_utc": "2026-10-02T03:39:11.168583+00:00",
+        "error_type": "URLError"
+      },
+      "current_exclusions": [
+        "publisher_official_video_not_true",
+        "current_catalogue_identity_or_year_unverified"
+      ],
+      "selection_hash": "e62ac6bf0d6520e92db2b7d49c4c4a4422a4d7a0a94d8b294f944417da5627eb",
+      "selected_in_frozen_roster": false
+    },
+    {
+      "track_id": "5LyRtsQLhcXmy50VXhQXXS",
+      "artist": "Megadeth",
+      "snapshot_filter_exclusions": [],
+      "historical_catalogue_date": null,
+      "historical_page_sha256": null,
+      "historical_evidence_status": "original_observation_not_available",
+      "current_observation": {
+        "url": "https://open.spotify.com/track/5LyRtsQLhcXmy50VXhQXXS",
+        "retrieved_at_utc": "2026-10-02T03:39:11.168690+00:00",
+        "error_type": "URLError"
+      },
+      "current_exclusions": [
+        "current_catalogue_identity_or_year_unverified"
+      ],
+      "selection_hash": "2c168430d2518a47e6943543f2ecdce17ad3aed29dd93037f34c30b09a29ac58",
+      "selected_in_frozen_roster": false
+    },
+    {
+      "track_id": "4E5xVW505akJX0wcKj8Mpd",
+      "artist": "Megadeth",
+      "snapshot_filter_exclusions": [
+        "publisher_official_video_not_true"
+      ],
+      "historical_catalogue_date": null,
+      "historical_page_sha256": null,
+      "historical_evidence_status": "original_observation_not_available",
+      "current_observation": {
+        "url": "https://open.spotify.com/track/4E5xVW505akJX0wcKj8Mpd",
+        "retrieved_at_utc": "2026-10-02T03:39:11.169371+00:00",
+        "error_type": "URLError"
+      },
+      "current_exclusions": [
+        "publisher_official_video_not_true",
+        "current_catalogue_identity_or_year_unverified"
+      ],
+      "selection_hash": "2585cc078a1de49241c2355ab893c5cd1ddf17cd010c07912b27aa3c78c13c22",
+      "selected_in_frozen_roster": false
+    },
+    {
+      "track_id": "6olS0TmHmsGr0hXtcBsiVM",
+      "artist": "Megadeth",
+      "snapshot_filter_exclusions": [],
+      "historical_catalogue_date": null,
+      "historical_page_sha256": null,
+      "historical_evidence_status": "original_observation_not_available",
+      "current_observation": {
+        "url": "https://open.spotify.com/track/6olS0TmHmsGr0hXtcBsiVM",
+        "retrieved_at_utc": "2026-10-02T03:39:11.169762+00:00",
+        "error_type": "URLError"
+      },
+      "current_exclusions": [
+        "current_catalogue_identity_or_year_unverified"
+      ],
+      "selection_hash": "cefd24996b956367b6cbe05306db7a868633507dbc533d0b37bdfb459b637ccc",
+      "selected_in_frozen_roster": false
+    },
+    {
+      "track_id": "0WTc2jsUgF4Y2MOz0aYvsR",
+      "artist": "Megadeth",
+      "snapshot_filter_exclusions": [
+        "publisher_official_video_not_true"
+      ],
+      "historical_catalogue_date": null,
+      "historical_page_sha256": null,
+      "historical_evidence_status": "original_observation_not_available",
+      "current_observation": {
+        "url": "https://open.spotify.com/track/0WTc2jsUgF4Y2MOz0aYvsR",
+        "retrieved_at_utc": "2026-10-02T03:39:11.170428+00:00",
+        "error_type": "URLError"
+      },
+      "current_exclusions": [
+        "publisher_official_video_not_true",
+        "current_catalogue_identity_or_year_unverified"
+      ],
+      "selection_hash": "1b596880af529ba449f42ac3b298d8b2961557ac8cfbd58a8b0f76a4c1f8cc41",
+      "selected_in_frozen_roster": false
+    },
+    {
+      "track_id": "5a2hIQWInPjqkkFiUEgxoX",
+      "artist": "Megadeth",
+      "snapshot_filter_exclusions": [],
+      "historical_catalogue_date": "1986-01-01",
+      "historical_page_sha256": "674d67d1acc560a7bb236326f6418bcb0451544a5646cb825f53de90bbb97661",
+      "historical_evidence_status": "selected_case_preserved_in_lock",
+      "current_observation": {
+        "url": "https://open.spotify.com/track/5a2hIQWInPjqkkFiUEgxoX",
+        "retrieved_at_utc": "2026-10-02T03:39:11.170872+00:00",
+        "error_type": "URLError"
+      },
+      "current_exclusions": [
+        "current_catalogue_identity_or_year_unverified"
+      ],
+      "selection_hash": "f52d0a798a4722ae5187cde2c33de63e2611bccf0f1aefdb9cbbc005c9b2c78d",
+      "selected_in_frozen_roster": true
+    },
+    {
+      "track_id": "6b6uLZsoGhObYexIxnRbIb",
+      "artist": "Megadeth",
+      "snapshot_filter_exclusions": [],
+      "historical_catalogue_date": null,
+      "historical_page_sha256": null,
+      "historical_evidence_status": "original_observation_not_available",
+      "current_observation": {
+        "url": "https://open.spotify.com/track/6b6uLZsoGhObYexIxnRbIb",
+        "retrieved_at_utc": "2026-10-02T03:39:11.171427+00:00",
+        "error_type": "URLError"
+      },
+      "current_exclusions": [
+        "current_catalogue_identity_or_year_unverified"
+      ],
+      "selection_hash": "67c8807151adb2a421c059fe63b64fb6199ef0f5b7fc496f8afce037fc21c324",
+      "selected_in_frozen_roster": false
+    },
+    {
+      "track_id": "1Ap9wotYS99H8R17VONySZ",
+      "artist": "Megadeth",
+      "snapshot_filter_exclusions": [],
+      "historical_catalogue_date": null,
+      "historical_page_sha256": null,
+      "historical_evidence_status": "original_observation_not_available",
+      "current_observation": {
+        "url": "https://open.spotify.com/track/1Ap9wotYS99H8R17VONySZ",
+        "retrieved_at_utc": "2026-10-02T03:39:11.171732+00:00",
+        "error_type": "URLError"
+      },
+      "current_exclusions": [
+        "current_catalogue_identity_or_year_unverified"
+      ],
+      "selection_hash": "0fd12a38d8cc902437ae3e208498b36fbb2acb866a53dc16aefc2f1ab076db4f",
+      "selected_in_frozen_roster": false
+    },
+    {
+      "track_id": "7fcfNW0XxTWlwVlftzfDOR",
+      "artist": "Pantera",
+      "snapshot_filter_exclusions": [],
+      "historical_catalogue_date": null,
+      "historical_page_sha256": null,
+      "historical_evidence_status": "original_observation_not_available",
+      "current_observation": {
+        "url": "https://open.spotify.com/track/7fcfNW0XxTWlwVlftzfDOR",
+        "retrieved_at_utc": "2026-10-02T03:39:11.172005+00:00",
+        "error_type": "URLError"
+      },
+      "current_exclusions": [
+        "current_catalogue_identity_or_year_unverified"
+      ],
+      "selection_hash": "0fede4cde4877c7a061d224fb9041bcd65eff6f72b5c4efad31618ce6c4b41c0",
+      "selected_in_frozen_roster": false
+    },
+    {
+      "track_id": "2SgbR6ttzoNlCRGQOKjrop",
+      "artist": "Pantera",
+      "snapshot_filter_exclusions": [],
+      "historical_catalogue_date": null,
+      "historical_page_sha256": null,
+      "historical_evidence_status": "original_observation_not_available",
+      "current_observation": {
+        "url": "https://open.spotify.com/track/2SgbR6ttzoNlCRGQOKjrop",
+        "retrieved_at_utc": "2026-10-02T03:39:11.173100+00:00",
+        "error_type": "URLError"
+      },
+      "current_exclusions": [
+        "current_catalogue_identity_or_year_unverified"
+      ],
+      "selection_hash": "41461a1ce39bb25a67573ea266aa282f476c53898e8f42984dae8a389e51ab4d",
+      "selected_in_frozen_roster": false
+    },
+    {
+      "track_id": "4vJr55lngvhSM8WIh9CjQc",
+      "artist": "Pantera",
+      "snapshot_filter_exclusions": [],
+      "historical_catalogue_date": null,
+      "historical_page_sha256": null,
+      "historical_evidence_status": "original_observation_not_available",
+      "current_observation": {
+        "url": "https://open.spotify.com/track/4vJr55lngvhSM8WIh9CjQc",
+        "retrieved_at_utc": "2026-10-02T03:39:11.173384+00:00",
+        "error_type": "URLError"
+      },
+      "current_exclusions": [
+        "current_catalogue_identity_or_year_unverified"
+      ],
+      "selection_hash": "3073af24d17b7a9fdf0aaedc5669307bd4bde20218904a71163a96bc2fe9bc9b",
+      "selected_in_frozen_roster": false
+    },
+    {
+      "track_id": "2M5WTwqnkyz7bW6P1CiD6q",
+      "artist": "Pantera",
+      "snapshot_filter_exclusions": [],
+      "historical_catalogue_date": null,
+      "historical_page_sha256": null,
+      "historical_evidence_status": "original_observation_not_available",
+      "current_observation": {
+        "url": "https://open.spotify.com/track/2M5WTwqnkyz7bW6P1CiD6q",
+        "retrieved_at_utc": "2026-10-02T03:39:11.173656+00:00",
+        "error_type": "URLError"
+      },
+      "current_exclusions": [
+        "current_catalogue_identity_or_year_unverified"
+      ],
+      "selection_hash": "74dcabeee9d4f43fb63bce3146f901a5c29ce8e3d1ef92eef774115cb3aca2c3",
+      "selected_in_frozen_roster": false
+    },
+    {
+      "track_id": "769cLRTw2y6KRdkFWFkxtu",
+      "artist": "Pantera",
+      "snapshot_filter_exclusions": [],
+      "historical_catalogue_date": null,
+      "historical_page_sha256": null,
+      "historical_evidence_status": "original_observation_not_available",
+      "current_observation": {
+        "url": "https://open.spotify.com/track/769cLRTw2y6KRdkFWFkxtu",
+        "retrieved_at_utc": "2026-10-02T03:39:11.174112+00:00",
+        "error_type": "URLError"
+      },
+      "current_exclusions": [
+        "current_catalogue_identity_or_year_unverified"
+      ],
+      "selection_hash": "350814a0c1fada0070bc080a68d587bdc2a643c26f420ced1fa9f27af9694a5a",
+      "selected_in_frozen_roster": false
+    },
+    {
+      "track_id": "2Bhqg1ONbtcFBTR96H7oQw",
+      "artist": "Cypress Hill",
+      "snapshot_filter_exclusions": [
+        "publisher_official_video_not_true"
+      ],
+      "historical_catalogue_date": null,
+      "historical_page_sha256": null,
+      "historical_evidence_status": "original_observation_not_available",
+      "current_observation": {
+        "url": "https://open.spotify.com/track/2Bhqg1ONbtcFBTR96H7oQw",
+        "retrieved_at_utc": "2026-10-02T03:39:11.174555+00:00",
+        "error_type": "URLError"
+      },
+      "current_exclusions": [
+        "publisher_official_video_not_true",
+        "current_catalogue_identity_or_year_unverified"
+      ],
+      "selection_hash": "b08501ca5518393e6560257fa25cc5fcc6d583b8582aa7be218ed5074ba5a361",
+      "selected_in_frozen_roster": false
+    },
+    {
+      "track_id": "3qiyyUfYe7CRYLucrPmulD",
+      "artist": "The Who",
+      "snapshot_filter_exclusions": [],
+      "historical_catalogue_date": null,
+      "historical_page_sha256": null,
+      "historical_evidence_status": "original_observation_not_available",
+      "current_observation": {
+        "url": "https://open.spotify.com/track/3qiyyUfYe7CRYLucrPmulD",
+        "retrieved_at_utc": "2026-10-02T03:39:11.175348+00:00",
+        "error_type": "URLError"
+      },
+      "current_exclusions": [
+        "current_catalogue_identity_or_year_unverified"
+      ],
+      "selection_hash": "8a844803afe89a5e9494e06772f8be310f84ad764b081faec77c67c78201e202",
+      "selected_in_frozen_roster": false
+    },
+    {
+      "track_id": "0cKk8BKEi7zXbdrYdyqBP5",
+      "artist": "The Who",
+      "snapshot_filter_exclusions": [
+        "publisher_official_video_not_true"
+      ],
+      "historical_catalogue_date": null,
+      "historical_page_sha256": null,
+      "historical_evidence_status": "original_observation_not_available",
+      "current_observation": {
+        "url": "https://open.spotify.com/track/0cKk8BKEi7zXbdrYdyqBP5",
+        "retrieved_at_utc": "2026-10-02T03:39:11.175993+00:00",
+        "error_type": "URLError"
+      },
+      "current_exclusions": [
+        "publisher_official_video_not_true",
+        "current_catalogue_identity_or_year_unverified"
+      ],
+      "selection_hash": "f09279aa5230e0911347372ae4137a77c1d35782bad60a1f130b60f263e79264",
+      "selected_in_frozen_roster": false
+    },
+    {
+      "track_id": "6LbbHFEajG9e4m0G3L47c4",
+      "artist": "The Who",
+      "snapshot_filter_exclusions": [
+        "publisher_official_video_not_true"
+      ],
+      "historical_catalogue_date": null,
+      "historical_page_sha256": null,
+      "historical_evidence_status": "original_observation_not_available",
+      "current_observation": {
+        "url": "https://open.spotify.com/track/6LbbHFEajG9e4m0G3L47c4",
+        "retrieved_at_utc": "2026-10-02T03:39:11.176877+00:00",
+        "error_type": "URLError"
+      },
+      "current_exclusions": [
+        "publisher_official_video_not_true",
+        "current_catalogue_identity_or_year_unverified"
+      ],
+      "selection_hash": "29b6522fa685524198019519a2a8493fc1015d98dd146384303d0e5da256ea3a",
+      "selected_in_frozen_roster": false
+    },
+    {
+      "track_id": "0cJPLFrlV7TTCyPLupHzcH",
+      "artist": "The Who",
+      "snapshot_filter_exclusions": [],
+      "historical_catalogue_date": null,
+      "historical_page_sha256": null,
+      "historical_evidence_status": "original_observation_not_available",
+      "current_observation": {
+        "url": "https://open.spotify.com/track/0cJPLFrlV7TTCyPLupHzcH",
+        "retrieved_at_utc": "2026-10-02T03:39:11.177380+00:00",
+        "error_type": "URLError"
+      },
+      "current_exclusions": [
+        "current_catalogue_identity_or_year_unverified"
+      ],
+      "selection_hash": "d96f9e13571338a27ee34216e792526d541a8dbffe82009f70c2aa6a2da0e220",
+      "selected_in_frozen_roster": false
+    },
+    {
+      "track_id": "23IJ5wLRhEZ9DOuia5mPiZ",
+      "artist": "The Who",
+      "snapshot_filter_exclusions": [],
+      "historical_catalogue_date": null,
+      "historical_page_sha256": null,
+      "historical_evidence_status": "original_observation_not_available",
+      "current_observation": {
+        "url": "https://open.spotify.com/track/23IJ5wLRhEZ9DOuia5mPiZ",
+        "retrieved_at_utc": "2026-10-02T03:39:11.177693+00:00",
+        "error_type": "URLError"
+      },
+      "current_exclusions": [
+        "current_catalogue_identity_or_year_unverified"
+      ],
+      "selection_hash": "f84f4582f85cf7ea21d80cbb9c32b48e179b61a15d96f0bb2484f59b525a6aa4",
+      "selected_in_frozen_roster": false
+    },
+    {
+      "track_id": "7Ar4G7Ci11gpt6sfH9Cgz5",
+      "artist": "The Doobie Brothers",
+      "snapshot_filter_exclusions": [],
+      "historical_catalogue_date": null,
+      "historical_page_sha256": null,
+      "historical_evidence_status": "original_observation_not_available",
+      "current_observation": {
+        "url": "https://open.spotify.com/track/7Ar4G7Ci11gpt6sfH9Cgz5",
+        "retrieved_at_utc": "2026-10-02T03:39:11.177929+00:00",
+        "error_type": "URLError"
+      },
+      "current_exclusions": [
+        "current_catalogue_identity_or_year_unverified"
+      ],
+      "selection_hash": "60353033e41b104c16f3aff8637501eda734d34a7ead84d0531be964bc1687a3",
+      "selected_in_frozen_roster": false
+    },
+    {
+      "track_id": "4nXkbcTj3nyww1cHkw5RAP",
+      "artist": "The Doobie Brothers",
+      "snapshot_filter_exclusions": [
+        "publisher_official_video_not_true"
+      ],
+      "historical_catalogue_date": null,
+      "historical_page_sha256": null,
+      "historical_evidence_status": "original_observation_not_available",
+      "current_observation": {
+        "url": "https://open.spotify.com/track/4nXkbcTj3nyww1cHkw5RAP",
+        "retrieved_at_utc": "2026-10-02T03:39:11.178824+00:00",
+        "error_type": "URLError"
+      },
+      "current_exclusions": [
+        "publisher_official_video_not_true",
+        "current_catalogue_identity_or_year_unverified"
+      ],
+      "selection_hash": "6be629bb85ea68887c525e949a62e3747009d279981fb72ff8070f58bd7c003c",
+      "selected_in_frozen_roster": false
+    },
+    {
+      "track_id": "2JhJOPGvtqMpj5RQC8cIYf",
+      "artist": "Deep Purple",
+      "snapshot_filter_exclusions": [],
+      "historical_catalogue_date": "1984-09-16",
+      "historical_page_sha256": "49dc09fea79dc55190e57211678d279d6db00982b5ea56f39633ba99e10b405a",
+      "historical_evidence_status": "selected_case_preserved_in_lock",
+      "current_observation": {
+        "url": "https://open.spotify.com/track/2JhJOPGvtqMpj5RQC8cIYf",
+        "retrieved_at_utc": "2026-10-02T03:39:11.179121+00:00",
+        "error_type": "URLError"
+      },
+      "current_exclusions": [
+        "current_catalogue_identity_or_year_unverified"
+      ],
+      "selection_hash": "680824568e36fcd6666623d995fc761900d61ced9424d4aef7f4a16c72afaa31",
+      "selected_in_frozen_roster": true
+    },
+    {
+      "track_id": "2RaA6kIcvomt77qlIgGhCT",
+      "artist": "Judas Priest",
+      "snapshot_filter_exclusions": [],
+      "historical_catalogue_date": null,
+      "historical_page_sha256": null,
+      "historical_evidence_status": "original_observation_not_available",
+      "current_observation": {
+        "url": "https://open.spotify.com/track/2RaA6kIcvomt77qlIgGhCT",
+        "retrieved_at_utc": "2026-10-02T03:39:11.179378+00:00",
+        "error_type": "URLError"
+      },
+      "current_exclusions": [
+        "current_catalogue_identity_or_year_unverified"
+      ],
+      "selection_hash": "61b95d2734de0dd9055b234aafaeee41425893c65c1d30e31dc2a1a448112b8c",
+      "selected_in_frozen_roster": false
+    },
+    {
+      "track_id": "0L7zm6afBEtrNKo6C6Gj08",
+      "artist": "Judas Priest",
+      "snapshot_filter_exclusions": [],
+      "historical_catalogue_date": null,
+      "historical_page_sha256": null,
+      "historical_evidence_status": "original_observation_not_available",
+      "current_observation": {
+        "url": "https://open.spotify.com/track/0L7zm6afBEtrNKo6C6Gj08",
+        "retrieved_at_utc": "2026-10-02T03:39:11.179887+00:00",
+        "error_type": "URLError"
+      },
+      "current_exclusions": [
+        "current_catalogue_identity_or_year_unverified"
+      ],
+      "selection_hash": "1933f544c498eaa07d8b3d5d1379c18ac1c7ecf5b63556a5709c4ffed572ebc8",
+      "selected_in_frozen_roster": false
+    },
+    {
+      "track_id": "4f3RDq9nYPBeR1yMSgnmBm",
+      "artist": "Judas Priest",
+      "snapshot_filter_exclusions": [],
+      "historical_catalogue_date": "1982-01-01",
+      "historical_page_sha256": "33e929b407b973c79c7c8d5419017ba397aa3d9744457549d1035856d2124ebf",
+      "historical_evidence_status": "selected_case_preserved_in_lock",
+      "current_observation": {
+        "url": "https://open.spotify.com/track/4f3RDq9nYPBeR1yMSgnmBm",
+        "retrieved_at_utc": "2026-10-02T03:39:11.180300+00:00",
+        "error_type": "URLError"
+      },
+      "current_exclusions": [
+        "current_catalogue_identity_or_year_unverified"
+      ],
+      "selection_hash": "1a89b457653480d6b3db6f83f54537e312f11605b8fee0dfa6476735c3ff8732",
+      "selected_in_frozen_roster": true
+    },
+    {
+      "track_id": "0IXpUl1fn2QZcBavfuq0H4",
+      "artist": "Judas Priest",
+      "snapshot_filter_exclusions": [],
+      "historical_catalogue_date": null,
+      "historical_page_sha256": null,
+      "historical_evidence_status": "original_observation_not_available",
+      "current_observation": {
+        "url": "https://open.spotify.com/track/0IXpUl1fn2QZcBavfuq0H4",
+        "retrieved_at_utc": "2026-10-02T03:39:11.180727+00:00",
+        "error_type": "URLError"
+      },
+      "current_exclusions": [
+        "current_catalogue_identity_or_year_unverified"
+      ],
+      "selection_hash": "a516d26d3620a8c0bc188e9670723077adb8f41dd6a7d845c26140fc077b01b4",
+      "selected_in_frozen_roster": false
+    },
+    {
+      "track_id": "0HSqXHUdHUbDjWxYIClohv",
+      "artist": "Judas Priest",
+      "snapshot_filter_exclusions": [
+        "publisher_official_video_not_true"
+      ],
+      "historical_catalogue_date": null,
+      "historical_page_sha256": null,
+      "historical_evidence_status": "original_observation_not_available",
+      "current_observation": {
+        "url": "https://open.spotify.com/track/0HSqXHUdHUbDjWxYIClohv",
+        "retrieved_at_utc": "2026-10-02T03:39:11.180912+00:00",
+        "error_type": "URLError"
+      },
+      "current_exclusions": [
+        "publisher_official_video_not_true",
+        "current_catalogue_identity_or_year_unverified"
+      ],
+      "selection_hash": "75496d110a787344839919187c229cd80d63d901873620d6df57bac050b53713",
+      "selected_in_frozen_roster": false
+    },
+    {
+      "track_id": "3Rtv6zRNKpeSygXoaF9kCm",
+      "artist": "Judas Priest",
+      "snapshot_filter_exclusions": [],
+      "historical_catalogue_date": null,
+      "historical_page_sha256": null,
+      "historical_evidence_status": "original_observation_not_available",
+      "current_observation": {
+        "url": "https://open.spotify.com/track/3Rtv6zRNKpeSygXoaF9kCm",
+        "retrieved_at_utc": "2026-10-02T03:39:11.182223+00:00",
+        "error_type": "URLError"
+      },
+      "current_exclusions": [
+        "current_catalogue_identity_or_year_unverified"
+      ],
+      "selection_hash": "62ac74c85e3679795176d3911bcbad08c4a8e3311eec720952c70c06326df417",
+      "selected_in_frozen_roster": false
+    },
+    {
+      "track_id": "1QEEqeFIZktqIpPI4jSVSF",
+      "artist": "Boston",
+      "snapshot_filter_exclusions": [],
+      "historical_catalogue_date": null,
+      "historical_page_sha256": null,
+      "historical_evidence_status": "original_observation_not_available",
+      "current_observation": {
+        "url": "https://open.spotify.com/track/1QEEqeFIZktqIpPI4jSVSF",
+        "retrieved_at_utc": "2026-10-02T03:39:11.182616+00:00",
+        "error_type": "URLError"
+      },
+      "current_exclusions": [
+        "current_catalogue_identity_or_year_unverified"
+      ],
+      "selection_hash": "2077b3650bcb4565d581e4714ea68931b80f02678369580d0973de96f9ae1628",
+      "selected_in_frozen_roster": false
+    },
+    {
+      "track_id": "1GqlvSEtMx5xbGptxOTTyk",
+      "artist": "Boston",
+      "snapshot_filter_exclusions": [],
+      "historical_catalogue_date": null,
+      "historical_page_sha256": null,
+      "historical_evidence_status": "original_observation_not_available",
+      "current_observation": {
+        "url": "https://open.spotify.com/track/1GqlvSEtMx5xbGptxOTTyk",
+        "retrieved_at_utc": "2026-10-02T03:39:11.182879+00:00",
+        "error_type": "URLError"
+      },
+      "current_exclusions": [
+        "current_catalogue_identity_or_year_unverified"
+      ],
+      "selection_hash": "fb5be73a8ceec8598043de1c9c1885832448e34c1991d771e70a82a523b39635",
+      "selected_in_frozen_roster": false
+    },
+    {
+      "track_id": "4gpext9x0CbdD9NWaa4nDj",
+      "artist": "Boston",
+      "snapshot_filter_exclusions": [
+        "publisher_official_video_not_true"
+      ],
+      "historical_catalogue_date": null,
+      "historical_page_sha256": null,
+      "historical_evidence_status": "original_observation_not_available",
+      "current_observation": {
+        "url": "https://open.spotify.com/track/4gpext9x0CbdD9NWaa4nDj",
+        "retrieved_at_utc": "2026-10-02T03:39:11.183139+00:00",
+        "error_type": "URLError"
+      },
+      "current_exclusions": [
+        "publisher_official_video_not_true",
+        "current_catalogue_identity_or_year_unverified"
+      ],
+      "selection_hash": "7084cefb31efa2b88818b7e81a3a815c35fc96021753ed3f4ae7300a7a1409f6",
+      "selected_in_frozen_roster": false
+    },
+    {
+      "track_id": "6zeE5tKyr8Nu882DQhhSQI",
+      "artist": "Kansas",
+      "snapshot_filter_exclusions": [],
+      "historical_catalogue_date": null,
+      "historical_page_sha256": null,
+      "historical_evidence_status": "original_observation_not_available",
+      "current_observation": {
+        "url": "https://open.spotify.com/track/6zeE5tKyr8Nu882DQhhSQI",
+        "retrieved_at_utc": "2026-10-02T03:39:11.183859+00:00",
+        "error_type": "URLError"
+      },
+      "current_exclusions": [
+        "current_catalogue_identity_or_year_unverified"
+      ],
+      "selection_hash": "42670583bdfec9e5dfc49d5719dd5bb8a396c61dbc275572fe289f177c2e4069",
+      "selected_in_frozen_roster": false
+    },
+    {
+      "track_id": "4DMKwE2E2iYDKY01C335Uw",
+      "artist": "Kansas",
+      "snapshot_filter_exclusions": [],
+      "historical_catalogue_date": null,
+      "historical_page_sha256": null,
+      "historical_evidence_status": "original_observation_not_available",
+      "current_observation": {
+        "url": "https://open.spotify.com/track/4DMKwE2E2iYDKY01C335Uw",
+        "retrieved_at_utc": "2026-10-02T03:39:11.184393+00:00",
+        "error_type": "URLError"
+      },
+      "current_exclusions": [
+        "current_catalogue_identity_or_year_unverified"
+      ],
+      "selection_hash": "a3540c4471043d05238ca4f6e7a8d833779c4f401575a9b86b627f94caa5434e",
+      "selected_in_frozen_roster": false
+    },
+    {
+      "track_id": "4KfSdst7rW39C0sfhArdrz",
+      "artist": "Heart",
+      "snapshot_filter_exclusions": [
+        "publisher_official_video_not_true"
+      ],
+      "historical_catalogue_date": null,
+      "historical_page_sha256": null,
+      "historical_evidence_status": "original_observation_not_available",
+      "current_observation": {
+        "url": "https://open.spotify.com/track/4KfSdst7rW39C0sfhArdrz",
+        "retrieved_at_utc": "2026-10-02T03:39:11.184710+00:00",
+        "error_type": "URLError"
+      },
+      "current_exclusions": [
+        "publisher_official_video_not_true",
+        "current_catalogue_identity_or_year_unverified"
+      ],
+      "selection_hash": "f7555498849c314e82d61c9c21b841b388b6496cc28a42ec8fe0ad0a9c46cdd2",
+      "selected_in_frozen_roster": false
+    },
+    {
+      "track_id": "54b8qPFqYqIndfdxiLApea",
+      "artist": "Heart",
+      "snapshot_filter_exclusions": [],
+      "historical_catalogue_date": "1987-06-06",
+      "historical_page_sha256": "677e9d773049b8b4467bb7e399ebbed8f65086b7c174c8ce10035f9eb9c78d4d",
+      "historical_evidence_status": "selected_case_preserved_in_lock",
+      "current_observation": {
+        "url": "https://open.spotify.com/track/54b8qPFqYqIndfdxiLApea",
+        "retrieved_at_utc": "2026-10-02T03:39:11.185082+00:00",
+        "error_type": "URLError"
+      },
+      "current_exclusions": [
+        "current_catalogue_identity_or_year_unverified"
+      ],
+      "selection_hash": "4cae8d49f3d705cc032b777b4cafe378f6bc1c1cc392d754c9e849eeed42a3dc",
+      "selected_in_frozen_roster": true
+    },
+    {
+      "track_id": "5YjKdeES9QRJ8NmF4Xc8pV",
+      "artist": "Heart",
+      "snapshot_filter_exclusions": [],
+      "historical_catalogue_date": null,
+      "historical_page_sha256": null,
+      "historical_evidence_status": "original_observation_not_available",
+      "current_observation": {
+        "url": "https://open.spotify.com/track/5YjKdeES9QRJ8NmF4Xc8pV",
+        "retrieved_at_utc": "2026-10-02T03:39:11.185362+00:00",
+        "error_type": "URLError"
+      },
+      "current_exclusions": [
+        "current_catalogue_identity_or_year_unverified"
+      ],
+      "selection_hash": "2d1d54cda899994a05af1aaf2fc0c565e4d7d313b48242a7e98ae19d7d47ff92",
+      "selected_in_frozen_roster": false
+    },
+    {
+      "track_id": "5zH710lFSLtkHbMkslLDjR",
+      "artist": "Heart",
+      "snapshot_filter_exclusions": [],
+      "historical_catalogue_date": null,
+      "historical_page_sha256": null,
+      "historical_evidence_status": "original_observation_not_available",
+      "current_observation": {
+        "url": "https://open.spotify.com/track/5zH710lFSLtkHbMkslLDjR",
+        "retrieved_at_utc": "2026-10-02T03:39:11.185684+00:00",
+        "error_type": "URLError"
+      },
+      "current_exclusions": [
+        "current_catalogue_identity_or_year_unverified"
+      ],
+      "selection_hash": "5ae185dc9ac6ff2a9a48d6c1e5a5245bfaabf02a9421786f3509b7eb2e0ac928",
+      "selected_in_frozen_roster": false
+    },
+    {
+      "track_id": "5WwqdeavrQrbeAMDxGawse",
+      "artist": "REO Speedwagon",
+      "snapshot_filter_exclusions": [],
+      "historical_catalogue_date": null,
+      "historical_page_sha256": null,
+      "historical_evidence_status": "original_observation_not_available",
+      "current_observation": {
+        "url": "https://open.spotify.com/track/5WwqdeavrQrbeAMDxGawse",
+        "retrieved_at_utc": "2026-10-02T03:39:11.186368+00:00",
+        "error_type": "URLError"
+      },
+      "current_exclusions": [
+        "current_catalogue_identity_or_year_unverified"
+      ],
+      "selection_hash": "cb2771198accc6867942c7cff832345ab73bf74a1aab297286d2b1767227d8b8",
+      "selected_in_frozen_roster": false
+    },
+    {
+      "track_id": "4rcHWl68ai6KvpXlc8vbnE",
+      "artist": "REO Speedwagon",
+      "snapshot_filter_exclusions": [],
+      "historical_catalogue_date": "1980-01-01",
+      "historical_page_sha256": "73a12da39e737b3cae487f06f077d3ecf339aec6102f3ba55a2078ff77ddf8bb",
+      "historical_evidence_status": "selected_case_preserved_in_lock",
+      "current_observation": {
+        "url": "https://open.spotify.com/track/4rcHWl68ai6KvpXlc8vbnE",
+        "retrieved_at_utc": "2026-10-02T03:39:11.186625+00:00",
+        "error_type": "URLError"
+      },
+      "current_exclusions": [
+        "current_catalogue_identity_or_year_unverified"
+      ],
+      "selection_hash": "7f6a8133df4353d07f53466fff394651c8878ffa5d9aee64d851349af299222d",
+      "selected_in_frozen_roster": true
+    },
+    {
+      "track_id": "5gys5nzVQIYhgHIfiOJYva",
+      "artist": "REO Speedwagon",
+      "snapshot_filter_exclusions": [],
+      "historical_catalogue_date": null,
+      "historical_page_sha256": null,
+      "historical_evidence_status": "original_observation_not_available",
+      "current_observation": {
+        "url": "https://open.spotify.com/track/5gys5nzVQIYhgHIfiOJYva",
+        "retrieved_at_utc": "2026-10-02T03:39:11.186942+00:00",
+        "error_type": "URLError"
+      },
+      "current_exclusions": [
+        "current_catalogue_identity_or_year_unverified"
+      ],
+      "selection_hash": "d68b09a4d44af108ef1a2ea6aed8bbe5468c2d457d31ca2f5faf2245dc266cf6",
+      "selected_in_frozen_roster": false
+    },
+    {
+      "track_id": "3MrRksHupTVEQ7YbA0FsZK",
+      "artist": "Europe",
+      "snapshot_filter_exclusions": [
+        "missing_or_duplicate_video_in_pair_source"
+      ],
+      "historical_catalogue_date": null,
+      "historical_page_sha256": null,
+      "historical_evidence_status": "original_observation_not_available",
+      "current_observation": {
+        "url": "https://open.spotify.com/track/3MrRksHupTVEQ7YbA0FsZK",
+        "retrieved_at_utc": "2026-10-02T03:39:11.187264+00:00",
+        "error_type": "URLError"
+      },
+      "current_exclusions": [
+        "missing_or_duplicate_video_in_pair_source",
+        "current_catalogue_identity_or_year_unverified"
+      ],
+      "selection_hash": "7853d6eb9d7094e736fca0574d61cb2566440cf86315c10cd7a90aaec600bfec",
+      "selected_in_frozen_roster": false
+    },
+    {
+      "track_id": "29wJiSQcze8HEmxkUQykyp",
+      "artist": "Europe",
+      "snapshot_filter_exclusions": [],
+      "historical_catalogue_date": null,
+      "historical_page_sha256": null,
+      "historical_evidence_status": "original_observation_not_available",
+      "current_observation": {
+        "url": "https://open.spotify.com/track/29wJiSQcze8HEmxkUQykyp",
+        "retrieved_at_utc": "2026-10-02T03:39:11.187822+00:00",
+        "error_type": "URLError"
+      },
+      "current_exclusions": [
+        "current_catalogue_identity_or_year_unverified"
+      ],
+      "selection_hash": "55ee0133012235edae840001628358c5fb4b115cedcafccbac23f56cbcc27f04",
+      "selected_in_frozen_roster": false
+    },
+    {
+      "track_id": "3J9NEWkd9Cx1MwSSvDySkL",
+      "artist": "Europe",
+      "snapshot_filter_exclusions": [],
+      "historical_catalogue_date": "1986-01-01",
+      "historical_page_sha256": "9962061ca615eae9ec361e7afe22619926f1cf27fbe022ea06c1808ffb4974ee",
+      "historical_evidence_status": "selected_case_preserved_in_lock",
+      "current_observation": {
+        "url": "https://open.spotify.com/track/3J9NEWkd9Cx1MwSSvDySkL",
+        "retrieved_at_utc": "2026-10-02T03:39:11.188164+00:00",
+        "error_type": "URLError"
+      },
+      "current_exclusions": [
+        "current_catalogue_identity_or_year_unverified"
+      ],
+      "selection_hash": "43d54b8f0a858762a237e83ba6bb1142ba3c3b745f284adefac44f9f77709f71",
+      "selected_in_frozen_roster": true
+    },
+    {
+      "track_id": "5S1TBgi9opW9tmK7aXaZyq",
+      "artist": "Europe",
+      "snapshot_filter_exclusions": [
+        "publisher_official_video_not_true"
+      ],
+      "historical_catalogue_date": null,
+      "historical_page_sha256": null,
+      "historical_evidence_status": "original_observation_not_available",
+      "current_observation": {
+        "url": "https://open.spotify.com/track/5S1TBgi9opW9tmK7aXaZyq",
+        "retrieved_at_utc": "2026-10-02T03:39:11.188869+00:00",
+        "error_type": "URLError"
+      },
+      "current_exclusions": [
+        "publisher_official_video_not_true",
+        "current_catalogue_identity_or_year_unverified"
+      ],
+      "selection_hash": "7df457f207375effc8b7dbf6c139bbde0ce449792f9300ba89a80abebcf8dae0",
+      "selected_in_frozen_roster": false
+    },
+    {
+      "track_id": "5fPIx4t5vomPE9cWnTL6gv",
+      "artist": "Europe",
+      "snapshot_filter_exclusions": [],
+      "historical_catalogue_date": null,
+      "historical_page_sha256": null,
+      "historical_evidence_status": "original_observation_not_available",
+      "current_observation": {
+        "url": "https://open.spotify.com/track/5fPIx4t5vomPE9cWnTL6gv",
+        "retrieved_at_utc": "2026-10-02T03:39:11.189555+00:00",
+        "error_type": "URLError"
+      },
+      "current_exclusions": [
+        "current_catalogue_identity_or_year_unverified"
+      ],
+      "selection_hash": "d474e7f6d54e0929641275283e61989209a856c35a013a238dc57eb7f82c3096",
+      "selected_in_frozen_roster": false
+    },
+    {
+      "track_id": "5XcZRgJv3zMhTqCyESjQrF",
+      "artist": "Alice Cooper",
+      "snapshot_filter_exclusions": [],
+      "historical_catalogue_date": "1989-07-25",
+      "historical_page_sha256": "bde2099517d7ee86681f7f127c8eab54cc6df736173b4a0e44de1e17568124ad",
+      "historical_evidence_status": "selected_case_preserved_in_lock",
+      "current_observation": {
+        "url": "https://open.spotify.com/track/5XcZRgJv3zMhTqCyESjQrF",
+        "retrieved_at_utc": "2026-10-02T03:39:11.189793+00:00",
+        "error_type": "URLError"
+      },
+      "current_exclusions": [
+        "current_catalogue_identity_or_year_unverified"
+      ],
+      "selection_hash": "2b04a7074593226ca485947631491ec07af55273d0f682255b0a5a527218523d",
+      "selected_in_frozen_roster": true
+    },
+    {
+      "track_id": "5Z8EDau8uNcP1E8JvmfkZe",
+      "artist": "Alice Cooper",
+      "snapshot_filter_exclusions": [],
+      "historical_catalogue_date": null,
+      "historical_page_sha256": null,
+      "historical_evidence_status": "original_observation_not_available",
+      "current_observation": {
+        "url": "https://open.spotify.com/track/5Z8EDau8uNcP1E8JvmfkZe",
+        "retrieved_at_utc": "2026-10-02T03:39:11.190333+00:00",
+        "error_type": "URLError"
+      },
+      "current_exclusions": [
+        "current_catalogue_identity_or_year_unverified"
+      ],
+      "selection_hash": "b1d31d8435a8c9386aca0beef2b71a7f0a7eb64fc1490186b2135a84317c25d4",
+      "selected_in_frozen_roster": false
+    },
+    {
+      "track_id": "5QTxFnGygVM4jFQiBovmRo",
+      "artist": "Blue Öyster Cult",
+      "snapshot_filter_exclusions": [
+        "missing_or_duplicate_video_in_pair_source"
+      ],
+      "historical_catalogue_date": null,
+      "historical_page_sha256": null,
+      "historical_evidence_status": "original_observation_not_available",
+      "current_observation": {
+        "url": "https://open.spotify.com/track/5QTxFnGygVM4jFQiBovmRo",
+        "retrieved_at_utc": "2026-10-02T03:39:11.190972+00:00",
+        "error_type": "URLError"
+      },
+      "current_exclusions": [
+        "missing_or_duplicate_video_in_pair_source",
+        "current_catalogue_identity_or_year_unverified"
+      ],
+      "selection_hash": "62d15db914e50abc6400929d350f7ba78046ffe44d1481fc93180356395add4b",
+      "selected_in_frozen_roster": false
+    },
+    {
+      "track_id": "3fkPMWQ6cBNBLuFcPyMS8s",
+      "artist": "Blue Öyster Cult",
+      "snapshot_filter_exclusions": [
+        "publisher_official_video_not_true"
+      ],
+      "historical_catalogue_date": null,
+      "historical_page_sha256": null,
+      "historical_evidence_status": "original_observation_not_available",
+      "current_observation": {
+        "url": "https://open.spotify.com/track/3fkPMWQ6cBNBLuFcPyMS8s",
+        "retrieved_at_utc": "2026-10-02T03:39:11.191208+00:00",
+        "error_type": "URLError"
+      },
+      "current_exclusions": [
+        "publisher_official_video_not_true",
+        "current_catalogue_identity_or_year_unverified"
+      ],
+      "selection_hash": "3296f9f31d145f8a91589a1ade2480b78e5013a48ef7d3b2dc724f5d7923f70c",
+      "selected_in_frozen_roster": false
+    },
+    {
+      "track_id": "60TYdVs6TWIsAJ1MPRdv59",
+      "artist": "Blue Öyster Cult",
+      "snapshot_filter_exclusions": [
+        "publisher_official_video_not_true"
+      ],
+      "historical_catalogue_date": null,
+      "historical_page_sha256": null,
+      "historical_evidence_status": "original_observation_not_available",
+      "current_observation": {
+        "url": "https://open.spotify.com/track/60TYdVs6TWIsAJ1MPRdv59",
+        "retrieved_at_utc": "2026-10-02T03:39:11.191504+00:00",
+        "error_type": "URLError"
+      },
+      "current_exclusions": [
+        "publisher_official_video_not_true",
+        "current_catalogue_identity_or_year_unverified"
+      ],
+      "selection_hash": "295b5f68494d0895620a97bfe8aa5d8e796b5876394fc887aceee39c978ef319",
+      "selected_in_frozen_roster": false
+    },
+    {
+      "track_id": "2K2M0TcglCRLLpFOzKeFZA",
+      "artist": "Cream",
+      "snapshot_filter_exclusions": [
+        "publisher_official_video_not_true"
+      ],
+      "historical_catalogue_date": null,
+      "historical_page_sha256": null,
+      "historical_evidence_status": "original_observation_not_available",
+      "current_observation": {
+        "url": "https://open.spotify.com/track/2K2M0TcglCRLLpFOzKeFZA",
+        "retrieved_at_utc": "2026-10-02T03:39:11.192104+00:00",
+        "error_type": "URLError"
+      },
+      "current_exclusions": [
+        "publisher_official_video_not_true",
+        "current_catalogue_identity_or_year_unverified"
+      ],
+      "selection_hash": "f66a319ac03eaaa7701063facfd22719a37e81563ae8388f932c0a3a71ddda04",
+      "selected_in_frozen_roster": false
+    },
+    {
+      "track_id": "3Xls4cNOwy01dtrNXb1inG",
+      "artist": "Cream",
+      "snapshot_filter_exclusions": [],
+      "historical_catalogue_date": null,
+      "historical_page_sha256": null,
+      "historical_evidence_status": "original_observation_not_available",
+      "current_observation": {
+        "url": "https://open.spotify.com/track/3Xls4cNOwy01dtrNXb1inG",
+        "retrieved_at_utc": "2026-10-02T03:39:11.192293+00:00",
+        "error_type": "URLError"
+      },
+      "current_exclusions": [
+        "current_catalogue_identity_or_year_unverified"
+      ],
+      "selection_hash": "bad55453df96d516431febe67a249d0182aabcaacbbf79ad464283389ea1fb8c",
+      "selected_in_frozen_roster": false
+    },
+    {
+      "track_id": "43DeSV93pJPT4lCZaWZ6b1",
+      "artist": "Thin Lizzy",
+      "snapshot_filter_exclusions": [],
+      "historical_catalogue_date": null,
+      "historical_page_sha256": null,
+      "historical_evidence_status": "original_observation_not_available",
+      "current_observation": {
+        "url": "https://open.spotify.com/track/43DeSV93pJPT4lCZaWZ6b1",
+        "retrieved_at_utc": "2026-10-02T03:39:11.192912+00:00",
+        "error_type": "URLError"
+      },
+      "current_exclusions": [
+        "current_catalogue_identity_or_year_unverified"
+      ],
+      "selection_hash": "fb52f35e0b29679516791372e31b9f10bcb72bbe0e8a5e3ced51ff1b1ae1fbc5",
+      "selected_in_frozen_roster": false
+    },
+    {
+      "track_id": "2uLx3Gka9TGCz9Zgu7Uwav",
+      "artist": "Thin Lizzy",
+      "snapshot_filter_exclusions": [
+        "publisher_official_video_not_true"
+      ],
+      "historical_catalogue_date": null,
+      "historical_page_sha256": null,
+      "historical_evidence_status": "original_observation_not_available",
+      "current_observation": {
+        "url": "https://open.spotify.com/track/2uLx3Gka9TGCz9Zgu7Uwav",
+        "retrieved_at_utc": "2026-10-02T03:39:11.193230+00:00",
+        "error_type": "URLError"
+      },
+      "current_exclusions": [
+        "publisher_official_video_not_true",
+        "current_catalogue_identity_or_year_unverified"
+      ],
+      "selection_hash": "83eed19b950ce8907a514e8731ca5a512ffe463b4906de9b98f99038110485f0",
+      "selected_in_frozen_roster": false
+    },
+    {
+      "track_id": "43GS3mtezoIFiuIZCLLiDY",
+      "artist": "Poison",
+      "snapshot_filter_exclusions": [],
+      "historical_catalogue_date": null,
+      "historical_page_sha256": null,
+      "historical_evidence_status": "original_observation_not_available",
+      "current_observation": {
+        "url": "https://open.spotify.com/track/43GS3mtezoIFiuIZCLLiDY",
+        "retrieved_at_utc": "2026-10-02T03:39:11.193841+00:00",
+        "error_type": "URLError"
+      },
+      "current_exclusions": [
+        "current_catalogue_identity_or_year_unverified"
+      ],
+      "selection_hash": "f72b444b58f13c91f3e2a27f17ec441596154dd4b2c01b099120257b5e12c362",
+      "selected_in_frozen_roster": false
+    },
+    {
+      "track_id": "2V8KvnD5LVeeDChMWEkSzC",
+      "artist": "Poison",
+      "snapshot_filter_exclusions": [],
+      "historical_catalogue_date": "1988-03-21",
+      "historical_page_sha256": "e06059f204fd9b42c0768d57ed2e56bd4cc05c342a4e23c1c044a497b57245e1",
+      "historical_evidence_status": "selected_case_preserved_in_lock",
+      "current_observation": {
+        "url": "https://open.spotify.com/track/2V8KvnD5LVeeDChMWEkSzC",
+        "retrieved_at_utc": "2026-10-02T03:39:11.194197+00:00",
+        "error_type": "URLError"
+      },
+      "current_exclusions": [
+        "current_catalogue_identity_or_year_unverified"
+      ],
+      "selection_hash": "2d12d27f2cfc8bc809391f7fd4696980b7205879e42ecc3a4c770c0f9bd531b8",
+      "selected_in_frozen_roster": true
+    },
+    {
+      "track_id": "1hHGUdFaiJHw9hVZGJWYO2",
+      "artist": "Allman Brothers Band",
+      "snapshot_filter_exclusions": [
+        "publisher_official_video_not_true"
+      ],
+      "historical_catalogue_date": null,
+      "historical_page_sha256": null,
+      "historical_evidence_status": "original_observation_not_available",
+      "current_observation": {
+        "url": "https://open.spotify.com/track/1hHGUdFaiJHw9hVZGJWYO2",
+        "retrieved_at_utc": "2026-10-02T03:39:11.194611+00:00",
+        "error_type": "URLError"
+      },
+      "current_exclusions": [
+        "publisher_official_video_not_true",
+        "current_catalogue_identity_or_year_unverified"
+      ],
+      "selection_hash": "1f4dc5db5182b9363881a941af5d6f33c7ea509e65ae3d3350996f78fc51d939",
+      "selected_in_frozen_roster": false
+    },
+    {
+      "track_id": "6KTv0Z8BmVqM7DPxbGzpVC",
+      "artist": "KISS",
+      "snapshot_filter_exclusions": [],
+      "historical_catalogue_date": null,
+      "historical_page_sha256": null,
+      "historical_evidence_status": "original_observation_not_available",
+      "current_observation": {
+        "url": "https://open.spotify.com/track/6KTv0Z8BmVqM7DPxbGzpVC",
+        "retrieved_at_utc": "2026-10-02T03:39:11.194885+00:00",
+        "error_type": "URLError"
+      },
+      "current_exclusions": [
+        "current_catalogue_identity_or_year_unverified"
+      ],
+      "selection_hash": "9069a4ad6519772f9fb710d6b3b26383bfe8e5f5ef6ea22001bb059f01d22401",
+      "selected_in_frozen_roster": false
+    },
+    {
+      "track_id": "1brpdmqkx3kSxyqzqXfW7J",
+      "artist": "KISS",
+      "snapshot_filter_exclusions": [],
+      "historical_catalogue_date": "1984-09-13",
+      "historical_page_sha256": "9a09cf3eff5cbebc71b7cce24ae03548a33ed29961c330c11deb66bf812273a6",
+      "historical_evidence_status": "selected_case_preserved_in_lock",
+      "current_observation": {
+        "url": "https://open.spotify.com/track/1brpdmqkx3kSxyqzqXfW7J",
+        "retrieved_at_utc": "2026-10-02T03:39:11.195869+00:00",
+        "error_type": "URLError"
+      },
+      "current_exclusions": [
+        "current_catalogue_identity_or_year_unverified"
+      ],
+      "selection_hash": "5deef1b920ce2e1f39496f851344255e804517cd25666b1248c7ca21e19370ea",
+      "selected_in_frozen_roster": true
+    },
+    {
+      "track_id": "2o4u19nlQWOGg5mLanT7Pg",
+      "artist": "KISS",
+      "snapshot_filter_exclusions": [],
+      "historical_catalogue_date": null,
+      "historical_page_sha256": null,
+      "historical_evidence_status": "original_observation_not_available",
+      "current_observation": {
+        "url": "https://open.spotify.com/track/2o4u19nlQWOGg5mLanT7Pg",
+        "retrieved_at_utc": "2026-10-02T03:39:11.196160+00:00",
+        "error_type": "URLError"
+      },
+      "current_exclusions": [
+        "current_catalogue_identity_or_year_unverified"
+      ],
+      "selection_hash": "8cf2a72218a45546f4facfd18f2714fffcb099f0b86e724e056ce363f0d7a9c8",
+      "selected_in_frozen_roster": false
+    },
+    {
+      "track_id": "7dEKwMoUZCpvUFLLuJQjju",
+      "artist": "KISS",
+      "snapshot_filter_exclusions": [
+        "missing_or_duplicate_video_in_pair_source"
+      ],
+      "historical_catalogue_date": null,
+      "historical_page_sha256": null,
+      "historical_evidence_status": "original_observation_not_available",
+      "current_observation": {
+        "url": "https://open.spotify.com/track/7dEKwMoUZCpvUFLLuJQjju",
+        "retrieved_at_utc": "2026-10-02T03:39:11.196346+00:00",
+        "error_type": "URLError"
+      },
+      "current_exclusions": [
+        "missing_or_duplicate_video_in_pair_source",
+        "current_catalogue_identity_or_year_unverified"
+      ],
+      "selection_hash": "5d6a31d730a1414aa8e3e4b9500228186b3574295fc52bed9cbc20438ac4ab8a",
+      "selected_in_frozen_roster": false
+    },
+    {
+      "track_id": "70YvYr2hGlS01bKRIho1HM",
+      "artist": "ZZ Top",
+      "snapshot_filter_exclusions": [],
+      "historical_catalogue_date": null,
+      "historical_page_sha256": null,
+      "historical_evidence_status": "original_observation_not_available",
+      "current_observation": {
+        "url": "https://open.spotify.com/track/70YvYr2hGlS01bKRIho1HM",
+        "retrieved_at_utc": "2026-10-02T03:39:11.197329+00:00",
+        "error_type": "URLError"
+      },
+      "current_exclusions": [
+        "current_catalogue_identity_or_year_unverified"
+      ],
+      "selection_hash": "528692ebe19076f88bf6082ba8356395216c364352ccab656e4117f736f619b2",
+      "selected_in_frozen_roster": false
+    },
+    {
+      "track_id": "1UBQ5GK8JaQjm5VbkBZY66",
+      "artist": "ZZ Top",
+      "snapshot_filter_exclusions": [],
+      "historical_catalogue_date": null,
+      "historical_page_sha256": null,
+      "historical_evidence_status": "original_observation_not_available",
+      "current_observation": {
+        "url": "https://open.spotify.com/track/1UBQ5GK8JaQjm5VbkBZY66",
+        "retrieved_at_utc": "2026-10-02T03:39:11.197713+00:00",
+        "error_type": "URLError"
+      },
+      "current_exclusions": [
+        "current_catalogue_identity_or_year_unverified"
+      ],
+      "selection_hash": "c2d1c14f29357a9d9414812103468a58e320a8b259dfdf2fcca5472ad8a9602a",
+      "selected_in_frozen_roster": false
+    },
+    {
+      "track_id": "0OBwxFLu6Yj61s2OagYbgY",
+      "artist": "ZZ Top",
+      "snapshot_filter_exclusions": [],
+      "historical_catalogue_date": "1983-03-23",
+      "historical_page_sha256": "8132fd176b1dc9b9c7ae7a32b38b1903ea04fc25e827da20a3b49661c77ed2a9",
+      "historical_evidence_status": "selected_case_preserved_in_lock",
+      "current_observation": {
+        "url": "https://open.spotify.com/track/0OBwxFLu6Yj61s2OagYbgY",
+        "retrieved_at_utc": "2026-10-02T03:39:11.198046+00:00",
+        "error_type": "URLError"
+      },
+      "current_exclusions": [
+        "current_catalogue_identity_or_year_unverified"
+      ],
+      "selection_hash": "8e8961b1e9080865383535f04d821739aae85d23a14368661acacf784ecd5df5",
+      "selected_in_frozen_roster": true
+    },
+    {
+      "track_id": "4TIJ7zSBNejpoIPaWpWRKc",
+      "artist": "Billy Idol",
+      "snapshot_filter_exclusions": [],
+      "historical_catalogue_date": null,
+      "historical_page_sha256": null,
+      "historical_evidence_status": "original_observation_not_available",
+      "current_observation": {
+        "url": "https://open.spotify.com/track/4TIJ7zSBNejpoIPaWpWRKc",
+        "retrieved_at_utc": "2026-10-02T03:39:11.198442+00:00",
+        "error_type": "URLError"
+      },
+      "current_exclusions": [
+        "current_catalogue_identity_or_year_unverified"
+      ],
+      "selection_hash": "a2e1c8a031848285ab007a558ec0b83fd14418054555121dde7f9f79102a9c10",
+      "selected_in_frozen_roster": false
+    },
+    {
+      "track_id": "0pUVeEgZuNyFzIMKp67RbS",
+      "artist": "Billy Idol",
+      "snapshot_filter_exclusions": [],
+      "historical_catalogue_date": "1983-11-01",
+      "historical_page_sha256": "1241bcf60035012e3cc24e849b061b17ed8f27bef6fee7f3f1644be9785a65cd",
+      "historical_evidence_status": "selected_case_preserved_in_lock",
+      "current_observation": {
+        "url": "https://open.spotify.com/track/0pUVeEgZuNyFzIMKp67RbS",
+        "retrieved_at_utc": "2026-10-02T03:39:11.199327+00:00",
+        "error_type": "URLError"
+      },
+      "current_exclusions": [
+        "current_catalogue_identity_or_year_unverified"
+      ],
+      "selection_hash": "00cead9ba4f14bb4698de6207d7e84e4cd3184b2875b93b2291c236250684b12",
+      "selected_in_frozen_roster": true
+    },
+    {
+      "track_id": "1gzIbdFnGJ226LTl0Cn2SX",
+      "artist": "Billy Idol",
+      "snapshot_filter_exclusions": [
+        "missing_or_duplicate_video_in_pair_source"
+      ],
+      "historical_catalogue_date": null,
+      "historical_page_sha256": null,
+      "historical_evidence_status": "original_observation_not_available",
+      "current_observation": {
+        "url": "https://open.spotify.com/track/1gzIbdFnGJ226LTl0Cn2SX",
+        "retrieved_at_utc": "2026-10-02T03:39:11.199649+00:00",
+        "error_type": "URLError"
+      },
+      "current_exclusions": [
+        "missing_or_duplicate_video_in_pair_source",
+        "current_catalogue_identity_or_year_unverified"
+      ],
+      "selection_hash": "e9df46f01cbf8173a90a8feb95827ec06a51b2b92e73d5b5ae7f3027bbb4227c",
+      "selected_in_frozen_roster": false
+    },
+    {
+      "track_id": "06WUUNf7q18NZfjIsQFsfa",
+      "artist": "Slayer",
+      "snapshot_filter_exclusions": [
+        "publisher_official_video_not_true"
+      ],
+      "historical_catalogue_date": null,
+      "historical_page_sha256": null,
+      "historical_evidence_status": "original_observation_not_available",
+      "current_observation": {
+        "url": "https://open.spotify.com/track/06WUUNf7q18NZfjIsQFsfa",
+        "retrieved_at_utc": "2026-10-02T03:39:11.200222+00:00",
+        "error_type": "URLError"
+      },
+      "current_exclusions": [
+        "publisher_official_video_not_true",
+        "current_catalogue_identity_or_year_unverified"
+      ],
+      "selection_hash": "bf448caabd0db50cd20bf51a78462a97a7bad923f477b18c77c813f656e75760",
+      "selected_in_frozen_roster": false
+    },
+    {
+      "track_id": "3U9gogDStAfWxSm91PJuxb",
+      "artist": "Slayer",
+      "snapshot_filter_exclusions": [
+        "publisher_official_video_not_true"
+      ],
+      "historical_catalogue_date": null,
+      "historical_page_sha256": null,
+      "historical_evidence_status": "original_observation_not_available",
+      "current_observation": {
+        "url": "https://open.spotify.com/track/3U9gogDStAfWxSm91PJuxb",
+        "retrieved_at_utc": "2026-10-02T03:39:11.200545+00:00",
+        "error_type": "URLError"
+      },
+      "current_exclusions": [
+        "publisher_official_video_not_true",
+        "current_catalogue_identity_or_year_unverified"
+      ],
+      "selection_hash": "ea609019c2e3eb68f8b4d9246f76fcd7ba5d121c0db37d2cb6de55483e46a688",
+      "selected_in_frozen_roster": false
+    },
+    {
+      "track_id": "6Nm8h73ycDG2saCnZV8poF",
+      "artist": "Rob Zombie",
+      "snapshot_filter_exclusions": [],
+      "historical_catalogue_date": null,
+      "historical_page_sha256": null,
+      "historical_evidence_status": "original_observation_not_available",
+      "current_observation": {
+        "url": "https://open.spotify.com/track/6Nm8h73ycDG2saCnZV8poF",
+        "retrieved_at_utc": "2026-10-02T03:39:11.201116+00:00",
+        "error_type": "URLError"
+      },
+      "current_exclusions": [
+        "current_catalogue_identity_or_year_unverified"
+      ],
+      "selection_hash": "7bbf7e39c5bc0290005c41fe7221893c063c7d669210f68e054a94ef20e06e2e",
+      "selected_in_frozen_roster": false
+    },
+    {
+      "track_id": "6qLEOZvf5gI7kWE63JE7p3",
+      "artist": "Stone Temple Pilots",
+      "snapshot_filter_exclusions": [],
+      "historical_catalogue_date": null,
+      "historical_page_sha256": null,
+      "historical_evidence_status": "original_observation_not_available",
+      "current_observation": {
+        "url": "https://open.spotify.com/track/6qLEOZvf5gI7kWE63JE7p3",
+        "retrieved_at_utc": "2026-10-02T03:39:11.201707+00:00",
+        "error_type": "URLError"
+      },
+      "current_exclusions": [
+        "current_catalogue_identity_or_year_unverified"
+      ],
+      "selection_hash": "f73222b39b98240234fb45d2e9857d90c9bdedf84152d974cd55b604333e1fcd",
+      "selected_in_frozen_roster": false
+    },
+    {
+      "track_id": "7N3PAbqfTjSEU1edb2tY8j",
+      "artist": "Van Halen",
+      "snapshot_filter_exclusions": [],
+      "historical_catalogue_date": "1984-01-04",
+      "historical_page_sha256": "1694efb217d54adb75a5e7b81539c5be951179a29f3c169baa5ae2796aaf668e",
+      "historical_evidence_status": "selected_case_preserved_in_lock",
+      "current_observation": {
+        "url": "https://open.spotify.com/track/7N3PAbqfTjSEU1edb2tY8j",
+        "retrieved_at_utc": "2026-10-02T03:39:11.202274+00:00",
+        "error_type": "URLError"
+      },
+      "current_exclusions": [
+        "current_catalogue_identity_or_year_unverified"
+      ],
+      "selection_hash": "0768a72dc78084db1b6a47ded443d656bd5a73f06d3bf7be255f35a219c42eab",
+      "selected_in_frozen_roster": true
+    },
+    {
+      "track_id": "05RgAMGypEvqhNs5hPCbMS",
+      "artist": "Van Halen",
+      "snapshot_filter_exclusions": [],
+      "historical_catalogue_date": null,
+      "historical_page_sha256": null,
+      "historical_evidence_status": "original_observation_not_available",
+      "current_observation": {
+        "url": "https://open.spotify.com/track/05RgAMGypEvqhNs5hPCbMS",
+        "retrieved_at_utc": "2026-10-02T03:39:11.202834+00:00",
+        "error_type": "URLError"
+      },
+      "current_exclusions": [
+        "current_catalogue_identity_or_year_unverified"
+      ],
+      "selection_hash": "e8781d33c18ab5e26e24ba04fac9cbe2af087c8b3b50421f470910253d3d9003",
+      "selected_in_frozen_roster": false
+    },
+    {
+      "track_id": "0upLyFR8Rr52ZpMp5esQoq",
+      "artist": "Van Halen",
+      "snapshot_filter_exclusions": [],
+      "historical_catalogue_date": null,
+      "historical_page_sha256": null,
+      "historical_evidence_status": "original_observation_not_available",
+      "current_observation": {
+        "url": "https://open.spotify.com/track/0upLyFR8Rr52ZpMp5esQoq",
+        "retrieved_at_utc": "2026-10-02T03:39:11.203183+00:00",
+        "error_type": "URLError"
+      },
+      "current_exclusions": [
+        "current_catalogue_identity_or_year_unverified"
+      ],
+      "selection_hash": "96c21825b26ecb9387c15be9b1d3e34d633c2087ef78c3bb791f05afd4174f92",
+      "selected_in_frozen_roster": false
+    },
+    {
+      "track_id": "3KhF2YiNpJvGpfiCW45R6D",
+      "artist": "Van Halen",
+      "snapshot_filter_exclusions": [],
+      "historical_catalogue_date": null,
+      "historical_page_sha256": null,
+      "historical_evidence_status": "original_observation_not_available",
+      "current_observation": {
+        "url": "https://open.spotify.com/track/3KhF2YiNpJvGpfiCW45R6D",
+        "retrieved_at_utc": "2026-10-02T03:39:11.203447+00:00",
+        "error_type": "URLError"
+      },
+      "current_exclusions": [
+        "current_catalogue_identity_or_year_unverified"
+      ],
+      "selection_hash": "8b0ce888c06cfdf829e87d995a6f927a43b7543ac582d24c5d3ddc2f5034003d",
+      "selected_in_frozen_roster": false
+    },
+    {
+      "track_id": "6QDbGdbJ57Mtkflsg42WV5",
+      "artist": "Van Halen",
+      "snapshot_filter_exclusions": [],
+      "historical_catalogue_date": null,
+      "historical_page_sha256": null,
+      "historical_evidence_status": "original_observation_not_available",
+      "current_observation": {
+        "url": "https://open.spotify.com/track/6QDbGdbJ57Mtkflsg42WV5",
+        "retrieved_at_utc": "2026-10-02T03:39:11.204000+00:00",
+        "error_type": "URLError"
+      },
+      "current_exclusions": [
+        "current_catalogue_identity_or_year_unverified"
+      ],
+      "selection_hash": "46ee97b8a287b404c2237cd1ecfe6f2c5aefe056395ebc6f5e9b18c7b7d1f323",
+      "selected_in_frozen_roster": false
+    },
+    {
+      "track_id": "6fybp4N6eW3bsFAvARxyVe",
+      "artist": "Van Halen",
+      "snapshot_filter_exclusions": [
+        "publisher_official_video_not_true"
+      ],
+      "historical_catalogue_date": null,
+      "historical_page_sha256": null,
+      "historical_evidence_status": "original_observation_not_available",
+      "current_observation": {
+        "url": "https://open.spotify.com/track/6fybp4N6eW3bsFAvARxyVe",
+        "retrieved_at_utc": "2026-10-02T03:39:11.204251+00:00",
+        "error_type": "URLError"
+      },
+      "current_exclusions": [
+        "publisher_official_video_not_true",
+        "current_catalogue_identity_or_year_unverified"
+      ],
+      "selection_hash": "585b7fa2857899d6042699778033bf2cd73d213e4e283a1a426a63dd82827fd6",
+      "selected_in_frozen_roster": false
+    },
+    {
+      "track_id": "0TaT50ZZxT4ytZxuqkE3A9",
+      "artist": "Van Halen",
+      "snapshot_filter_exclusions": [
+        "publisher_official_video_not_true"
+      ],
+      "historical_catalogue_date": null,
+      "historical_page_sha256": null,
+      "historical_evidence_status": "original_observation_not_available",
+      "current_observation": {
+        "url": "https://open.spotify.com/track/0TaT50ZZxT4ytZxuqkE3A9",
+        "retrieved_at_utc": "2026-10-02T03:39:11.204967+00:00",
+        "error_type": "URLError"
+      },
+      "current_exclusions": [
+        "publisher_official_video_not_true",
+        "current_catalogue_identity_or_year_unverified"
+      ],
+      "selection_hash": "f415617378f4277092d9790489791d4415a6a0215225398b25079bd176da69ae",
+      "selected_in_frozen_roster": false
+    },
+    {
+      "track_id": "2tAeN2TKlQLOoSPXtARzBV",
+      "artist": "Van Halen",
+      "snapshot_filter_exclusions": [
+        "publisher_official_video_not_true"
+      ],
+      "historical_catalogue_date": null,
+      "historical_page_sha256": null,
+      "historical_evidence_status": "original_observation_not_available",
+      "current_observation": {
+        "url": "https://open.spotify.com/track/2tAeN2TKlQLOoSPXtARzBV",
+        "retrieved_at_utc": "2026-10-02T03:39:11.205255+00:00",
+        "error_type": "URLError"
+      },
+      "current_exclusions": [
+        "publisher_official_video_not_true",
+        "current_catalogue_identity_or_year_unverified"
+      ],
+      "selection_hash": "0257ff1a32de2db405abc6376c0a10a9f364d722b92b0aba873393cf29d6fd80",
+      "selected_in_frozen_roster": false
+    },
+    {
+      "track_id": "0PdM2a6oIjqepoEfcJo0RO",
+      "artist": "Def Leppard",
+      "snapshot_filter_exclusions": [],
+      "historical_catalogue_date": null,
+      "historical_page_sha256": null,
+      "historical_evidence_status": "original_observation_not_available",
+      "current_observation": {
+        "url": "https://open.spotify.com/track/0PdM2a6oIjqepoEfcJo0RO",
+        "retrieved_at_utc": "2026-10-02T03:39:11.205703+00:00",
+        "error_type": "URLError"
+      },
+      "current_exclusions": [
+        "current_catalogue_identity_or_year_unverified"
+      ],
+      "selection_hash": "f1b82e29b14f92bdb1288fdb32bf72ad632ba85d9dd4bd0d6ed8c0fe0bf29aa0",
+      "selected_in_frozen_roster": false
+    },
+    {
+      "track_id": "2PFIZFcGry0po3ZfRZkzKc",
+      "artist": "Def Leppard",
+      "snapshot_filter_exclusions": [],
+      "historical_catalogue_date": null,
+      "historical_page_sha256": null,
+      "historical_evidence_status": "original_observation_not_available",
+      "current_observation": {
+        "url": "https://open.spotify.com/track/2PFIZFcGry0po3ZfRZkzKc",
+        "retrieved_at_utc": "2026-10-02T03:39:11.206022+00:00",
+        "error_type": "URLError"
+      },
+      "current_exclusions": [
+        "current_catalogue_identity_or_year_unverified"
+      ],
+      "selection_hash": "3f29c3a8cee57831a104eeb96da50a789590036b6cc9668db5c6acf36502f747",
+      "selected_in_frozen_roster": false
+    },
+    {
+      "track_id": "18URo35acNKRTHfEdjTcGn",
+      "artist": "Def Leppard",
+      "snapshot_filter_exclusions": [],
+      "historical_catalogue_date": null,
+      "historical_page_sha256": null,
+      "historical_evidence_status": "original_observation_not_available",
+      "current_observation": {
+        "url": "https://open.spotify.com/track/18URo35acNKRTHfEdjTcGn",
+        "retrieved_at_utc": "2026-10-02T03:39:11.206453+00:00",
+        "error_type": "URLError"
+      },
+      "current_exclusions": [
+        "current_catalogue_identity_or_year_unverified"
+      ],
+      "selection_hash": "8e4987e1356bc8bf80151fe8d02b90a322befb8d0df4b5bce8988112296a3282",
+      "selected_in_frozen_roster": false
+    },
+    {
+      "track_id": "2AmEv442DGwSxMGZ9XEvBA",
+      "artist": "Def Leppard",
+      "snapshot_filter_exclusions": [],
+      "historical_catalogue_date": null,
+      "historical_page_sha256": null,
+      "historical_evidence_status": "original_observation_not_available",
+      "current_observation": {
+        "url": "https://open.spotify.com/track/2AmEv442DGwSxMGZ9XEvBA",
+        "retrieved_at_utc": "2026-10-02T03:39:11.207061+00:00",
+        "error_type": "URLError"
+      },
+      "current_exclusions": [
+        "current_catalogue_identity_or_year_unverified"
+      ],
+      "selection_hash": "ab1060f1890c7608b9927ddbba26fbd8a60f091dd32b1538cb5cabf881da5e28",
+      "selected_in_frozen_roster": false
+    },
+    {
+      "track_id": "3Dfy8YIxq89i84t108TvMi",
+      "artist": "Def Leppard",
+      "snapshot_filter_exclusions": [],
+      "historical_catalogue_date": "1987-08-03",
+      "historical_page_sha256": "60efb80fb75e986de1d23e59dc0268f26ad264420dd2c8076d185264b6dc0dba",
+      "historical_evidence_status": "selected_case_preserved_in_lock",
+      "current_observation": {
+        "url": "https://open.spotify.com/track/3Dfy8YIxq89i84t108TvMi",
+        "retrieved_at_utc": "2026-10-02T03:39:11.207424+00:00",
+        "error_type": "URLError"
+      },
+      "current_exclusions": [
+        "current_catalogue_identity_or_year_unverified"
+      ],
+      "selection_hash": "1484894ae6b737f1cb4ed5707b67c02c536dba1cb37d2c28e69bc8090d6d70d1",
+      "selected_in_frozen_roster": true
+    },
+    {
+      "track_id": "4qjscZh4jfhkpcQG4ZQfi2",
+      "artist": "Def Leppard",
+      "snapshot_filter_exclusions": [],
+      "historical_catalogue_date": null,
+      "historical_page_sha256": null,
+      "historical_evidence_status": "original_observation_not_available",
+      "current_observation": {
+        "url": "https://open.spotify.com/track/4qjscZh4jfhkpcQG4ZQfi2",
+        "retrieved_at_utc": "2026-10-02T03:39:11.207889+00:00",
+        "error_type": "URLError"
+      },
+      "current_exclusions": [
+        "current_catalogue_identity_or_year_unverified"
+      ],
+      "selection_hash": "16cc84d4dbf4e0dd42a5e9ead47fe04d3a8bf172ad5475222bda591037fd37b0",
+      "selected_in_frozen_roster": false
+    },
+    {
+      "track_id": "2lFFiNm0XtgJ6wkdncTB4k",
+      "artist": "The Cars",
+      "snapshot_filter_exclusions": [],
+      "historical_catalogue_date": "1984-01-01",
+      "historical_page_sha256": "ef846295b23778f81f61c3a07c7fd13ea5e8dae4b2ad357b000dbba4a7ea3df0",
+      "historical_evidence_status": "selected_case_preserved_in_lock",
+      "current_observation": {
+        "url": "https://open.spotify.com/track/2lFFiNm0XtgJ6wkdncTB4k",
+        "retrieved_at_utc": "2026-10-02T03:39:11.208207+00:00",
+        "error_type": "URLError"
+      },
+      "current_exclusions": [
+        "current_catalogue_identity_or_year_unverified"
+      ],
+      "selection_hash": "3ba487478f75962e4514352943241365fbd9a1aef6d0a5824a44e593ae95c849",
+      "selected_in_frozen_roster": true
+    },
+    {
+      "track_id": "4alHo6RGd0D3OUbTPExTHN",
+      "artist": "The Cars",
+      "snapshot_filter_exclusions": [],
+      "historical_catalogue_date": null,
+      "historical_page_sha256": null,
+      "historical_evidence_status": "original_observation_not_available",
+      "current_observation": {
+        "url": "https://open.spotify.com/track/4alHo6RGd0D3OUbTPExTHN",
+        "retrieved_at_utc": "2026-10-02T03:39:11.208889+00:00",
+        "error_type": "URLError"
+      },
+      "current_exclusions": [
+        "current_catalogue_identity_or_year_unverified"
+      ],
+      "selection_hash": "c6e9f9f5001ad8989c6c06f7f0d5ec5cd52d347c19ac60a40af94f2dda5870c9",
+      "selected_in_frozen_roster": false
+    },
+    {
+      "track_id": "3QZ7uX97s82HFYSmQUAN1D",
+      "artist": "Rush",
+      "snapshot_filter_exclusions": [],
+      "historical_catalogue_date": null,
+      "historical_page_sha256": null,
+      "historical_evidence_status": "original_observation_not_available",
+      "current_observation": {
+        "url": "https://open.spotify.com/track/3QZ7uX97s82HFYSmQUAN1D",
+        "retrieved_at_utc": "2026-10-02T03:39:11.209236+00:00",
+        "error_type": "URLError"
+      },
+      "current_exclusions": [
+        "current_catalogue_identity_or_year_unverified"
+      ],
+      "selection_hash": "71bf571b32952431ddd33f340c9292edba435fb07b1673da10e48e9e5aae34f3",
+      "selected_in_frozen_roster": false
+    },
+    {
+      "track_id": "0K6yUnIKNsFtfIpTgGtcHm",
+      "artist": "Rush",
+      "snapshot_filter_exclusions": [],
+      "historical_catalogue_date": null,
+      "historical_page_sha256": null,
+      "historical_evidence_status": "original_observation_not_available",
+      "current_observation": {
+        "url": "https://open.spotify.com/track/0K6yUnIKNsFtfIpTgGtcHm",
+        "retrieved_at_utc": "2026-10-02T03:39:11.209599+00:00",
+        "error_type": "URLError"
+      },
+      "current_exclusions": [
+        "current_catalogue_identity_or_year_unverified"
+      ],
+      "selection_hash": "5dd5e9d20bb459ee0b21ee4949f13516b7129605b5d404c08347446c3722c721",
+      "selected_in_frozen_roster": false
+    },
+    {
+      "track_id": "4e9hUiLsN4mx61ARosFi7p",
+      "artist": "Rush",
+      "snapshot_filter_exclusions": [],
+      "historical_catalogue_date": "1980-01-01",
+      "historical_page_sha256": "2cdd1cae51e5544f18d1c832f004cbeb2d5472e69a510a8b104f5e3fcc2fe2a2",
+      "historical_evidence_status": "selected_case_preserved_in_lock",
+      "current_observation": {
+        "url": "https://open.spotify.com/track/4e9hUiLsN4mx61ARosFi7p",
+        "retrieved_at_utc": "2026-10-02T03:39:11.209721+00:00",
+        "error_type": "URLError"
+      },
+      "current_exclusions": [
+        "current_catalogue_identity_or_year_unverified"
+      ],
+      "selection_hash": "40716e65917ee6a76cc066038e8cac080e5d227b1543d69138b64a8959b7c1a3",
+      "selected_in_frozen_roster": true
+    },
+    {
+      "track_id": "5CQ30WqJwcep0pYcV4AMNc",
+      "artist": "Led Zeppelin",
+      "snapshot_filter_exclusions": [],
+      "historical_catalogue_date": null,
+      "historical_page_sha256": null,
+      "historical_evidence_status": "original_observation_not_available",
+      "current_observation": {
+        "url": "https://open.spotify.com/track/5CQ30WqJwcep0pYcV4AMNc",
+        "retrieved_at_utc": "2026-10-02T03:39:11.210561+00:00",
+        "error_type": "URLError"
+      },
+      "current_exclusions": [
+        "current_catalogue_identity_or_year_unverified"
+      ],
+      "selection_hash": "3dc40030b00c84525f3e770fd60a282d6cdf378445d000d6bf92c1e72b8a0b52",
+      "selected_in_frozen_roster": false
+    },
+    {
+      "track_id": "78lgmZwycJ3nzsdgmPPGNx",
+      "artist": "Led Zeppelin",
+      "snapshot_filter_exclusions": [],
+      "historical_catalogue_date": null,
+      "historical_page_sha256": null,
+      "historical_evidence_status": "original_observation_not_available",
+      "current_observation": {
+        "url": "https://open.spotify.com/track/78lgmZwycJ3nzsdgmPPGNx",
+        "retrieved_at_utc": "2026-10-02T03:39:11.211093+00:00",
+        "error_type": "URLError"
+      },
+      "current_exclusions": [
+        "current_catalogue_identity_or_year_unverified"
+      ],
+      "selection_hash": "5f96a1221a0a359f82eecb7bd59f2e090c3f7c71cb65b2a96a556b744708a7f4",
+      "selected_in_frozen_roster": false
+    },
+    {
+      "track_id": "0hCB0YR03f6AmQaHbwWDe8",
+      "artist": "Led Zeppelin",
+      "snapshot_filter_exclusions": [],
+      "historical_catalogue_date": null,
+      "historical_page_sha256": null,
+      "historical_evidence_status": "original_observation_not_available",
+      "current_observation": {
+        "url": "https://open.spotify.com/track/0hCB0YR03f6AmQaHbwWDe8",
+        "retrieved_at_utc": "2026-10-02T03:39:11.211599+00:00",
+        "error_type": "URLError"
+      },
+      "current_exclusions": [
+        "current_catalogue_identity_or_year_unverified"
+      ],
+      "selection_hash": "1f69f22fb6c2b55599aa1fe61da543efbdae8900727d0b30054d81b8dc843fea",
+      "selected_in_frozen_roster": false
+    },
+    {
+      "track_id": "3qT4bUD1MaWpGrTwcvguhb",
+      "artist": "Led Zeppelin",
+      "snapshot_filter_exclusions": [],
+      "historical_catalogue_date": null,
+      "historical_page_sha256": null,
+      "historical_evidence_status": "original_observation_not_available",
+      "current_observation": {
+        "url": "https://open.spotify.com/track/3qT4bUD1MaWpGrTwcvguhb",
+        "retrieved_at_utc": "2026-10-02T03:39:11.212168+00:00",
+        "error_type": "URLError"
+      },
+      "current_exclusions": [
+        "current_catalogue_identity_or_year_unverified"
+      ],
+      "selection_hash": "ab267d5932fcbb34fd1c413c57ff48258839411f32ce335832ea551954a8a2a6",
+      "selected_in_frozen_roster": false
+    },
+    {
+      "track_id": "4PRGxHpCpF2yoOHYKQIEwD",
+      "artist": "Led Zeppelin",
+      "snapshot_filter_exclusions": [],
+      "historical_catalogue_date": null,
+      "historical_page_sha256": null,
+      "historical_evidence_status": "original_observation_not_available",
+      "current_observation": {
+        "url": "https://open.spotify.com/track/4PRGxHpCpF2yoOHYKQIEwD",
+        "retrieved_at_utc": "2026-10-02T03:39:11.212555+00:00",
+        "error_type": "URLError"
+      },
+      "current_exclusions": [
+        "current_catalogue_identity_or_year_unverified"
+      ],
+      "selection_hash": "10efb6fa02195a5e0b71011dd3ec43641bd1c3c89424e047372a30247975316a",
+      "selected_in_frozen_roster": false
+    },
+    {
+      "track_id": "3MODES4TNtygekLl146Dxd",
+      "artist": "Led Zeppelin",
+      "snapshot_filter_exclusions": [],
+      "historical_catalogue_date": null,
+      "historical_page_sha256": null,
+      "historical_evidence_status": "original_observation_not_available",
+      "current_observation": {
+        "url": "https://open.spotify.com/track/3MODES4TNtygekLl146Dxd",
+        "retrieved_at_utc": "2026-10-02T03:39:11.212893+00:00",
+        "error_type": "URLError"
+      },
+      "current_exclusions": [
+        "current_catalogue_identity_or_year_unverified"
+      ],
+      "selection_hash": "c14287afb0b75d74ac45d3e9ed39ee862686f2106c8826a4bf03d9076ff77241",
+      "selected_in_frozen_roster": false
+    },
+    {
+      "track_id": "0QwZfbw26QeUoIy82Z2jYp",
+      "artist": "Led Zeppelin",
+      "snapshot_filter_exclusions": [],
+      "historical_catalogue_date": null,
+      "historical_page_sha256": null,
+      "historical_evidence_status": "original_observation_not_available",
+      "current_observation": {
+        "url": "https://open.spotify.com/track/0QwZfbw26QeUoIy82Z2jYp",
+        "retrieved_at_utc": "2026-10-02T03:39:11.213567+00:00",
+        "error_type": "URLError"
+      },
+      "current_exclusions": [
+        "current_catalogue_identity_or_year_unverified"
+      ],
+      "selection_hash": "1248c722d79e141ddd2ee4fd8ed4271e7757c520a0f6370a10f5670997969e6a",
+      "selected_in_frozen_roster": false
+    },
+    {
+      "track_id": "6Vjk8MNXpQpi0F4BefdTyq",
+      "artist": "Led Zeppelin",
+      "snapshot_filter_exclusions": [],
+      "historical_catalogue_date": null,
+      "historical_page_sha256": null,
+      "historical_evidence_status": "original_observation_not_available",
+      "current_observation": {
+        "url": "https://open.spotify.com/track/6Vjk8MNXpQpi0F4BefdTyq",
+        "retrieved_at_utc": "2026-10-02T03:39:11.213826+00:00",
+        "error_type": "URLError"
+      },
+      "current_exclusions": [
+        "current_catalogue_identity_or_year_unverified"
+      ],
+      "selection_hash": "bd7452e1414948001a5609174755795d22404ea96f3472e89fec484929bf8157",
+      "selected_in_frozen_roster": false
+    },
+    {
+      "track_id": "4ywWJqYKOwaVVh9xXARWUS",
+      "artist": "Led Zeppelin",
+      "snapshot_filter_exclusions": [],
+      "historical_catalogue_date": null,
+      "historical_page_sha256": null,
+      "historical_evidence_status": "original_observation_not_available",
+      "current_observation": {
+        "url": "https://open.spotify.com/track/4ywWJqYKOwaVVh9xXARWUS",
+        "retrieved_at_utc": "2026-10-02T03:39:11.214106+00:00",
+        "error_type": "URLError"
+      },
+      "current_exclusions": [
+        "current_catalogue_identity_or_year_unverified"
+      ],
+      "selection_hash": "a338d91dcb97531fada7753ae05949cf7d65e70184e945cd322b0615fc1d95c0",
+      "selected_in_frozen_roster": false
+    },
+    {
+      "track_id": "5EOoMWIB9iK4ZpcSex9Ec7",
+      "artist": "Bob Seger",
+      "snapshot_filter_exclusions": [],
+      "historical_catalogue_date": null,
+      "historical_page_sha256": null,
+      "historical_evidence_status": "original_observation_not_available",
+      "current_observation": {
+        "url": "https://open.spotify.com/track/5EOoMWIB9iK4ZpcSex9Ec7",
+        "retrieved_at_utc": "2026-10-02T03:39:11.214502+00:00",
+        "error_type": "URLError"
+      },
+      "current_exclusions": [
+        "current_catalogue_identity_or_year_unverified"
+      ],
+      "selection_hash": "21ff212c75ffb315e8d997859d397699baeb60f41928750dd53c938e91f8e77d",
+      "selected_in_frozen_roster": false
+    },
+    {
+      "track_id": "6UBjSnyP1O5W5ndJoO9vUk",
+      "artist": "Bob Seger",
+      "snapshot_filter_exclusions": [],
+      "historical_catalogue_date": null,
+      "historical_page_sha256": null,
+      "historical_evidence_status": "original_observation_not_available",
+      "current_observation": {
+        "url": "https://open.spotify.com/track/6UBjSnyP1O5W5ndJoO9vUk",
+        "retrieved_at_utc": "2026-10-02T03:39:11.214895+00:00",
+        "error_type": "URLError"
+      },
+      "current_exclusions": [
+        "current_catalogue_identity_or_year_unverified"
+      ],
+      "selection_hash": "576fd5039632d82b8ea2563957e88a4d67774d5ef4d9659f4afca59a1e5ae05a",
+      "selected_in_frozen_roster": false
+    },
+    {
+      "track_id": "1SWmFiFSIBoDbQJjNKC7SR",
+      "artist": "Bob Seger",
+      "snapshot_filter_exclusions": [
+        "missing_or_duplicate_video_in_pair_source"
+      ],
+      "historical_catalogue_date": null,
+      "historical_page_sha256": null,
+      "historical_evidence_status": "original_observation_not_available",
+      "current_observation": {
+        "url": "https://open.spotify.com/track/1SWmFiFSIBoDbQJjNKC7SR",
+        "retrieved_at_utc": "2026-10-02T03:39:11.215676+00:00",
+        "error_type": "URLError"
+      },
+      "current_exclusions": [
+        "missing_or_duplicate_video_in_pair_source",
+        "current_catalogue_identity_or_year_unverified"
+      ],
+      "selection_hash": "8036a3a248ad028b53531bc872c3fc56e27c97133df0dd57e4e6e0a7c26daba0",
+      "selected_in_frozen_roster": false
+    },
+    {
+      "track_id": "7snQQk1zcKl8gZ92AnueZW",
+      "artist": "Guns N' Roses",
+      "snapshot_filter_exclusions": [],
+      "historical_catalogue_date": null,
+      "historical_page_sha256": null,
+      "historical_evidence_status": "original_observation_not_available",
+      "current_observation": {
+        "url": "https://open.spotify.com/track/7snQQk1zcKl8gZ92AnueZW",
+        "retrieved_at_utc": "2026-10-02T03:39:11.215743+00:00",
+        "error_type": "URLError"
+      },
+      "current_exclusions": [
+        "current_catalogue_identity_or_year_unverified"
+      ],
+      "selection_hash": "85e5cbbee7c71f48a19952742c1601a36ef706989258f1131b17404ea3383d0b",
+      "selected_in_frozen_roster": false
+    },
+    {
+      "track_id": "3YRCqOhFifThpSRFJ1VWFM",
+      "artist": "Guns N' Roses",
+      "snapshot_filter_exclusions": [],
+      "historical_catalogue_date": null,
+      "historical_page_sha256": null,
+      "historical_evidence_status": "original_observation_not_available",
+      "current_observation": {
+        "url": "https://open.spotify.com/track/3YRCqOhFifThpSRFJ1VWFM",
+        "retrieved_at_utc": "2026-10-02T03:39:11.216278+00:00",
+        "error_type": "URLError"
+      },
+      "current_exclusions": [
+        "current_catalogue_identity_or_year_unverified"
+      ],
+      "selection_hash": "677b5543efcc610c47f4024b0a3d9450fe2241fe54c7f7bc2c925a1b78f4f9b7",
+      "selected_in_frozen_roster": false
+    },
+    {
+      "track_id": "0G21yYKMZoHa30cYVi1iA8",
+      "artist": "Guns N' Roses",
+      "snapshot_filter_exclusions": [],
+      "historical_catalogue_date": null,
+      "historical_page_sha256": null,
+      "historical_evidence_status": "original_observation_not_available",
+      "current_observation": {
+        "url": "https://open.spotify.com/track/0G21yYKMZoHa30cYVi1iA8",
+        "retrieved_at_utc": "2026-10-02T03:39:11.216392+00:00",
+        "error_type": "URLError"
+      },
+      "current_exclusions": [
+        "current_catalogue_identity_or_year_unverified"
+      ],
+      "selection_hash": "6f073d3e3cecd18e6febb639b7cccea4ebeaccb4e5ba7a45ea1964dd27ace289",
+      "selected_in_frozen_roster": false
+    },
+    {
+      "track_id": "4JiEyzf0Md7KEFFGWDDdCr",
+      "artist": "Guns N' Roses",
+      "snapshot_filter_exclusions": [
+        "publisher_official_video_not_true"
+      ],
+      "historical_catalogue_date": null,
+      "historical_page_sha256": null,
+      "historical_evidence_status": "original_observation_not_available",
+      "current_observation": {
+        "url": "https://open.spotify.com/track/4JiEyzf0Md7KEFFGWDDdCr",
+        "retrieved_at_utc": "2026-10-02T03:39:11.217512+00:00",
+        "error_type": "URLError"
+      },
+      "current_exclusions": [
+        "publisher_official_video_not_true",
+        "current_catalogue_identity_or_year_unverified"
+      ],
+      "selection_hash": "4cfcf2f3b7ddb01a00e8ca71918d8991438f260eb4302024effb26b32e0709a4",
+      "selected_in_frozen_roster": false
+    },
+    {
+      "track_id": "2N2yrmodOnVF10mKvItC9P",
+      "artist": "Guns N' Roses",
+      "snapshot_filter_exclusions": [],
+      "historical_catalogue_date": null,
+      "historical_page_sha256": null,
+      "historical_evidence_status": "original_observation_not_available",
+      "current_observation": {
+        "url": "https://open.spotify.com/track/2N2yrmodOnVF10mKvItC9P",
+        "retrieved_at_utc": "2026-10-02T03:39:11.217578+00:00",
+        "error_type": "URLError"
+      },
+      "current_exclusions": [
+        "current_catalogue_identity_or_year_unverified"
+      ],
+      "selection_hash": "67791efe4266dfb8e85f480e847daee28c5ed9181fc215c8d955de76dc3e0f0f",
+      "selected_in_frozen_roster": false
+    },
+    {
+      "track_id": "6eN1f9KNmiWEhpE2RhQqB5",
+      "artist": "Guns N' Roses",
+      "snapshot_filter_exclusions": [],
+      "historical_catalogue_date": "1987-07-21",
+      "historical_page_sha256": "63a195ab313a45d44748dfd3747832b4a2c4202640cd05c2a15fbffcbae8f6c2",
+      "historical_evidence_status": "selected_case_preserved_in_lock",
+      "current_observation": {
+        "url": "https://open.spotify.com/track/6eN1f9KNmiWEhpE2RhQqB5",
+        "retrieved_at_utc": "2026-10-02T03:39:11.218043+00:00",
+        "error_type": "URLError"
+      },
+      "current_exclusions": [
+        "current_catalogue_identity_or_year_unverified"
+      ],
+      "selection_hash": "066a0c608e6737fefa56b22c27f78d5b1255232c8d82d2ad0587803e07840bda",
+      "selected_in_frozen_roster": true
+    },
+    {
+      "track_id": "0rFWuqFgHAfuzE8uSB9TWR",
+      "artist": "Guns N' Roses",
+      "snapshot_filter_exclusions": [],
+      "historical_catalogue_date": null,
+      "historical_page_sha256": null,
+      "historical_evidence_status": "original_observation_not_available",
+      "current_observation": {
+        "url": "https://open.spotify.com/track/0rFWuqFgHAfuzE8uSB9TWR",
+        "retrieved_at_utc": "2026-10-02T03:39:11.218562+00:00",
+        "error_type": "URLError"
+      },
+      "current_exclusions": [
+        "current_catalogue_identity_or_year_unverified"
+      ],
+      "selection_hash": "4523ecb5f60e0f5af4e0dd88cbba106e81f858d1847284c287fa00fe12621f61",
+      "selected_in_frozen_roster": false
+    },
+    {
+      "track_id": "0dlTGl67UFWcKupzkxZYOn",
+      "artist": "Guns N' Roses",
+      "snapshot_filter_exclusions": [
+        "publisher_official_video_not_true"
+      ],
+      "historical_catalogue_date": null,
+      "historical_page_sha256": null,
+      "historical_evidence_status": "original_observation_not_available",
+      "current_observation": {
+        "url": "https://open.spotify.com/track/0dlTGl67UFWcKupzkxZYOn",
+        "retrieved_at_utc": "2026-10-02T03:39:11.218916+00:00",
+        "error_type": "URLError"
+      },
+      "current_exclusions": [
+        "publisher_official_video_not_true",
+        "current_catalogue_identity_or_year_unverified"
+      ],
+      "selection_hash": "e00aacf3d0070072926778c92ee665dc8a9f8209151123b16dee44a106719cd4",
+      "selected_in_frozen_roster": false
+    },
+    {
+      "track_id": "1OEoNpiyqBghuEUaT6Je6U",
+      "artist": "Guns N' Roses",
+      "snapshot_filter_exclusions": [],
+      "historical_catalogue_date": null,
+      "historical_page_sha256": null,
+      "historical_evidence_status": "original_observation_not_available",
+      "current_observation": {
+        "url": "https://open.spotify.com/track/1OEoNpiyqBghuEUaT6Je6U",
+        "retrieved_at_utc": "2026-10-02T03:39:11.219458+00:00",
+        "error_type": "URLError"
+      },
+      "current_exclusions": [
+        "current_catalogue_identity_or_year_unverified"
+      ],
+      "selection_hash": "97473290fdbe65b91edb4665f300ea42d30b2181139c0e859421c123e2fa8966",
+      "selected_in_frozen_roster": false
+    },
+    {
+      "track_id": "6i4Qi1mJxXjqNIL9HfJhRs",
+      "artist": "Guns N' Roses",
+      "snapshot_filter_exclusions": [],
+      "historical_catalogue_date": null,
+      "historical_page_sha256": null,
+      "historical_evidence_status": "original_observation_not_available",
+      "current_observation": {
+        "url": "https://open.spotify.com/track/6i4Qi1mJxXjqNIL9HfJhRs",
+        "retrieved_at_utc": "2026-10-02T03:39:11.220204+00:00",
+        "error_type": "URLError"
+      },
+      "current_exclusions": [
+        "current_catalogue_identity_or_year_unverified"
+      ],
+      "selection_hash": "aff4d2b51b12b4110a4fe19de0b5f0feaedefcb960be1ee066e8441c2f49a853",
+      "selected_in_frozen_roster": false
+    },
+    {
+      "track_id": "2VN7uPrbryJ7nE2MXX3f9a",
+      "artist": "Survivor",
+      "snapshot_filter_exclusions": [
+        "publisher_official_video_not_true"
+      ],
+      "historical_catalogue_date": null,
+      "historical_page_sha256": null,
+      "historical_evidence_status": "original_observation_not_available",
+      "current_observation": {
+        "url": "https://open.spotify.com/track/2VN7uPrbryJ7nE2MXX3f9a",
+        "retrieved_at_utc": "2026-10-02T03:39:11.220471+00:00",
+        "error_type": "URLError"
+      },
+      "current_exclusions": [
+        "publisher_official_video_not_true",
+        "current_catalogue_identity_or_year_unverified"
+      ],
+      "selection_hash": "1445babdd019c8e7863a23a18e4a21764c5be8f6409a368dbe4a7ae8af2731d7",
+      "selected_in_frozen_roster": false
+    },
+    {
+      "track_id": "1bp2IO61zbQrbWNmKKxg3f",
+      "artist": "Steve Miller Band",
+      "snapshot_filter_exclusions": [
+        "missing_or_duplicate_video_in_pair_source"
+      ],
+      "historical_catalogue_date": null,
+      "historical_page_sha256": null,
+      "historical_evidence_status": "original_observation_not_available",
+      "current_observation": {
+        "url": "https://open.spotify.com/track/1bp2IO61zbQrbWNmKKxg3f",
+        "retrieved_at_utc": "2026-10-02T03:39:11.220781+00:00",
+        "error_type": "URLError"
+      },
+      "current_exclusions": [
+        "missing_or_duplicate_video_in_pair_source",
+        "current_catalogue_identity_or_year_unverified"
+      ],
+      "selection_hash": "79626635e934a460e95fb8a962406dba5edeac77fc7d2801d39718a5981d8d46",
+      "selected_in_frozen_roster": false
+    },
+    {
+      "track_id": "1JLn8RhQzHz3qDqsChcmBl",
+      "artist": "Foreigner",
+      "snapshot_filter_exclusions": [
+        "missing_or_duplicate_video_in_pair_source"
+      ],
+      "historical_catalogue_date": null,
+      "historical_page_sha256": null,
+      "historical_evidence_status": "original_observation_not_available",
+      "current_observation": {
+        "url": "https://open.spotify.com/track/1JLn8RhQzHz3qDqsChcmBl",
+        "retrieved_at_utc": "2026-10-02T03:39:11.221691+00:00",
+        "error_type": "URLError"
+      },
+      "current_exclusions": [
+        "missing_or_duplicate_video_in_pair_source",
+        "current_catalogue_identity_or_year_unverified"
+      ],
+      "selection_hash": "81861865f326cd68c1fb41c601d3d8c936cf506f4798b26a8e5e05c3beedbc9c",
+      "selected_in_frozen_roster": false
+    },
+    {
+      "track_id": "2OgVsp77En2nju8pnCieVU",
+      "artist": "Foreigner",
+      "snapshot_filter_exclusions": [
+        "publisher_official_video_not_true"
+      ],
+      "historical_catalogue_date": null,
+      "historical_page_sha256": null,
+      "historical_evidence_status": "original_observation_not_available",
+      "current_observation": {
+        "url": "https://open.spotify.com/track/2OgVsp77En2nju8pnCieVU",
+        "retrieved_at_utc": "2026-10-02T03:39:11.221959+00:00",
+        "error_type": "URLError"
+      },
+      "current_exclusions": [
+        "publisher_official_video_not_true",
+        "current_catalogue_identity_or_year_unverified"
+      ],
+      "selection_hash": "d2c24370145001fe65c63c4c65be55062fd2332b308eef90a1df209e2bc7d036",
+      "selected_in_frozen_roster": false
+    },
+    {
+      "track_id": "7vidktgNZFQylTgH1GEnMs",
+      "artist": "Foreigner",
+      "snapshot_filter_exclusions": [],
+      "historical_catalogue_date": null,
+      "historical_page_sha256": null,
+      "historical_evidence_status": "original_observation_not_available",
+      "current_observation": {
+        "url": "https://open.spotify.com/track/7vidktgNZFQylTgH1GEnMs",
+        "retrieved_at_utc": "2026-10-02T03:39:11.222449+00:00",
+        "error_type": "URLError"
+      },
+      "current_exclusions": [
+        "current_catalogue_identity_or_year_unverified"
+      ],
+      "selection_hash": "33ec04e95837bd43925178795844987559ad832ecbbd7c569e3d5bb83b3c3943",
+      "selected_in_frozen_roster": false
+    },
+    {
+      "track_id": "04OjLvOApQve45B0ISx4XN",
+      "artist": "Foreigner",
+      "snapshot_filter_exclusions": [
+        "missing_or_duplicate_video_in_pair_source"
+      ],
+      "historical_catalogue_date": null,
+      "historical_page_sha256": null,
+      "historical_evidence_status": "original_observation_not_available",
+      "current_observation": {
+        "url": "https://open.spotify.com/track/04OjLvOApQve45B0ISx4XN",
+        "retrieved_at_utc": "2026-10-02T03:39:11.222769+00:00",
+        "error_type": "URLError"
+      },
+      "current_exclusions": [
+        "missing_or_duplicate_video_in_pair_source",
+        "current_catalogue_identity_or_year_unverified"
+      ],
+      "selection_hash": "ec361a3a7adec4ef1bebdafa7f12ea65cbf9007e46d45776b37aae5c6a804c39",
+      "selected_in_frozen_roster": false
+    },
+    {
+      "track_id": "2EoOZnxNgtmZaD8uUmz2nD",
+      "artist": "Soundgarden",
+      "snapshot_filter_exclusions": [],
+      "historical_catalogue_date": null,
+      "historical_page_sha256": null,
+      "historical_evidence_status": "original_observation_not_available",
+      "current_observation": {
+        "url": "https://open.spotify.com/track/2EoOZnxNgtmZaD8uUmz2nD",
+        "retrieved_at_utc": "2026-10-02T03:39:11.222900+00:00",
+        "error_type": "URLError"
+      },
+      "current_exclusions": [
+        "current_catalogue_identity_or_year_unverified"
+      ],
+      "selection_hash": "760698a3c22d747cb7422cbb8969575278e31865733b9ffb55363a92b4d52a15",
+      "selected_in_frozen_roster": false
+    },
+    {
+      "track_id": "1wlKw9NAWVWpx7OIAyg9EA",
+      "artist": "Soundgarden",
+      "snapshot_filter_exclusions": [],
+      "historical_catalogue_date": null,
+      "historical_page_sha256": null,
+      "historical_evidence_status": "original_observation_not_available",
+      "current_observation": {
+        "url": "https://open.spotify.com/track/1wlKw9NAWVWpx7OIAyg9EA",
+        "retrieved_at_utc": "2026-10-02T03:39:11.223720+00:00",
+        "error_type": "URLError"
+      },
+      "current_exclusions": [
+        "current_catalogue_identity_or_year_unverified"
+      ],
+      "selection_hash": "f5e4d9051e2c3c62a28a471c1491453556ce85e6281fac5cc601cbf054e5efbd",
+      "selected_in_frozen_roster": false
+    },
+    {
+      "track_id": "7wdwIaXUuzlu1grzWMFRJm",
+      "artist": "Ghost",
+      "snapshot_filter_exclusions": [],
+      "historical_catalogue_date": null,
+      "historical_page_sha256": null,
+      "historical_evidence_status": "original_observation_not_available",
+      "current_observation": {
+        "url": "https://open.spotify.com/track/7wdwIaXUuzlu1grzWMFRJm",
+        "retrieved_at_utc": "2026-10-02T03:39:11.224169+00:00",
+        "error_type": "URLError"
+      },
+      "current_exclusions": [
+        "current_catalogue_identity_or_year_unverified"
+      ],
+      "selection_hash": "4a20ddab046d50eea69d2af2ed88824eaba9eb5f03db0b13620a6ece90c558c7",
+      "selected_in_frozen_roster": false
+    },
+    {
+      "track_id": "0WHtcCpZnoyFlQg3Mf2cdN",
+      "artist": "Ghost",
+      "snapshot_filter_exclusions": [],
+      "historical_catalogue_date": null,
+      "historical_page_sha256": null,
+      "historical_evidence_status": "original_observation_not_available",
+      "current_observation": {
+        "url": "https://open.spotify.com/track/0WHtcCpZnoyFlQg3Mf2cdN",
+        "retrieved_at_utc": "2026-10-02T03:39:11.224366+00:00",
+        "error_type": "URLError"
+      },
+      "current_exclusions": [
+        "current_catalogue_identity_or_year_unverified"
+      ],
+      "selection_hash": "ea83dcc9be8c0fc8362f8d98ce4a01dd5faf616ef619b66d6a04ff4dc5164231",
+      "selected_in_frozen_roster": false
+    },
+    {
+      "track_id": "4xAmbn7xiy6wGOs4oaxv70",
+      "artist": "Ghost",
+      "snapshot_filter_exclusions": [],
+      "historical_catalogue_date": null,
+      "historical_page_sha256": null,
+      "historical_evidence_status": "original_observation_not_available",
+      "current_observation": {
+        "url": "https://open.spotify.com/track/4xAmbn7xiy6wGOs4oaxv70",
+        "retrieved_at_utc": "2026-10-02T03:39:11.224632+00:00",
+        "error_type": "URLError"
+      },
+      "current_exclusions": [
+        "current_catalogue_identity_or_year_unverified"
+      ],
+      "selection_hash": "b3de0ce9a11ce51644f1247eb0bc490331fea6ee9dad73470b06464a7ed8d635",
+      "selected_in_frozen_roster": false
+    },
+    {
+      "track_id": "56k2ztFw7hQRzDeoe80pJo",
+      "artist": "Ghost",
+      "snapshot_filter_exclusions": [],
+      "historical_catalogue_date": null,
+      "historical_page_sha256": null,
+      "historical_evidence_status": "original_observation_not_available",
+      "current_observation": {
+        "url": "https://open.spotify.com/track/56k2ztFw7hQRzDeoe80pJo",
+        "retrieved_at_utc": "2026-10-02T03:39:11.224886+00:00",
+        "error_type": "URLError"
+      },
+      "current_exclusions": [
+        "current_catalogue_identity_or_year_unverified"
+      ],
+      "selection_hash": "9b109d1aa8eb130255a4c98caf7b34c60606c87addd73f5c466443fc7964582f",
+      "selected_in_frozen_roster": false
+    },
+    {
+      "track_id": "6vXceKic4ACImU0bC3oecd",
+      "artist": "Ghost",
+      "snapshot_filter_exclusions": [],
+      "historical_catalogue_date": null,
+      "historical_page_sha256": null,
+      "historical_evidence_status": "original_observation_not_available",
+      "current_observation": {
+        "url": "https://open.spotify.com/track/6vXceKic4ACImU0bC3oecd",
+        "retrieved_at_utc": "2026-10-02T03:39:11.225688+00:00",
+        "error_type": "URLError"
+      },
+      "current_exclusions": [
+        "current_catalogue_identity_or_year_unverified"
+      ],
+      "selection_hash": "9396bf2e65249caf5120819fab9df858d6a69c3361cb47e5c5aeb2a43cea25e8",
+      "selected_in_frozen_roster": false
+    },
+    {
+      "track_id": "4yhzZ9ESp4UwnJqImyMR3A",
+      "artist": "Ghost",
+      "snapshot_filter_exclusions": [],
+      "historical_catalogue_date": null,
+      "historical_page_sha256": null,
+      "historical_evidence_status": "original_observation_not_available",
+      "current_observation": {
+        "url": "https://open.spotify.com/track/4yhzZ9ESp4UwnJqImyMR3A",
+        "retrieved_at_utc": "2026-10-02T03:39:11.226010+00:00",
+        "error_type": "URLError"
+      },
+      "current_exclusions": [
+        "current_catalogue_identity_or_year_unverified"
+      ],
+      "selection_hash": "fe85c787037a21b475ca9dcf0cacd9e7741e4c5be469dad40e08125b30d322ee",
+      "selected_in_frozen_roster": false
+    }
+  ]
+}

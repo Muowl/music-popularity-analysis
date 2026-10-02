@@ -107,6 +107,8 @@ def export_registry(root=ROOT):
         notes = "Catalogue date is not validated first release; publisher official flag; historical day declared."
         if not r["video_published_at"]:
             notes += " Video publication missing: exposure age unavailable."
+        else:
+            notes += " Publication source: data/workshop/video-metadata.json; current exact-ID metadata, historical views unchanged."
         records.append(dict(
             candidate_id=r["candidate_id"], title=r["title"], artist=r["artist"],
             selection_source_url=r["views_date_source_url"],
@@ -185,6 +187,8 @@ def analyze(root=ROOT, preview=False):
                       "catalogue_year_min": min(years), "catalogue_year_median": statistics.median(years),
                       "catalogue_year_max": max(years), "video_publication_available": len(ages),
                       "video_age_years_median": statistics.median(ages) if ages else None,
+                      "video_age_years_min": min(ages) if ages else None,
+                      "video_age_years_max": max(ages) if ages else None,
                       "formats": dict(Counter(r["video_format"] for r in subset))}
     result = {"stage": stage, "not_a_main_result": preview, "selection_lock_sha256": lock_hash,
               "review_csv_sha256": hashlib.sha256((root / "data/workshop/recording-review.csv").read_bytes()).hexdigest(),
