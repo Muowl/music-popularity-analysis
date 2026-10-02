@@ -1,17 +1,52 @@
-# Auditoria e limite de reprodução da seleção
+# Reprodução da seleção por coleta posterior
 
-A análise principal dos 17 pares é reproduzível a partir dos CSVs congelados, lock e curadoria publicados. A seleção histórica anterior tem uma lacuna: o lock preserva as observações de catálogo dos 20 selecionados, mas não as dos outros 156 IDs da interseção. Hash de uma página ausente não recupera seu conteúdo.
+**Estado:** coleta posterior completa, com 176/176 páginas verificadas e seleção reproduzida. O cache da coleta original não foi recuperado; essa distinção permanece explícita.
 
-`data/workshop/selection-audit.json` registra os 176 IDs, artista, filtros reproduzidos dos snapshots, hash da regra de seleção, evidência histórica disponível e uma coleta atual separada. Foram reproduzidos 998 IDs no rótulo, 176 na interseção e 129 elegíveis antes dos campos de catálogo. As 47 faixas da década e o máximo de 15 artistas em cinco anos permanecem resultados históricos registrados, não revalidados integralmente nesta revisão.
+O autor executou a automação localmente sobre o commit `0c3c80c` e forneceu `catalogue-evidence.zip` (8.308.934 bytes). As páginas foram obtidas em 2026-10-02, entre 04:52:55 e 04:56:04 UTC (01:52:55–01:56:04 em Brasília). O pacote contém 359 membros: 358 arquivos listados no manifesto e o próprio manifesto.
 
-A coleta atual recuperou 20 páginas e teve 156 falhas `URLError`. Esses 20 sucessos não são os mesmos 20 casos escolhidos no lock. A comparação completa com o lock fica **indeterminada**, não divergente: contagens de década, novos IDs, IDs ausentes e corte recalculado ficam nulos. Ausência de observação não prova mudança de catálogo. Nenhuma informação atual altera a seleção.
+## Verificação independente
 
-Reprodução offline da auditoria disponível:
+`scripts/verify_catalogue_package.py` verificou tamanho e SHA-256 dos 358 arquivos, releu os 176 HTML, conferiu cada ID canônico/data e recalculou a seleção diretamente dos CSVs congelados. Não executou o código contido no ZIP. Resultados:
+
+| Etapa | Resultado |
+|---|---:|
+| IDs únicos com rótulo `hard-rock` | 998 |
+| Interseção exata | 176 |
+| Elegíveis antes dos campos de catálogo | 129 |
+| Faixas elegíveis com catálogo 1980–1989 | 47 |
+| Artistas e faixas selecionados | 20 |
+| Máximo de artistas em janelas de cinco anos iniciadas entre 1965 e 2022 | 15 |
+| Corte de visualizações | 89.776.313,5 |
+| IDs novos ou ausentes frente ao lock | 0 |
+
+Os 20 artistas, vídeos, contadores, grupos e datas de catálogo dos selecionados conferem com o lock. A seleção usa o menor SHA-256 de `hard-rock-workshop-v1|<track_id>` por artista. Não houve alteração de candidatos, decisões, descritores ou resultados musicais.
+
+## Hash do lock no Windows
+
+O lock no pacote tem CRLF e SHA-256 `56715069f0631936f0cfaf4b5ac740475348a0d5bd1717fb874c7f71517097c6`; o arquivo publicado tem LF e SHA-256 `d69e21e986e05dbe8fff536cb7b8d64a71ba3a877c5a7c9efb78a5a4e649e304`. Foi verificado que **a única diferença são as quebras de linha**: os bytes normalizados e o JSON são idênticos. Os arquivos originais e seus hashes foram preservados, sem confundir equivalência de conteúdo com igualdade de bytes.
+
+## Evidências e reprodução
+
+- `data/workshop/selection-audit.json`: metadados mínimos dos 176 IDs, fontes, datas, hashes, filtros e comparação completa. A tentativa anterior, com 20 páginas e 156 falhas, permanece no histórico Git, no commit `0c3c80c`.
+- `data/workshop/catalogue-package-verification.json`: resultado da verificação independente e proveniência do pacote.
+- SHA-256 do ZIP: `10f348b13c7446113f464b36141536c593c572e52b1e42c3ea59e21358d4fb61`.
+
+Após obter os CSVs pelos downloads com hash fixado, a auditoria dos metadados mínimos publicados é offline:
 
 ```bash
 python scripts/audit_workshop_selection.py
 ```
 
-O script usa os metadados mínimos publicados quando não existe cache local. Para uma nova tentativa de coleta, usar `--collect-current`; os resultados ficam em `data/processed/` para revisão, sem sobrescrever o lock ou a evidência publicada.
+Em ambiente sem cache, o comando usa o JSON publicado. Um cache local antigo pode produzir o estado antigo; preserve-o e use uma cópia limpa para conferir a evidência publicada.
 
-Para resolver a lacuna histórica, procurar no ambiente que fez o congelamento: `data/processed/hard-rock-catalogue-observations.json`, `data/processed/hard-rock-eligibility-audit.json` e `data/raw/hard-rock-pages/`. Preservar as datas, hashes e bytes originais, sem apresentar uma recoleta como original. Se não existirem, manter a limitação e, em eventual novo estudo, congelar seleção e elegibilidade com evidência completa. O script `freeze` foi ajustado para preservar `selection-eligibility.json` em futuros congelamentos; ele continua recusando sobrescrever a seleção atual.
+Para verificar também os bytes dos HTML, com o pacote fornecido pelo autor:
+
+```bash
+python scripts/verify_catalogue_package.py /caminho/catalogue-evidence.zip
+```
+
+O pacote bruto não é publicado no GitHub. Os metadados mínimos permitem repetir a seleção; a conferência dos HTML depende do ZIP identificado pelo hash. Nenhuma verificação exige atualizar as visualizações históricas.
+
+## Limite remanescente
+
+O resultado demonstra reprodução com metadados posteriores. Não prova o conteúdo de todas as páginas na coleta original, não recupera seu cache e não é teste independente de H01. A busca pelo workspace original pode ser retomada se o acesso voltar, mas a seleção agora tem uma reprodução posterior completa e documentada.
