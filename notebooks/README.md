@@ -2,6 +2,8 @@
 
 O caderno [01_source_feasibility.ipynb](01_source_feasibility.ipynb) acompanha a auditoria inicial das fontes. As células foram executadas sequencialmente em Python; execução/renderização em Jupyter não foi verificada neste ambiente. Criar os cadernos de análise musical quando fonte e protocolo estiverem definidos.
 
+O caderno atual é [03_hard_rock_results.ipynb](03_hard_rock_results.ipynb): cinco células de código executadas, hashes e relatos auditados, resultados de 17 pares, figura e exclusões. [02_hard_rock_workshop.ipynb](02_hard_rock_workshop.ipynb) preserva a prévia histórica dos candidatos, anterior à escuta; seus valores não são os resultados curados. A conferência do piloto original permanece em [conferencia-gravacoes.ipynb](conferencia-gravacoes.ipynb).
+
 Sequência sugerida:
 1. 01_data_quality.ipynb: esquema, origem, chaves, duplicatas, ausências e cobertura por grupo.
 2. 02_descriptive_analysis.ipynb: distribuição por característica e nível de audiência, casos individuais e medidas descritivas.

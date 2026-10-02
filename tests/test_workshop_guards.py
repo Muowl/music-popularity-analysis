@@ -23,8 +23,10 @@ class WorkshopGuards(unittest.TestCase):
         for name in ["selection-lock.json", "recording-review.csv"]:
             shutil.copyfile(ROOT / "data/workshop" / name, target / name)
         self.path = target / "recording-review.csv"
-        with self.path.open(newline="", encoding="utf-8") as f:
-            self.rows = list(csv.DictReader(f))
+        # Fixtures start from the frozen pending state, independently of real reviews.
+        lock = json.loads((target / "selection-lock.json").read_text())
+        self.rows = [{k: str(v) for k, v in r.items()} for r in lock["candidates"]]
+        self.write()
 
     def tearDown(self):
         self.temp.cleanup()

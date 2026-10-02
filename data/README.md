@@ -1,6 +1,6 @@
 # Dados e proveniência
 
-O cadastro em `selection/candidates.csv` contém 20 candidatos congelados, com escuta pendente e zero inclusões. O cadastro de revisão é `workshop/recording-review.csv`; editar suas colunas mutáveis e exportar com `scripts/analyze_workshop.py --export-registry`. O lock preserva IDs, fontes, contagens, datas de catálogo e grupos; não há amostra principal aprovada.
+O cadastro em `selection/candidates.csv` contém 20 candidatos congelados: **17 incluídos e três excluídos** após os relatos do autor e adjudicação. O cadastro de revisão é `workshop/recording-review.csv`, com evidências verbatim em `workshop/recording-review-evidence.json`. O lock preserva IDs, fontes, contagens, datas de catálogo e grupos. O resultado agregado versionado é `workshop/analysis-summary.json`, produzido a partir dos snapshots e das decisões, sem consulta de audiência atual.
 
 Guarde originais em raw/ e derivados em processed/: ambos estão ignorados pelo Git. Mesmo metadados devem ter condições de uso verificadas antes de publicação. Não enviar áudios, PDFs, credenciais ou bases completas automaticamente.
 

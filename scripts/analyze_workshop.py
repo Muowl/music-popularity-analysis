@@ -21,6 +21,44 @@ FORMATS = {"pending", "music_video", "official_audio", "other", "unknown"}
 LABELS = {"Energy": "Energia", "Danceability": "Dançabilidade", "Acousticness": "Acusticidade"}
 
 
+def plot_distributions(included, summaries, counts, features, plot_dir, stage, compact=False):
+    import matplotlib
+    matplotlib.use("Agg")
+    import matplotlib.pyplot as plt
+    figure, axes = plt.subplots(1, 3, figsize=(3.5, 2.3) if compact else (7.2, 2.95), sharey=True)
+    colors = ["#0072B2", "#D55E00"]
+    for ax, feature in zip(axes, features):
+        for x, (g, color, marker) in enumerate(zip(["lower", "higher"], colors, ["o", "^"]), 1):
+            subset = sorted((r for r in included if r["audience_group"] == g), key=lambda r: r["track_id"])
+            jitter = [((int(hashlib.sha256(r["track_id"].encode()).hexdigest()[:8], 16) / (2**32 - 1)) - .5) * .32 for r in subset]
+            ax.scatter([x + j for j in jitter], [r[feature] for r in subset], color=color, marker=marker,
+                       s=12 if compact else 22, alpha=.8, zorder=3)
+            summary = summaries[feature][g]
+            width = 1.5 if compact else 2.2
+            ax.vlines(x, summary["q1"], summary["q3"], color="black", linewidth=width, zorder=4)
+            ax.hlines(summary["median"], x-.16, x+.16, color="black", linewidth=width, zorder=4)
+        ax.set_title(LABELS[feature], fontsize=8 if compact else 10)
+        ax.set_xticks([1, 2], [f"Menor\nn={counts['lower']}", f"Maior\nn={counts['higher']}"])
+        ax.tick_params(labelsize=6.5 if compact else 8)
+        ax.set_ylim(-.03, 1.03)
+        ax.set_xlim(.6, 2.4)
+        ax.grid(axis="y", alpha=.2)
+        ax.spines[["top", "right"]].set_visible(False)
+    axes[0].set_ylabel("Descritor (0–1)" if compact else "Descritor Spotify (0–1)", fontsize=7 if compact else 9)
+    if compact:
+        axes[0].set_yticks([0, .5, 1])
+        figure.tight_layout(pad=.5, w_pad=.4)
+    else:
+        figure.suptitle("CANDIDATOS NÃO VALIDADOS — PRÉVIA TÉCNICA" if stage == "candidates-preview"
+                       else "Gravações revisadas por nível de audiência", fontsize=10, weight="bold")
+        figure.text(.5, .01, "Traço horizontal: mediana; traço vertical: intervalo interquartil. Audiência histórica do vídeo.", ha="center", fontsize=8)
+        figure.tight_layout(rect=(0, .06, 1, 1))
+    name = f"hard-rock-{stage}" + ("-paper" if compact else "")
+    for suffix in ["pdf", "png"]:
+        figure.savefig(plot_dir / f"{name}.{suffix}", dpi=200, bbox_inches="tight")
+    plt.close(figure)
+
+
 def read_review(root=ROOT):
     lock_path = root / "data/workshop/selection-lock.json"
     lock = json.loads(lock_path.read_text())
@@ -120,7 +158,6 @@ def analyze(root=ROOT, preview=False):
     import numpy as np
     import matplotlib
     matplotlib.use("Agg")
-    import matplotlib.pyplot as plt
     features = lock["features_prespecified"]
     summaries = {}
     for feature in features:
@@ -135,30 +172,9 @@ def analyze(root=ROOT, preview=False):
     stage = "candidates-preview" if preview else "validated"
     plot_dir = root / "figures"
     plot_dir.mkdir(exist_ok=True)
-    figure, axes = plt.subplots(1, 3, figsize=(7.2, 2.95), sharey=True)
-    colors = ["#0072B2", "#D55E00"]
-    for ax, feature in zip(axes, features):
-        for x, (g, color, marker) in enumerate(zip(["lower", "higher"], colors, ["o", "^"]), 1):
-            subset = sorted((r for r in included if r["audience_group"] == g), key=lambda r: r["track_id"])
-            jitter = [((int(hashlib.sha256(r["track_id"].encode()).hexdigest()[:8], 16) / (2**32 - 1)) - .5) * .32 for r in subset]
-            ax.scatter([x + j for j in jitter], [r[feature] for r in subset], color=color, marker=marker, s=22, alpha=.8, zorder=3)
-            summary = summaries[feature][g]
-            ax.vlines(x, summary["q1"], summary["q3"], color="black", linewidth=2.2, zorder=4)
-            ax.hlines(summary["median"], x-.16, x+.16, color="black", linewidth=2.2, zorder=4)
-        ax.set_title(LABELS[feature], fontsize=10)
-        ax.set_xticks([1, 2], [f"Menor\nn={counts['lower']}", f"Maior\nn={counts['higher']}"])
-        ax.tick_params(labelsize=8)
-        ax.set_ylim(-.03, 1.03)
-        ax.set_xlim(.6, 2.4)
-        ax.grid(axis="y", alpha=.2)
-        ax.spines[["top", "right"]].set_visible(False)
-    axes[0].set_ylabel("Descritor Spotify (0–1)", fontsize=9)
-    figure.suptitle("CANDIDATOS NÃO VALIDADOS — PRÉVIA TÉCNICA" if preview else "Gravações revisadas por nível de audiência", fontsize=10, weight="bold")
-    figure.text(.5, .01, "Traço horizontal: mediana; traço vertical: intervalo interquartil. Audiência histórica do vídeo.", ha="center", fontsize=8)
-    figure.tight_layout(rect=(0, .06, 1, 1))
-    for suffix in ["pdf", "png"]:
-        figure.savefig(plot_dir / f"hard-rock-{stage}.{suffix}", dpi=180, bbox_inches="tight")
-    plt.close(figure)
+    plot_distributions(included, summaries, counts, features, plot_dir, stage)
+    if not preview:
+        plot_distributions(included, summaries, counts, features, plot_dir, stage, compact=True)
     context = {}
     for g in ["lower", "higher"]:
         subset = [r for r in included if r["audience_group"] == g]
